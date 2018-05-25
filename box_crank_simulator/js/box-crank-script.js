@@ -41,7 +41,6 @@ function addBoxCrankUnit(listId) {
 
     units[e]['order'] = ++boxCount;
   });
-
 }
 
 function addPrevBoxCrankUnit(listId) {
@@ -50,6 +49,21 @@ function addPrevBoxCrankUnit(listId) {
     boxList.push({ id: e, parts: 5 });
 
     units[e]['order'] = ++boxCount;
+  });
+}
+
+function addBoxCrankReturnUnit(listId) {
+  listId.forEach(e => {
+    boxList.push({ id: e, parts: 30 });
+
+    units[e]['order'] = ++boxCount;
+  });
+
+  listId.forEach(e => {
+    boxList.push({ id: e, parts: 10 });
+    boxList.push({ id: e, parts: 10 });
+    boxList.push({ id: e, parts: 5 });
+    boxList.push({ id: e, parts: 5 });
   });
 }
 
@@ -92,57 +106,22 @@ function addNormalUnitLow(listId) {
   });
 }
 
-function initBoxList() {
-  // BOX
-  addBoxCrankUnit([531]);
+function initBoxList(boxCrankListUnitId) {
+  var functAddUnit = [
+    null,
+    addBoxCrankUnit, // 1
+    addPrevBoxCrankUnit, // 2
+    addSuperRareUnit, // 3
+    addRareUnit, // 4
+    addNormalUnit, // 5
+    addNormalUnitLow, // 6
+    addBoxCrankReturnUnit, // 7
+  ];
+  var len = functAddUnit.length
 
-  // Previous BOX
-  addPrevBoxCrankUnit([318, 313, 299, 291]);
-
-  // Annette
-  addSuperRareUnit([278]);
-
-  // White Baby (Prototype)
-  addPrevBoxCrankUnit([271]);
-
-  // Super Rare Unit
-  addSuperRareUnit([234, 60, 45, 97, 103, 59, 134, 159, 164, 167, 190, 196, 204, 206]);
-
-  // Rare Unit
-  addRareUnit([329, 323, 319, 300, 287, 282, 220, 216]);
-
-  // Normal Unit
-  addNormalUnit([7, 14, 8]);
-  addNormalUnitLow([156]);
-  addNormalUnit([13]);
-  addNormalUnitLow([2, 3, 5, 6, 124, 102]);
-  addNormalUnit([12, 17]);
-  addNormalUnitLow([15]);
-  addNormalUnit([11]);
-  addNormalUnitLow([16]);
-  addNormalUnit([31, 101, 18, 98]);
-  addNormalUnitLow([77]);
-  addNormalUnit([100, 9, 44, 19, 99]);
-  addNormalUnitLow([46, 69, 62]);
-  addNormalUnit([108]);
-  addNormalUnitLow([20, 39, 1]);
-  addNormalUnit([57, 96, 70]);
-  addNormalUnitLow([79, 81, 80]);
-  addNormalUnit([61]);
-  addNormalUnitLow([66]);
-  addNormalUnit([52, 43, 48, 91]);
-  addNormalUnitLow([71]);
-  addNormalUnit([84, 24, 90, 83]);
-  addNormalUnitLow([47, 38]);
-  addNormalUnit([92, 118, 23, 54, 110]);
-  addNormalUnitLow([10]);
-  addNormalUnit([68, 132]);
-  addNormalUnitLow([49]);
-  addNormalUnit([56]);
-  addNormalUnitLow([55]);
-  addNormalUnit([53]);
-  addNormalUnitLow([194, 168]);
-  addNormalUnit([182]);
+  boxCrankListUnitId
+    .filter(o => o.type > 0 && o.type <= len)
+    .forEach(o => functAddUnit[o.type](o.listUnitId));
 }
 
 function initHtmlTable() {
@@ -380,7 +359,7 @@ $checkIgnoreNormal.prop('checked', true);
 initBaseEngine(getSeed());
 
 // Box List Unit
-initBoxList();
+initBoxList(boxCrankListUnitId);
 
 // HTML table
 initHtmlTable();
