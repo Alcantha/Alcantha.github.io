@@ -179,6 +179,18 @@ function initListIndex() {
 
 // Random
 
+var randomSeed = (function () {
+  var engine = Random.engines.mt19937().autoSeed();
+
+  var obj = {
+    next: function () {
+      return Random.integer(1, 1000000000)(engine);
+    }
+  };
+
+  return obj;
+})();
+
 function getSeed() {
   var strVal = $seed.val();
 
@@ -344,6 +356,25 @@ $('#btn-reset-all').click(() => {
   initListIndex();
 });
 
+$('#btn-reset-all-new-seed').click(() => {
+  // Box List Container
+  boxResetBoxListContainer();
+
+  // Box List Result
+  resetAllBoxListResult();
+
+  // Result
+  resetAllResult();
+
+  // Set a random seed.
+  $seed.val(randomSeed.next());
+
+  // Engine
+  initBaseEngine(getSeed());
+
+  initListIndex();
+});
+
 // Parameters
 
 $checkIgnoreSR.click(() => {
@@ -364,10 +395,7 @@ $checkIgnoreNormal.click(() => {
   $('#list-unit-parts > div[data-rarity="1"]').toggleClass('hide', c);
 });
 
-// Initialization
-var seedVal = Random.integer(1, 1000000000)(Random.engines.mt19937().autoSeed());
-
-$seed.val(seedVal);
+$seed.val(randomSeed.next());
 $checkIgnoreSR.prop('checked', true);
 $checkIgnoreRare.prop('checked', true);
 $checkIgnoreNormal.prop('checked', true);
