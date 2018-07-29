@@ -16,6 +16,8 @@ var $checkIgnoreNormal = $('#ignore-normal');
 var $medalsSpent = $('#medals-spent');
 var $nbTotalPlay = $('#nb-play');
 
+var $seedValue = $('#seed-value');
+
 var $boxListContainer = $('#box-list-container');
 
 var $listUnitParts = $('#list-unit-parts');
@@ -172,7 +174,7 @@ function initListIndex() {
 
   $btn10Play.attr('disabled', null);
 
-  $('#seed-value').text(getSeed());
+  $seedValue.text(getSeed());
 }
 
 // Random
@@ -363,7 +365,9 @@ $checkIgnoreNormal.click(() => {
 });
 
 // Initialization
-$seed.val(1);
+var seedVal = Random.integer(1, 1000000000)(Random.engines.mt19937().autoSeed());
+
+$seed.val(seedVal);
 $checkIgnoreSR.prop('checked', true);
 $checkIgnoreRare.prop('checked', true);
 $checkIgnoreNormal.prop('checked', true);
