@@ -1,0 +1,156 @@
+{
+  "units": [
+    {
+      "base": {
+        "id": 587,
+        "name": "Giant Hunter Walker",
+        "ap": 544,
+        "hp": 536492,
+        "prod": -2490,
+        "res": 157,
+        "mov": 3.08
+      },
+      "arms": {
+        "f": { "dmg": 1700 },
+        "s": { "dmg": 2154 }
+      },
+      "attacks": {
+        "far": {
+          "temp": 1,
+          "comp": [
+            { "arm": "f", "nb": 1 }
+          ]
+        },
+        "spe": {
+         "temp": 1,
+          "comp": [
+            { "arm": "s", "nb": 1 }
+          ]
+        }
+      },
+      "comment": "[Destroyed] turn into a wall (? HP)."
+    },
+
+    {
+      "base": {
+        "id": 588,
+        "name": "Smasher Returns",
+        "ap": 119,
+        "hp": 236064,
+        "prod": -965,
+        "res": "--",
+        "mov": 4.67
+      },
+      "arms": {
+        "n": { "dmg": 26203 },
+        "s": { "dmg": 83792 }
+      },
+      "attacks": {
+        "near": {
+          "comp": [
+            { "arm": "n", "nb": 1 }
+          ],
+          "abilities": {
+            "kb": 34.5
+          }
+        },
+        "spe": {
+          "comp": [
+            { "arm": "s", "nb": 2 }
+          ],
+          "abilities": {
+            "kb": 34.5
+          }
+        }
+      }
+    },
+
+    {
+      "base": {
+        "id": 589,
+        "name": "Incognito Aswang",
+        "ap": 153,
+        "hp": 226870,
+        "prod": -1265,
+        "res": 200,
+        "mov": 4.22
+      },
+      "arms": {
+        "n": { "dmg": 8015 },
+        "f": { "dmg": 7150 },
+        "s": { "dmg": 15909 }
+      },
+      "attacks": {
+        "near": {
+          "comp": [
+            { "arm": "n", "nb": 11 }
+          ],
+          "abilities": {
+            "crit": 34.5
+          }
+        },
+        "far": {
+          "comp": [
+            { "arm": "f", "nb": 11 }
+          ],
+          "abilities": {
+            "crit": 34.5
+          }
+        },
+        "spe": {
+          "comp": [
+            { "arm": "s", "nb": 17 }
+          ],
+          "abilities": {
+            "crit": 34.5
+          }
+        }
+      },
+      "comment": "[Near] heal per attack. [Far] heal per attack, convert killed unit."
+    },
+
+    {
+      "base": {
+        "id": 590,
+        "name": "Teresa",
+        "ap": 288,
+        "hp": 296190,
+        "prod": -1910,
+        "res": 185,
+        "mov": 3.20
+      },
+      "arms": {
+        "n": { "dmg": 1003 },
+        "f": { "dmg": 1003 },
+        "s": { "dmg": 7323 }
+      },
+      "attacks": {
+        "near": {
+          "comp": [
+            { "arm": "n", "nb": 31 }
+          ],
+          "abilities": {
+            "crit": 74.5
+          }
+        },
+        "far": {
+          "comp": [
+            { "arm": "f", "nb": 1 }
+          ],
+          "abilities": {
+            "crit": 74.5
+          }
+        },
+        "spe": {
+          "comp": [
+            { "arm": "s", "nb": 8 }
+          ],
+          "abilities": {
+            "crit": 74.5
+          }
+        }
+      },
+      "comment": "[Far] performs in continue until there is a enemy near her."
+    }
+  ]
+}

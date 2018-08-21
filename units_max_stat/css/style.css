@@ -1,0 +1,33 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+  color: #ccc;
+}
+
+.title {
+  margin: 0 .5em;
+  font-size: 2em;
+}
+
+.list-unit {
+  margin: 1em;
+}
+
+.unit {
+  padding: .2em 1em;
+  background-color: #222;
+}
+.unit + .unit {
+  margin-top: 1em;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.comment {
+  margin-top: .5em;
+}
