@@ -160,15 +160,15 @@ this.getAttacks = function () {
   return attacks;
 };
 
-this.getShortHtmlAttack = function (atkType, arm, txt) {
+this.getShortHtmlAttack = function (atkType, armType, name) {
   let unitAtk = attacks[atkType];
 
   if (!unitAtk)
     return '';
 
-  let armDmg = arms[arm] ? arms[arm].getStrDmg() : 0;
+  let armDmg = arms[armType] ? arms[armType].getStrDmg() : 0;
 
-  let html = txt + ': ' + armDmg;
+  let str = name + ': ' + armDmg;
 
   let extra = [];
 
@@ -183,9 +183,9 @@ this.getShortHtmlAttack = function (atkType, arm, txt) {
     extra.push(abilities);
 
   if (extra)
-    html += ' (' + extra.join(', ') + ')';
+    str += ' (' + extra.join(', ') + ')';
 
-  return html;
+  return str;
 };
 
 this.getShortHtmlAttackNear = function () {
@@ -213,9 +213,20 @@ this.getHtmlComment = function () {
 };
 
 this.getShortHtml = function () {
-  let nearHtml = this.getShortHtmlAttackNear();
+  let atks = [
+    { name: 'near', n: 'n', display: 'Near'},
+    { name: 'far', n: 'f', display: 'Far'},
+    { name: 'spe', n: 's', display: 'Spe'},
+  ];
+
+  let atkHtml = atks
+    .filter(e => attacks[e.name])
+    .map(e => ' / ' + this.getShortHtmlAttack(e.name, e.n, e.display))
+    .reduce((res, val) => res + val);
+
+  /*let nearHtml = this.getShortHtmlAttackNear();
   let farHtml = this.getShortHtmlAttackFar();
-  let speHtml = this.getShortHtmlAttackSpe();
+  let speHtml = this.getShortHtmlAttackSpe();*/
   let comHtml = this.getHtmlComment();
 
   let html =
@@ -226,9 +237,10 @@ this.getShortHtml = function () {
     +     ' / HP: ' + this.getStrHp()
     +     ' / Prod: ' + this.getStrProdSecond() + 's'
     +     ' / Mov: ' + this.getStrMov()
-    +     (nearHtml.length ? (' / ' + nearHtml) : '')
+    +     atkHtml
+    /*+     (nearHtml.length ? (' / ' + nearHtml) : '')
     +     (farHtml.length ? (' / ' + farHtml) : '')
-    +     (speHtml.length ? (' / ' + speHtml) : '')
+    +     (speHtml.length ? (' / ' + speHtml) : '')*/
     +   '</div>'
     +   comHtml
     + '</div>';

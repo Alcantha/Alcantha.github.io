@@ -151,6 +151,188 @@
         }
       },
       "comment": "[Far] performs in continue until there is a enemy near her."
+    },
+
+    {
+      "base": {
+        "id": 591,
+        "name": "Emma",
+        "ap": 336,
+        "hp": 297330,
+        "prod": -2225,
+        "res": 146,
+        "mov": 3.1
+      },
+      "arms": {
+        "f": {
+          "name": ["Handgun"],
+          "dmg": 10895
+        },
+        "s": {
+          "name": ["Recycle"],
+          "dmg": 9668
+        }
+      },
+      "attacks": {
+        "far": {
+          "temp": 1,
+          "comp": [
+          ],
+          "abilities": {
+            "crit": 74.5
+          }
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+          ],
+          "abilities": {
+            "crit": 74.5
+          }
+        }
+      }
+    },
+
+    {
+      "base": {
+        "id": 592,
+        "name": "Special Shizuka",
+        "ap": 255,
+        "hp": 105898,
+        "prod": -1770,
+        "res": 62,
+        "mov": 2.42
+      },
+      "arms": {
+        "n": {
+          "name": [],
+          "dmg": 14122
+        },
+        "f": {
+          "name": [],
+          "dmg": 379
+        },
+        "s": {
+          "name": [],
+          "dmg": 59087
+        },
+        "x": {
+          "name": [],
+          "dmg": 5513
+        }
+      },
+      "attacks": {
+        "near": {
+          "comp": [
+            { "arm": "n", "nb": 1 }
+          ],
+          "abilities": {
+            "poison": 34.5
+          }
+        },
+        "far": {
+          "comp": [
+            { "arm": "f", "nb": 4 }
+          ],
+          "abilities": {
+            "poison": 34.5
+          }
+        },
+        "spe": {
+          "comp": [
+            { "arm": "f", "nb": 16 },
+            { "arm": "s", "nb": 1 },
+            { "arm": "x", "nb": 12 }
+          ],
+          "abilities": {
+            "poison": 34.5
+          }
+        },
+        "evade": {
+          "temp": 1,
+          "comp": [
+            { "arm": "x", "nb": 6 }
+          ],
+          "abilities": {
+            "poison": 34.5
+          }
+        }
+      }
+    },
+    {
+      "base": {
+        "name": "Karn (Amadeus)",
+        "id": 593,
+        "ap": 384,
+        "hp": 274354,
+        "prod": -2590,
+        "res": 80,
+        "mov": 2.80
+      },
+      "arms": {
+        "f": {
+          "name": ["Cannon", "Missile"],
+          "dmg": 7229
+        },
+        "s": {
+          "name": ["Cannon"],
+          "dmg": 8704
+        }
+      },
+      "attacks": {
+        "far": {
+          "comp": [
+            { "arm": "f", "nb": 4 }
+          ],
+          "abilities": {
+            "kb": 34.5
+          }
+        },
+        "spe": {
+          "comp": [
+            { "arm": "s", "nb": 36 }
+          ],
+          "abilities": {
+            "kb": 34.5
+          }
+        }
+      }
+    },
+
+    {
+      "base": {
+        "name": "Shoe (Amadeus)",
+        "id": 594,
+        "ap": 280,
+        "hp": 420856,
+        "prod": -1190,
+        "res": 80,
+        "mov": 3.30
+      },
+      "arms": {
+        "f": {
+          "name": ["Cannon", "Missile"],
+          "dmg": 3131
+        },
+        "s": {
+          "name": ["Cannon", "Missile"],
+          "dmg": 3852
+        }
+      },
+      "attacks": {
+        "far": {
+          "comp": [
+            { "arm": "f", "nb": 4 }
+          ]
+        },
+        "spe": {
+          "comp": [
+            { "arm": "s", "nb": 32 }
+          ]
+        }
+      },
+      "comment": "[Buff] Karn (Amadeus): 54.5% ATK."
     }
+
   ]
 }

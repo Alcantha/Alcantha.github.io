@@ -59,5 +59,10 @@ let ATTACK_ABILITIES = {
     name: 'Special Seal',
     n: 'seal',
     type: ABILITY_TYPES.pctg
+  },
+  poison: {
+    name: 'Poison',
+    n: 'poison',
+    type: ABILITY_TYPES.pctg
   }
 };
