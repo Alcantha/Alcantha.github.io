@@ -332,6 +332,229 @@
         }
       },
       "comment": "[Buff] Karn (Amadeus): 54.5% ATK."
+    },
+
+    {
+      "base": {
+        "name": "Golden Di-Cokka",
+        "id": 595,
+        "ap": 153,
+        "hp": 224117,
+        "prod": -800,
+        "res": 30,
+        "mov": 4.2
+      },
+      "arms": {
+        "f": {
+          "name": ["Golden Cannon"],
+          "dmg": 7625
+        },
+        "s": {
+          "name": ["Golden Cannon Salvo"],
+          "dmg": 9222
+        },
+        "x": null,
+        "y": {
+          "name": ["Rocket"],
+          "dmg": 1
+        }
+      },
+      "attacks": {
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 0
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 0
+            }
+          ]
+        },
+        "final": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "y",
+              "nb": 0
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "base": {
+        "name": "Golden Nokana",
+        "id": 596,
+        "ap": 400,
+        "hp": 737764,
+        "prod": -2945,
+        "res": "--",
+        "mov": 4.77
+      },
+      "arms": {
+        "f": {
+          "name": ["Cannon", "Grenade"],
+          "dmg": 10324
+        },
+        "s": {
+          "name": ["Hellfire Cannon"],
+          "dmg": 2315
+        }
+      },
+      "attacks": {
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "stun": 34.5
+          }
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "base": {
+        "name": "Beecham",
+        "id": 597,
+        "ap": 408,
+        "hp": 529883,
+        "prod": -2370,
+        "res": "--",
+        "mov": 2
+      },
+      "arms": {
+        "n": {
+          "name": ["Machine Gun"],
+          "dmg": 2038
+        },
+        "f": {
+          "name": ["Autocannon"],
+          "dmg": 2210
+        },
+        "s": {
+          "name": ["Baryon Cannon"],
+          "dmg": 4920
+        }
+      },
+      "attacks": {
+        "near": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ]
+        },
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "kb": 34.5
+          }
+        }
+      }
+    },
+
+    {
+      "base": {
+        "name": "Special Chunyan",
+        "id": 598,
+        "ap": 204,
+        "hp": 261578,
+        "prod": -2550,
+        "res": 100,
+        "mov": 3.62
+      },
+      "arms": {
+        "n": {
+          "name": ["Kung Fu"],
+          "dmg": 23857
+        },
+        "f": {
+          "name": ["Kung Fu"],
+          "dmg": 12175
+        },
+        "s": {
+          "name": ["Earthsmasher Arrow"],
+          "dmg": 54370
+        }
+      },
+      "attacks": {
+        "near": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "crit": 34.5
+          }
+        },
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "crit": 34.5
+          }
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "crit": 34.5
+          }
+        }
+      }
     }
 
   ]
