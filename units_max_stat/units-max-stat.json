@@ -412,11 +412,14 @@
       },
       "attacks": {
         "far": {
-          "temp": 1,
           "comp": [
             {
               "arm": "f",
-              "nb": 1
+              "nb": 4
+            },
+            {
+              "arm": "f",
+              "nb": 7
             }
           ],
           "abilities": {
@@ -424,11 +427,14 @@
           }
         },
         "spe": {
-          "temp": 1,
           "comp": [
             {
               "arm": "s",
-              "nb": 1
+              "nb": 10
+            },
+            {
+              "arm": "s",
+              "nb": 416
             }
           ]
         }
@@ -552,6 +558,203 @@
           ],
           "abilities": {
             "crit": 34.5
+          }
+        }
+      }
+    },
+
+        {
+      "base": {
+        "name": "Elephant Slug (Ice)",
+        "id": 599,
+        "ap": 400,
+        "hp": 429763,
+        "prod": -1915,
+        "res": "--",
+        "mov": 1.80
+      },
+      "arms": {
+        "f": {
+          "name": ["Vulcan"],
+          "dmg": 5140
+        },
+        "s": {
+          "name": ["Frozen Emission"],
+          "dmg": 37415
+        }
+      },
+      "attacks": {
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 8
+            }
+          ]
+        },
+        "spe": {
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 4
+            }
+          ]
+        }
+      }
+    },
+
+        {
+      "base": {
+        "name": "Leona Ver. Heroines",
+        "id": 600,
+        "ap": 306,
+        "hp": 352989,
+        "prod": -1740,
+        "res": 300,
+        "mov": 8.05
+      },
+      "arms": {
+        "n": {
+          "name": ["Moon Slasher"],
+          "dmg": 18424
+        },
+        "s": {
+          "name": ["Slasher"],
+          "dmg": 29367
+        }
+      },
+      "attacks": {
+        "near": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        },
+        "counter": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "base": {
+        "name": "Ostrich Slug (Eri)",
+        "id": 601,
+        "ap": 102,
+        "hp": 71003,
+        "prod": -1145,
+        "res": 40,
+        "mov": 3.97
+      },
+      "arms": {
+        "f": {
+          "name": ["Grenade", "Machine Gun"],
+          "dmg": 1740
+        },
+        "s": {
+          "name": ["Grenade"],
+          "dmg": 4323
+        }
+      },
+      "attacks": {
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 4
+            },
+            {
+              "arm": "s",
+              "nb": 2
+            }
+          ],
+          "abilities": {
+            "crit": 34.5
+          }
+        },
+        "spe": {
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 5
+            }
+          ],
+          "abilities": {
+            "crit": 34.5
+          }
+        },
+        "evade": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "crit": 34.5
+          }
+        }
+      }
+    },
+
+        {
+      "base": {
+        "name": "Kelly",
+        "id": 602,
+        "ap": 320,
+        "hp": 236064,
+        "prod": -2050,
+        "res": 120,
+        "mov": 3.52
+      },
+      "arms": {
+        "f": {
+          "name": ["Sol Weapon"],
+          "dmg": 17474
+        },
+        "s": {
+          "name": ["Sol Cannon"],
+          "dmg": 1012
+        }
+      },
+      "attacks": {
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 3
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "lowRes": 1
           }
         }
       }

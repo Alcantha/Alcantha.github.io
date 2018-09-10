@@ -41,13 +41,13 @@ let ATTACK_ABILITIES = {
     type: ABILITY_TYPES.pctg
   },
   lowAtk: {
-    name: 'Weaken',
-    n: 'weaken',
+    name: 'Reduce Attack Power',
+    n: 'red. atk.',
     type: ABILITY_TYPES.pctg
   },
   lowSpeed: {
     name: 'Reduce Attack Speed',
-    n: 'red speed',
+    n: 'red. speed.',
     type: ABILITY_TYPES.time
   },
   kb: {
@@ -64,5 +64,10 @@ let ATTACK_ABILITIES = {
     name: 'Poison',
     n: 'poison',
     type: ABILITY_TYPES.pctg
+  },
+  lowRes: {
+    name: 'Reduce Resistance',
+    n: 'red. res.',
+    type: ABILITY_TYPES.time
   }
 };
