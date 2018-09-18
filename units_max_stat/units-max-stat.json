@@ -973,7 +973,7 @@
           ]
         }
       },
-      "comment": "Create 5 Ice Cube Barrier (? HP). Turn killed enemies into Snowman (? HP) or Ice Cube (?)."
+      "comment": "[Near?/Far?/Spe?] Turn killed enemies into Snowman (? HP) or Ice Cube (?). [Special] Create 5 Ice Cube Barrier (? HP)."
     }
 
   ]
