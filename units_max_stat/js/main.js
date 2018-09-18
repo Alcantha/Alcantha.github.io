@@ -13,8 +13,7 @@ function ajaxLoadUnitsMaxStat(url) {
     loadUnitsMaxStat(data);
 
   }).fail(function (a, b, c) {
-    console.log('FAIL');
-
+    console.log(c.message);
   });
 }
 

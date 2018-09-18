@@ -563,7 +563,7 @@
       }
     },
 
-        {
+    {
       "base": {
         "name": "Elephant Slug (Ice)",
         "id": 599,
@@ -600,7 +600,8 @@
             }
           ]
         }
-      }
+      },
+      "comment": "[Special] Damage reduced to 20% against the base. Turn killed enemies into Snowman (28,827 HP) or Ice Cube (44,200 HP)."
     },
 
         {
@@ -625,7 +626,6 @@
       },
       "attacks": {
         "near": {
-          "temp": 1,
           "comp": [
             {
               "arm": "n",
@@ -634,16 +634,14 @@
           ]
         },
         "spe": {
-          "temp": 1,
           "comp": [
             {
               "arm": "s",
-              "nb": 1
+              "nb": 5
             }
           ]
         },
         "counter": {
-          "temp": 1,
           "comp": [
             {
               "arm": "n",
@@ -746,6 +744,168 @@
           ]
         },
         "spe": {
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 54
+            }
+          ],
+          "abilities": {
+            "lowRes": 1
+          }
+        }
+      }
+    },
+
+    {
+      "base": {
+        "name": "Anti Air-Craft",
+        "id": 603,
+        "ap": 119,
+        "hp": 122190,
+        "prod": -960,
+        "res": "--",
+        "mov": 0.00
+      },
+      "arms": {
+        "n": {
+          "name": ["NAME"],
+          "dmg": 5053
+        },
+        "f": {
+          "name": ["NAME"],
+          "dmg": 5053
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 6144
+        }
+      },
+      "attacks": {
+        "near": {
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 4
+            }
+          ]
+        },
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 4
+            }
+          ]
+        },
+        "spe": {
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 16
+            }
+          ]
+        }
+      },
+      "comment": "[Revive] 66,104 HP"
+    },
+    {
+      "base": {
+        "name": "K-03 Coupled Armored Vehicle",
+        "id": 604,
+        "ap": 352,
+        "hp": 246942,
+        "prod": -2550,
+        "res": 300,
+        "mov": 4.80
+      },
+      "arms": {
+        "f": {
+          "name": ["NAME"],
+          "dmg": 8720
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 27337
+        },
+        "y": {
+          "name": ["NAME"],
+          "dmg": 1
+        }
+      },
+      "attacks": {
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 12
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        },
+        "final": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "y",
+              "nb": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "base": {
+        "name": "Mars Gigantalos",
+        "id": 605,
+        "ap": 448,
+        "hp": 714417,
+        "prod": -1870,
+        "res": 450,
+        "mov": 4.30
+      },
+      "arms": {
+        "n": {
+          "name": ["NAME"],
+          "dmg": 1338
+        },
+        "f": {
+          "name": ["NAME"],
+          "dmg": 905
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 1089
+        }
+      },
+      "attacks": {
+        "near": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ]
+        },
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
           "temp": 1,
           "comp": [
             {
@@ -754,10 +914,66 @@
             }
           ],
           "abilities": {
-            "lowRes": 1
+            "crit": 34.5
           }
         }
-      }
+      },
+      "comment": ""
+    },
+    {
+      "base": {
+        "name": "Special Clone Betty",
+        "id": 606,
+        "ap": 255,
+        "hp": 80484,
+        "prod": -2630,
+        "res": 73,
+        "mov": 4.73
+      },
+      "arms": {
+        "n": {
+          "name": ["NAME"],
+          "dmg": 9278
+        },
+        "f": {
+          "name": ["NAME"],
+          "dmg": 1656
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 42455
+        }
+      },
+      "attacks": {
+        "near": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ]
+        },
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        }
+      },
+      "comment": "Create 5 Ice Cube Barrier (? HP). Turn killed enemies into Snowman (? HP) or Ice Cube (?)."
     }
 
   ]
