@@ -28,7 +28,7 @@
           ]
         }
       },
-      "comment": "[Destroyed] turn into a wall (? HP)."
+      "comment": "[Destroyed] turn into a wall (1,034,860 HP)."
     },
 
     {
@@ -700,11 +700,10 @@
           }
         },
         "evade": {
-          "temp": 1,
           "comp": [
             {
-              "arm": "f",
-              "nb": 1
+              "arm": "s",
+              "nb": 5
             }
           ],
           "abilities": {
@@ -946,7 +945,6 @@
       },
       "attacks": {
         "near": {
-          "temp": 1,
           "comp": [
             {
               "arm": "n",
@@ -959,7 +957,7 @@
           "comp": [
             {
               "arm": "f",
-              "nb": 1
+              "nb": 52
             }
           ]
         },
