@@ -972,6 +972,211 @@
         }
       },
       "comment": "[Near?/Far?/Spe?] Turn killed enemies into Snowman (? HP) or Ice Cube (?). [Special] Create 5 Ice Cube Barrier (? HP)."
+    },
+
+    {
+      "base": {
+        "name": "Special Perche",
+        "id": 607,
+        "ap": 153,
+        "hp": 348112,
+        "prod": -1990,
+        "res": 100,
+        "mov": 5.83
+      },
+      "arms": {
+        "n": {
+          "name": ["Legion Gun"],
+          "dmg": 1768
+        },
+        "s": {
+          "name": ["Achilles Pulse"],
+          "dmg": 2801
+        }
+      },
+      "attacks": {
+        "near": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        },
+        "counter": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ]
+        }
+      },
+      "comment": "Create a barrier after the Special Attack.<br>[Barrier] Reduce kinetic damage by 74.5% (?)."
+    },
+
+    {
+      "base": {
+        "name": "Ulala",
+        "id": 608,
+        "ap": 224,
+        "hp": 307786,
+        "prod": -1665,
+        "res": 130,
+        "mov": 3.80
+      },
+      "arms": {
+        "f": {
+          "name": ["Sky Launcher"],
+          "dmg": 4012
+        },
+        "s": {
+          "name": ["Huge Launcher"],
+          "dmg": 5791
+        },
+        "x": {
+          "name": ["Huge Launcher (Far)"],
+          "dmg": 4879
+        }
+      },
+      "attacks": {
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        },
+        "evade": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ]
+        }
+      },
+      "comment": "[Form 2] HP: ? / Far: 4,879 (total: 58,548) / Spe: 5,791 (total: 69,492)"
+    },
+
+    {
+      "base": {
+        "name": "Man Eater Arche",
+        "id": 609,
+        "ap": 68,
+        "hp": 105797,
+        "prod": -545,
+        "res": 39,
+        "mov": 5.90
+      },
+      "arms": {
+        "f": {
+          "name": ["Bite"],
+          "dmg": 3648
+        },
+        "s": {
+          "name": ["Ravenous Bite"],
+          "dmg": 3640
+        }
+      },
+      "attacks": {
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 3
+            }
+          ],
+          "abilities": {
+            "crit": 34.5
+          }
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "crit": 34.5
+          }
+        }
+      },
+      "comment": "Revive once with 209,478 HP."
+    },
+
+    {
+      "base": {
+        "name": "Sol Dae Rokker Arche",
+        "id": 610,
+        "ap": 480,
+        "hp": 452712,
+        "prod": -2420,
+        "res": 127,
+        "mov": 3.15
+      },
+      "arms": {
+        "f": {
+          "name": ["Shadowless Blade"],
+          "dmg": 2798
+        },
+        "s": {
+          "name": ["Heavenly Pillar"],
+          "dmg": 19442
+        }
+      },
+      "attacks": {
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "crit": 34.5
+          }
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "crit": 34.5
+          }
+        }
+      },
+      "comment": "Turn killed enemies into a Venomous Bug."
     }
 
   ]

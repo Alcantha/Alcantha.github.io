@@ -20,9 +20,7 @@ let getStrAbility = function (data) {
 // ----  Unit Arm  ----
 // --------------------
 
-let UnitArm = function (data_) {
-
-let data = data_;
+let UnitArm = function (data) {
 
 /*this.getNames = function () {
   return data.names;
@@ -42,10 +40,8 @@ this.getStrDmg = function () {
 // ----  Unit Attack  ----
 // -----------------------
 
-let UnitAttack = function (data_, unitStat_) {
+let UnitAttack = function (data, unitStat) {
 
-let data = data_;
-let unitStat = unitStat_;
 let totalDmg = undefined;
 
 this.getTotalDmg = function () {
@@ -88,10 +84,9 @@ this.getStrShortAbilities = function () {
 // ----  Unit Max Stat  ----
 // -------------------------
 
-let UnitMaxStat = function (data_) {
+let UnitMaxStat = function (data) {
 
 let self = this;
-let data = data_;
 let arms = {};
 let attacks = {};
 
@@ -166,9 +161,9 @@ this.getShortHtmlAttack = function (atkType, armType, name) {
   if (!unitAtk)
     return '';
 
-  let armDmg = arms[armType] ? arms[armType].getStrDmg() : 0;
+  let armDmg = arms[armType] ? arms[armType].getStrDmg() : null;
 
-  let str = name + ': ' + armDmg;
+  let str = name + ': ' + ((armDmg != null) ? armDmg : '');
 
   let extra = [];
 
@@ -188,24 +183,12 @@ this.getShortHtmlAttack = function (atkType, armType, name) {
   return str;
 };
 
-this.getShortHtmlAttackNear = function () {
-  return this.getShortHtmlAttack('near', 'n', 'Near');
-};
-
-this.getShortHtmlAttackFar = function () {
-  return this.getShortHtmlAttack('far', 'f', 'Far');
-};
-
-this.getShortHtmlAttackSpe = function () {
-  return this.getShortHtmlAttack('spe', 's', 'Spe');
-};
-
 this.getHtmlComment = function () {
   if (!data.comment)
     return '';
 
-  let html =
-      '<div class="comment">'
+  let html = '<br>'
+    + '<div class="comment">'
     +   data.comment
     + '</div>';
 
@@ -214,9 +197,15 @@ this.getHtmlComment = function () {
 
 this.getShortHtml = function () {
   let atks = [
+    { name: 'appear', display: 'Appear' },
+    { name: 'moving', display: 'Moving' },
     { name: 'near', n: 'n', display: 'Near'},
     { name: 'far', n: 'f', display: 'Far'},
     { name: 'spe', n: 's', display: 'Spe'},
+    { name: 'counter', display: 'Counter' },
+    { name: 'evade', display: 'Evade' },
+    { name: 'air', display: 'Anti-Air' },
+    { name: 'final', display: 'Final' },
   ];
 
   let atkHtml = atks
@@ -224,9 +213,6 @@ this.getShortHtml = function () {
     .map(e => ' / ' + this.getShortHtmlAttack(e.name, e.n, e.display))
     .reduce((res, val) => res + val);
 
-  /*let nearHtml = this.getShortHtmlAttackNear();
-  let farHtml = this.getShortHtmlAttackFar();
-  let speHtml = this.getShortHtmlAttackSpe();*/
   let comHtml = this.getHtmlComment();
 
   let html =
@@ -243,7 +229,7 @@ this.getShortHtml = function () {
     +     (speHtml.length ? (' / ' + speHtml) : '')*/
     +   '</div>'
     +   comHtml
-    + '</div>';
+    + '</div><br>';
 
   return html;
 };

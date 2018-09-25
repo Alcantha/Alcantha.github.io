@@ -21,7 +21,7 @@ function loadUnitsMaxStat(data) {
   unitsMaxStat = data.units.map((e) => new UnitMaxStat(e));
 
   unitsMaxStat.forEach((e) => {
-    $listUnit.append(e.getShortHtml());
+    $listUnit.prepend(e.getShortHtml());
   });
 }
 
