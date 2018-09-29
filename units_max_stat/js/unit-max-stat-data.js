@@ -205,7 +205,7 @@ this.getShortHtml = function () {
     { name: 'counter', display: 'Counter' },
     { name: 'evade', display: 'Evade' },
     { name: 'air', display: 'Anti-Air' },
-    { name: 'final', display: 'Final' },
+    { name: 'final', n: 'y', display: 'Final' },
   ];
 
   let atkHtml = atks

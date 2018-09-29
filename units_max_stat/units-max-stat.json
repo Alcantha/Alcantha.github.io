@@ -806,11 +806,11 @@
           ]
         }
       },
-      "comment": "[Revive] 66,104 HP"
+      "comment": "[Builder] 21,310 HP<br>[Revive] 66,104 HP"
     },
     {
       "base": {
-        "name": "K-03 Coupled Armored Vehicle",
+        "name": "K-O3 Coupled Armored Vehicle",
         "id": 604,
         "ap": 352,
         "hp": 246942,
@@ -829,7 +829,7 @@
         },
         "y": {
           "name": ["NAME"],
-          "dmg": 1
+          "dmg": 67035
         }
       },
       "attacks": {
@@ -842,16 +842,22 @@
           ]
         },
         "spe": {
-          "temp": 1,
           "comp": [
             {
+              "arm": "f",
+              "nb": 2
+            },
+            {
+              "arm": "f",
+              "nb": 8
+            },
+            {
               "arm": "s",
-              "nb": 1
+              "nb": 2
             }
           ]
         },
         "final": {
-          "temp": 1,
           "comp": [
             {
               "arm": "y",
@@ -860,6 +866,66 @@
           ]
         }
       }
+    },
+    {
+      "base": {
+        "name": "K-O3 Coupled Armored Vehicle (in-battle)",
+        "id": 604,
+        "ap": 352,
+        "hp": 385576,
+        "prod": -2550,
+        "res": 300,
+        "mov": 4.80
+      },
+      "arms": {
+        "f": {
+          "name": ["NAME"],
+          "dmg": 12280
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 27337
+        },
+        "y": {
+          "name": ["NAME"],
+          "dmg": 101128
+        }
+      },
+      "attacks": {
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 12
+            }
+          ]
+        },
+        "spe": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 2
+            },
+            {
+              "arm": "f",
+              "nb": 8
+            },
+            {
+              "arm": "s",
+              "nb": 2
+            }
+          ]
+        },
+        "final": {
+          "comp": [
+            {
+              "arm": "y",
+              "nb": 3
+            }
+          ]
+        }
+      },
+      "comment": "Each car has 385,576 HP and perform one Final Attack.<br>[Stats] All skills is applied twice."
     },
     {
       "base": {
