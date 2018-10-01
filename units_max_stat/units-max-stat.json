@@ -1181,11 +1181,10 @@
           }
         },
         "spe": {
-          "temp": 1,
           "comp": [
             {
               "arm": "s",
-              "nb": 1
+              "nb": 11
             }
           ],
           "abilities": {
@@ -1243,7 +1242,220 @@
         }
       },
       "comment": "Turn killed enemies into a Venomous Bug."
-    }
+    },
 
+    {
+      "base": {
+        "name": "Halloween Beatriz",
+        "id": 611,
+        "ap": 255,
+        "hp": 122964,
+        "prod": -2250,
+        "res": 30,
+        "mov": 1.82
+      },
+      "arms": {
+        "f": {
+          "name": ["Freeze gun"],
+          "dmg": 1926
+        },
+        "s": {
+          "name": ["Frozen Reflect"],
+          "dmg": 1269
+        }
+      },
+      "attacks": {
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        }
+      },
+      "comment": "[Attack] Turn killed enemies units into Snowman (? HP) / Ice Cube (? HP)"
+    },
+
+    {
+      "base": {
+        "name": "Vicky",
+        "id": 612,
+        "ap": 384,
+        "hp": 471513,
+        "prod": -1770,
+        "res": 200,
+        "mov": 5.40
+      },
+      "arms": {
+        "n": {
+          "name": ["?"],
+          "dmg": 16026
+        },
+        "f": {
+          "name": ["Magical Ice"],
+          "dmg": 9015
+        },
+        "s": {
+          "name": ["Lovely Blizztouch"],
+          "dmg": 15760
+        }
+      },
+      "attacks": {
+        "near": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "lowAtk": 69
+          }
+        },
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "lowAtk": 69
+          }
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "lowAtk": 69
+          }
+        }
+      }
+    },
+
+    {
+      "base": {
+        "name": "Snow Monoeye",
+        "id": 613,
+        "ap": 320,
+        "hp": 219047,
+        "prod": -2400,
+        "res": 180,
+        "mov": 3.00
+      },
+      "arms": {
+        "n": {
+          "name": ["Light Grenade"],
+          "dmg": 4546
+        },
+        "f": {
+          "name": ["Light Grenade"],
+          "dmg": 4546
+        },
+        "s": {
+          "name": ["Monoeyes Circle"],
+          "dmg": 5474
+        }
+      },
+      "attacks": {
+        "near": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ]
+        },
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        },
+        "evade": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "base": {
+        "name": "Zombie (Fattish Man Red)",
+        "id": 614,
+        "ap": 68,
+        "hp": 105704,
+        "prod": -645,
+        "res": 37,
+        "mov": 2.30
+      },
+      "arms": {
+        "f": {
+          "name": ["Bodily Fluids"],
+          "dmg": 2947
+        },
+        "s": {
+          "name": ["Organ Cannon"],
+          "dmg": 3528
+        }
+      },
+      "attacks": {
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        }
+      },
+      "comment": "[Revive] 209,293 HP"
+    }
   ]
 }
