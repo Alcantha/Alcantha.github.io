@@ -1364,51 +1364,51 @@
       "arms": {
         "n": {
           "name": ["Light Grenade"],
-          "dmg": 4546
+          "dmg": 4630
         },
         "f": {
           "name": ["Light Grenade"],
-          "dmg": 4546
+          "dmg": 4630
         },
         "s": {
           "name": ["Monoeyes Circle"],
-          "dmg": 5474
+          "dmg": 5575
+        },
+        "x": {
+          "name": ["Light Grenade (evade)"],
+          "dmg": 1730
         }
       },
       "attacks": {
         "near": {
-          "temp": 1,
           "comp": [
             {
               "arm": "n",
-              "nb": 1
+              "nb": 11
             }
           ]
         },
         "far": {
-          "temp": 1,
           "comp": [
             {
               "arm": "f",
-              "nb": 1
+              "nb": 11
             }
           ]
         },
         "spe": {
-          "temp": 1,
           "comp": [
             {
               "arm": "s",
-              "nb": 1
+              "nb": 25
             }
           ]
         },
         "evade": {
-          "temp": 1,
           "comp": [
             {
-              "arm": "n",
-              "nb": 1
+              "arm": "x",
+              "nb": 8
             }
           ]
         }
@@ -1437,11 +1437,10 @@
       },
       "attacks": {
         "far": {
-          "temp": 1,
           "comp": [
             {
               "arm": "f",
-              "nb": 1
+              "nb": 3
             }
           ]
         },
