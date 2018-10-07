@@ -1260,26 +1260,32 @@
           "dmg": 1926
         },
         "s": {
-          "name": ["Frozen Reflect"],
+          "name": ["Freeze gun (spe)"],
           "dmg": 1269
+        }
+        "x": {
+          "name": ["Frozen Reflect"],
+          "dmg": 6927
         }
       },
       "attacks": {
         "far": {
-          "temp": 1,
           "comp": [
             {
               "arm": "f",
-              "nb": 1
+              "nb": 23
             }
           ]
         },
         "spe": {
-          "temp": 1,
           "comp": [
             {
               "arm": "s",
-              "nb": 1
+              "nb": 59
+            },
+            {
+              "arm": "x",
+              "nb": 15
             }
           ]
         }
@@ -1300,20 +1306,19 @@
       "arms": {
         "n": {
           "name": ["?"],
-          "dmg": 16026
+          "dmg": 12581
         },
         "f": {
           "name": ["Magical Ice"],
-          "dmg": 9015
+          "dmg": 7077
         },
         "s": {
           "name": ["Lovely Blizztouch"],
-          "dmg": 15760
+          "dmg": 12818
         }
       },
       "attacks": {
         "near": {
-          "temp": 1,
           "comp": [
             {
               "arm": "n",
@@ -1325,11 +1330,10 @@
           }
         },
         "far": {
-          "temp": 1,
           "comp": [
             {
               "arm": "f",
-              "nb": 1
+              "nb": 7
             }
           ],
           "abilities": {
@@ -1445,11 +1449,10 @@
           ]
         },
         "spe": {
-          "temp": 1,
           "comp": [
             {
               "arm": "s",
-              "nb": 1
+              "nb": 15
             }
           ]
         }
