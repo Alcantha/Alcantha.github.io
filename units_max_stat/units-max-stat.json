@@ -1262,7 +1262,7 @@
         "s": {
           "name": ["Freeze gun (spe)"],
           "dmg": 1269
-        }
+        },
         "x": {
           "name": ["Frozen Reflect"],
           "dmg": 6927
@@ -1458,6 +1458,238 @@
         }
       },
       "comment": "[Revive] 209,293 HP"
+    },
+
+    {
+      "base": {
+        "name": "Golden Elite Hover Unit",
+        "id": 615,
+        "ap": 153,
+        "hp": 116207,
+        "prod": -880,
+        "res": 40,
+        "mov": 6.25
+      },
+      "arms": {
+        "f": {
+          "name": ["NAME"],
+          "dmg": 2058
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 4787
+        },
+        "y": {
+          "name": ["NAME"],
+          "dmg": 0
+        }
+      },
+      "attacks": {
+        "near": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ]
+        },
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        },
+        "final": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "y",
+              "nb": 1
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "base": {
+        "name": "Golden Turtle",
+        "id": 616,
+        "ap": 640,
+        "hp": 1204546,
+        "prod": -2755,
+        "res": 603,
+        "mov": 3.95
+      },
+      "arms": {
+        "n": {
+          "name": ["NAME"],
+          "dmg": 15267
+        },
+        "f": {
+          "name": ["NAME"],
+          "dmg": 5042
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 39606
+        }
+      },
+      "attacks": {
+        "near": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ]
+        },
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        }
+      },
+      "comment": "[Recovery] 415,568 HP (?) every 5 seconds."
+    },
+
+    {
+      "base": {
+        "name": "Halloween Alma",
+        "id": 617,
+        "ap": 255,
+        "hp": 219122,
+        "prod": -2015,
+        "res": 130,
+        "mov": 4.22
+      },
+      "arms": {
+        "n": {
+          "name": ["NAME"],
+          "dmg": 10587
+        },
+        "f": {
+          "name": ["NAME"],
+          "dmg": 8855
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 1378
+        }
+      },
+      "attacks": {
+        "near": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "crit": 74.5
+          }
+        },
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "crit": 74.5
+          }
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "crit": 74.5
+          }
+        }
+      }
+    },
+
+    {
+      "base": {
+        "name": "Runaway White Baby",
+        "id": 618,
+        "ap": 320,
+        "hp": 704294,
+        "prod": -2180,
+        "res": 300,
+        "mov": 4.40
+      },
+      "arms": {
+        "f": {
+          "name": ["NAME"],
+          "dmg": 5465
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 1764
+        }
+      },
+      "attacks": {
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "seal": 34.5
+          }
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "seal": 34.5
+          }
+        }
+      }
     }
   ]
 }
