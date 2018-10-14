@@ -1481,43 +1481,31 @@
         },
         "y": {
           "name": ["NAME"],
-          "dmg": 0
+          "dmg": 62567
         }
       },
       "attacks": {
-        "near": {
-          "temp": 1,
-          "comp": [
-            {
-              "arm": "n",
-              "nb": 1
-            }
-          ]
-        },
         "far": {
-          "temp": 1,
           "comp": [
             {
               "arm": "f",
-              "nb": 1
+              "nb": 36
             }
           ]
         },
         "spe": {
-          "temp": 1,
           "comp": [
             {
               "arm": "s",
-              "nb": 1
+              "nb": 102
             }
           ]
         },
         "final": {
-          "temp": 1,
           "comp": [
             {
               "arm": "y",
-              "nb": 1
+              "nb": 2
             }
           ]
         }
@@ -1606,11 +1594,10 @@
       },
       "attacks": {
         "near": {
-          "temp": 1,
           "comp": [
             {
               "arm": "n",
-              "nb": 1
+              "nb": 2
             }
           ],
           "abilities": {
@@ -1618,11 +1605,10 @@
           }
         },
         "far": {
-          "temp": 1,
           "comp": [
             {
               "arm": "f",
-              "nb": 1
+              "nb": 2
             }
           ],
           "abilities": {
@@ -1630,11 +1616,14 @@
           }
         },
         "spe": {
-          "temp": 1,
           "comp": [
             {
+              "arm": "f",
+              "nb": 8
+            },
+            {
               "arm": "s",
-              "nb": 1
+              "nb": 60
             }
           ],
           "abilities": {
