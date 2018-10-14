@@ -1655,11 +1655,10 @@
       },
       "attacks": {
         "far": {
-          "temp": 1,
           "comp": [
             {
               "arm": "f",
-              "nb": 1
+              "nb": 8
             }
           ],
           "abilities": {
@@ -1667,18 +1666,18 @@
           }
         },
         "spe": {
-          "temp": 1,
           "comp": [
             {
               "arm": "s",
-              "nb": 1
+              "nb": 280
             }
           ],
           "abilities": {
             "seal": 34.5
           }
         }
-      }
+      },
+      "comment": "Submarines can block projectiles."
     }
   ]
 }
