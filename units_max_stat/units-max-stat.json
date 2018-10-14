@@ -872,7 +872,7 @@
         "name": "K-O3 Coupled Armored Vehicle (in-battle)",
         "id": 604,
         "ap": 352,
-        "hp": 385576,
+        "hp": 398826,
         "prod": -2550,
         "res": 300,
         "mov": 4.80
@@ -880,15 +880,15 @@
       "arms": {
         "f": {
           "name": ["NAME"],
-          "dmg": 12280
+          "dmg": 12184
         },
         "s": {
           "name": ["NAME"],
-          "dmg": 27337
+          "dmg": 41939
         },
         "y": {
           "name": ["NAME"],
-          "dmg": 101128
+          "dmg": 134072
         }
       },
       "attacks": {
@@ -925,7 +925,7 @@
           ]
         }
       },
-      "comment": "Each car has 385,576 HP and perform one Final Attack.<br>[Stats] All skills is applied twice."
+      "comment": "Each car has 398,826 HP and perform one Final Attack."
     },
     {
       "base": {
