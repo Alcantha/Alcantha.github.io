@@ -1678,6 +1678,239 @@
         }
       },
       "comment": "Submarines can block projectiles."
+    },
+
+    {
+      "base": {
+        "name": "Crablops Type-Lower",
+        "id": 619,
+        "ap": 480,
+        "hp": 402431,
+        "prod": -2515,
+        "res": 200,
+        "mov": 2.80
+      },
+      "arms": {
+        "n": {
+          "name": ["NAME"],
+          "dmg": 10104
+        },
+        "f": {
+          "name": ["NAME"],
+          "dmg": 10104
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 4114
+        },
+        "x": {
+          "name": ["NAME"],
+          "dmg": 1
+        }
+      },
+      "attacks": {
+        "near": {
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 3
+            }
+          ]
+        },
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 3
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        },
+        "evade": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "base": {
+        "name": "Rebel Walker Mk II",
+        "id": 620,
+        "ap": 170,
+        "hp": 174326,
+        "prod": -2245,
+        "res": 83,
+        "mov": 4.60
+      },
+      "arms": {
+        "n": {
+          "name": ["NAME"],
+          "dmg": 7359
+        },
+        "f": {
+          "name": ["NAME"],
+          "dmg": 3895
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 1582
+        }
+      },
+      "attacks": {
+        "near": {
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 3
+            }
+          ]
+        },
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 21
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "stun": 34.5
+          }
+        }
+      }
+    },
+    {
+      "base": {
+        "name": "Damian",
+        "id": 621,
+        "ap": 320,
+        "hp": 588278,
+        "prod": -2120,
+        "res": 150,
+        "mov": 4.80
+      },
+      "arms": {
+        "n": {
+          "name": ["NAME"],
+          "dmg": 13655
+        },
+        "f": {
+          "name": ["NAME"],
+          "dmg": 18603
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 17060
+        },
+        "x": {
+          "name": ["NAME"],
+          "dmg": 25980
+        }
+      },
+      "attacks": {
+        "appear": {
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 6
+            }
+          ]
+        },
+        "near": {
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 3
+            }
+          ]
+        },
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 2
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "stun": 34.5
+          }
+        }
+      }
+    },
+    {
+      "base": {
+        "name": "Halloween Simon",
+        "id": 622,
+        "ap": 255,
+        "hp": 132149,
+        "prod": -2655,
+        "res": "--",
+        "mov": 2.02
+      },
+      "arms": {
+        "f": {
+          "name": ["NAME"],
+          "dmg": 6217
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 6471
+        }
+      },
+      "attacks": {
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "stun": 34.5
+          }
+        }
+      }
     }
+
   ]
 }
