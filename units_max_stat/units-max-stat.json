@@ -1525,7 +1525,7 @@
       "arms": {
         "n": {
           "name": ["NAME"],
-          "dmg": 15267
+          "dmg": 21452
         },
         "f": {
           "name": ["NAME"],
@@ -1565,7 +1565,7 @@
           ]
         }
       },
-      "comment": "[Recovery] 415,568 HP (?) every 5 seconds."
+      "comment": "[Recovery] 356,545 HP every 5 seconds."
     },
 
     {
@@ -1805,7 +1805,7 @@
         "name": "Damian",
         "id": 621,
         "ap": 320,
-        "hp": 588278,
+        "hp": 337918,
         "prod": -2120,
         "res": 150,
         "mov": 4.80
