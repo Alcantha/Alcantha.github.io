@@ -1889,13 +1889,59 @@
       },
       "attacks": {
         "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 4
+            }
+          ]
+        },
+        "spe": {
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 5
+            }
+          ],
+          "abilities": {
+            "stun": 34.5
+          }
+        }
+      }
+    },
+
+    {
+      "base": {
+        "name": "Gisee",
+        "id": 623,
+        "ap": 320,
+        "hp": 114355,
+        "prod": -2750,
+        "res": 160,
+        "mov": 2.72
+      },
+      "arms": {
+        "f": {
+          "name": ["NAME"],
+          "dmg": 1609
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 135147
+        }
+      },
+      "attacks": {
+        "far": {
           "temp": 1,
           "comp": [
             {
               "arm": "f",
               "nb": 1
             }
-          ]
+          ],
+          "abilities": {
+            "stun": 34.5
+          }
         },
         "spe": {
           "temp": 1,
@@ -1910,6 +1956,160 @@
           }
         }
       }
+    },
+
+    {
+      "base": {
+        "name": "Halloween Nikita",
+        "id": 624,
+        "ap": 297,
+        "hp": 430784,
+        "prod": -1955,
+        "res": 190,
+        "mov": 3.70
+      },
+      "arms": {
+        "f": {
+          "name": ["NAME"],
+          "dmg": 5195
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 21497
+        },
+        "y": {
+          "name": ["NAME"],
+          "dmg": 1
+        }
+      },
+      "attacks": {
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 6
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        },
+        "final": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "y",
+              "nb": 1
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "base": {
+        "name": "Land Blowfish",
+        "id": 625,
+        "ap": 496,
+        "hp": 661282,
+        "prod": -2950,
+        "res": 300,
+        "mov": 2.40
+      },
+      "arms": {
+        "f": {
+          "name": ["NAME"],
+          "dmg": 37925
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 16759
+        }
+      },
+      "attacks": {
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "crit": 74.5
+          }
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "crit": 74.5
+          }
+        }
+      },
+      "comment": "[Far] Spawn a Girida-O Ver. P.M., Black Hound and Bradley Ver. P.M."
+    },
+
+    {
+      "base": {
+        "name": "Shielded Guerrilla (Captain)",
+        "id": 626,
+        "ap": 110,
+        "hp": 78500,
+        "prod": -1555,
+        "res": 1,
+        "mov": 3.00
+      },
+      "arms": {
+        "n": {
+          "name": ["NAME"],
+          "dmg": 11524
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 18074
+        }
+      },
+      "attacks": {
+        "near": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        },
+        "counter": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        }
+      },
+      "comment": "Evasion: 34.5%"
     }
 
   ]
