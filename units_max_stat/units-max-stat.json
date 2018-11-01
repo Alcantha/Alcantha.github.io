@@ -1,4 +1,5 @@
 {
+  "lastUpdate": "2018-11-01",
   "units": [
     {
       "base": {
@@ -84,29 +85,20 @@
         "near": {
           "comp": [
             { "arm": "n", "nb": 11 }
-          ],
-          "abilities": {
-            "crit": 34.5
-          }
+          ]
         },
         "far": {
           "comp": [
             { "arm": "f", "nb": 11 }
-          ],
-          "abilities": {
-            "crit": 34.5
-          }
+          ]
         },
         "spe": {
           "comp": [
             { "arm": "s", "nb": 17 }
-          ],
-          "abilities": {
-            "crit": 34.5
-          }
+          ]
         }
       },
-      "comment": "[Near] heal per attack. [Far] heal per attack, convert killed unit."
+      "comment": "[Near/Far] heal 90% of the attack up to 11 times, convert killed unit."
     },
 
     {
@@ -259,6 +251,7 @@
         }
       }
     },
+
     {
       "base": {
         "name": "Karn (Amadeus)",
@@ -604,7 +597,7 @@
       "comment": "[Special] Damage reduced to 20% against the base. Turn killed enemies into Snowman (28,827 HP) or Ice Cube (44,200 HP)."
     },
 
-        {
+    {
       "base": {
         "name": "Leona Ver. Heroines",
         "id": 600,
@@ -713,7 +706,7 @@
       }
     },
 
-        {
+    {
       "base": {
         "name": "Kelly",
         "id": 602,
@@ -808,68 +801,10 @@
       },
       "comment": "[Builder] 21,310 HP<br>[Revive] 66,104 HP"
     },
+
     {
       "base": {
-        "name": "K-O3 Coupled Armored Vehicle",
-        "id": 604,
-        "ap": 352,
-        "hp": 246942,
-        "prod": -2550,
-        "res": 300,
-        "mov": 4.80
-      },
-      "arms": {
-        "f": {
-          "name": ["NAME"],
-          "dmg": 8720
-        },
-        "s": {
-          "name": ["NAME"],
-          "dmg": 27337
-        },
-        "y": {
-          "name": ["NAME"],
-          "dmg": 67035
-        }
-      },
-      "attacks": {
-        "far": {
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 12
-            }
-          ]
-        },
-        "spe": {
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 2
-            },
-            {
-              "arm": "f",
-              "nb": 8
-            },
-            {
-              "arm": "s",
-              "nb": 2
-            }
-          ]
-        },
-        "final": {
-          "comp": [
-            {
-              "arm": "y",
-              "nb": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "base": {
-        "name": "K-O3 Coupled Armored Vehicle (in-battle)",
+        "name": "K-O3 Coupled Armored Vehicle (v3.15.0)",
         "id": 604,
         "ap": 352,
         "hp": 398826,
@@ -925,8 +860,9 @@
           ]
         }
       },
-      "comment": "Each car has 398,826 HP and perform one Final Attack."
+      "comment": "[Final] once per wagon."
     },
+
     {
       "base": {
         "name": "Mars Gigantalos",
@@ -985,6 +921,7 @@
       },
       "comment": ""
     },
+
     {
       "base": {
         "name": "Special Clone Betty",
@@ -1217,31 +1154,24 @@
       },
       "attacks": {
         "far": {
-          "temp": 1,
           "comp": [
             {
-              "arm": "n",
-              "nb": 1
+              "arm": "f",
+              "nb": 102
             }
-          ],
-          "abilities": {
-            "crit": 34.5
-          }
+          ]
         },
         "spe": {
           "temp": 1,
           "comp": [
             {
-              "arm": "n",
+              "arm": "s",
               "nb": 1
             }
-          ],
-          "abilities": {
-            "crit": 34.5
-          }
+          ]
         }
       },
-      "comment": "Turn killed enemies into a Venomous Bug."
+      "comment": "Turn killed non-machine type enemies into a Venomous Bug (865 dmg, attribute: KIN).<br>[Special] Pillars can block projectile."
     },
 
     {
@@ -1743,7 +1673,8 @@
             }
           ]
         }
-      }
+      },
+      "comment": "[Special] Stalagmite can block projectiles."
     },
     {
       "base": {
@@ -2049,7 +1980,7 @@
           "comp": [
             {
               "arm": "s",
-              "nb": 1
+              "nb": 20
             }
           ],
           "abilities": {
@@ -2057,7 +1988,7 @@
           }
         }
       },
-      "comment": "[Far] Spawn a Girida-O Ver. P.M., Black Hound and Bradley Ver. P.M."
+      "comment": "[Far] Spawn a Girida-O Ver. P.M.+, Black Hound Type-R and Bradley Ver. Rebellion"
     },
 
     {
@@ -2082,10 +2013,164 @@
       },
       "attacks": {
         "near": {
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        },
+        "counter": {
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        }
+      },
+      "comment": "Evasion: 34.5%"
+    },
+
+    {
+      "base": {
+        "name": "Abigail (Subjugation Tactics)",
+        "id": 627,
+        "ap": 360,
+        "hp": 176245,
+        "prod": -2320,
+        "res": 120,
+        "mov": 3.80
+      },
+      "arms": {
+        "n": {
+          "name": ["NAME"],
+          "dmg": 15752
+        },
+        "f": {
+          "name": ["Riddle Cube"],
+          "dmg": 1917
+        },
+        "s": {
+          "name": ["Shining Sword"],
+          "dmg": 7210
+        }
+      },
+      "attacks": {
+        "near": {
           "temp": 1,
           "comp": [
             {
               "arm": "n",
+              "nb": 1
+            }
+          ]
+        },
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        },
+        "evade": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "base": {
+        "name": "Special Chloe",
+        "id": 628,
+        "ap": 400,
+        "hp": 262237,
+        "prod": -2020,
+        "res": 155,
+        "mov": 3.52
+      },
+      "arms": {
+        "f": {
+          "name": ["Falling Bomb"],
+          "dmg": 8503
+        },
+        "s": {
+          "name": ["Precision Disintegration Laser"],
+          "dmg": 858
+        }
+      },
+      "attacks": {
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "base": {
+        "name": "Clone Tarma (Zombie)",
+        "id": 629,
+        "ap": 136,
+        "hp": 131659,
+        "prod": -1045,
+        "res": 37,
+        "mov": 2.62
+      },
+      "arms": {
+        "f": {
+          "name": ["Handgun"],
+          "dmg": 3547
+        },
+        "s": {
+          "name": ["Vomit Laser"],
+          "dmg": 16088
+        }
+      },
+      "attacks": {
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
               "nb": 1
             }
           ]
@@ -2109,7 +2194,51 @@
           ]
         }
       },
-      "comment": "Evasion: 34.5%"
+      "comment": "[Revive] 71,227 HP."
+    },
+    {
+      "base": {
+        "name": "Mars People Officer (Coo)",
+        "id": 630,
+        "ap": 576,
+        "hp": 376569,
+        "prod": -2660,
+        "res": 98,
+        "mov": 2.82
+      },
+      "arms": {
+        "f": {
+          "name": ["Ray Gun"],
+          "dmg": 7942
+        },
+        "s": {
+          "name": ["Rootmars: Light Shell"],
+          "dmg": 3295
+        }
+      },
+      "attacks": {
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "stun": 34.5
+          }
+        }
+      }
     }
 
   ]

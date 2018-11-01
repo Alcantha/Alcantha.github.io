@@ -12,6 +12,10 @@ body {
   font-size: 2em;
 }
 
+.last-update {
+  margin: .5em 1em 0;
+}
+
 .list-unit {
   margin: 1em;
 }
