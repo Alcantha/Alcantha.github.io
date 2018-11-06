@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2018-11-01",
+  "lastUpdate": "2018-11-06",
   "units": [
     {
       "base": {
@@ -1402,15 +1402,15 @@
       },
       "arms": {
         "f": {
-          "name": ["NAME"],
+          "name": ["Laser"],
           "dmg": 2058
         },
         "s": {
-          "name": ["NAME"],
+          "name": ["Laser Assault"],
           "dmg": 4787
         },
         "y": {
-          "name": ["NAME"],
+          "name": ["?"],
           "dmg": 62567
         }
       },
@@ -1454,15 +1454,15 @@
       },
       "arms": {
         "n": {
-          "name": ["NAME"],
+          "name": ["Squish"],
           "dmg": 21452
         },
         "f": {
-          "name": ["NAME"],
+          "name": ["Missile"],
           "dmg": 5042
         },
         "s": {
-          "name": ["NAME"],
+          "name": ["Stone"],
           "dmg": 39606
         }
       },
@@ -1510,15 +1510,15 @@
       },
       "arms": {
         "n": {
-          "name": ["NAME"],
+          "name": ["Nail"],
           "dmg": 10587
         },
         "f": {
-          "name": ["NAME"],
+          "name": ["Nail (Far)"],
           "dmg": 8855
         },
         "s": {
-          "name": ["NAME"],
+          "name": ["Trick Nail"],
           "dmg": 1378
         }
       },
@@ -1575,11 +1575,11 @@
       },
       "arms": {
         "f": {
-          "name": ["NAME"],
+          "name": ["Scalar Electromagnetic Cannon"],
           "dmg": 5465
         },
         "s": {
-          "name": ["NAME"],
+          "name": ["Gravity Control"],
           "dmg": 1764
         }
       },
@@ -1622,19 +1622,19 @@
       },
       "arms": {
         "n": {
-          "name": ["NAME"],
+          "name": ["Cannon"],
           "dmg": 10104
         },
         "f": {
-          "name": ["NAME"],
+          "name": ["Cannon"],
           "dmg": 10104
         },
         "s": {
-          "name": ["NAME"],
+          "name": ["Jet Engine"],
           "dmg": 4114
         },
         "x": {
-          "name": ["NAME"],
+          "name": ["Stalagmite"],
           "dmg": 1
         }
       },
@@ -1688,15 +1688,15 @@
       },
       "arms": {
         "n": {
-          "name": ["NAME"],
+          "name": ["Knife"],
           "dmg": 7359
         },
         "f": {
-          "name": ["NAME"],
+          "name": ["Satellite Projectile"],
           "dmg": 3895
         },
         "s": {
-          "name": ["NAME"],
+          "name": ["Guidance Beam Cannon"],
           "dmg": 1582
         }
       },
@@ -1743,19 +1743,19 @@
       },
       "arms": {
         "n": {
-          "name": ["NAME"],
+          "name": ["Blade"],
           "dmg": 13655
         },
         "f": {
-          "name": ["NAME"],
+          "name": ["Blade Flash"],
           "dmg": 18603
         },
         "s": {
-          "name": ["NAME"],
+          "name": ["?"],
           "dmg": 17060
         },
         "x": {
-          "name": ["NAME"],
+          "name": ["?"],
           "dmg": 25980
         }
       },
@@ -1810,11 +1810,11 @@
       },
       "arms": {
         "f": {
-          "name": ["NAME"],
+          "name": ["Bullet"],
           "dmg": 6217
         },
         "s": {
-          "name": ["NAME"],
+          "name": ["Bullet"],
           "dmg": 6471
         }
       },
@@ -1853,11 +1853,11 @@
       },
       "arms": {
         "f": {
-          "name": ["NAME"],
+          "name": ["E.G.G"],
           "dmg": 1609
         },
         "s": {
-          "name": ["NAME"],
+          "name": ["Thunder Strike"],
           "dmg": 135147
         }
       },
@@ -1901,15 +1901,15 @@
       },
       "arms": {
         "f": {
-          "name": ["NAME"],
+          "name": ["Double Cannon"],
           "dmg": 5195
         },
         "s": {
-          "name": ["NAME"],
+          "name": ["Solenoid Cannon"],
           "dmg": 21497
         },
         "y": {
-          "name": ["NAME"],
+          "name": ["?"],
           "dmg": 1
         }
       },
@@ -1955,11 +1955,11 @@
       },
       "arms": {
         "f": {
-          "name": ["NAME"],
+          "name": ["Girida-O's rush"],
           "dmg": 37925
         },
         "s": {
-          "name": ["NAME"],
+          "name": ["Full Power Bomb Raid"],
           "dmg": 16759
         }
       },
@@ -2003,11 +2003,11 @@
       },
       "arms": {
         "n": {
-          "name": ["NAME"],
+          "name": ["Sword"],
           "dmg": 11524
         },
         "s": {
-          "name": ["NAME"],
+          "name": ["Shield Bash"],
           "dmg": 18074
         }
       },
@@ -2066,38 +2066,34 @@
       },
       "attacks": {
         "near": {
-          "temp": 1,
           "comp": [
             {
               "arm": "n",
-              "nb": 1
+              "nb": 33
             }
           ]
         },
         "far": {
-          "temp": 1,
           "comp": [
             {
               "arm": "f",
-              "nb": 1
+              "nb": 18
             }
           ]
         },
         "spe": {
-          "temp": 1,
           "comp": [
             {
               "arm": "s",
-              "nb": 1
+              "nb": 36
             }
           ]
         },
         "evade": {
-          "temp": 1,
           "comp": [
             {
               "arm": "n",
-              "nb": 1
+              "nb": 33
             }
           ]
         }
@@ -2126,11 +2122,10 @@
       },
       "attacks": {
         "far": {
-          "temp": 1,
           "comp": [
             {
               "arm": "f",
-              "nb": 1
+              "nb": 20
             }
           ]
         },
@@ -2159,11 +2154,11 @@
       "arms": {
         "f": {
           "name": ["Handgun"],
-          "dmg": 3547
+          "dmg": 2823
         },
         "s": {
           "name": ["Vomit Laser"],
-          "dmg": 16088
+          "dmg": 13360
         }
       },
       "attacks": {
@@ -2176,11 +2171,10 @@
           ]
         },
         "spe": {
-          "temp": 1,
           "comp": [
             {
               "arm": "s",
-              "nb": 1
+              "nb": 18
             }
           ]
         },
@@ -2218,11 +2212,10 @@
       },
       "attacks": {
         "far": {
-          "temp": 1,
           "comp": [
             {
               "arm": "f",
-              "nb": 1
+              "nb": 5
             }
           ]
         },
@@ -2238,7 +2231,8 @@
             "stun": 34.5
           }
         }
-      }
+      },
+      "comment": "[Special] Light Shell can block projectile up to ? damages."
     }
 
   ]
