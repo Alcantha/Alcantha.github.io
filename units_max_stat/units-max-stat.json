@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2018-11-09",
+  "lastUpdate": "2018-11-17",
   "units": [
     {
       "base": {
@@ -604,11 +604,10 @@
           ]
         },
         "spe": {
-          "temp": 1,
           "comp": [
             {
               "arm": "s",
-              "nb": 1
+              "nb": 56
             }
           ],
           "abilities": {
@@ -616,7 +615,7 @@
           }
         }
       },
-      "comment": ""
+      "comment": "[Special] heal 816 HP per hit up to 45,696 HP."
     },
 
     {
@@ -1931,12 +1930,143 @@
       "comment": "[Special] Light Shell can block projectile up to ? damages."
     },
 
-    {"base":{"name":"Bonny","id":631,"ap":352,"hp":166782,"prod":-2385,"res":63,"mov":6.60},"arms":{"f":{"name":[""],"dmg":12124},"s":{"name":[""],"dmg":1906}},"attacks":{"far":{"temp":1,"comp":[{"arm":"f","nb":1}]},"spe":{"temp":1,"comp":[{"arm":"s","nb":1}]},"evade":{"temp":1,"comp":[{"arm":"x","nb":1}]}},"comment":"Evade: 34.5%"},
+    {"base":{"name":"Bonny","id":631,"ap":352,"hp":166782,"prod":-2385,"res":63,"mov":6.60},"arms":{"f":{"name":[""],"dmg":12124},"s":{"name":[""],"dmg":1906}},"attacks":{"far":{"comp":[{"arm":"f","nb":4}]},"spe":{"temp":1,"comp":[{"arm":"f","nb":12},{"arm":"s","nb":1}]},"evade":{"comp":[{"arm":"f","nb":3}]}},"comment":"Evade: 34.5%"},
 
-    {"base":{"name":"Special Black","id":632,"ap":161,"hp":392544,"prod":-1605,"res":154,"mov":5.42},"arms":{"n":{"name":[""],"dmg":442},"s":{"name":[""],"dmg":1752}},"attacks":{"near":{"temp":1,"comp":[{"arm":"n","nb":1}]},"spe":{"temp":1,"comp":[{"arm":"s","nb":1}]},"evade":{"temp":1,"comp":[{"arm":"x","nb":1}]}},"comment":"Evade: 34.5%"},
+    {"base":{"name":"Special Black","id":632,"ap":161,"hp":392544,"prod":-1605,"res":154,"mov":5.42},"arms":{"n":{"name":[""],"dmg":442},"s":{"name":[""],"dmg":1752}},"attacks":{"near":{"comp":[{"arm":"n","nb":19}]},"spe":{"comp":[{"arm":"s","nb":146}]}},"comment":"Evade: 34.5%"},
 
-    {"base":{"name":"Golden Fortress","id":633,"ap":400,"hp":472510,"prod":-2555,"res":203,"mov":4.95},"arms":{"n":{"name":[""],"dmg":10577},"f":{"name":[""],"dmg":10577},"s":{"name":[""],"dmg":19357}},"attacks":{"near":{"temp":1,"comp":[{"arm":"n","nb":1}],"abilities":{"crit":74.5}},"far":{"temp":1,"comp":[{"arm":"f","nb":1}],"abilities":{"crit":74.5}},"spe":{"temp":1,"comp":[{"arm":"s","nb":1}],"abilities":{"crit":74.5}}},"comment":"[Special] Generate a shield if there is none or performs the Special Attack."},
+    {"base":{"name":"Golden Fortress","id":633,"ap":400,"hp":472510,"prod":-2555,"res":203,"mov":4.95},"arms":{"n":{"name":[""],"dmg":10577},"f":{"name":[""],"dmg":10577},"s":{"name":[""],"dmg":19357}},"attacks":{"near":{"comp":[{"arm":"n","nb":12}],"abilities":{"crit":74.5}},"far":{"comp":[{"arm":"f","nb":12}],"abilities":{"crit":74.5}},"spe":{"comp":[{"arm":"s","nb":20}],"abilities":{"crit":74.5}}},"comment":"[Special] Generate a shield if there is none or performs the Special Attack."},
 
-    {"base":{"name":"Golden Rosa","id":634,"ap":153,"hp":233351,"prod":-1145,"res":100,"mov":5.60},"arms":{"n":{"name":[""],"dmg":10210},"s":{"name":[""],"dmg":21321}},"attacks":{"near":{"temp":1,"comp":[{"arm":"n","nb":1}]},"spe":{"temp":1,"comp":[{"arm":"s","nb":1}]},"final":{"temp":1,"comp":[{"arm":"x","nb":1}]}},"comment":"[Recovery] 11,550 HP every 5 seconds."}
+    {"base":{"name":"Golden Rosa","id":634,"ap":153,"hp":233351,"prod":-1145,"res":100,"mov":5.60},"arms":{"n":{"name":[""],"dmg":10210},"s":{"name":[""],"dmg":21321},"y":{"name":[""],"dmg":77941}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":7},{"arm":"s","nb":16,"coef":0.3}]},"final":{"comp":[{"arm":"y","nb":1}]}},"comment":"[Recovery] 11,550 HP every 5 seconds."},
+
+    {
+      "base":{
+        "name":"Sky Jupiter Queen (P.M.)",
+        "id":635,
+        "ap":520,
+        "hp":316050,
+        "prod":-2170,
+        "res":"--",
+        "mov":3.00
+      },
+      "arms":{
+        "f":{
+          "name":[""],
+          "dmg":72078
+        },
+        "s":{
+          "name":[""],
+          "dmg":3347
+        },
+        "x":{
+          "name":[""],
+          "dmg":8659
+        }
+      },
+      "attacks":{
+        "far":{
+          "comp":[
+            {
+              "arm":"f",
+              "nb":1
+            },
+            {
+              "arm":"x",
+              "nb":26
+            }
+          ]
+        },
+        "spe":{
+          "comp":[
+            {
+              "arm":"s",
+              "nb":64
+            }
+          ],
+        "abilities":{
+            "stun":34.5
+          }
+        }
+      },
+      "comment":""
+    },
+
+    {
+      "base":{
+        "name":"Special Force (Custom Bike)",
+        "id":636,
+        "ap":170,
+        "hp":71037,
+        "prod":-1550,
+        "res":"--",
+        "mov":5.27
+      },
+      "arms":{
+        "s":{
+          "name":[""],
+          "dmg":6625
+        }
+      },
+      "attacks":{
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ],
+        "abilities":{
+            "kb":34.5
+          }
+        }
+      },
+      "comment":"[Standing] Wheeling can block projectiles.<br>[Special] Thrown moto can block projectiles. Heal ? HP."
+    },
+
+    {
+      "base":{
+        "name":"Incognito Agalia",
+        "id":637,
+        "ap":255,
+        "hp":122220,
+        "prod":-2140,
+        "res":80,
+        "mov":3.14
+      },
+      "arms":{
+        "n":{
+          "name":[""],
+          "dmg":10486
+        },
+        "f":{
+          "name":[""],
+          "dmg":1825
+        },
+        "s":{
+          "name":[""],
+          "dmg":2278
+        }
+      },
+      "attacks":{
+        "near":{"comp":[{"arm":"n","nb":6}],"abilities":{"crit":34.5}},
+        "far":{"comp":[{"arm":"f","nb":24}],"abilities":{"crit":34.5}},
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ],
+        "abilities":{
+            "crit":34.5
+          }
+        }
+      },
+      "comment":""
+    },
+
+    {"base":{"name":"Vatn Ver. Crimson","id":638,"ap":352,"hp":364572,"prod":-2120,"res":88,"mov":5.30},"arms":{"n":{"name":[""],"dmg":2952},"f":{"name":["Bat Edge"],"dmg":14209},"s":{"name":[""],"dmg":3033}},"attacks":{"near":{"comp":[{"arm":"n","nb":38}]},"far":{"comp":[{"arm":"f","nb":10}]},"spe":{"comp":[{"arm":"s","nb":33},{"arm":"s","nb":43},{"arm":"s","nb":36}]},"evade":{"comp":[{"arm":"n","nb":38}]}},"comment":"[Special] Demon's Gate can block projectiles."}
+
   ]
 }

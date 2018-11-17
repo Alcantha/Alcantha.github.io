@@ -58,8 +58,9 @@ this.getTotalDmg = function () {
     totalDmg = data.comp.map(e => {
       let dmg = arms[e.arm].getDmg();
       let nb = e.nb;
+      let coef = e.coef || 1;
 
-      return dmg * nb;
+      return parseInt(dmg * nb * coef);
 
     }).reduce((r, v) => r + v);
   }
