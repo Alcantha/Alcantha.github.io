@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2018-11-17",
+  "lastUpdate": "2018-11-28",
   "units": [
     {
       "base": {
@@ -34,40 +34,7 @@
 
     {"base":{"id":588,"name":"Smasher Returns","ap":119,"hp":236064,"prod":-965,"res":"--","mov":4.67},"arms":{"n":{"dmg":26203},"s":{"dmg":83792}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}],"abilities":{"kb":34.5}},"spe":{"comp":[{"arm":"s","nb":2}],"abilities":{"kb":34.5}}}},
 
-    {
-      "base": {
-        "id": 589,
-        "name": "Incognito Aswang",
-        "ap": 153,
-        "hp": 226870,
-        "prod": -1265,
-        "res": 200,
-        "mov": 4.22
-      },
-      "arms": {
-        "n": { "dmg": 8015 },
-        "f": { "dmg": 7150 },
-        "s": { "dmg": 15909 }
-      },
-      "attacks": {
-        "near": {
-          "comp": [
-            { "arm": "n", "nb": 11 }
-          ]
-        },
-        "far": {
-          "comp": [
-            { "arm": "f", "nb": 11 }
-          ]
-        },
-        "spe": {
-          "comp": [
-            { "arm": "s", "nb": 17 }
-          ]
-        }
-      },
-      "comment": "[Near/Far] heal 90% of the attack up to 11 times, convert killed unit."
-    },
+    {"base":{"id":589,"name":"Incognito Aswang","ap":153,"hp":226870,"prod":-1265,"res":200,"mov":4.22},"arms":{"n":{"dmg":8015},"f":{"dmg":7150},"s":{"dmg":15909}},"attacks":{"near":{"comp":[{"arm":"n","nb":11}]},"far":{"comp":[{"arm":"f","nb":11}]},"spe":{"comp":[{"arm":"s","nb":17}]}},"comment":"[Near/Far] heal 90% of the attack up to 11 times, convert killed unit."},
 
     {
       "base": {
@@ -159,60 +126,7 @@
 
     {"base":{"name":"Shoe (Amadeus)","id":594,"ap":280,"hp":320711,"prod":-1190,"res":80,"mov":3.30},"arms":{"f":{"name":["Cannon","Missile"],"dmg":3131},"s":{"name":["Cannon","Missile"],"dmg":3852}},"attacks":{"far":{"comp":[{"arm":"f","nb":4}]},"spe":{"comp":[{"arm":"s","nb":32}]}},"comment":"[Buff] Karn (Amadeus): 54.5% ATK."},
 
-    {
-      "base": {
-        "name": "Golden Di-Cokka",
-        "id": 595,
-        "ap": 153,
-        "hp": 224117,
-        "prod": -800,
-        "res": 30,
-        "mov": 4.2
-      },
-      "arms": {
-        "f": {
-          "name": ["Golden Cannon"],
-          "dmg": 7625
-        },
-        "s": {
-          "name": ["Golden Cannon Salvo"],
-          "dmg": 9222
-        },
-        "y": {
-          "name": ["Rocket"],
-          "dmg": 1
-        }
-      },
-      "attacks": {
-        "far": {
-          "temp": 1,
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 0
-            }
-          ]
-        },
-        "spe": {
-          "temp": 1,
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 0
-            }
-          ]
-        },
-        "final": {
-          "temp": 1,
-          "comp": [
-            {
-              "arm": "y",
-              "nb": 0
-            }
-          ]
-        }
-      }
-    },
+    {"base":{"name":"Golden Di-Cokka","id":595,"ap":153,"hp":224117,"prod":-800,"res":30,"mov":4.2},"arms":{"f":{"name":["Golden Cannon"],"dmg":7625},"s":{"name":["Golden Cannon Salvo"],"dmg":9222},"y":{"name":["Rocket"],"dmg":20854}},"attacks":{"far":{"comp":[{"arm":"f","nb":5}]},"spe":{"comp":[{"arm":"s","nb":15}]},"final":{"comp":[{"arm":"y","nb":1}]}},"comment":"[Final] Move forward to the nearest enemy and block for a few seconds."},
 
     {"base":{"name":"Golden Nokana","id":596,"ap":400,"hp":737764,"prod":-2945,"res":"--","mov":4.77},"arms":{"f":{"name":["Cannon","Grenade"],"dmg":10324},"s":{"name":["Hellfire Cannon"],"dmg":2315}},"attacks":{"far":{"comp":[{"arm":"f","nb":4},{"arm":"f","nb":7}],"abilities":{"stun":34.5}},"spe":{"comp":[{"arm":"s","nb":10},{"arm":"s","nb":416}]}}},
 
@@ -274,230 +188,17 @@
       }
     },
 
-    {
-      "base": {
-        "name": "Special Chunyan",
-        "id": 598,
-        "ap": 204,
-        "hp": 261578,
-        "prod": -2550,
-        "res": 100,
-        "mov": 3.62
-      },
-      "arms": {
-        "n": {
-          "name": ["Kung Fu"],
-          "dmg": 23857
-        },
-        "f": {
-          "name": ["Kung Fu"],
-          "dmg": 12175
-        },
-        "s": {
-          "name": ["Earthsmasher Arrow"],
-          "dmg": 54370
-        }
-      },
-      "attacks": {
-        "near": {
-          "temp": 1,
-          "comp": [
-            {
-              "arm": "n",
-              "nb": 1
-            }
-          ],
-          "abilities": {
-            "crit": 34.5
-          }
-        },
-        "far": {
-          "temp": 1,
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 1
-            }
-          ],
-          "abilities": {
-            "crit": 34.5
-          }
-        },
-        "spe": {
-          "temp": 1,
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 1
-            }
-          ],
-          "abilities": {
-            "crit": 34.5
-          }
-        }
-      }
-    },
+    {"base":{"name":"Special Chunyan","id":598,"ap":204,"hp":261578,"prod":-2550,"res":100,"mov":3.62},"arms":{"n":{"name":["Kung Fu"],"dmg":23857},"f":{"name":["Kung Fu"],"dmg":12175},"s":{"name":["Earthsmasher Arrow"],"dmg":54370},"x":{"name":["Debris"],"dmg":5841}},"attacks":{"near":{"comp":[{"arm":"n","nb":1},{"arm":"f","nb":2}],"abilities":{"crit":34.5}},"far":{"comp":[{"arm":"f","nb":2}],"abilities":{"crit":34.5}},"spe":{"comp":[{"arm":"s","nb":7},{"arm":"x","nb":20}],"abilities":{"crit":34.5}}},"comment":"[Special] Earth wall can block projectiles."},
 
     {"base":{"name":"Elephant Slug (Ice)","id":599,"ap":400,"hp":429763,"prod":-1915,"res":"--","mov":1.80},"arms":{"f":{"name":["Vulcan"],"dmg":5140},"s":{"name":["Frozen Emission"],"dmg":37415}},"attacks":{"far":{"comp":[{"arm":"f","nb":8}]},"spe":{"comp":[{"arm":"s","nb":4}]}},"comment":"[Special] Damage reduced to 20% against the base. Turn killed enemies into Snowman (28,827 HP) or Ice Cube (44,200 HP)."},
 
     {"base":{"name":"Leona Ver. Heroines","id":600,"ap":306,"hp":352989,"prod":-1740,"res":300,"mov":8.05},"arms":{"n":{"name":["Moon Slasher"],"dmg":18424},"s":{"name":["Slasher"],"dmg":29367}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":5}]},"counter":{"comp":[{"arm":"n","nb":1}]}}},
 
-    {
-      "base": {
-        "name": "Ostrich Slug (Eri)",
-        "id": 601,
-        "ap": 102,
-        "hp": 71003,
-        "prod": -1145,
-        "res": 40,
-        "mov": 3.97
-      },
-      "arms": {
-        "f": {
-          "name": ["Grenade", "Machine Gun"],
-          "dmg": 1740
-        },
-        "s": {
-          "name": ["Grenade"],
-          "dmg": 4323
-        }
-      },
-      "attacks": {
-        "far": {
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 4
-            },
-            {
-              "arm": "s",
-              "nb": 2
-            }
-          ],
-          "abilities": {
-            "crit": 34.5
-          }
-        },
-        "spe": {
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 5
-            }
-          ],
-          "abilities": {
-            "crit": 34.5
-          }
-        },
-        "evade": {
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 5
-            }
-          ],
-          "abilities": {
-            "crit": 34.5
-          }
-        }
-      }
-    },
+    {"base":{"name":"Ostrich Slug (Eri)","id":601,"ap":102,"hp":71003,"prod":-1145,"res":40,"mov":3.97},"arms":{"f":{"name":["Grenade","Machine Gun"],"dmg":1740},"s":{"name":["Grenade"],"dmg":4323}},"attacks":{"far":{"comp":[{"arm":"f","nb":4},{"arm":"s","nb":2}],"abilities":{"crit":34.5}},"spe":{"comp":[{"arm":"s","nb":5}],"abilities":{"crit":34.5}},"evade":{"comp":[{"arm":"s","nb":5}],"abilities":{"crit":34.5}}},"comment":"[Evade] 34.5%"},
 
-    {
-      "base": {
-        "name": "Kelly",
-        "id": 602,
-        "ap": 320,
-        "hp": 236064,
-        "prod": -2050,
-        "res": 120,
-        "mov": 3.52
-      },
-      "arms": {
-        "f": {
-          "name": ["Sol Weapon"],
-          "dmg": 17474
-        },
-        "s": {
-          "name": ["Sol Cannon"],
-          "dmg": 1012
-        }
-      },
-      "attacks": {
-        "far": {
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 3
-            }
-          ]
-        },
-        "spe": {
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 54
-            }
-          ],
-          "abilities": {
-            "lowRes": 1
-          }
-        }
-      }
-    },
+    {"base":{"name":"Kelly","id":602,"ap":320,"hp":236064,"prod":-2050,"res":120,"mov":3.52},"arms":{"f":{"name":["Sol Weapon"],"dmg":17474},"s":{"name":["Sol Cannon"],"dmg":1012}},"attacks":{"far":{"comp":[{"arm":"f","nb":3}]},"spe":{"comp":[{"arm":"s","nb":54}],"abilities":{"lowRes":3}}}},
 
-    {
-      "base": {
-        "name": "Anti Air-Craft",
-        "id": 603,
-        "ap": 119,
-        "hp": 122190,
-        "prod": -960,
-        "res": "--",
-        "mov": 0.00
-      },
-      "arms": {
-        "n": {
-          "name": ["NAME"],
-          "dmg": 5053
-        },
-        "f": {
-          "name": ["NAME"],
-          "dmg": 5053
-        },
-        "s": {
-          "name": ["NAME"],
-          "dmg": 6144
-        }
-      },
-      "attacks": {
-        "near": {
-          "comp": [
-            {
-              "arm": "n",
-              "nb": 4
-            }
-          ]
-        },
-        "far": {
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 4
-            }
-          ]
-        },
-        "spe": {
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 16
-            }
-          ]
-        }
-      },
-      "comment": "[Builder] 21,310 HP<br>[Revive] 66,104 HP"
-    },
+    {"base":{"name":"Anti Air-Craft","id":603,"ap":119,"hp":122190,"prod":-960,"res":"--","mov":0.00},"arms":{"n":{"name":["NAME"],"dmg":5053},"f":{"name":["NAME"],"dmg":5053},"s":{"name":["NAME"],"dmg":6144}},"attacks":{"near":{"comp":[{"arm":"n","nb":4}]},"far":{"comp":[{"arm":"f","nb":4}]},"spe":{"comp":[{"arm":"s","nb":16}]}},"comment":"[Builder] 21,310 HP<br>[Revive] 66,104 HP"},
 
     {
       "base": {
@@ -673,57 +374,7 @@
       "comment": "[Near?/Far?/Spe?] Turn killed enemies into Snowman (? HP) or Ice Cube (?). [Special] Create 5 Ice Cube Barrier (? HP)."
     },
 
-    {
-      "base": {
-        "name": "Special Perche",
-        "id": 607,
-        "ap": 153,
-        "hp": 348112,
-        "prod": -1990,
-        "res": 100,
-        "mov": 5.83
-      },
-      "arms": {
-        "n": {
-          "name": ["Legion Gun"],
-          "dmg": 1768
-        },
-        "s": {
-          "name": ["Achilles Pulse"],
-          "dmg": 2801
-        }
-      },
-      "attacks": {
-        "near": {
-          "temp": 1,
-          "comp": [
-            {
-              "arm": "n",
-              "nb": 1
-            }
-          ]
-        },
-        "spe": {
-          "temp": 1,
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 1
-            }
-          ]
-        },
-        "counter": {
-          "temp": 1,
-          "comp": [
-            {
-              "arm": "n",
-              "nb": 1
-            }
-          ]
-        }
-      },
-      "comment": "Create a barrier after the Special Attack.<br>[Barrier] Reduce kinetic damage by 74.5% (?)."
-    },
+    {"base":{"name":"Special Perche","id":607,"ap":153,"hp":348112,"prod":-1990,"res":100,"mov":5.83},"arms":{"n":{"name":["Legion Gun"],"dmg":1768},"s":{"name":["Achilles Pulse"],"dmg":2801}},"attacks":{"near":{"comp":[{"arm":"n","nb":16}]},"spe":{"comp":[{"arm":"s","nb":36}]},"counter":{"comp":[{"arm":"s","nb":23}]}},"comment":"[Special] Create a barrier that last 10 seconds.<br>[Barrier] Reduce kinetic damage by 99%."},
 
     {
       "base": {
@@ -1138,61 +789,7 @@
       }
     },
 
-    {
-      "base": {
-        "name": "Golden Turtle",
-        "id": 616,
-        "ap": 640,
-        "hp": 1204546,
-        "prod": -2755,
-        "res": 603,
-        "mov": 3.95
-      },
-      "arms": {
-        "n": {
-          "name": ["Squish"],
-          "dmg": 21452
-        },
-        "f": {
-          "name": ["Missile"],
-          "dmg": 5042
-        },
-        "s": {
-          "name": ["Stone"],
-          "dmg": 39606
-        }
-      },
-      "attacks": {
-        "near": {
-          "temp": 1,
-          "comp": [
-            {
-              "arm": "n",
-              "nb": 1
-            }
-          ]
-        },
-        "far": {
-          "temp": 1,
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 1
-            }
-          ]
-        },
-        "spe": {
-          "temp": 1,
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 1
-            }
-          ]
-        }
-      },
-      "comment": "[Recovery] 356,545 HP every 5 seconds."
-    },
+    {"base":{"name":"Golden Turtle","id":616,"ap":640,"hp":1204546,"prod":-2755,"res":603,"mov":3.95},"arms":{"n":{"name":["Squish"],"dmg":21452},"f":{"name":["Missile"],"dmg":5042},"s":{"name":["Stone"],"dmg":39606}},"attacks":{"near":{"comp":[{"arm":"n","nb":3}]},"far":{"comp":[{"arm":"f","nb":24}]},"spe":{"comp":[{"arm":"s","nb":16}]}},"comment":"[Recovery] 356,545 HP every 5 seconds."},
 
     {
       "base": {
@@ -1934,7 +1531,7 @@
 
     {"base":{"name":"Special Black","id":632,"ap":161,"hp":392544,"prod":-1605,"res":154,"mov":5.42},"arms":{"n":{"name":[""],"dmg":442},"s":{"name":[""],"dmg":1752}},"attacks":{"near":{"comp":[{"arm":"n","nb":19}]},"spe":{"comp":[{"arm":"s","nb":146}]}},"comment":"Evade: 34.5%"},
 
-    {"base":{"name":"Golden Fortress","id":633,"ap":400,"hp":472510,"prod":-2555,"res":203,"mov":4.95},"arms":{"n":{"name":[""],"dmg":10577},"f":{"name":[""],"dmg":10577},"s":{"name":[""],"dmg":19357}},"attacks":{"near":{"comp":[{"arm":"n","nb":12}],"abilities":{"crit":74.5}},"far":{"comp":[{"arm":"f","nb":12}],"abilities":{"crit":74.5}},"spe":{"comp":[{"arm":"s","nb":20}],"abilities":{"crit":74.5}}},"comment":"[Special] Generate a shield if there is none or performs the Special Attack."},
+    {"base":{"name":"Golden Fortress","id":633,"ap":400,"hp":472510,"prod":-2555,"res":203,"mov":4.95},"arms":{"n":{"name":[""],"dmg":10577},"f":{"name":[""],"dmg":10577},"s":{"name":[""],"dmg":19357}},"attacks":{"near":{"comp":[{"arm":"n","nb":12}],"abilities":{"crit":74.5}},"far":{"comp":[{"arm":"f","nb":12}],"abilities":{"crit":74.5}},"spe":{"comp":[{"arm":"s","nb":20}],"abilities":{"crit":74.5}}},"comment":"[Special] Generate a shield if there is none or performs the Special Attack.<br>[Shield] 472,510 HP with normal resistance from any attack."},
 
     {"base":{"name":"Golden Rosa","id":634,"ap":153,"hp":233351,"prod":-1145,"res":100,"mov":5.60},"arms":{"n":{"name":[""],"dmg":10210},"s":{"name":[""],"dmg":21321},"y":{"name":[""],"dmg":77941}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":7},{"arm":"s","nb":16,"coef":0.3}]},"final":{"comp":[{"arm":"y","nb":1}]}},"comment":"[Recovery] 11,550 HP every 5 seconds."},
 
@@ -2004,15 +1601,22 @@
         "s":{
           "name":[""],
           "dmg":6625
+        },
+        "x":{
+          "name":[""],
+          "dmg":865
         }
       },
       "attacks":{
         "spe":{
-          "temp":1,
           "comp":[
             {
+              "arm":"x",
+              "nb":35
+            },
+            {
               "arm":"s",
-              "nb":1
+              "nb":10
             }
           ],
         "abilities":{
@@ -2020,7 +1624,7 @@
           }
         }
       },
-      "comment":"[Standing] Wheeling can block projectiles.<br>[Special] Thrown moto can block projectiles. Heal ? HP."
+      "comment":"Special Force on bike and on foot share the same HP.<br><br>[Standing] Wheeling can block projectiles.<br>[Special] Thrown moto can block projectiles.<br>[Base return] restore the bike and heal 100% HP."
     },
 
     {
@@ -2063,10 +1667,70 @@
           }
         }
       },
-      "comment":""
+      "comment":"[Far] Heal 912 HP per hit (up to 21,888 HP)."
     },
 
-    {"base":{"name":"Vatn Ver. Crimson","id":638,"ap":352,"hp":364572,"prod":-2120,"res":88,"mov":5.30},"arms":{"n":{"name":[""],"dmg":2952},"f":{"name":["Bat Edge"],"dmg":14209},"s":{"name":[""],"dmg":3033}},"attacks":{"near":{"comp":[{"arm":"n","nb":38}]},"far":{"comp":[{"arm":"f","nb":10}]},"spe":{"comp":[{"arm":"s","nb":33},{"arm":"s","nb":43},{"arm":"s","nb":36}]},"evade":{"comp":[{"arm":"n","nb":38}]}},"comment":"[Special] Demon's Gate can block projectiles."}
+    {"base":{"name":"Vatn Ver. Crimson","id":638,"ap":352,"hp":364572,"prod":-2120,"res":88,"mov":5.30},"arms":{"n":{"name":[""],"dmg":2952},"f":{"name":["Bat Edge"],"dmg":14209},"s":{"name":[""],"dmg":3033}},"attacks":{"near":{"comp":[{"arm":"n","nb":38}]},"far":{"comp":[{"arm":"f","nb":10}]},"spe":{"comp":[{"arm":"s","nb":33},{"arm":"s","nb":43},{"arm":"s","nb":36}]},"evade":{"comp":[{"arm":"n","nb":38}]}},"comment":"[Special] Demon's Gate can block projectiles."},
+
+    {
+      "base":{
+        "name":"10000000Taro",
+        "id":639,
+        "ap":53,
+        "hp":7026,
+        "prod":-580,
+        "res":1,
+        "mov":3.80
+      },
+      "arms":{
+        "n":{
+          "name":[""],
+          "dmg":797
+        },
+        "s":{
+          "name":[""],
+          "dmg":2169
+        }
+      },
+      "attacks":{
+        "near":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"n",
+              "nb":1
+            }
+          ]
+        },
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ]
+        },
+        "evade":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"x",
+              "nb":1
+            }
+          ]
+        }
+      },
+      "comment":"Production at the frontline.<br>Evade: 34.5%"
+    },
+
+    {"base":{"name":"Achetto","id":640,"ap":288,"hp":586409,"prod":-1825,"res":112,"mov":3.80},"arms":{"n":{"name":[""],"dmg":26355},"f":{"name":[""],"dmg":26520},"s":{"name":[""],"dmg":60959}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"far":{"comp":[{"arm":"f","nb":5}]},"spe":{"comp":[{"arm":"s","nb":5}]},"counter":{"comp":[{"arm":"f","nb":5}]}}},
+
+    {"base":{"name":"Special Anastasia IV","id":641,"ap":272,"hp":261375,"prod":-1895,"res":100,"mov":4.04},"arms":{"f":{"name":[""],"dmg":621},"s":{"name":[""],"dmg":83751}},"attacks":{"far":{"comp":[{"arm":"f","nb":150}]},"spe":{"comp":[{"arm":"s","nb":3}],"abilities":{"kb":34.5}}},"comment":"[Special] Walls can block projectiles."},
+
+    {"base":{"name":"Cyclobster","id":642,"ap":512,"hp":506584,"prod":-2690,"res":127,"mov":4.15},"arms":{"f":{"name":[""],"dmg":23550},"s":{"name":[""],"dmg":42388}},"attacks":{"far":{"comp":[{"arm":"f","nb":6}],"abilities":{"stun":34.5}},"spe":{"comp":[{"arm":"s","nb":19}],"abilities":{"stun":34.5}}}},
+
+    {"base":{"name":"Sky Jellyfish","id":643,"ap":102,"hp":52435,"prod":-1735,"res":100,"mov":3.52},"arms":{"f":{"name":[""],"dmg":1756},"s":{"name":[""],"dmg":2473},"y":{"name":[""],"dmg":3445}},"attacks":{"far":{"comp":[{"arm":"f","nb":12}],"abilities":{"stun":34.5}},"spe":{"comp":[{"arm":"s","nb":126}],"abilities":{"stun":34.5}},"final":{"comp":[{"arm":"y","nb":36}],"abilities":{"stun":34.5}}}}
 
   ]
 }
