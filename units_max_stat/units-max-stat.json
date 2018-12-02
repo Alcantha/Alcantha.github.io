@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2018-11-28",
+  "lastUpdate": "2018-12-02",
   "units": [
     {
       "base": {
@@ -1236,162 +1236,11 @@
       }
     },
 
-    {
-      "base": {
-        "name": "Land Blowfish",
-        "id": 625,
-        "ap": 496,
-        "hp": 661282,
-        "prod": -2950,
-        "res": 300,
-        "mov": 2.40
-      },
-      "arms": {
-        "f": {
-          "name": ["Girida-O's rush"],
-          "dmg": 37925
-        },
-        "s": {
-          "name": ["Full Power Bomb Raid"],
-          "dmg": 16759
-        }
-      },
-      "attacks": {
-        "far": {
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 1
-            }
-          ],
-          "abilities": {
-            "crit": 74.5
-          }
-        },
-        "spe": {
-          "temp": 1,
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 20
-            }
-          ],
-          "abilities": {
-            "crit": 74.5
-          }
-        }
-      },
-      "comment": "[Far] Spawn a Girida-O Ver. P.M.+, Black Hound Type-R and Bradley Ver. Rebellion"
-    },
+    {"base":{"name":"Land Blowfish","id":625,"ap":496,"hp":661282,"prod":-2950,"res":300,"mov":2.40},"arms":{"f":{"name":["Girida-O's Rush"],"dmg":37925},"s":{"name":["Bomb","Missile"],"dmg":16759}},"attacks":{"far":{"comp":[{"arm":"f","nb":1}],"abilities":{"crit":74.5}},"spe":{"comp":[{"arm":"s","nb":16},{"arm":"s","nb":2,"coef":2}],"abilities":{"crit":74.5}}},"comment":"[Far] Spawn a Girida-O Ver. P.M.+, Black Hound Type-R and Bradley Ver. Rebellion"},
 
-    {
-      "base": {
-        "name": "Shielded Guerrilla (Captain)",
-        "id": 626,
-        "ap": 110,
-        "hp": 78500,
-        "prod": -1555,
-        "res": 1,
-        "mov": 3.00
-      },
-      "arms": {
-        "n": {
-          "name": ["Sword"],
-          "dmg": 11524
-        },
-        "s": {
-          "name": ["Shield Bash"],
-          "dmg": 18074
-        }
-      },
-      "attacks": {
-        "near": {
-          "comp": [
-            {
-              "arm": "n",
-              "nb": 1
-            }
-          ]
-        },
-        "spe": {
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 1
-            }
-          ]
-        },
-        "counter": {
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 1
-            }
-          ]
-        }
-      },
-      "comment": "Evasion: 34.5%"
-    },
+    {"base":{"name":"Shielded Guerrilla (Captain)","id":626,"ap":110,"hp":78500,"prod":-1555,"res":1,"mov":3.00},"arms":{"n":{"name":["Sword"],"dmg":11524},"s":{"name":["Shield Bash"],"dmg":18074}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":1}]},"counter":{"comp":[{"arm":"s","nb":1}]}},"comment":"Evasion: 34.5%"},
 
-    {
-      "base": {
-        "name": "Abigail (Subjugation Tactics)",
-        "id": 627,
-        "ap": 360,
-        "hp": 176245,
-        "prod": -2320,
-        "res": 120,
-        "mov": 3.80
-      },
-      "arms": {
-        "n": {
-          "name": ["NAME"],
-          "dmg": 15752
-        },
-        "f": {
-          "name": ["Riddle Cube"],
-          "dmg": 1917
-        },
-        "s": {
-          "name": ["Shining Sword"],
-          "dmg": 7210
-        }
-      },
-      "attacks": {
-        "near": {
-          "comp": [
-            {
-              "arm": "n",
-              "nb": 33
-            }
-          ]
-        },
-        "far": {
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 18
-            }
-          ]
-        },
-        "spe": {
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 36
-            }
-          ]
-        },
-        "evade": {
-          "comp": [
-            {
-              "arm": "n",
-              "nb": 33
-            }
-          ]
-        }
-      }
-    },
+    {"base":{"name":"Abigail (Subjugation Tactics)","id":627,"ap":360,"hp":176245,"prod":-2320,"res":120,"mov":3.80},"arms":{"n":{"name":["Laser Barrier"],"dmg":15752},"f":{"name":["Laser"],"dmg":1917},"s":{"name":["Laser"],"dmg":7210}},"attacks":{"near":{"comp":[{"arm":"n","nb":33}]},"far":{"comp":[{"arm":"f","nb":18}]},"spe":{"comp":[{"arm":"s","nb":36}]},"evade":{"comp":[{"arm":"n","nb":33}]}}},
 
     {
       "base": {
@@ -1434,54 +1283,8 @@
       }
     },
 
-    {
-      "base": {
-        "name": "Clone Tarma (Zombie)",
-        "id": 629,
-        "ap": 136,
-        "hp": 131659,
-        "prod": -1045,
-        "res": 37,
-        "mov": 2.62
-      },
-      "arms": {
-        "f": {
-          "name": ["Handgun"],
-          "dmg": 2823
-        },
-        "s": {
-          "name": ["Vomit Laser"],
-          "dmg": 13360
-        }
-      },
-      "attacks": {
-        "far": {
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 1
-            }
-          ]
-        },
-        "spe": {
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 18
-            }
-          ]
-        },
-        "counter": {
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 18
-            }
-          ]
-        }
-      },
-      "comment": "[Revive] 71,227 HP."
-    },
+    {"base":{"name":"Clone Tarma (Zombie)","id":629,"ap":136,"hp":131659,"prod":-1045,"res":37,"mov":2.62},"arms":{"f":{"name":["Bullet"],"dmg":2823},"s":{"name":["Vomit Laser"],"dmg":13360}},"attacks":{"far":{"comp":[{"arm":"f","nb":1}]},"spe":{"comp":[{"arm":"s","nb":18}]},"counter":{"comp":[{"arm":"s","nb":18}]}},"comment":"[Revive] 71,227 HP."},
+
     {
       "base": {
         "name": "Mars People Officer (Coo)",
@@ -1494,11 +1297,11 @@
       },
       "arms": {
         "f": {
-          "name": ["Ray Gun"],
+          "name": ["Ray"],
           "dmg": 7942
         },
         "s": {
-          "name": ["Rootmars: Light Shell"],
+          "name": ["Light Shell"],
           "dmg": 3295
         }
       },
@@ -1527,105 +1330,17 @@
       "comment": "[Special] Light Shell can block projectile up to ? damages."
     },
 
-    {"base":{"name":"Bonny","id":631,"ap":352,"hp":166782,"prod":-2385,"res":63,"mov":6.60},"arms":{"f":{"name":[""],"dmg":12124},"s":{"name":[""],"dmg":1906}},"attacks":{"far":{"comp":[{"arm":"f","nb":4}]},"spe":{"temp":1,"comp":[{"arm":"f","nb":12},{"arm":"s","nb":1}]},"evade":{"comp":[{"arm":"f","nb":3}]}},"comment":"Evade: 34.5%"},
+    {"base":{"name":"Bonny","id":631,"ap":352,"hp":166782,"prod":-2385,"res":63,"mov":6.60},"arms":{"f":{"name":["Ray"],"dmg":12124},"s":{"name":["Ray Ball"],"dmg":1906}},"attacks":{"far":{"comp":[{"arm":"f","nb":4}]},"spe":{"temp":1,"comp":[{"arm":"f","nb":12},{"arm":"s","nb":1}]},"evade":{"comp":[{"arm":"f","nb":3}]}},"comment":"Evade: 34.5%"},
 
-    {"base":{"name":"Special Black","id":632,"ap":161,"hp":392544,"prod":-1605,"res":154,"mov":5.42},"arms":{"n":{"name":[""],"dmg":442},"s":{"name":[""],"dmg":1752}},"attacks":{"near":{"comp":[{"arm":"n","nb":19}]},"spe":{"comp":[{"arm":"s","nb":146}]}},"comment":"Evade: 34.5%"},
+    {"base":{"name":"Special Black","id":632,"ap":161,"hp":392544,"prod":-1605,"res":154,"mov":5.42},"arms":{"n":{"name":["Beam Saw"],"dmg":442},"s":{"name":["Beam Saw"],"dmg":1752}},"attacks":{"near":{"comp":[{"arm":"n","nb":19}]},"spe":{"comp":[{"arm":"s","nb":146}]},"evade":{"comp":[{"arm":"n","nb":19}]}},"comment":"Evade: 34.5%"},
 
-    {"base":{"name":"Golden Fortress","id":633,"ap":400,"hp":472510,"prod":-2555,"res":203,"mov":4.95},"arms":{"n":{"name":[""],"dmg":10577},"f":{"name":[""],"dmg":10577},"s":{"name":[""],"dmg":19357}},"attacks":{"near":{"comp":[{"arm":"n","nb":12}],"abilities":{"crit":74.5}},"far":{"comp":[{"arm":"f","nb":12}],"abilities":{"crit":74.5}},"spe":{"comp":[{"arm":"s","nb":20}],"abilities":{"crit":74.5}}},"comment":"[Special] Generate a shield if there is none or performs the Special Attack.<br>[Shield] 472,510 HP with normal resistance from any attack."},
+    {"base":{"name":"Golden Fortress","id":633,"ap":400,"hp":472510,"prod":-2555,"res":203,"mov":4.95},"arms":{"n":{"name":["Fireball"],"dmg":10577},"f":{"name":["Fireball"],"dmg":10577},"s":{"name":["Missile"],"dmg":19357}},"attacks":{"near":{"comp":[{"arm":"n","nb":12}],"abilities":{"crit":74.5}},"far":{"comp":[{"arm":"f","nb":12}],"abilities":{"crit":74.5}},"spe":{"comp":[{"arm":"s","nb":20}],"abilities":{"crit":74.5}}},"comment":"[Special] Generate a shield if there is none or performs the Special Attack.<br>[Shield] 472,510 HP with normal resistance from any attack."},
 
-    {"base":{"name":"Golden Rosa","id":634,"ap":153,"hp":233351,"prod":-1145,"res":100,"mov":5.60},"arms":{"n":{"name":[""],"dmg":10210},"s":{"name":[""],"dmg":21321},"y":{"name":[""],"dmg":77941}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":7},{"arm":"s","nb":16,"coef":0.3}]},"final":{"comp":[{"arm":"y","nb":1}]}},"comment":"[Recovery] 11,550 HP every 5 seconds."},
+    {"base":{"name":"Golden Rosa","id":634,"ap":153,"hp":233351,"prod":-1145,"res":100,"mov":5.60},"arms":{"n":{"name":["Slash"],"dmg":10210},"s":{"name":["Claw"],"dmg":21321},"y":{"name":["Explosion"],"dmg":77941}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":7},{"arm":"s","nb":16,"coef":0.3}]},"final":{"comp":[{"arm":"y","nb":1}]}},"comment":"[Recovery] 11,550 HP every 5 seconds."},
 
-    {
-      "base":{
-        "name":"Sky Jupiter Queen (P.M.)",
-        "id":635,
-        "ap":520,
-        "hp":316050,
-        "prod":-2170,
-        "res":"--",
-        "mov":3.00
-      },
-      "arms":{
-        "f":{
-          "name":[""],
-          "dmg":72078
-        },
-        "s":{
-          "name":[""],
-          "dmg":3347
-        },
-        "x":{
-          "name":[""],
-          "dmg":8659
-        }
-      },
-      "attacks":{
-        "far":{
-          "comp":[
-            {
-              "arm":"f",
-              "nb":1
-            },
-            {
-              "arm":"x",
-              "nb":26
-            }
-          ]
-        },
-        "spe":{
-          "comp":[
-            {
-              "arm":"s",
-              "nb":64
-            }
-          ],
-        "abilities":{
-            "stun":34.5
-          }
-        }
-      },
-      "comment":""
-    },
+    {"base":{"name":"Sky Jupiter Queen (P.M.)","id":635,"ap":520,"hp":316050,"prod":-2170,"res":"--","mov":3.00},"arms":{"f":{"name":["Missile"],"dmg":72078},"s":{"name":["Laser"],"dmg":3347},"x":{"name":["Fireball"],"dmg":8659}},"attacks":{"far":{"comp":[{"arm":"f","nb":1},{"arm":"x","nb":26}]},"spe":{"comp":[{"arm":"s","nb":64}],"abilities":{"stun":34.5}}}},
 
-    {
-      "base":{
-        "name":"Special Force (Custom Bike)",
-        "id":636,
-        "ap":170,
-        "hp":71037,
-        "prod":-1550,
-        "res":"--",
-        "mov":5.27
-      },
-      "arms":{
-        "s":{
-          "name":[""],
-          "dmg":6625
-        },
-        "x":{
-          "name":[""],
-          "dmg":865
-        }
-      },
-      "attacks":{
-        "spe":{
-          "comp":[
-            {
-              "arm":"x",
-              "nb":35
-            },
-            {
-              "arm":"s",
-              "nb":10
-            }
-          ],
-        "abilities":{
-            "kb":34.5
-          }
-        }
-      },
-      "comment":"Special Force on bike and on foot share the same HP.<br><br>[Standing] Wheeling can block projectiles.<br>[Special] Thrown moto can block projectiles.<br>[Base return] restore the bike and heal 100% HP."
-    },
+    {"base":{"name":"Special Force (Custom Bike)","id":636,"ap":170,"hp":71037,"prod":-1550,"res":"--","mov":5.27},"arms":{"s":{"name":["Rush"],"dmg":6625},"x":{"name":["Bomb"],"dmg":865}},"attacks":{"spe":{"comp":[{"arm":"x","nb":35},{"arm":"s","nb":10}],"abilities":{"kb":34.5}}},"comment":"Special Force on bike and on foot share the same HP.<br><br>[Standing] Wheeling can block projectiles.<br>[Special] Thrown moto can block projectiles.<br>[Base return] restore the bike and heal 100% HP."},
 
     {
       "base":{
@@ -1639,15 +1354,15 @@
       },
       "arms":{
         "n":{
-          "name":[""],
+          "name":["Bat"],
           "dmg":10486
         },
         "f":{
-          "name":[""],
+          "name":["Blood Col"],
           "dmg":1825
         },
         "s":{
-          "name":[""],
+          "name":["Blood Rain"],
           "dmg":2278
         }
       },
@@ -1670,67 +1385,133 @@
       "comment":"[Far] Heal 912 HP per hit (up to 21,888 HP)."
     },
 
-    {"base":{"name":"Vatn Ver. Crimson","id":638,"ap":352,"hp":364572,"prod":-2120,"res":88,"mov":5.30},"arms":{"n":{"name":[""],"dmg":2952},"f":{"name":["Bat Edge"],"dmg":14209},"s":{"name":[""],"dmg":3033}},"attacks":{"near":{"comp":[{"arm":"n","nb":38}]},"far":{"comp":[{"arm":"f","nb":10}]},"spe":{"comp":[{"arm":"s","nb":33},{"arm":"s","nb":43},{"arm":"s","nb":36}]},"evade":{"comp":[{"arm":"n","nb":38}]}},"comment":"[Special] Demon's Gate can block projectiles."},
+    {"base":{"name":"Vatn Ver. Crimson","id":638,"ap":352,"hp":364572,"prod":-2120,"res":88,"mov":5.30},"arms":{"n":{"name":[""],"dmg":2952},"f":{"name":["Bat Edge"],"dmg":14209},"s":{"name":["Demon's Gate"],"dmg":3033}},"attacks":{"near":{"comp":[{"arm":"n","nb":38}]},"far":{"comp":[{"arm":"f","nb":10}]},"spe":{"comp":[{"arm":"s","nb":33},{"arm":"s","nb":43},{"arm":"s","nb":36}]},"evade":{"comp":[{"arm":"n","nb":38}]}},"comment":"[Special] Demon's Gate can block projectiles."},
+
+    {"base":{"name":"10000000Taro","id":639,"ap":53,"hp":7026,"prod":-580,"res":1,"mov":3.80},"arms":{"n":{"name":["Energy Ball"],"dmg":797},"s":{"name":["Energy Ball"],"dmg":1135},"x":{"name":["Kick"],"dmg":5124}},"attacks":{"near":{"comp":[{"arm":"n","nb":11}]},"spe":{"comp":[{"arm":"s","nb":35}]},"evade":{"comp":[{"arm":"x","nb":1}]}},"comment":"Production at the frontline.<br>Evade: 34.5%"},
+
+    {"base":{"name":"Achetto","id":640,"ap":288,"hp":586409,"prod":-1825,"res":112,"mov":3.80},"arms":{"n":{"name":["Axe"],"dmg":26355},"f":{"name":["Axe"],"dmg":26520},"s":{"name":["Rolling Axe"],"dmg":60959}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"far":{"comp":[{"arm":"f","nb":5}]},"spe":{"comp":[{"arm":"s","nb":5}]},"counter":{"comp":[{"arm":"f","nb":5}]}}},
+
+    {"base":{"name":"Special Anastasia IV","id":641,"ap":272,"hp":261375,"prod":-1895,"res":100,"mov":4.04},"arms":{"f":{"name":["ULYANA's Staff", "Light Gun"],"dmg":621},"s":{"name":["Wall"],"dmg":83751}},"attacks":{"far":{"comp":[{"arm":"f","nb":150}]},"spe":{"comp":[{"arm":"s","nb":3}],"abilities":{"kb":34.5}}},"comment":"[Special] Walls can block projectiles."},
+
+    {"base":{"name":"Cyclobster","id":642,"ap":512,"hp":506584,"prod":-2690,"res":127,"mov":4.15},"arms":{"f":{"name":["Stabs"],"dmg":23550},"s":{"name":["Stabs"],"dmg":42388}},"attacks":{"far":{"comp":[{"arm":"f","nb":6}],"abilities":{"stun":34.5}},"spe":{"comp":[{"arm":"s","nb":19}],"abilities":{"stun":34.5}}}},
+
+    {"base":{"name":"Sky Jellyfish","id":643,"ap":102,"hp":52435,"prod":-1735,"res":100,"mov":3.52},"arms":{"f":{"name":["Zapping Discharge"],"dmg":1756},"s":{"name":["Jelly Bomb"],"dmg":2473},"y":{"name":["Jelly Bomb"],"dmg":3445}},"attacks":{"far":{"comp":[{"arm":"f","nb":12}],"abilities":{"stun":34.5}},"spe":{"comp":[{"arm":"s","nb":126}],"abilities":{"stun":34.5}},"final":{"comp":[{"arm":"y","nb":36}],"abilities":{"stun":34.5}}}},
 
     {
       "base":{
-        "name":"10000000Taro",
-        "id":639,
-        "ap":53,
-        "hp":7026,
-        "prod":-580,
-        "res":1,
-        "mov":3.80
+        "name":"Donkey Slug (Fio)",
+        "id":644,
+        "ap":102,
+        "hp":252367,
+        "prod":-1100,
+        "res":45,
+        "mov":3.90
       },
       "arms":{
-        "n":{
-          "name":[""],
-          "dmg":797
+        "f":{
+          "name":["Vulcan"],
+          "dmg":2011
         },
         "s":{
+          "name":["Cannon"],
+          "dmg":12912
+        },
+        "y":{
           "name":[""],
-          "dmg":2169
+          "dmg":1
         }
       },
       "attacks":{
-        "near":{
-          "temp":1,
+        "far":{
           "comp":[
             {
-              "arm":"n",
-              "nb":1
+              "arm":"f",
+              "nb":24
             }
           ]
         },
         "spe":{
-          "temp":1,
           "comp":[
             {
               "arm":"s",
-              "nb":1
+              "nb":4
+            },
+            {
+              "arm":"f",
+              "nb":33
             }
           ]
         },
-        "evade":{
+        "final":{
           "temp":1,
           "comp":[
             {
-              "arm":"x",
+              "arm":"y",
               "nb":1
             }
           ]
         }
       },
-      "comment":"Production at the frontline.<br>Evade: 34.5%"
+      "comment":"[Counter] Drop 1 HMG and 2 Bombs."
     },
 
-    {"base":{"name":"Achetto","id":640,"ap":288,"hp":586409,"prod":-1825,"res":112,"mov":3.80},"arms":{"n":{"name":[""],"dmg":26355},"f":{"name":[""],"dmg":26520},"s":{"name":[""],"dmg":60959}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"far":{"comp":[{"arm":"f","nb":5}]},"spe":{"comp":[{"arm":"s","nb":5}]},"counter":{"comp":[{"arm":"f","nb":5}]}}},
+    {"base":{"name":"Ralf's Augensterm","id":645,"ap":480,"hp":618935,"prod":-2115,"res":50,"mov":3.30},"arms":{"n":{"name":["Wire"],"dmg":17496},"f":{"name":["Fire"],"dmg":5766},"s":{"name":["Fire"],"dmg":5375}},"attacks":{"near":{"comp":[{"arm":"n","nb":2}]},"far":{"comp":[{"arm":"f","nb":14}]},"spe":{"comp":[{"arm":"s","nb":34}]},"counter":{"comp":[{"arm":"f","nb":14}]}}},
 
-    {"base":{"name":"Special Anastasia IV","id":641,"ap":272,"hp":261375,"prod":-1895,"res":100,"mov":4.04},"arms":{"f":{"name":[""],"dmg":621},"s":{"name":[""],"dmg":83751}},"attacks":{"far":{"comp":[{"arm":"f","nb":150}]},"spe":{"comp":[{"arm":"s","nb":3}],"abilities":{"kb":34.5}}},"comment":"[Special] Walls can block projectiles."},
+    {
+      "base":{
+        "name":"Dolores",
+        "id":646,
+        "ap":448,
+        "hp":564979,
+        "prod":-2170,
+        "res":320,
+        "mov":4.20
+      },
+      "arms":{
+        "f":{
+          "name":["Iceberg"],
+          "dmg":27467
+        },
+        "s":{
+          "name":["Ice Wind"],
+          "dmg":2310
+        },
+        "x":{
+          "name":["Ice Flower"],
+          "dmg":23381
+        }
+      },
+      "attacks":{
+        "far":{
+          "comp":[
+            {
+              "arm":"f",
+              "nb":1
+            }
+          ],
+        "abilities":{
+            "stun":34.5
+          }
+        },
+        "spe":{
+          "comp":[
+            {
+              "arm":"s",
+              "nb":28
+            },
+            {
+              "arm":"x",
+              "nb":10
+            }
+          ],
+        "abilities":{
+            "stun":34.5
+          }
+        }
+      }
+    },
 
-    {"base":{"name":"Cyclobster","id":642,"ap":512,"hp":506584,"prod":-2690,"res":127,"mov":4.15},"arms":{"f":{"name":[""],"dmg":23550},"s":{"name":[""],"dmg":42388}},"attacks":{"far":{"comp":[{"arm":"f","nb":6}],"abilities":{"stun":34.5}},"spe":{"comp":[{"arm":"s","nb":19}],"abilities":{"stun":34.5}}}},
-
-    {"base":{"name":"Sky Jellyfish","id":643,"ap":102,"hp":52435,"prod":-1735,"res":100,"mov":3.52},"arms":{"f":{"name":[""],"dmg":1756},"s":{"name":[""],"dmg":2473},"y":{"name":[""],"dmg":3445}},"attacks":{"far":{"comp":[{"arm":"f","nb":12}],"abilities":{"stun":34.5}},"spe":{"comp":[{"arm":"s","nb":126}],"abilities":{"stun":34.5}},"final":{"comp":[{"arm":"y","nb":36}],"abilities":{"stun":34.5}}}}
+    {"base":{"name":"Special Julia","id":647,"ap":136,"hp":354334,"prod":-1805,"res":254,"mov":5.42},"arms":{"n":{"name":["Knife"],"dmg":7645},"f":{"name":["Bullet"],"dmg":2397},"s":{"name":["Blade Grenade"],"dmg":9818}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"far":{"comp":[{"arm":"f","nb":24}]},"spe":{"comp":[{"arm":"s","nb":16}]},"air":{"comp":[{"arm":"f","nb":36}]}},"comment":"[Assist] Rebel: +17.25% ATK"}
 
   ]
 }
