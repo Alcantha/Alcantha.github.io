@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2018-12-02",
+  "lastUpdate": "2018-12-05",
   "units": [
     {
       "base": {
@@ -1397,119 +1397,11 @@
 
     {"base":{"name":"Sky Jellyfish","id":643,"ap":102,"hp":52435,"prod":-1735,"res":100,"mov":3.52},"arms":{"f":{"name":["Zapping Discharge"],"dmg":1756},"s":{"name":["Jelly Bomb"],"dmg":2473},"y":{"name":["Jelly Bomb"],"dmg":3445}},"attacks":{"far":{"comp":[{"arm":"f","nb":12}],"abilities":{"stun":34.5}},"spe":{"comp":[{"arm":"s","nb":126}],"abilities":{"stun":34.5}},"final":{"comp":[{"arm":"y","nb":36}],"abilities":{"stun":34.5}}}},
 
-    {
-      "base":{
-        "name":"Donkey Slug (Fio)",
-        "id":644,
-        "ap":102,
-        "hp":252367,
-        "prod":-1100,
-        "res":45,
-        "mov":3.90
-      },
-      "arms":{
-        "f":{
-          "name":["Vulcan"],
-          "dmg":2011
-        },
-        "s":{
-          "name":["Cannon"],
-          "dmg":12912
-        },
-        "y":{
-          "name":[""],
-          "dmg":1
-        }
-      },
-      "attacks":{
-        "far":{
-          "comp":[
-            {
-              "arm":"f",
-              "nb":24
-            }
-          ]
-        },
-        "spe":{
-          "comp":[
-            {
-              "arm":"s",
-              "nb":4
-            },
-            {
-              "arm":"f",
-              "nb":33
-            }
-          ]
-        },
-        "final":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"y",
-              "nb":1
-            }
-          ]
-        }
-      },
-      "comment":"[Counter] Drop 1 HMG and 2 Bombs."
-    },
+    {"base":{"name":"Donkey Slug (Fio)","id":644,"ap":102,"hp":252367,"prod":-1100,"res":45,"mov":3.90},"arms":{"f":{"name":["Vulcan"],"dmg":2011},"s":{"name":["Cannon"],"dmg":12912}},"attacks":{"far":{"comp":[{"arm":"f","nb":24}]},"spe":{"comp":[{"arm":"s","nb":4},{"arm":"f","nb":33}]}},"comment":"[Counter] Drop 1 HMG and 2 Bombs.<br>[Final] Drop 4 HMG and 5 Bombs."},
 
     {"base":{"name":"Ralf's Augensterm","id":645,"ap":480,"hp":618935,"prod":-2115,"res":50,"mov":3.30},"arms":{"n":{"name":["Wire"],"dmg":17496},"f":{"name":["Fire"],"dmg":5766},"s":{"name":["Fire"],"dmg":5375}},"attacks":{"near":{"comp":[{"arm":"n","nb":2}]},"far":{"comp":[{"arm":"f","nb":14}]},"spe":{"comp":[{"arm":"s","nb":34}]},"counter":{"comp":[{"arm":"f","nb":14}]}}},
 
-    {
-      "base":{
-        "name":"Dolores",
-        "id":646,
-        "ap":448,
-        "hp":564979,
-        "prod":-2170,
-        "res":320,
-        "mov":4.20
-      },
-      "arms":{
-        "f":{
-          "name":["Iceberg"],
-          "dmg":27467
-        },
-        "s":{
-          "name":["Ice Wind"],
-          "dmg":2310
-        },
-        "x":{
-          "name":["Ice Flower"],
-          "dmg":23381
-        }
-      },
-      "attacks":{
-        "far":{
-          "comp":[
-            {
-              "arm":"f",
-              "nb":1
-            }
-          ],
-        "abilities":{
-            "stun":34.5
-          }
-        },
-        "spe":{
-          "comp":[
-            {
-              "arm":"s",
-              "nb":28
-            },
-            {
-              "arm":"x",
-              "nb":10
-            }
-          ],
-        "abilities":{
-            "stun":34.5
-          }
-        }
-      }
-    },
+    {"base":{"name":"Dolores","id":646,"ap":448,"hp":564979,"prod":-2170,"res":320,"mov":4.20},"arms":{"f":{"name":["Iceberg"],"dmg":27467},"s":{"name":["Ice Wind"],"dmg":2310},"x":{"name":["Ice Flower"],"dmg":23381}},"attacks":{"far":{"comp":[{"arm":"f","nb":1}],"abilities":{"stun":34.5}},"spe":{"comp":[{"arm":"s","nb":28},{"arm":"x","nb":10}],"abilities":{"stun":34.5}}},"comment":"[Attack] turn killed enemies into Snowman or Ice Cube.<br>[Snowman] 21,897 HP<br>[Ice Cube] 37,270 HP"},
 
     {"base":{"name":"Special Julia","id":647,"ap":136,"hp":354334,"prod":-1805,"res":254,"mov":5.42},"arms":{"n":{"name":["Knife"],"dmg":7645},"f":{"name":["Bullet"],"dmg":2397},"s":{"name":["Blade Grenade"],"dmg":9818}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"far":{"comp":[{"arm":"f","nb":24}]},"spe":{"comp":[{"arm":"s","nb":16}]},"air":{"comp":[{"arm":"f","nb":36}]}},"comment":"[Assist] Rebel: +17.25% ATK"}
 
