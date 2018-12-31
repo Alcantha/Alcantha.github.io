@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2018-12-18",
+  "lastUpdate": "2018-12-31",
   "units": [
     {
       "base": {
@@ -1686,28 +1686,378 @@
       "comment":""
     },
 
+    {"base":{"name":"Teleko","id":655,"ap":352,"hp":331240,"prod":-2120,"res":60,"mov":4.80},"arms":{"n":{"name":["Telekinesis"],"dmg":69617},"f":{"name":["Small Meteroid"],"dmg":8997},"s":{"name":["Meteroid"],"dmg":37022},"x":{"name":["Fragment"],"dmg":2597}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}],"abilities":{"kb":34.5}},"far":{"comp":[{"arm":"f","nb":3}],"abilities":{"kb":34.5}},"spe":{"comp":[{"arm":"s","nb":2},{"arm":"x","nb":16}],"abilities":{"kb":34.5}}},"comment":"[Special] Create barrier.<br>[Barrier] Reduces KIN and EXP attacks by 99%."},
+
     {
       "base":{
-        "name":"Teleko",
-        "id":655,
-        "ap":352,
-        "hp":331240,
-        "prod":-2120,
-        "res":60,
-        "mov":4.80
+        "name":"Ball Slug Mk II",
+        "id":656,
+        "ap":288,
+        "hp":652841,
+        "prod":-2255,
+        "res":40,
+        "mov":5.70
       },
       "arms":{
         "n":{
-          "name":["?"],
-          "dmg":69617
-        },
-        "f":{
-          "name":["Small Meteroid"],
-          "dmg":8997
+          "name":[""],
+          "dmg":5356
         },
         "s":{
-          "name":["Meteroid"],
-          "dmg":37022
+          "name":[""],
+          "dmg":11287
+        }
+      },
+      "attacks":{
+        "near":{
+          "comp":[
+            {
+              "arm":"n",
+              "nb":42
+            }
+          ]
+        },
+        "spe":{
+          "comp":[
+            {
+              "arm":"s",
+              "nb":100
+            }
+          ]
+        },
+        "counter":{
+          "comp":[
+            {
+              "arm":"n",
+              "nb":42
+            }
+          ]
+        }
+      },
+      "comment":"[Special] Ball Slug can block projectiles."
+    },
+
+    {
+      "base":{
+        "name":"Standard Drill Slug",
+        "id":657,
+        "ap":195,
+        "hp":174926,
+        "prod":-1870,
+        "res":134,
+        "mov":5.63
+      },
+      "arms":{
+        "f":{
+          "name":["Vulcan"],
+          "dmg":8754
+        },
+        "s":{
+          "name":["Drill"],
+          "dmg":1222
+        }
+      },
+      "attacks":{
+        "far":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"f",
+              "nb":1
+            }
+          ]
+        },
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ]
+        }
+      },
+      "comment":""
+    },
+
+    {
+      "base":{
+        "name":"Incognito Esther",
+        "id":658,
+        "ap":272,
+        "hp":174893,
+        "prod":-2265,
+        "res":65,
+        "mov":3.10
+      },
+      "arms":{
+        "n":{
+          "name":["Knife"],
+          "dmg":9396
+        },
+        "f":{
+          "name":[""],
+          "dmg":8529
+        },
+        "s":{
+          "name":[""],
+          "dmg":6147
+        }
+      },
+      "attacks":{
+        "near":{
+          "comp":[
+            {
+              "arm":"n",
+              "nb":1
+            }
+          ]
+        },
+        "far":{
+          "comp":[
+            {
+              "arm":"s",
+              "nb":5
+            }
+          ]
+        },
+        "spe":{
+          "comp":[
+            {
+              "arm":"s",
+              "nb":29
+            }
+          ],
+          "abilities":{
+            "poison":34.5
+          }
+        }
+      },
+      "comment":""
+    },
+
+    {
+      "base":{
+        "name":"Minerva",
+        "id":659,
+        "ap":160,
+        "hp":287524,
+        "prod":-1705,
+        "res":74,
+        "mov":9.40
+      },
+      "arms":{
+        "f":{
+          "name":[""],
+          "dmg":1122
+        },
+        "s":{
+          "name":[""],
+          "dmg":2746
+        }
+      },
+      "attacks":{
+        "far":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"f",
+              "nb":1
+            }
+          ],
+          "abilities":{
+            "seal":34.5
+          }
+        },
+        "spe":{
+          "comp":[
+            {
+              "arm":"s",
+              "nb":46
+            }
+          ],
+          "abilities":{
+            "seal":34.5
+          }
+        }
+      },
+      "comment":"[Form 2] HP: ? / Near: ? (total: ?, seal: 34.5%) / Special: 52,488 (total: ?, seal: 34.5%)"
+    },
+
+    {
+      "base":{
+        "name":"Romy",
+        "id":660,
+        "ap":400,
+        "hp":705183,
+        "prod":-1870,
+        "res":150,
+        "mov":5.30
+      },
+      "arms":{
+        "f":{
+          "name":[""],
+          "dmg":5816
+        },
+        "s":{
+          "name":[""],
+          "dmg":17431
+        }
+      },
+      "attacks":{
+        "far":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"f",
+              "nb":1
+            }
+          ],
+        "abilities":{
+            "lowRes":1
+          }
+        },
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ],
+        "abilities":{
+            "lowRes":1
+          }
+        }
+      },
+      "comment":""
+    },
+
+    {
+      "base":{
+        "name":"Special Grazia",
+        "id":661,
+        "ap":255,
+        "hp":235927,
+        "prod":-2705,
+        "res":102,
+        "mov":3.00
+      },
+      "arms":{
+        "f":{
+          "name":[""],
+          "dmg":1815
+        },
+        "s":{
+          "name":[""],
+          "dmg":557
+        }
+      },
+      "attacks":{
+        "far":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"f",
+              "nb":1
+            }
+          ],
+        "abilities":{
+            "crit":74.5
+          }
+        },
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ],
+        "abilities":{
+            "crit":74.5
+          }
+        }
+      },
+      "comment":""
+    },
+
+    {
+      "base":{
+        "name":"M-15A Bradley (P.M.)",
+        "id":662,
+        "ap":221,
+        "hp":77395,
+        "prod":-1090,
+        "res":"--",
+        "mov":4.78
+      },
+      "arms":{
+        "n":{
+          "name":[""],
+          "dmg":17606
+        },
+        "f":{
+          "name":[""],
+          "dmg":21070
+        },
+        "s":{
+          "name":[""],
+          "dmg":32364
+        }
+      },
+      "attacks":{
+        "near":{
+          "comp":[
+            {
+              "arm":"n",
+              "nb":1
+            }
+          ]
+        },
+        "far":{
+          "comp":[
+            {
+              "arm":"f",
+              "nb":1
+            }
+          ]
+        },
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ]
+        }
+      },
+      "comment":""
+    },
+
+    {
+      "base":{
+        "name":"Rebel Gigant (P.M.)",
+        "id":663,
+        "ap":640,
+        "hp":445969,
+        "prod":-2250,
+        "res":300,
+        "mov":3.70
+      },
+      "arms":{
+        "n":{
+          "name":[""],
+          "dmg":8348
+        },
+        "f":{
+          "name":[""],
+          "dmg":8348
+        },
+        "s":{
+          "name":[""],
+          "dmg":21955
         }
       },
       "attacks":{
@@ -1746,9 +2096,8 @@
         "abilities":{
             "kb":34.5
           }
-        }
-      },
-      "comment":"[Special] Create barrier.<br>[Barrier] Reduces KIN and EXP attacks by 99%."
+        }      },
+      "comment":""
     }
 
   ]
