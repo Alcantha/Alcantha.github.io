@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2018-12-31",
+  "lastUpdate": "2019-01-12",
   "units": [
     {
       "base": {
@@ -1930,7 +1930,7 @@
           }
         }
       },
-      "comment":""
+      "comment":"[Far] Each cannon shoots every 4 frames."
     },
 
     {
@@ -2098,6 +2098,182 @@
           }
         }      },
       "comment":""
+    },
+
+    {"base":{"name":"Golden Formor","id":664,"ap":187,"hp":279206,"prod":-1355,"res":10,"mov":2.40},"arms":{"n":{"name":["Squashing"],"dmg":26000},"s":{"name":["Fireball"],"dmg":37297},"x":{"name":["Flame"],"dmg":481}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":6},{"arm":"x","nb":192}]},"counter":{"comp":[{"arm":"s","nb":2}]}},"comment":"[Moving/Near/Spe] Caterpillar track can block projectiles."},
+
+    {
+      "base":{
+        "name":"Golden Kraken",
+        "id":665,
+        "ap":576,
+        "hp":472552,
+        "prod":-2620,
+        "res":33,
+        "mov":1.60
+      },
+      "arms":{
+        "n":{
+          "name":["Barrel"],
+          "dmg":15534
+        },
+        "f":{
+          "name":["Satellite"],
+          "dmg":19864
+        },
+        "s":{
+          "name":["Missile"],
+          "dmg":13889
+        }
+      },
+      "attacks":{
+        "near":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"n",
+              "nb":1
+            }
+          ],
+        "abilities":{
+            "crit":74.5
+          }
+        },
+        "far":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"f",
+              "nb":1
+            }
+          ],
+        "abilities":{
+            "crit":74.5
+          }
+        },
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ],
+        "abilities":{
+            "crit":74.5
+          }
+        }
+      },
+      "comment":""
+    },
+
+    {
+      "base":{
+        "name":"Lucy",
+        "id":666,
+        "ap":304,
+        "hp":391496,
+        "prod":-2550,
+        "res":89,
+        "mov":3.00
+      },
+      "arms":{
+        "n":{
+          "name":["Tongue"],
+          "dmg":10404
+        },
+        "s":{
+          "name":["Drill"],
+          "dmg":3655
+        },
+        "x":{
+          "name":["Shockwave"],
+          "dmg":1024
+        }
+      },
+      "attacks":{
+        "near":{
+          "comp":[
+            {
+              "arm":"n",
+              "nb":1
+            }
+          ],
+        "abilities":{
+            "seal":34.5
+          }
+        },
+        "spe":{
+          "comp":[
+            {
+              "arm":"s",
+              "nb":98
+            },
+            {
+              "arm":"x",
+              "nb":10
+            }
+          ],
+        "abilities":{
+            "seal":34.5
+          }
+        },
+        "evade":{
+          "comp":[
+            {
+              "arm":"n",
+              "nb":1
+            }
+          ],
+        "abilities":{
+            "seal":34.5
+          }
+        }
+      },
+      "comment":""
+    },
+
+    {
+      "base":{
+        "name":"Special Owen",
+        "id":667,
+        "ap":306,
+        "hp":434003,
+        "prod":-1995,
+        "res":128,
+        "mov":2.60
+      },
+      "arms":{
+        "n":{
+          "name":["Fist"],
+          "dmg":34734
+        },
+        "s":{
+          "name":["Fist"],
+          "dmg":36468
+        }
+      },
+      "attacks":{
+        "near":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"n",
+              "nb":1
+            }
+          ]
+        },
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ]
+        }
+      },
+      "comment":"[Revive] 859,325 HP"
     }
 
   ]
