@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2019-01-12",
+  "lastUpdate": "2019-01-18",
   "units": [
     {
       "base": {
@@ -1918,11 +1918,10 @@
           }
         },
         "spe":{
-          "temp":1,
           "comp":[
             {
               "arm":"s",
-              "nb":1
+              "nb":30
             }
           ],
         "abilities":{
@@ -1982,59 +1981,7 @@
       "comment":""
     },
 
-    {
-      "base":{
-        "name":"M-15A Bradley (P.M.)",
-        "id":662,
-        "ap":221,
-        "hp":77395,
-        "prod":-1090,
-        "res":"--",
-        "mov":4.78
-      },
-      "arms":{
-        "n":{
-          "name":[""],
-          "dmg":17606
-        },
-        "f":{
-          "name":[""],
-          "dmg":21070
-        },
-        "s":{
-          "name":[""],
-          "dmg":32364
-        }
-      },
-      "attacks":{
-        "near":{
-          "comp":[
-            {
-              "arm":"n",
-              "nb":1
-            }
-          ]
-        },
-        "far":{
-          "comp":[
-            {
-              "arm":"f",
-              "nb":1
-            }
-          ]
-        },
-        "spe":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"s",
-              "nb":1
-            }
-          ]
-        }
-      },
-      "comment":""
-    },
+    {"base":{"name":"M-15A Bradley (P.M.)","id":662,"ap":221,"hp":77395,"prod":-1090,"res":"--","mov":4.78},"arms":{"n":{"name":[""],"dmg":17606},"f":{"name":[""],"dmg":21070},"s":{"name":[""],"dmg":32364}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"far":{"comp":[{"arm":"f","nb":1}]},"spe":{"comp":[{"arm":"s","nb":12}]}},"comment":""},
 
     {
       "base":{
@@ -2100,7 +2047,7 @@
       "comment":""
     },
 
-    {"base":{"name":"Golden Formor","id":664,"ap":187,"hp":279206,"prod":-1355,"res":10,"mov":2.40},"arms":{"n":{"name":["Squashing"],"dmg":26000},"s":{"name":["Fireball"],"dmg":37297},"x":{"name":["Flame"],"dmg":481}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":6},{"arm":"x","nb":192}]},"counter":{"comp":[{"arm":"s","nb":2}]}},"comment":"[Moving/Near/Spe] Caterpillar track can block projectiles."},
+    {"base":{"name":"Golden Formor","id":664,"ap":187,"hp":279206,"prod":-1355,"res":10,"mov":2.40},"arms":{"n":{"name":["Squashing"],"dmg":20692},"s":{"name":["Fireball"],"dmg":31890},"x":{"name":["Flame"],"dmg":481}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":6},{"arm":"x","nb":192}]},"counter":{"comp":[{"arm":"s","nb":2}]}},"comment":"[Moving/Near/Spe] Caterpillar track can block projectiles."},
 
     {
       "base":{
@@ -2124,6 +2071,91 @@
         "s":{
           "name":["Missile"],
           "dmg":13889
+        },
+        "x":{
+          "name":["Flame"],
+          "dmg":865
+        }
+      },
+      "attacks":{
+        "near":{
+          "comp":[
+            {
+              "arm":"n",
+              "nb":5
+            },
+            {
+              "arm":"x",
+              "nb":240
+            }
+          ],
+        "abilities":{
+            "crit":74.5
+          }
+        },
+        "far":{
+          "comp":[
+            {
+              "arm":"f",
+              "nb":8
+            }
+          ],
+        "abilities":{
+            "crit":74.5
+          }
+        },
+        "spe":{
+          "comp":[
+            {
+              "arm":"s",
+              "nb":50
+            }
+          ],
+        "abilities":{
+            "crit":74.5
+          }
+        },
+        "counter":{
+          "comp":[
+            {
+              "arm":"s",
+              "nb":10
+            }
+          ],
+        "abilities":{
+            "crit":74.5
+          }
+        }
+      },
+      "comment":""
+    },
+
+    {"base":{"name":"Lucy","id":666,"ap":304,"hp":391496,"prod":-2550,"res":89,"mov":3.00},"arms":{"n":{"name":["Tongue"],"dmg":10404},"s":{"name":["Drill"],"dmg":3655},"x":{"name":["Shockwave"],"dmg":1024}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}],"abilities":{"seal":34.5}},"spe":{"comp":[{"arm":"s","nb":98},{"arm":"x","nb":10}],"abilities":{"seal":34.5}},"evade":{"comp":[{"arm":"n","nb":1}],"abilities":{"seal":34.5}}},"comment":""},
+
+    {"base":{"name":"Special Owen","id":667,"ap":306,"hp":434003,"prod":-1995,"res":128,"mov":2.60},"arms":{"n":{"name":["Fist"],"dmg":34734},"s":{"name":["Fist"],"dmg":36468}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":5}]}},"comment":"[Revive] 859,325 HP"},
+
+    {
+      "base":{
+        "name":"OneMan Army Ralf",
+        "id":668,
+        "ap":288,
+        "hp":471513,
+        "prod":-2070,
+        "res":50,
+        "mov":5.20
+      },
+      "arms":{
+        "n":{
+          "name":[""],
+          "dmg":2417
+        },
+        "f":{
+          "name":[""],
+          "dmg":1872
+        },
+        "s":{
+          "name":[""],
+          "dmg":3939
         }
       },
       "attacks":{
@@ -2134,10 +2166,7 @@
               "arm":"n",
               "nb":1
             }
-          ],
-        "abilities":{
-            "crit":74.5
-          }
+          ]
         },
         "far":{
           "temp":1,
@@ -2146,10 +2175,7 @@
               "arm":"f",
               "nb":1
             }
-          ],
-        "abilities":{
-            "crit":74.5
-          }
+          ]
         },
         "spe":{
           "temp":1,
@@ -2158,37 +2184,43 @@
               "arm":"s",
               "nb":1
             }
-          ],
-        "abilities":{
-            "crit":74.5
-          }
+          ]
+        },
+        "counter":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"x",
+              "nb":1
+            }
+          ]
         }
       },
-      "comment":""
+      "comment":"[Revive] ? HP / Near: 4,084 / Far: 2,832 / Spe: 5,960"
     },
 
     {
       "base":{
-        "name":"Lucy",
-        "id":666,
-        "ap":304,
-        "hp":391496,
-        "prod":-2550,
-        "res":89,
-        "mov":3.00
+        "name":"Special Reika",
+        "id":669,
+        "ap":204,
+        "hp":158425,
+        "prod":-1830,
+        "res":173,
+        "mov":2.05
       },
       "arms":{
         "n":{
-          "name":["Tongue"],
-          "dmg":10404
+          "name":[""],
+          "dmg":17937
+        },
+        "f":{
+          "name":[""],
+          "dmg":26598
         },
         "s":{
-          "name":["Drill"],
-          "dmg":3655
-        },
-        "x":{
-          "name":["Shockwave"],
-          "dmg":1024
+          "name":[""],
+          "dmg":16384
         }
       },
       "attacks":{
@@ -2198,36 +2230,33 @@
               "arm":"n",
               "nb":1
             }
-          ],
-        "abilities":{
-            "seal":34.5
-          }
+          ]
+        },
+        "far":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"f",
+              "nb":1
+            }
+          ]
         },
         "spe":{
+          "temp":1,
           "comp":[
             {
               "arm":"s",
-              "nb":98
-            },
-            {
-              "arm":"x",
-              "nb":10
+              "nb":1
             }
-          ],
-        "abilities":{
-            "seal":34.5
-          }
+          ]
         },
         "evade":{
           "comp":[
             {
-              "arm":"n",
+              "arm":"s",
               "nb":1
             }
-          ],
-        "abilities":{
-            "seal":34.5
-          }
+          ]
         }
       },
       "comment":""
@@ -2235,45 +2264,99 @@
 
     {
       "base":{
-        "name":"Special Owen",
-        "id":667,
-        "ap":306,
-        "hp":434003,
-        "prod":-1995,
-        "res":128,
-        "mov":2.60
+        "name":"Ravenous UFO Invader",
+        "id":670,
+        "ap":68,
+        "hp":31411,
+        "prod":-1345,
+        "res":"--",
+        "mov":4.20
       },
       "arms":{
-        "n":{
-          "name":["Fist"],
-          "dmg":34734
+        "f":{
+          "name":[""],
+          "dmg":3895
         },
         "s":{
-          "name":["Fist"],
-          "dmg":36468
+          "name":[""],
+          "dmg":5754
         }
       },
       "attacks":{
-        "near":{
-          "temp":1,
+        "far":{
           "comp":[
             {
-              "arm":"n",
+              "arm":"f",
               "nb":1
             }
           ]
         },
         "spe":{
-          "temp":1,
           "comp":[
             {
               "arm":"s",
+              "nb":9
+            }
+          ]
+        },
+        "evade":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"x",
               "nb":1
             }
           ]
         }
       },
-      "comment":"[Revive] 859,325 HP"
+      "comment":"[AP] Recover 74 AP."
+    },
+
+    {
+      "base":{
+        "name":"Vanguard (Type-B)",
+        "id":671,
+        "ap":400,
+        "hp":401974,
+        "prod":-1820,
+        "res":227,
+        "mov":4.15
+      },
+      "arms":{
+        "f":{
+          "name":[""],
+          "dmg":9479
+        },
+        "s":{
+          "name":[""],
+          "dmg":5705
+        }
+      },
+      "attacks":{
+        "far":{
+          "comp":[
+            {
+              "arm":"f",
+              "nb":3
+            }
+          ],
+        "abilities":{
+            "kb":34.5
+          }
+        },
+        "spe":{
+          "comp":[
+            {
+              "arm":"s",
+              "nb":32
+            }
+          ],
+        "abilities":{
+            "kb":34.5
+          }
+        }
+      },
+      "comment":""
     }
 
   ]
