@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2019-01-18",
+  "lastUpdate": "2019-01-27",
   "units": [
     {
       "base": {
@@ -261,63 +261,7 @@
       "comment": "[Final] once per wagon."
     },
 
-    {
-      "base": {
-        "name": "Mars Gigantalos",
-        "id": 605,
-        "ap": 448,
-        "hp": 714417,
-        "prod": -1870,
-        "res": 450,
-        "mov": 4.30
-      },
-      "arms": {
-        "n": {
-          "name": ["NAME"],
-          "dmg": 1338
-        },
-        "f": {
-          "name": ["NAME"],
-          "dmg": 905
-        },
-        "s": {
-          "name": ["NAME"],
-          "dmg": 1089
-        }
-      },
-      "attacks": {
-        "near": {
-          "temp": 1,
-          "comp": [
-            {
-              "arm": "n",
-              "nb": 1
-            }
-          ]
-        },
-        "far": {
-          "temp": 1,
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 1
-            }
-          ]
-        },
-        "spe": {
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 56
-            }
-          ],
-          "abilities": {
-            "crit": 34.5
-          }
-        }
-      },
-      "comment": "[Special] heal 816 HP per hit up to 45,696 HP."
-    },
+    {"base":{"name":"Mars Gigantalos","id":605,"ap":448,"hp":714303,"prod":-1970,"res":450,"mov":4.30},"arms":{"n":{"name":["Beam Gun"],"dmg":1338},"f":{"name":["Beam Saw"],"dmg":905},"s":{"name":["Arc"],"dmg":1089}},"attacks":{"near":{"comp":[{"arm":"n","nb":108}]},"far":{"comp":[{"arm":"f","nb":226}]},"spe":{"comp":[{"arm":"s","nb":56}],"abilities":{"stun":34.5}}},"comment":"[Special] heal 980 HP per hit up to 54,880 HP.<br><br>[Form 2] Cannot be hit and stay for 15 seconds.<br>Far: 1,249 (multi hit, DPS: 37,470, stun: 34.5%) / Spe: 1,249 (multi hit, DPS: 37,470, stun: 34.5%)"},
 
     {
       "base": {
@@ -433,51 +377,7 @@
     },
 
     {
-      "base": {
-        "name": "Man Eater Arche",
-        "id": 609,
-        "ap": 68,
-        "hp": 105797,
-        "prod": -545,
-        "res": 39,
-        "mov": 5.90
-      },
-      "arms": {
-        "f": {
-          "name": ["Bite"],
-          "dmg": 3648
-        },
-        "s": {
-          "name": ["Ravenous Bite"],
-          "dmg": 3640
-        }
-      },
-      "attacks": {
-        "far": {
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 3
-            }
-          ],
-          "abilities": {
-            "crit": 34.5
-          }
-        },
-        "spe": {
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 11
-            }
-          ],
-          "abilities": {
-            "crit": 34.5
-          }
-        }
-      },
-      "comment": "Revive once with 209,478 HP."
-    },
+"base":{"name":"Man Eater Arche","id":609,"ap":68,"hp":105797,"prod":-545,"res":39,"mov":5.90},"arms":{"f":{"name":["Bite"],"dmg":3648},"s":{"name":["Bite (Spe)"],"dmg":3640}},"attacks":{"far":{"comp":[{"arm":"f","nb":3}],"abilities":{"crit":34.5}},"spe":{"comp":[{"arm":"s","nb":11}],"abilities":{"crit":34.5}}},"comment":"Revive once with 209,478 HP."},
 
     {
       "base": {
@@ -632,229 +532,15 @@
       }
     },
 
-    {
-      "base": {
-        "name": "Snow Monoeye",
-        "id": 613,
-        "ap": 320,
-        "hp": 219047,
-        "prod": -2400,
-        "res": 180,
-        "mov": 3.00
-      },
-      "arms": {
-        "n": {
-          "name": ["Light Grenade"],
-          "dmg": 4630
-        },
-        "f": {
-          "name": ["Light Grenade"],
-          "dmg": 4630
-        },
-        "s": {
-          "name": ["Monoeyes Circle"],
-          "dmg": 5575
-        },
-        "x": {
-          "name": ["Light Grenade (evade)"],
-          "dmg": 1730
-        }
-      },
-      "attacks": {
-        "near": {
-          "comp": [
-            {
-              "arm": "n",
-              "nb": 11
-            }
-          ]
-        },
-        "far": {
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 11
-            }
-          ]
-        },
-        "spe": {
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 25
-            }
-          ]
-        },
-        "evade": {
-          "comp": [
-            {
-              "arm": "x",
-              "nb": 8
-            }
-          ]
-        }
-      }
-    },
+    {"base":{"name":"Snow Monoeye","id":613,"ap":320,"hp":219047,"prod":-2400,"res":180,"mov":3.00},"arms":{"n":{"name":["Light Grenade"],"dmg":4630},"f":{"name":["Light Grenade"],"dmg":4630},"s":{"name":["Monoeyes Circle"],"dmg":5575},"x":{"name":["Light Grenade (Evade)"],"dmg":1730}},"attacks":{"near":{"comp":[{"arm":"n","nb":11}]},"far":{"comp":[{"arm":"f","nb":11}]},"spe":{"comp":[{"arm":"s","nb":25}]},"evade":{"comp":[{"arm":"x","nb":8}]}},"comment":""},
 
-    {
-      "base": {
-        "name": "Zombie (Fattish Man Red)",
-        "id": 614,
-        "ap": 68,
-        "hp": 105704,
-        "prod": -645,
-        "res": 37,
-        "mov": 2.30
-      },
-      "arms": {
-        "f": {
-          "name": ["Bodily Fluids"],
-          "dmg": 2947
-        },
-        "s": {
-          "name": ["Organ Cannon"],
-          "dmg": 3528
-        }
-      },
-      "attacks": {
-        "far": {
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 3
-            }
-          ]
-        },
-        "spe": {
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 15
-            }
-          ]
-        }
-      },
-      "comment": "[Revive] 209,293 HP"
-    },
+    {"base":{"name":"Zombie (Fattish Man Red)","id":614,"ap":68,"hp":105704,"prod":-645,"res":37,"mov":2.30},"arms":{"f":{"name":["Fluid"],"dmg":2947},"s":{"name":["Fluid (Spe)"],"dmg":3528}},"attacks":{"far":{"comp":[{"arm":"f","nb":3}]},"spe":{"comp":[{"arm":"s","nb":15}]}},"comment":"[Revive] 209,293 HP"},
 
-    {
-      "base": {
-        "name": "Golden Elite Hover Unit",
-        "id": 615,
-        "ap": 153,
-        "hp": 116207,
-        "prod": -880,
-        "res": 40,
-        "mov": 6.25
-      },
-      "arms": {
-        "f": {
-          "name": ["Laser"],
-          "dmg": 2058
-        },
-        "s": {
-          "name": ["Laser Assault"],
-          "dmg": 4787
-        },
-        "y": {
-          "name": ["?"],
-          "dmg": 62567
-        }
-      },
-      "attacks": {
-        "far": {
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 36
-            }
-          ]
-        },
-        "spe": {
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 102
-            }
-          ]
-        },
-        "final": {
-          "comp": [
-            {
-              "arm": "y",
-              "nb": 2
-            }
-          ]
-        }
-      }
-    },
+    {"base":{"name":"Golden Elite Hover Unit","id":615,"ap":153,"hp":116207,"prod":-880,"res":40,"mov":6.25},"arms":{"f":{"name":["Laser"],"dmg":2058},"s":{"name":["Laser Assault"],"dmg":4787},"y":{"name":["Crash"],"dmg":62567}},"attacks":{"far":{"comp":[{"arm":"f","nb":36}]},"spe":{"comp":[{"arm":"s","nb":102}]},"final":{"comp":[{"arm":"y","nb":2}]}}},
 
     {"base":{"name":"Golden Turtle","id":616,"ap":640,"hp":1204546,"prod":-2755,"res":603,"mov":3.95},"arms":{"n":{"name":["Squish"],"dmg":21452},"f":{"name":["Missile"],"dmg":5042},"s":{"name":["Stone"],"dmg":39606}},"attacks":{"near":{"comp":[{"arm":"n","nb":3}]},"far":{"comp":[{"arm":"f","nb":24}]},"spe":{"comp":[{"arm":"s","nb":16}]}},"comment":"[Recovery] 356,545 HP every 5 seconds."},
 
-    {
-      "base": {
-        "name": "Halloween Alma",
-        "id": 617,
-        "ap": 255,
-        "hp": 219122,
-        "prod": -2015,
-        "res": 130,
-        "mov": 4.22
-      },
-      "arms": {
-        "n": {
-          "name": ["Nail"],
-          "dmg": 10587
-        },
-        "f": {
-          "name": ["Nail (Far)"],
-          "dmg": 8855
-        },
-        "s": {
-          "name": ["Trick Nail"],
-          "dmg": 1378
-        }
-      },
-      "attacks": {
-        "near": {
-          "comp": [
-            {
-              "arm": "n",
-              "nb": 2
-            }
-          ],
-          "abilities": {
-            "crit": 74.5
-          }
-        },
-        "far": {
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 2
-            }
-          ],
-          "abilities": {
-            "crit": 74.5
-          }
-        },
-        "spe": {
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 8
-            },
-            {
-              "arm": "s",
-              "nb": 60
-            }
-          ],
-          "abilities": {
-            "crit": 74.5
-          }
-        }
-      }
-    },
+    {"base":{"name":"Halloween Alma","id":617,"ap":255,"hp":219122,"prod":-2015,"res":130,"mov":4.22},"arms":{"n":{"name":["Nail"],"dmg":10587},"f":{"name":["Nail (Far)"],"dmg":8855},"s":{"name":["Trick Nail"],"dmg":1378}},"attacks":{"near":{"comp":[{"arm":"n","nb":2}],"abilities":{"crit":74.5}},"far":{"comp":[{"arm":"f","nb":2}],"abilities":{"crit":74.5}},"spe":{"comp":[{"arm":"f","nb":8},{"arm":"s","nb":60}],"abilities":{"crit":74.5}}}},
 
     {
       "base": {
@@ -1091,48 +777,8 @@
         }
       }
     },
-    {
-      "base": {
-        "name": "Halloween Simon",
-        "id": 622,
-        "ap": 255,
-        "hp": 132149,
-        "prod": -2655,
-        "res": "--",
-        "mov": 2.02
-      },
-      "arms": {
-        "f": {
-          "name": ["Bullet"],
-          "dmg": 6217
-        },
-        "s": {
-          "name": ["Bullet"],
-          "dmg": 6471
-        }
-      },
-      "attacks": {
-        "far": {
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 4
-            }
-          ]
-        },
-        "spe": {
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 5
-            }
-          ],
-          "abilities": {
-            "stun": 34.5
-          }
-        }
-      }
-    },
+
+    {"base":{"name":"Halloween Simon","id":622,"ap":255,"hp":132149,"prod":-2655,"res":"--","mov":2.02},"arms":{"f":{"name":["Bullet"],"dmg":6217},"s":{"name":["Bullet"],"dmg":6471}},"attacks":{"far":{"comp":[{"arm":"f","nb":4}]},"spe":{"comp":[{"arm":"s","nb":5}],"abilities":{"stun":34.5}}}},
 
     {
       "base": {
@@ -1479,29 +1125,8 @@
     {"base":{"name":"Golden Hopper Mecha","id":650,"ap":136,"hp":166625,"prod":-800,"res":100,"mov":10.08},"arms":{"s":{"name":["Explosion"],"dmg":130756}},"attacks":{"spe":{"comp":[{"arm":"s","nb":2}]},"final":{"comp":[{"arm":"s","nb":2}]}},"comment":"[Special] Can go through units with i-frames."},
 
     {
-      "base":{
-        "name":"Golden Professor",
-        "id":651,
-        "ap":480,
-        "hp":571728,
-        "prod":-2320,
-        "res":50,
-        "mov":1.50
-      },
-      "arms":{
-        "n":{
-          "name":[""],
-          "dmg":2636
-        },
-        "f":{
-          "name":[""],
-          "dmg":2636
-        },
-        "s":{
-          "name":[""],
-          "dmg":1266
-        }
-      },
+      "base":{"name":"Golden Professor","id":651,"ap":480,"hp":571728,"prod":-2320,"res":50,"mov":1.50},
+      "arms":{"n":{"name":["Beam Saw"],"dmg":2636},"f":{"name":["Laser"],"dmg":2636},"s":{"name":["Ring Laser"],"dmg":1266}},
       "attacks":{
         "near":{
           "temp":1,
@@ -1515,18 +1140,7 @@
             "stun":34.5
           }
         },
-        "far":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"f",
-              "nb":1
-            }
-          ],
-        "abilities":{
-            "stun":34.5
-          }
-        },
+        "far":{"comp":[{"arm":"f","nb":12}],"abilities":{"stun":34.5}},
         "spe":{
           "temp":1,
           "comp":[
@@ -1592,25 +1206,8 @@
     },
 
     {
-      "base":{
-        "name":"Hodumi++",
-        "id":653,
-        "ap":400,
-        "hp":623380,
-        "prod":-2620,
-        "res":207,
-        "mov":2.95
-      },
-      "arms":{
-        "f":{
-          "name":["Andro Cannon+"],
-          "dmg":7746
-        },
-        "s":{
-          "name":["Andro Cannon++"],
-          "dmg":20914
-        }
-      },
+      "base":{"name":"Hodumi++","id":653,"ap":400,"hp":623380,"prod":-2620,"res":207,"mov":2.95},
+      "arms":{"f":{"name":["Andro Cannon+"],"dmg":7746},"s":{"name":["Andro Cannon++"],"dmg":20914}},
       "attacks":{
         "far":{
           "temp":1,
@@ -1688,122 +1285,13 @@
 
     {"base":{"name":"Teleko","id":655,"ap":352,"hp":331240,"prod":-2120,"res":60,"mov":4.80},"arms":{"n":{"name":["Telekinesis"],"dmg":69617},"f":{"name":["Small Meteroid"],"dmg":8997},"s":{"name":["Meteroid"],"dmg":37022},"x":{"name":["Fragment"],"dmg":2597}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}],"abilities":{"kb":34.5}},"far":{"comp":[{"arm":"f","nb":3}],"abilities":{"kb":34.5}},"spe":{"comp":[{"arm":"s","nb":2},{"arm":"x","nb":16}],"abilities":{"kb":34.5}}},"comment":"[Special] Create barrier.<br>[Barrier] Reduces KIN and EXP attacks by 99%."},
 
-    {
-      "base":{
-        "name":"Ball Slug Mk II",
-        "id":656,
-        "ap":288,
-        "hp":652841,
-        "prod":-2255,
-        "res":40,
-        "mov":5.70
-      },
-      "arms":{
-        "n":{
-          "name":[""],
-          "dmg":5356
-        },
-        "s":{
-          "name":[""],
-          "dmg":11287
-        }
-      },
-      "attacks":{
-        "near":{
-          "comp":[
-            {
-              "arm":"n",
-              "nb":42
-            }
-          ]
-        },
-        "spe":{
-          "comp":[
-            {
-              "arm":"s",
-              "nb":100
-            }
-          ]
-        },
-        "counter":{
-          "comp":[
-            {
-              "arm":"n",
-              "nb":42
-            }
-          ]
-        }
-      },
-      "comment":"[Special] Ball Slug can block projectiles."
-    },
+    {"base":{"name":"Ball Slug Mk II","id":656,"ap":288,"hp":652841,"prod":-2255,"res":40,"mov":5.70},"arms":{"n":{"name":["Roll"],"dmg":5356},"s":{"name":["Roll"],"dmg":11287}},"attacks":{"near":{"comp":[{"arm":"n","nb":42}]},"spe":{"comp":[{"arm":"s","nb":100}]},"counter":{"comp":[{"arm":"n","nb":42}]}},"comment":"[Special] Ball Slug's attack can block projectiles."},
+
+    {"base":{"name":"Standard Drill Slug","id":657,"ap":195,"hp":174926,"prod":-1870,"res":134,"mov":5.63},"arms":{"f":{"name":["Vulcan"],"dmg":8754},"s":{"name":["Drill"],"dmg":1222},"x":{"name":["Explosion"],"dmg":12989}},"attacks":{"far":{"comp":[{"arm":"f","nb":5}]},"spe":{"comp":[{"arm":"s","nb":72},{"arm":"x","nb":3}]}},"comment":""},
 
     {
-      "base":{
-        "name":"Standard Drill Slug",
-        "id":657,
-        "ap":195,
-        "hp":174926,
-        "prod":-1870,
-        "res":134,
-        "mov":5.63
-      },
-      "arms":{
-        "f":{
-          "name":["Vulcan"],
-          "dmg":8754
-        },
-        "s":{
-          "name":["Drill"],
-          "dmg":1222
-        }
-      },
-      "attacks":{
-        "far":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"f",
-              "nb":1
-            }
-          ]
-        },
-        "spe":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"s",
-              "nb":1
-            }
-          ]
-        }
-      },
-      "comment":""
-    },
-
-    {
-      "base":{
-        "name":"Incognito Esther",
-        "id":658,
-        "ap":272,
-        "hp":174893,
-        "prod":-2265,
-        "res":65,
-        "mov":3.10
-      },
-      "arms":{
-        "n":{
-          "name":["Knife"],
-          "dmg":9396
-        },
-        "f":{
-          "name":[""],
-          "dmg":8529
-        },
-        "s":{
-          "name":[""],
-          "dmg":6147
-        }
-      },
+      "base":{"name":"Incognito Esther","id":658,"ap":272,"hp":174893,"prod":-2265,"res":65,"mov":3.10},
+      "arms":{"n":{"name":["Knife"],"dmg":9396},"f":{"name":["Bullet","Explosion"],"dmg":8529},"s":{"name":["Acid Bubble"],"dmg":6147}},
       "attacks":{
         "near":{
           "comp":[
@@ -1813,14 +1301,7 @@
             }
           ]
         },
-        "far":{
-          "comp":[
-            {
-              "arm":"s",
-              "nb":5
-            }
-          ]
-        },
+        "far":{"comp":[{"arm":"s","nb":5}]},
         "spe":{
           "comp":[
             {
@@ -1885,15 +1366,7 @@
     },
 
     {
-      "base":{
-        "name":"Romy",
-        "id":660,
-        "ap":400,
-        "hp":705183,
-        "prod":-1870,
-        "res":150,
-        "mov":5.30
-      },
+      "base":{"name":"Romy","id":660,"ap":400,"hp":705183,"prod":-1870,"res":150,"mov":5.30},
       "arms":{
         "f":{
           "name":[""],
@@ -1933,15 +1406,7 @@
     },
 
     {
-      "base":{
-        "name":"Special Grazia",
-        "id":661,
-        "ap":255,
-        "hp":235927,
-        "prod":-2705,
-        "res":102,
-        "mov":3.00
-      },
+      "base":{"name":"Special Grazia","id":661,"ap":255,"hp":235927,"prod":-2705,"res":102,"mov":3.00},
       "arms":{
         "f":{
           "name":[""],
@@ -1984,15 +1449,7 @@
     {"base":{"name":"M-15A Bradley (P.M.)","id":662,"ap":221,"hp":77395,"prod":-1090,"res":"--","mov":4.78},"arms":{"n":{"name":[""],"dmg":17606},"f":{"name":[""],"dmg":21070},"s":{"name":[""],"dmg":32364}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"far":{"comp":[{"arm":"f","nb":1}]},"spe":{"comp":[{"arm":"s","nb":12}]}},"comment":""},
 
     {
-      "base":{
-        "name":"Rebel Gigant (P.M.)",
-        "id":663,
-        "ap":640,
-        "hp":445969,
-        "prod":-2250,
-        "res":300,
-        "mov":3.70
-      },
+      "base":{"name":"Rebel Gigant (P.M.)","id":663,"ap":640,"hp":445969,"prod":-2250,"res":300,"mov":3.70},
       "arms":{
         "n":{
           "name":[""],
@@ -2049,86 +1506,7 @@
 
     {"base":{"name":"Golden Formor","id":664,"ap":187,"hp":279206,"prod":-1355,"res":10,"mov":2.40},"arms":{"n":{"name":["Squashing"],"dmg":20692},"s":{"name":["Fireball"],"dmg":31890},"x":{"name":["Flame"],"dmg":481}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":6},{"arm":"x","nb":192}]},"counter":{"comp":[{"arm":"s","nb":2}]}},"comment":"[Moving/Near/Spe] Caterpillar track can block projectiles."},
 
-    {
-      "base":{
-        "name":"Golden Kraken",
-        "id":665,
-        "ap":576,
-        "hp":472552,
-        "prod":-2620,
-        "res":33,
-        "mov":1.60
-      },
-      "arms":{
-        "n":{
-          "name":["Barrel"],
-          "dmg":15534
-        },
-        "f":{
-          "name":["Satellite"],
-          "dmg":19864
-        },
-        "s":{
-          "name":["Missile"],
-          "dmg":13889
-        },
-        "x":{
-          "name":["Flame"],
-          "dmg":865
-        }
-      },
-      "attacks":{
-        "near":{
-          "comp":[
-            {
-              "arm":"n",
-              "nb":5
-            },
-            {
-              "arm":"x",
-              "nb":240
-            }
-          ],
-        "abilities":{
-            "crit":74.5
-          }
-        },
-        "far":{
-          "comp":[
-            {
-              "arm":"f",
-              "nb":8
-            }
-          ],
-        "abilities":{
-            "crit":74.5
-          }
-        },
-        "spe":{
-          "comp":[
-            {
-              "arm":"s",
-              "nb":50
-            }
-          ],
-        "abilities":{
-            "crit":74.5
-          }
-        },
-        "counter":{
-          "comp":[
-            {
-              "arm":"s",
-              "nb":10
-            }
-          ],
-        "abilities":{
-            "crit":74.5
-          }
-        }
-      },
-      "comment":""
-    },
+    {"base":{"name":"Golden Kraken","id":665,"ap":576,"hp":472552,"prod":-2620,"res":33,"mov":1.60},"arms":{"n":{"name":["Barrel"],"dmg":15534},"f":{"name":["Satellite"],"dmg":19864},"s":{"name":["Missile"],"dmg":13889},"x":{"name":["Flame"],"dmg":865}},"attacks":{"near":{"comp":[{"arm":"n","nb":5},{"arm":"x","nb":240}],"abilities":{"crit":74.5}},"far":{"comp":[{"arm":"f","nb":8}],"abilities":{"crit":74.5}},"spe":{"comp":[{"arm":"s","nb":50}],"abilities":{"crit":74.5}},"counter":{"comp":[{"arm":"s","nb":10}],"abilities":{"crit":74.5}}},"comment":"[Far] Satellite can delete projectile."},
 
     {"base":{"name":"Lucy","id":666,"ap":304,"hp":391496,"prod":-2550,"res":89,"mov":3.00},"arms":{"n":{"name":["Tongue"],"dmg":10404},"s":{"name":["Drill"],"dmg":3655},"x":{"name":["Shockwave"],"dmg":1024}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}],"abilities":{"seal":34.5}},"spe":{"comp":[{"arm":"s","nb":98},{"arm":"x","nb":10}],"abilities":{"seal":34.5}},"evade":{"comp":[{"arm":"n","nb":1}],"abilities":{"seal":34.5}}},"comment":""},
 
@@ -2200,15 +1578,7 @@
     },
 
     {
-      "base":{
-        "name":"Special Reika",
-        "id":669,
-        "ap":204,
-        "hp":158425,
-        "prod":-1830,
-        "res":173,
-        "mov":2.05
-      },
+      "base":{"name":"Special Reika","id":669,"ap":204,"hp":158425,"prod":-1830,"res":173,"mov":2.05},
       "arms":{
         "n":{
           "name":[""],
@@ -2262,28 +1632,27 @@
       "comment":""
     },
 
+    {"base":{"name":"Ravenous UFO Invader","id":670,"ap":68,"hp":31411,"prod":-1345,"res":"--","mov":4.20},"arms":{"f":{"name":["Laser"],"dmg":3895},"s":{"name":["Laser"],"dmg":5754}},"attacks":{"far":{"comp":[{"arm":"f","nb":1}]},"spe":{"comp":[{"arm":"s","nb":9}]},"evade":{"comp":[{"arm":"f","nb":3}]}},"comment":"[Production] Recover 74 AP.<br>[Evade] 34.5%"},
+
+    {"base":{"name":"Vanguard (Type-B)","id":671,"ap":400,"hp":401974,"prod":-1820,"res":227,"mov":4.15},"arms":{"f":{"name":["Laser"],"dmg":9479},"s":{"name":["Lotus Laser"],"dmg":5705}},"attacks":{"far":{"comp":[{"arm":"f","nb":3}],"abilities":{"kb":34.5}},"spe":{"comp":[{"arm":"s","nb":32}],"abilities":{"kb":34.5}}},"comment":""},
+
+    {"base":{"name":"Slug Copter Type-B","id":672,"ap":153,"hp":86129,"prod":-1680,"res":"--","mov":4.25},"arms":{"n":{"name":[""],"dmg":6945},"f":{"name":["Vulcan"],"dmg":3418},"s":{"name":["Bomb"],"dmg":9085}},"attacks":{"far":{"comp":[{"arm":"f","nb":14}]},"spe":{"comp":[{"arm":"s","nb":21}]}},"comment":"[Evade] 34.5%"},
+
     {
-      "base":{
-        "name":"Ravenous UFO Invader",
-        "id":670,
-        "ap":68,
-        "hp":31411,
-        "prod":-1345,
-        "res":"--",
-        "mov":4.20
-      },
+      "base":{"name":"Slug Square","id":673,"ap":480,"hp":754750,"prod":-2550,"res":300,"mov":3.70},
       "arms":{
         "f":{
           "name":[""],
-          "dmg":3895
+          "dmg":4464
         },
         "s":{
           "name":[""],
-          "dmg":5754
+          "dmg":29066
         }
       },
       "attacks":{
         "far":{
+          "temp":1,
           "comp":[
             {
               "arm":"f",
@@ -2292,12 +1661,66 @@
           ]
         },
         "spe":{
+          "temp":1,
           "comp":[
             {
               "arm":"s",
-              "nb":9
+              "nb":1
             }
           ]
+        }
+      },
+      "comment":"[Recovery] 74,720 HP every 5 seconds."
+    },
+
+    {
+      "base":{"name":"Clario","id":674,"ap":352,"hp":422839,"prod":-1925,"res":192,"mov":2.80},
+      "arms":{"f":{"name":["Photon"],"dmg":12499},"s":{"name":["Laser"],"dmg":8819}},
+      "attacks":{
+        "far":{"comp":[{"arm":"f","nb":3}],"abilities":{"lowRes":4.3}},
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ],
+        "abilities":{
+            "lowRes":4.3
+          }
+        }
+      },
+      "comment":""
+    },
+
+    {
+      "base":{"name":"Special Gemini White","id":675,"ap":153,"hp":89439,"prod":-1605,"res":104,"mov":3.42},
+      "arms":{"f":{"name":["Ring Laser"],"dmg":4105},"s":{"name":["Big Ring Laser"],"dmg":1131}},
+      "attacks":{
+        "far":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"f",
+              "nb":1
+            }
+          ],
+        "abilities":{
+            "stun":34.5
+          }
+        },
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ],
+        "abilities":{
+            "stun":34.5
+          }
         },
         "evade":{
           "temp":1,
@@ -2306,57 +1729,13 @@
               "arm":"x",
               "nb":1
             }
-          ]
-        }
-      },
-      "comment":"[AP] Recover 74 AP."
-    },
-
-    {
-      "base":{
-        "name":"Vanguard (Type-B)",
-        "id":671,
-        "ap":400,
-        "hp":401974,
-        "prod":-1820,
-        "res":227,
-        "mov":4.15
-      },
-      "arms":{
-        "f":{
-          "name":[""],
-          "dmg":9479
-        },
-        "s":{
-          "name":[""],
-          "dmg":5705
-        }
-      },
-      "attacks":{
-        "far":{
-          "comp":[
-            {
-              "arm":"f",
-              "nb":3
-            }
           ],
         "abilities":{
-            "kb":34.5
-          }
-        },
-        "spe":{
-          "comp":[
-            {
-              "arm":"s",
-              "nb":32
-            }
-          ],
-        "abilities":{
-            "kb":34.5
+            "stun":34.5
           }
         }
       },
-      "comment":""
+      "comment":"[Evade] 34.5%"
     }
 
   ]
