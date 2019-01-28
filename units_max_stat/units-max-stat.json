@@ -1673,26 +1673,7 @@
       "comment":"[Recovery] 74,720 HP every 5 seconds."
     },
 
-    {
-      "base":{"name":"Clario","id":674,"ap":352,"hp":422839,"prod":-1925,"res":192,"mov":2.80},
-      "arms":{"f":{"name":["Photon"],"dmg":12499},"s":{"name":["Laser"],"dmg":8819}},
-      "attacks":{
-        "far":{"comp":[{"arm":"f","nb":3}],"abilities":{"lowRes":4.3}},
-        "spe":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"s",
-              "nb":1
-            }
-          ],
-        "abilities":{
-            "lowRes":4.3
-          }
-        }
-      },
-      "comment":""
-    },
+    {"base":{"name":"Clario","id":674,"ap":352,"hp":422839,"prod":-1925,"res":192,"mov":2.80},"arms":{"f":{"name":["Photon"],"dmg":12499},"s":{"name":["Laser"],"dmg":8819}},"attacks":{"far":{"comp":[{"arm":"f","nb":3}],"abilities":{"lowRes":4.3}},"spe":{"comp":[{"arm":"s","nb":31}],"abilities":{"lowRes":4.3}}},"comment":""},
 
     {
       "base":{"name":"Special Gemini White","id":675,"ap":153,"hp":89439,"prod":-1605,"res":104,"mov":3.42},
