@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2019-01-27",
+  "lastUpdate": "2019-01-31",
   "units": [
     {
       "base": {
@@ -1717,6 +1717,177 @@
         }
       },
       "comment":"[Evade] 34.5%"
+    },
+
+    {
+      "base":{"name":"Special Sho","id":676,"ap":204,"hp":411635,"prod":-1395,"res":33,"mov":4.50},
+      "arms":{
+        "n":{
+          "name":[""],
+          "dmg":10537
+        },
+        "f":{
+          "name":[""],
+          "dmg":15732
+        },
+        "s":{
+          "name":[""],
+          "dmg":65994
+        }
+      },
+      "attacks":{
+        "near":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"n",
+              "nb":1
+            }
+          ]
+        },
+        "far":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"f",
+              "nb":1
+            }
+          ]
+        },
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ]
+        },
+        "evade":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"x",
+              "nb":1
+            }
+          ]
+        }
+      },
+      "comment":""
+    },
+
+    {
+      "base":{"name":"Yoshino Ver. Rebellion","id":677,"ap":320,"hp":706779,"prod":-1965,"res":76,"mov":3.00},
+      "arms":{
+        "n":{
+          "name":[""],
+          "dmg":36177
+        },
+        "s":{
+          "name":[""],
+          "dmg":91098
+        }
+      },
+      "attacks":{
+        "near":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"n",
+              "nb":1
+            }
+          ]
+        },
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ]
+        },
+        "evade":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"x",
+              "nb":1
+            }
+          ]
+        }
+      },
+      "comment":""
+    },
+
+    {
+      "base":{"name":"Amadeus Robot+","id":678,"ap":153,"hp":175636,"prod":-580,"res":"--","mov":3.30},
+      "arms":{
+        "n":{
+          "name":[""],
+          "dmg":950
+        },
+        "s":{
+          "name":[""],
+          "dmg":1641
+        }
+      },
+      "attacks":{
+        "near":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"n",
+              "nb":1
+            }
+          ]
+        },
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ]
+        }
+      },
+      "comment":"Production at the front line."
+    },
+
+    {
+      "base":{"name":"Space Tank (Amadeus)","id":679,"ap":416,"hp":272461,"prod":-2420,"res":40,"mov":3.00},
+      "arms":{
+        "f":{
+          "name":[""],
+          "dmg":12960
+        },
+        "s":{
+          "name":[""],
+          "dmg":13333
+        }
+      },
+      "attacks":{
+        "far":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"f",
+              "nb":1
+            }
+          ]
+        },
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ]
+        }
+      },
+      "comment":""
     }
 
   ]
