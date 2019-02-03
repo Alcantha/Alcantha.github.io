@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2019-01-31",
+  "lastUpdate": "2019-02-03",
   "units": [
     {
       "base": {
@@ -931,50 +931,7 @@
 
     {"base":{"name":"Clone Tarma (Zombie)","id":629,"ap":136,"hp":131659,"prod":-1045,"res":37,"mov":2.62},"arms":{"f":{"name":["Bullet"],"dmg":2823},"s":{"name":["Vomit Laser"],"dmg":13360}},"attacks":{"far":{"comp":[{"arm":"f","nb":1}]},"spe":{"comp":[{"arm":"s","nb":18}]},"counter":{"comp":[{"arm":"s","nb":18}]}},"comment":"[Revive] 71,227 HP."},
 
-    {
-      "base": {
-        "name": "Mars People Officer (Coo)",
-        "id": 630,
-        "ap": 576,
-        "hp": 376569,
-        "prod": -2660,
-        "res": 98,
-        "mov": 2.82
-      },
-      "arms": {
-        "f": {
-          "name": ["Ray"],
-          "dmg": 7942
-        },
-        "s": {
-          "name": ["Light Shell"],
-          "dmg": 3295
-        }
-      },
-      "attacks": {
-        "far": {
-          "comp": [
-            {
-              "arm": "f",
-              "nb": 5
-            }
-          ]
-        },
-        "spe": {
-          "temp": 1,
-          "comp": [
-            {
-              "arm": "s",
-              "nb": 1
-            }
-          ],
-          "abilities": {
-            "stun": 34.5
-          }
-        }
-      },
-      "comment": "[Special] Light Shell can block projectile up to ? damages."
-    },
+    {"base":{"name":"Mars People Officer (Coo)","id":630,"ap":576,"hp":376569,"prod":-2660,"res":98,"mov":2.82},"arms":{"f":{"name":["Ray"],"dmg":7942},"s":{"name":["Light Shell"],"dmg":3295}},"attacks":{"far":{"comp":[{"arm":"f","nb":5}]},"spe":{"comp":[{"arm":"s","nb":156}],"abilities":{"stun":34.5}}},"comment":"[Special] Light Shell can block projectiles."},
 
     {"base":{"name":"Bonny","id":631,"ap":352,"hp":166782,"prod":-2385,"res":63,"mov":6.60},"arms":{"f":{"name":["Ray"],"dmg":12124},"s":{"name":["Ray Ball"],"dmg":1906}},"attacks":{"far":{"comp":[{"arm":"f","nb":4}]},"spe":{"temp":1,"comp":[{"arm":"f","nb":12},{"arm":"s","nb":1}]},"evade":{"comp":[{"arm":"f","nb":3}]}},"comment":"Evade: 34.5%"},
 
@@ -1157,53 +1114,7 @@
       "comment":""
     },
 
-    {
-      "base":{
-        "name":"Blaze Armor",
-        "id":652,
-        "ap":85,
-        "hp":104800,
-        "prod":-730,
-        "res":84,
-        "mov":4.20
-      },
-      "arms":{
-        "f":{
-          "name":["Fireball","Explosion"],
-          "dmg":944
-        },
-        "s":{
-          "name":["Flamethrower"],
-          "dmg":4548
-        }
-      },
-      "attacks":{
-        "far":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"f",
-              "nb":1
-            }
-          ],
-        "abilities":{
-            "crit":74.5
-          }
-        },
-        "spe":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"s",
-              "nb":1
-            }
-          ],
-        "abilities":{
-            "crit":74.5
-          }
-        }
-      }
-    },
+    {"base":{"name":"Blaze Armor","id":652,"ap":85,"hp":104800,"prod":-730,"res":84,"mov":4.20},"arms":{"f":{"name":["Fireball","Explosion"],"dmg":944},"s":{"name":["Flamethrower"],"dmg":4171}},"attacks":{"far":{"comp":[{"arm":"f","nb":6}],"abilities":{"crit":74.5}},"spe":{"comp":[{"arm":"s","nb":44}],"abilities":{"crit":74.5}}},"comment":""},
 
     {
       "base":{"name":"Hodumi++","id":653,"ap":400,"hp":623380,"prod":-2620,"res":207,"mov":2.95},
@@ -1448,61 +1359,7 @@
 
     {"base":{"name":"M-15A Bradley (P.M.)","id":662,"ap":221,"hp":77395,"prod":-1090,"res":"--","mov":4.78},"arms":{"n":{"name":[""],"dmg":17606},"f":{"name":[""],"dmg":21070},"s":{"name":[""],"dmg":32364}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"far":{"comp":[{"arm":"f","nb":1}]},"spe":{"comp":[{"arm":"s","nb":12}]}},"comment":""},
 
-    {
-      "base":{"name":"Rebel Gigant (P.M.)","id":663,"ap":640,"hp":445969,"prod":-2250,"res":300,"mov":3.70},
-      "arms":{
-        "n":{
-          "name":[""],
-          "dmg":8348
-        },
-        "f":{
-          "name":[""],
-          "dmg":8348
-        },
-        "s":{
-          "name":[""],
-          "dmg":21955
-        }
-      },
-      "attacks":{
-        "near":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"n",
-              "nb":1
-            }
-          ],
-        "abilities":{
-            "kb":34.5
-          }
-        },
-        "far":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"f",
-              "nb":1
-            }
-          ],
-        "abilities":{
-            "kb":34.5
-          }
-        },
-        "spe":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"s",
-              "nb":1
-            }
-          ],
-        "abilities":{
-            "kb":34.5
-          }
-        }      },
-      "comment":""
-    },
+    {"base":{"name":"Rebel Gigant (P.M.)","id":663,"ap":640,"hp":445969,"prod":-2250,"res":300,"mov":3.70},"arms":{"n":{"name":["Charge"],"dmg":8348},"f":{"name":["Mine"],"dmg":8348},"s":{"name":["Charge","Shockwave"],"dmg":21955}},"attacks":{"near":{"comp":[{"arm":"n","nb":25}],"abilities":{"kb":34.5}},"far":{"comp":[{"arm":"f","nb":18}],"abilities":{"kb":34.5}},"spe":{"comp":[{"arm":"s","nb":46}],"abilities":{"kb":34.5}}},"comment":""},
 
     {"base":{"name":"Golden Formor","id":664,"ap":187,"hp":279206,"prod":-1355,"res":10,"mov":2.40},"arms":{"n":{"name":["Squashing"],"dmg":20692},"s":{"name":["Fireball"],"dmg":31890},"x":{"name":["Flame"],"dmg":481}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":6},{"arm":"x","nb":192}]},"counter":{"comp":[{"arm":"s","nb":2}]}},"comment":"[Moving/Near/Spe] Caterpillar track can block projectiles."},
 
@@ -1638,40 +1495,7 @@
 
     {"base":{"name":"Slug Copter Type-B","id":672,"ap":153,"hp":86129,"prod":-1680,"res":"--","mov":4.25},"arms":{"n":{"name":[""],"dmg":6945},"f":{"name":["Vulcan"],"dmg":3418},"s":{"name":["Bomb"],"dmg":9085}},"attacks":{"far":{"comp":[{"arm":"f","nb":14}]},"spe":{"comp":[{"arm":"s","nb":21}]}},"comment":"[Evade] 34.5%"},
 
-    {
-      "base":{"name":"Slug Square","id":673,"ap":480,"hp":754750,"prod":-2550,"res":300,"mov":3.70},
-      "arms":{
-        "f":{
-          "name":[""],
-          "dmg":4464
-        },
-        "s":{
-          "name":[""],
-          "dmg":29066
-        }
-      },
-      "attacks":{
-        "far":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"f",
-              "nb":1
-            }
-          ]
-        },
-        "spe":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"s",
-              "nb":1
-            }
-          ]
-        }
-      },
-      "comment":"[Recovery] 74,720 HP every 5 seconds."
-    },
+    {"base":{"name":"Slug Square","id":673,"ap":480,"hp":754750,"prod":-2550,"res":300,"mov":3.70},"arms":{"f":{"name":["Bazooka","Gatling Gun"],"dmg":4464},"s":{"name":["Cannon","Piercing Cannon"],"dmg":29066}},"attacks":{"far":{"comp":[{"arm":"f","nb":26}]},"spe":{"comp":[{"arm":"s","nb":6}]}},"comment":"[Recovery] 74,720 HP every 5 seconds."},
 
     {"base":{"name":"Clario","id":674,"ap":352,"hp":422839,"prod":-1925,"res":192,"mov":2.80},"arms":{"f":{"name":["Photon"],"dmg":12499},"s":{"name":["Laser"],"dmg":8819}},"attacks":{"far":{"comp":[{"arm":"f","nb":3}],"abilities":{"lowRes":4.3}},"spe":{"comp":[{"arm":"s","nb":31}],"abilities":{"lowRes":4.3}}},"comment":""},
 
@@ -1719,141 +1543,11 @@
       "comment":"[Evade] 34.5%"
     },
 
-    {
-      "base":{"name":"Special Sho","id":676,"ap":204,"hp":411635,"prod":-1395,"res":33,"mov":4.50},
-      "arms":{
-        "n":{
-          "name":[""],
-          "dmg":10537
-        },
-        "f":{
-          "name":[""],
-          "dmg":15732
-        },
-        "s":{
-          "name":[""],
-          "dmg":65994
-        }
-      },
-      "attacks":{
-        "near":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"n",
-              "nb":1
-            }
-          ]
-        },
-        "far":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"f",
-              "nb":1
-            }
-          ]
-        },
-        "spe":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"s",
-              "nb":1
-            }
-          ]
-        },
-        "evade":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"x",
-              "nb":1
-            }
-          ]
-        }
-      },
-      "comment":""
-    },
+    {"base":{"name":"Special Sho","id":676,"ap":204,"hp":411635,"prod":-1395,"res":33,"mov":4.50},"arms":{"n":{"name":["Sickle"],"dmg":10537},"f":{"name":["Chain-Sickle"],"dmg":15732},"s":{"name":["Chain-Sickle (spe)"],"dmg":65994}},"attacks":{"near":{"comp":[{"arm":"n","nb":4}]},"far":{"comp":[{"arm":"f","nb":2}]},"spe":{"comp":[{"arm":"s","nb":2}]},"evade":{"comp":[{"arm":"s","nb":2}]}},"comment":"[Evade] 34.5%"},
 
-    {
-      "base":{"name":"Yoshino Ver. Rebellion","id":677,"ap":320,"hp":706779,"prod":-1965,"res":76,"mov":3.00},
-      "arms":{
-        "n":{
-          "name":[""],
-          "dmg":36177
-        },
-        "s":{
-          "name":[""],
-          "dmg":91098
-        }
-      },
-      "attacks":{
-        "near":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"n",
-              "nb":1
-            }
-          ]
-        },
-        "spe":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"s",
-              "nb":1
-            }
-          ]
-        },
-        "evade":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"x",
-              "nb":1
-            }
-          ]
-        }
-      },
-      "comment":""
-    },
+    {"base":{"name":"Yoshino Ver. Rebellion","id":677,"ap":320,"hp":706779,"prod":-1965,"res":76,"mov":3.00},"arms":{"n":{"name":["Hammer"],"dmg":36177},"s":{"name":["Hammer","Thunder"],"dmg":91098}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":8}]},"evade":{"comp":[{"arm":"s","nb":2}]}},"comment":"[Evade] 34.5%"},
 
-    {
-      "base":{"name":"Amadeus Robot+","id":678,"ap":153,"hp":175636,"prod":-580,"res":"--","mov":3.30},
-      "arms":{
-        "n":{
-          "name":[""],
-          "dmg":950
-        },
-        "s":{
-          "name":[""],
-          "dmg":1641
-        }
-      },
-      "attacks":{
-        "near":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"n",
-              "nb":1
-            }
-          ]
-        },
-        "spe":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"s",
-              "nb":1
-            }
-          ]
-        }
-      },
-      "comment":"Production at the front line."
-    },
+    {"base":{"name":"Amadeus Robot+","id":678,"ap":153,"hp":175636,"prod":-580,"res":"--","mov":3.30},"arms":{"n":{"name":["Laser"],"dmg":950},"s":{"name":["Laser"],"dmg":1641}},"attacks":{"near":{"comp":[{"arm":"n","nb":20}]},"spe":{"comp":[{"arm":"s","nb":91}]},"final":{"comp":[{"arm":"s","nb":91}]}},"comment":"Production at the front line."},
 
     {
       "base":{"name":"Space Tank (Amadeus)","id":679,"ap":416,"hp":272461,"prod":-2420,"res":40,"mov":3.00},
