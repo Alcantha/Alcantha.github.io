@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2019-02-03",
+  "lastUpdate": "2019-02-08",
   "units": [
     {
       "base": {
@@ -1549,16 +1549,221 @@
 
     {"base":{"name":"Amadeus Robot+","id":678,"ap":153,"hp":175636,"prod":-580,"res":"--","mov":3.30},"arms":{"n":{"name":["Laser"],"dmg":950},"s":{"name":["Laser"],"dmg":1641}},"attacks":{"near":{"comp":[{"arm":"n","nb":20}]},"spe":{"comp":[{"arm":"s","nb":91}]},"final":{"comp":[{"arm":"s","nb":91}]}},"comment":"Production at the front line."},
 
+    {"base":{"name":"Space Tank (Amadeus)","id":679,"ap":416,"hp":272461,"prod":-2420,"res":40,"mov":3.00},"arms":{"f":{"name":["Missile","Explosion"],"dmg":12960},"s":{"name":["Missile","Fireball","Explosion"],"dmg":13333}},"attacks":{"far":{"comp":[{"arm":"f","nb":18}]},"spe":{"comp":[{"arm":"s","nb":36}]}},"comment":""},
+
     {
-      "base":{"name":"Space Tank (Amadeus)","id":679,"ap":416,"hp":272461,"prod":-2420,"res":40,"mov":3.00},
+      "base":{
+        "name":"Growth & Cline",
+        "id":680,
+        "ap":256,
+        "hp":469871,
+        "prod":-1590,
+        "res":100,
+        "mov":7.25
+      },
       "arms":{
+        "n":{
+          "name":[""],
+          "dmg":6014
+        },
         "f":{
           "name":[""],
-          "dmg":12960
+          "dmg":11211
         },
         "s":{
           "name":[""],
-          "dmg":13333
+          "dmg":42891
+        }
+      },
+      "attacks":{
+        "near":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"n",
+              "nb":1
+            }
+          ]
+        },
+        "far":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"f",
+              "nb":1
+            }
+          ]
+        },
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ]
+        },
+        "evade":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"x",
+              "nb":1
+            }
+          ]
+        }
+      },
+      "comment":""
+    },
+
+    {
+      "base":{
+        "name":"Valentine Vita",
+        "id":681,
+        "ap":221,
+        "hp":124826,
+        "prod":-1990,
+        "res":146,
+        "mov":1.62
+      },
+      "arms":{
+        "n":{
+          "name":[""],
+          "dmg":1237
+        },
+        "f":{
+          "name":[""],
+          "dmg":7299
+        },
+        "s":{
+          "name":[""],
+          "dmg":21348
+        }
+      },
+      "attacks":{
+        "near":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"n",
+              "nb":1
+            }
+          ]
+        },
+        "far":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"f",
+              "nb":1
+            }
+          ]
+        },
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ]
+        },
+        "final":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"x",
+              "nb":1
+            }
+          ]
+        }
+      },
+      "comment":"[Far] Attacks heal allies."
+    },
+
+    {
+      "base":{
+        "name":"Golden Hound",
+        "id":682,
+        "ap":187,
+        "hp":207780,
+        "prod":-995,
+        "res":100,
+        "mov":4.00
+      },
+      "arms":{
+        "n":{
+          "name":[""],
+          "dmg":3391
+        },
+        "f":{
+          "name":[""],
+          "dmg":4431
+        },
+        "s":{
+          "name":[""],
+          "dmg":14732
+        }
+      },
+      "attacks":{
+        "near":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"n",
+              "nb":1
+            }
+          ]
+        },
+        "far":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"f",
+              "nb":1
+            }
+          ]
+        },
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ]
+        },
+        "final":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"x",
+              "nb":1
+            }
+          ]
+        }
+      },
+      "comment":""
+    },
+
+    {
+      "base":{
+        "name":"Golden Union 03 Ver. P.M.",
+        "id":683,
+        "ap":480,
+        "hp":682650,
+        "prod":-2355,
+        "res":153,
+        "mov":5.95
+      },
+      "arms":{
+        "f":{
+          "name":[""],
+          "dmg":6881
+        },
+        "s":{
+          "name":[""],
+          "dmg":3996
         }
       },
       "attacks":{
@@ -1581,7 +1786,7 @@
           ]
         }
       },
-      "comment":""
+      "comment":"[Far] Attacks from items."
     }
 
   ]
