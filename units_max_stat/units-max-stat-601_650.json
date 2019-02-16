@@ -884,7 +884,7 @@
       "comment":""
     },
 
-    {"base":{"name":"Special Amber","id":649,"ap":272,"hp":586477,"prod":-2290,"res":100,"mov":3.75},"arms":{"n":{"name":["Pile Lance"],"dmg":15604},"s":{"name":["Heat Pile Lance"],"dmg":35194}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":4}]}},"comment":"[Evade: 34.5%] Shield can block projectiles."},
+    {"base":{"name":"Special Amber","id":649,"ap":272,"hp":586477,"prod":-2290,"res":100,"mov":3.75},"arms":{"n":{"name":["Pile Lance"],"dmg":15604},"s":{"name":["Heat Pile Lance"],"dmg":35194}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":4}]}},"comment":"[Recovery] 58,061 HP every 5 seconds.<br>[Evade: 34.5%] Shield can block projectiles."},
 
     {"base":{"name":"Golden Hopper Mecha","id":650,"ap":136,"hp":166625,"prod":-800,"res":100,"mov":10.08},"arms":{"s":{"name":["Explosion"],"dmg":130756}},"attacks":{"spe":{"comp":[{"arm":"s","nb":2}]},"final":{"comp":[{"arm":"s","nb":2}]}},"comment":"[Special] Can go through units with i-frames."}
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2019-02-16",
+  "lastUpdate": "2019-02-17",
   "units": [
     {
       "base":{"name":"Golden Professor","id":651,"ap":480,"hp":571728,"prod":-2320,"res":50,"mov":1.50},
@@ -540,48 +540,7 @@
 
     {"base":{"name":"Golden Hound","id":682,"ap":187,"hp":207780,"prod":-995,"res":100,"mov":4.00},"arms":{"n":{"name":["Laser"],"dmg":3391},"f":{"name":["Vulcan","Missile"],"dmg":4431},"s":{"name":["Explosion"],"dmg":14732},"y":{"name":["Crash"],"dmg":104278}},"attacks":{"near":{"comp":[{"arm":"n","nb":22}]},"far":{"comp":[{"arm":"f","nb":7}]},"spe":{"comp":[{"arm":"n","nb":42},{"arm":"s","nb":17}]},"final":{"comp":[{"arm":"y","nb":1}]}},"comment":""},
 
-    {
-      "base":{
-        "name":"Golden Union 03 Ver. P.M.",
-        "id":683,
-        "ap":480,
-        "hp":682650,
-        "prod":-2355,
-        "res":153,
-        "mov":5.95
-      },
-      "arms":{
-        "f":{
-          "name":[""],
-          "dmg":6881
-        },
-        "s":{
-          "name":[""],
-          "dmg":3996
-        }
-      },
-      "attacks":{
-        "far":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"f",
-              "nb":1
-            }
-          ]
-        },
-        "spe":{
-          "temp":1,
-          "comp":[
-            {
-              "arm":"s",
-              "nb":1
-            }
-          ]
-        }
-      },
-      "comment":"[Far] Attacks from items."
-    },
+    {"base":{"name":"Golden Union 03 Ver. P.M.","id":683,"ap":480,"hp":682650,"prod":-2355,"res":153,"mov":5.95},"arms":{"f":{"name":["Bomb"],"dmg":6881},"s":{"name":["Ray"],"dmg":3996}},"attacks":{"far":{"comp":[{"arm":"f","nb":5}]},"spe":{"comp":[{"arm":"s","nb":9,"coef":2}]}},"comment":"[Far] Drop 3 HMG and 2 BOMBS.<br>[Special] Deals 798 damages (total: 7,182) against the base."},
 
     {"base":{"name":"Blaze Cab","id":684,"ap":640,"hp":445580,"prod":-2120,"res":"--","mov":3.08},"arms":{"f":{"name":["Missile"],"dmg":4509},"s":{"name":["Flame"],"dmg":2666}},"attacks":{"far":{"comp":[{"arm":"f","nb":8}]},"spe":{"comp":[{"arm":"s","nb":10}]}},"comment":"[Special]<br>- Total: depends on the size of the enemy unit.<br>- Deal 266 damage against the base (total: ~5320)."},
 

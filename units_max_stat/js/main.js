@@ -37,13 +37,13 @@ function ajaxLoadUnitsMaxStat(url) {
 }
 
 function setLastUpdate(lastUpdate) {
-  let text = 'Last update: ' + lastUpdate;
+  let text = `Last update: ${lastUpdate}`;
 
   $lastUpdate.text(text);
 }
 
 function loadUnitsMaxStat(data) {
-  unitsMaxStat = data.units.map((e) => new UnitMaxStat(e));
+  unitsMaxStat = data.units.map(e => new UnitMaxStat(e));
 
   unitsMaxStat
     .reverse()
@@ -55,7 +55,7 @@ function appendUnitStat(e) {
 }
 
 // Load more when the bottom page is reached.
-$(window).scroll(function () {
+$(window).scroll(() => {
   let top = $(window).scrollTop();
   let windowHeight = window.innerHeight;
   let docHeight = $(document).height();
@@ -66,7 +66,7 @@ $(window).scroll(function () {
 });
 
 // Relocate at the top page to avoid reloading units stat.
-$(this).scrollTop(0);
+$(window).scrollTop(0);
 
 loadNextUnitMaxStat();
 
