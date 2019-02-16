@@ -1,0 +1,891 @@
+{
+  "lastUpdate": "2019-02-15",
+  "units": [
+    {"base":{"name":"Ostrich Slug (Eri)","id":601,"ap":102,"hp":71003,"prod":-1145,"res":40,"mov":3.97},"arms":{"f":{"name":["Grenade","Machine Gun"],"dmg":1740},"s":{"name":["Grenade"],"dmg":4323}},"attacks":{"far":{"comp":[{"arm":"f","nb":4},{"arm":"s","nb":2}],"abilities":{"crit":34.5}},"spe":{"comp":[{"arm":"s","nb":5}],"abilities":{"crit":34.5}},"evade":{"comp":[{"arm":"s","nb":5}],"abilities":{"crit":34.5}}},"comment":"[Evade] 34.5%"},
+
+    {"base":{"name":"Kelly","id":602,"ap":320,"hp":236064,"prod":-2050,"res":120,"mov":3.52},"arms":{"f":{"name":["Sol Weapon"],"dmg":17474},"s":{"name":["Sol Cannon"],"dmg":1012}},"attacks":{"far":{"comp":[{"arm":"f","nb":3}]},"spe":{"comp":[{"arm":"s","nb":54}],"abilities":{"lowRes":3}}}},
+
+    {"base":{"name":"Anti Air-Craft","id":603,"ap":119,"hp":122190,"prod":-960,"res":"--","mov":0.00},"arms":{"n":{"name":["NAME"],"dmg":5053},"f":{"name":["NAME"],"dmg":5053},"s":{"name":["NAME"],"dmg":6144}},"attacks":{"near":{"comp":[{"arm":"n","nb":4}]},"far":{"comp":[{"arm":"f","nb":4}]},"spe":{"comp":[{"arm":"s","nb":16}]}},"comment":"[Builder] 21,310 HP<br>[Revive] 66,104 HP"},
+
+    {
+      "base": {
+        "name": "K-O3 Coupled Armored Vehicle (v3.15.0)",
+        "id": 604,
+        "ap": 352,
+        "hp": 398826,
+        "prod": -2550,
+        "res": 300,
+        "mov": 4.80
+      },
+      "arms": {
+        "f": {
+          "name": ["NAME"],
+          "dmg": 12184
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 41939
+        },
+        "y": {
+          "name": ["NAME"],
+          "dmg": 134072
+        }
+      },
+      "attacks": {
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 12
+            }
+          ]
+        },
+        "spe": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 2
+            },
+            {
+              "arm": "f",
+              "nb": 8
+            },
+            {
+              "arm": "s",
+              "nb": 2
+            }
+          ]
+        },
+        "final": {
+          "comp": [
+            {
+              "arm": "y",
+              "nb": 3
+            }
+          ]
+        }
+      },
+      "comment": "[Final] once per wagon."
+    },
+
+    {"base":{"name":"Mars Gigantalos","id":605,"ap":448,"hp":714303,"prod":-1970,"res":450,"mov":4.30},"arms":{"n":{"name":["Beam Gun"],"dmg":1338},"f":{"name":["Beam Saw"],"dmg":905},"s":{"name":["Arc"],"dmg":1089}},"attacks":{"near":{"comp":[{"arm":"n","nb":108}]},"far":{"comp":[{"arm":"f","nb":226}]},"spe":{"comp":[{"arm":"s","nb":56}],"abilities":{"stun":34.5}}},"comment":"[Special] heal 980 HP per hit up to 54,880 HP.<br><br>[Form 2] Cannot be hit and stay for 15 seconds.<br>Far: 1,249 (multi hit, DPS: 37,470, stun: 34.5%) / Spe: 1,249 (multi hit, DPS: 37,470, stun: 34.5%)"},
+
+    {
+      "base": {
+        "name": "Special Clone Betty",
+        "id": 606,
+        "ap": 255,
+        "hp": 80484,
+        "prod": -2630,
+        "res": 73,
+        "mov": 4.73
+      },
+      "arms": {
+        "n": {
+          "name": ["NAME"],
+          "dmg": 9278
+        },
+        "f": {
+          "name": ["NAME"],
+          "dmg": 1656
+        },
+        "s": {
+          "name": ["NAME"],
+          "dmg": 42455
+        }
+      },
+      "attacks": {
+        "near": {
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ]
+        },
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 52
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        }
+      },
+      "comment": "[Near?/Far?/Spe?] Turn killed enemies into Snowman (? HP) or Ice Cube (?). [Special] Create 5 Ice Cube Barrier (? HP)."
+    },
+
+    {"base":{"name":"Special Perche","id":607,"ap":153,"hp":348112,"prod":-1990,"res":100,"mov":5.83},"arms":{"n":{"name":["Legion Gun"],"dmg":1768},"s":{"name":["Achilles Pulse"],"dmg":2801}},"attacks":{"near":{"comp":[{"arm":"n","nb":16}]},"spe":{"comp":[{"arm":"s","nb":36}]},"counter":{"comp":[{"arm":"s","nb":23}]}},"comment":"[Special] Create a barrier that last 10 seconds.<br>[Barrier] Reduce kinetic damage by 99%."},
+
+    {
+      "base": {
+        "name": "Ulala",
+        "id": 608,
+        "ap": 224,
+        "hp": 307786,
+        "prod": -1665,
+        "res": 130,
+        "mov": 3.80
+      },
+      "arms": {
+        "f": {
+          "name": ["Sky Launcher"],
+          "dmg": 4012
+        },
+        "s": {
+          "name": ["Huge Launcher"],
+          "dmg": 5791
+        },
+        "x": {
+          "name": ["Huge Launcher (Far)"],
+          "dmg": 4879
+        }
+      },
+      "attacks": {
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        },
+        "evade": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ]
+        }
+      },
+      "comment": "[Form 2] HP: ? / Far: 4,879 (total: 58,548) / Spe: 5,791 (total: 69,492)"
+    },
+
+    {
+"base":{"name":"Man Eater Arche","id":609,"ap":68,"hp":105797,"prod":-545,"res":39,"mov":5.90},"arms":{"f":{"name":["Bite"],"dmg":3648},"s":{"name":["Bite (Spe)"],"dmg":3640}},"attacks":{"far":{"comp":[{"arm":"f","nb":3}],"abilities":{"crit":34.5}},"spe":{"comp":[{"arm":"s","nb":11}],"abilities":{"crit":34.5}}},"comment":"Revive once with 209,478 HP."},
+
+    {
+      "base": {
+        "name": "Sol Dae Rokker Arche",
+        "id": 610,
+        "ap": 480,
+        "hp": 452712,
+        "prod": -2420,
+        "res": 127,
+        "mov": 3.15
+      },
+      "arms": {
+        "f": {
+          "name": ["Shadowless Blade"],
+          "dmg": 2798
+        },
+        "s": {
+          "name": ["Heavenly Pillar"],
+          "dmg": 19442
+        }
+      },
+      "attacks": {
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 102
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        }
+      },
+      "comment": "Turn killed non-machine type enemies into a Venomous Bug (865 dmg, attribute: KIN).<br>[Special] Pillars can block projectile."
+    },
+
+    {
+      "base": {
+        "name": "Halloween Beatriz",
+        "id": 611,
+        "ap": 255,
+        "hp": 122964,
+        "prod": -2250,
+        "res": 30,
+        "mov": 1.82
+      },
+      "arms": {
+        "f": {
+          "name": ["Freeze gun"],
+          "dmg": 1926
+        },
+        "s": {
+          "name": ["Freeze gun (spe)"],
+          "dmg": 1269
+        },
+        "x": {
+          "name": ["Frozen Reflect"],
+          "dmg": 6927
+        }
+      },
+      "attacks": {
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 23
+            }
+          ]
+        },
+        "spe": {
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 59
+            },
+            {
+              "arm": "x",
+              "nb": 15
+            }
+          ]
+        }
+      },
+      "comment": "[Attack] Turn killed enemies units into Snowman (? HP) / Ice Cube (? HP)"
+    },
+
+    {
+      "base": {
+        "name": "Vicky",
+        "id": 612,
+        "ap": 384,
+        "hp": 471513,
+        "prod": -1770,
+        "res": 200,
+        "mov": 5.40
+      },
+      "arms": {
+        "n": {
+          "name": ["?"],
+          "dmg": 12581
+        },
+        "f": {
+          "name": ["Magical Ice"],
+          "dmg": 7077
+        },
+        "s": {
+          "name": ["Lovely Blizztouch"],
+          "dmg": 12818
+        }
+      },
+      "attacks": {
+        "near": {
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "lowAtk": 69
+          }
+        },
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 7
+            }
+          ],
+          "abilities": {
+            "lowAtk": 69
+          }
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "lowAtk": 69
+          }
+        }
+      }
+    },
+
+    {"base":{"name":"Snow Monoeye","id":613,"ap":320,"hp":219047,"prod":-2400,"res":180,"mov":3.00},"arms":{"n":{"name":["Light Grenade"],"dmg":4630},"f":{"name":["Light Grenade"],"dmg":4630},"s":{"name":["Monoeyes Circle"],"dmg":5575},"x":{"name":["Light Grenade (Evade)"],"dmg":1730}},"attacks":{"near":{"comp":[{"arm":"n","nb":11}]},"far":{"comp":[{"arm":"f","nb":11}]},"spe":{"comp":[{"arm":"s","nb":25}]},"evade":{"comp":[{"arm":"x","nb":8}]}},"comment":""},
+
+    {"base":{"name":"Zombie (Fattish Man Red)","id":614,"ap":68,"hp":105704,"prod":-645,"res":37,"mov":2.30},"arms":{"f":{"name":["Fluid"],"dmg":2947},"s":{"name":["Fluid (Spe)"],"dmg":3528}},"attacks":{"far":{"comp":[{"arm":"f","nb":3}]},"spe":{"comp":[{"arm":"s","nb":15}]}},"comment":"[Revive] 209,293 HP"},
+
+    {"base":{"name":"Golden Elite Hover Unit","id":615,"ap":153,"hp":116207,"prod":-880,"res":40,"mov":6.25},"arms":{"f":{"name":["Laser"],"dmg":2058},"s":{"name":["Laser Assault"],"dmg":4787},"y":{"name":["Crash"],"dmg":62567}},"attacks":{"far":{"comp":[{"arm":"f","nb":36}]},"spe":{"comp":[{"arm":"s","nb":102}]},"final":{"comp":[{"arm":"y","nb":2}]}}},
+
+    {"base":{"name":"Golden Turtle","id":616,"ap":640,"hp":1204546,"prod":-2755,"res":603,"mov":3.95},"arms":{"n":{"name":["Squish"],"dmg":21452},"f":{"name":["Missile"],"dmg":5042},"s":{"name":["Stone"],"dmg":39606}},"attacks":{"near":{"comp":[{"arm":"n","nb":3}]},"far":{"comp":[{"arm":"f","nb":24}]},"spe":{"comp":[{"arm":"s","nb":16}]}},"comment":"[Recovery] 356,545 HP every 5 seconds."},
+
+    {"base":{"name":"Halloween Alma","id":617,"ap":255,"hp":219122,"prod":-2015,"res":130,"mov":4.22},"arms":{"n":{"name":["Nail"],"dmg":10587},"f":{"name":["Nail (Far)"],"dmg":8855},"s":{"name":["Trick Nail"],"dmg":1378}},"attacks":{"near":{"comp":[{"arm":"n","nb":2}],"abilities":{"crit":74.5}},"far":{"comp":[{"arm":"f","nb":2}],"abilities":{"crit":74.5}},"spe":{"comp":[{"arm":"f","nb":8},{"arm":"s","nb":60}],"abilities":{"crit":74.5}}}},
+
+    {
+      "base": {
+        "name": "Runaway White Baby",
+        "id": 618,
+        "ap": 320,
+        "hp": 704294,
+        "prod": -2180,
+        "res": 300,
+        "mov": 4.40
+      },
+      "arms": {
+        "f": {
+          "name": ["Scalar Electromagnetic Cannon"],
+          "dmg": 5465
+        },
+        "s": {
+          "name": ["Gravity Control"],
+          "dmg": 1764
+        }
+      },
+      "attacks": {
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 8
+            }
+          ],
+          "abilities": {
+            "seal": 34.5
+          }
+        },
+        "spe": {
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 280
+            }
+          ],
+          "abilities": {
+            "seal": 34.5
+          }
+        }
+      },
+      "comment": "Submarines can block projectiles."
+    },
+
+    {
+      "base": {
+        "name": "Crablops Type-Lower",
+        "id": 619,
+        "ap": 480,
+        "hp": 402431,
+        "prod": -2515,
+        "res": 200,
+        "mov": 2.80
+      },
+      "arms": {
+        "n": {
+          "name": ["Cannon"],
+          "dmg": 10104
+        },
+        "f": {
+          "name": ["Cannon"],
+          "dmg": 10104
+        },
+        "s": {
+          "name": ["Jet Engine"],
+          "dmg": 4114
+        },
+        "x": {
+          "name": ["Stalagmite"],
+          "dmg": 1
+        }
+      },
+      "attacks": {
+        "near": {
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 3
+            }
+          ]
+        },
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 3
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        },
+        "evade": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        }
+      },
+      "comment": "[Special] Stalagmite can block projectiles."
+    },
+    {
+      "base": {
+        "name": "Rebel Walker Mk II",
+        "id": 620,
+        "ap": 170,
+        "hp": 174326,
+        "prod": -2245,
+        "res": 83,
+        "mov": 4.60
+      },
+      "arms": {
+        "n": {
+          "name": ["Knife"],
+          "dmg": 7359
+        },
+        "f": {
+          "name": ["Satellite Projectile"],
+          "dmg": 3895
+        },
+        "s": {
+          "name": ["Guidance Beam Cannon"],
+          "dmg": 1582
+        }
+      },
+      "attacks": {
+        "near": {
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 3
+            }
+          ]
+        },
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 21
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "stun": 34.5
+          }
+        }
+      }
+    },
+    {
+      "base": {
+        "name": "Damian",
+        "id": 621,
+        "ap": 320,
+        "hp": 337918,
+        "prod": -2120,
+        "res": 150,
+        "mov": 4.80
+      },
+      "arms": {
+        "n": {
+          "name": ["Blade"],
+          "dmg": 13655
+        },
+        "f": {
+          "name": ["Blade Flash"],
+          "dmg": 18603
+        },
+        "s": {
+          "name": ["?"],
+          "dmg": 17060
+        },
+        "x": {
+          "name": ["?"],
+          "dmg": 25980
+        }
+      },
+      "attacks": {
+        "appear": {
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 6
+            }
+          ]
+        },
+        "near": {
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 3
+            }
+          ]
+        },
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 2
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "stun": 34.5
+          }
+        }
+      }
+    },
+
+    {"base":{"name":"Halloween Simon","id":622,"ap":255,"hp":132149,"prod":-2655,"res":"--","mov":2.02},"arms":{"f":{"name":["Bullet"],"dmg":6217},"s":{"name":["Bullet"],"dmg":6471}},"attacks":{"far":{"comp":[{"arm":"f","nb":4}]},"spe":{"comp":[{"arm":"s","nb":5}],"abilities":{"stun":34.5}}}},
+
+    {
+      "base": {
+        "name": "Gisee",
+        "id": 623,
+        "ap": 320,
+        "hp": 114355,
+        "prod": -2750,
+        "res": 160,
+        "mov": 2.72
+      },
+      "arms": {
+        "f": {
+          "name": ["E.G.G"],
+          "dmg": 1609
+        },
+        "s": {
+          "name": ["Thunder Strike"],
+          "dmg": 135147
+        }
+      },
+      "attacks": {
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "stun": 34.5
+          }
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "stun": 34.5
+          }
+        }
+      }
+    },
+
+    {
+      "base": {
+        "name": "Halloween Nikita",
+        "id": 624,
+        "ap": 297,
+        "hp": 430784,
+        "prod": -1955,
+        "res": 190,
+        "mov": 3.70
+      },
+      "arms": {
+        "f": {
+          "name": ["Double Cannon"],
+          "dmg": 5195
+        },
+        "s": {
+          "name": ["Solenoid Cannon"],
+          "dmg": 21497
+        },
+        "y": {
+          "name": ["?"],
+          "dmg": 1
+        }
+      },
+      "attacks": {
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 6
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        },
+        "final": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "y",
+              "nb": 1
+            }
+          ]
+        }
+      }
+    },
+
+    {"base":{"name":"Land Blowfish","id":625,"ap":496,"hp":661282,"prod":-2950,"res":300,"mov":2.40},"arms":{"f":{"name":["Girida-O's Rush"],"dmg":37925},"s":{"name":["Bomb","Missile"],"dmg":16759}},"attacks":{"far":{"comp":[{"arm":"f","nb":1}],"abilities":{"crit":74.5}},"spe":{"comp":[{"arm":"s","nb":16},{"arm":"s","nb":2,"coef":2}],"abilities":{"crit":74.5}}},"comment":"[Far] Spawn a Girida-O Ver. P.M.+, Black Hound Type-R and Bradley Ver. Rebellion"},
+
+    {"base":{"name":"Shielded Guerrilla (Captain)","id":626,"ap":110,"hp":78500,"prod":-1555,"res":1,"mov":3.00},"arms":{"n":{"name":["Sword"],"dmg":11524},"s":{"name":["Shield Bash"],"dmg":18074}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":1}]},"counter":{"comp":[{"arm":"s","nb":1}]}},"comment":"Evasion: 34.5%"},
+
+    {"base":{"name":"Abigail (Subjugation Tactics)","id":627,"ap":360,"hp":176245,"prod":-2320,"res":120,"mov":3.80},"arms":{"n":{"name":["Laser Barrier"],"dmg":15752},"f":{"name":["Laser"],"dmg":1917},"s":{"name":["Laser"],"dmg":7210}},"attacks":{"near":{"comp":[{"arm":"n","nb":33}]},"far":{"comp":[{"arm":"f","nb":18}]},"spe":{"comp":[{"arm":"s","nb":36}]},"evade":{"comp":[{"arm":"n","nb":33}]}}},
+
+    {
+      "base": {
+        "name": "Special Chloe",
+        "id": 628,
+        "ap": 400,
+        "hp": 262237,
+        "prod": -2020,
+        "res": 155,
+        "mov": 3.52
+      },
+      "arms": {
+        "f": {
+          "name": ["Falling Bomb"],
+          "dmg": 8503
+        },
+        "s": {
+          "name": ["Precision Disintegration Laser"],
+          "dmg": 858
+        }
+      },
+      "attacks": {
+        "far": {
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 20
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ]
+        }
+      }
+    },
+
+    {"base":{"name":"Clone Tarma (Zombie)","id":629,"ap":136,"hp":131659,"prod":-1045,"res":37,"mov":2.62},"arms":{"f":{"name":["Bullet"],"dmg":2823},"s":{"name":["Vomit Laser"],"dmg":13360}},"attacks":{"far":{"comp":[{"arm":"f","nb":1}]},"spe":{"comp":[{"arm":"s","nb":18}]},"counter":{"comp":[{"arm":"s","nb":18}]}},"comment":"[Revive] 71,227 HP."},
+
+    {"base":{"name":"Mars People Officer (Coo)","id":630,"ap":576,"hp":376569,"prod":-2660,"res":98,"mov":2.82},"arms":{"f":{"name":["Ray"],"dmg":7942},"s":{"name":["Light Shell"],"dmg":3295}},"attacks":{"far":{"comp":[{"arm":"f","nb":5}]},"spe":{"comp":[{"arm":"s","nb":156}],"abilities":{"stun":34.5}}},"comment":"[Special] Light Shell can block projectiles."},
+
+    {"base":{"name":"Bonny","id":631,"ap":352,"hp":166782,"prod":-2385,"res":63,"mov":6.60},"arms":{"f":{"name":["Ray"],"dmg":12124},"s":{"name":["Ray Ball"],"dmg":1906}},"attacks":{"far":{"comp":[{"arm":"f","nb":4}]},"spe":{"temp":1,"comp":[{"arm":"f","nb":12},{"arm":"s","nb":1}]},"evade":{"comp":[{"arm":"f","nb":3}]}},"comment":"Evade: 34.5%"},
+
+    {"base":{"name":"Special Black","id":632,"ap":161,"hp":392544,"prod":-1605,"res":154,"mov":5.42},"arms":{"n":{"name":["Beam Saw"],"dmg":442},"s":{"name":["Beam Saw"],"dmg":1752}},"attacks":{"near":{"comp":[{"arm":"n","nb":19}]},"spe":{"comp":[{"arm":"s","nb":146}]},"evade":{"comp":[{"arm":"n","nb":19}]}},"comment":"Evade: 34.5%"},
+
+    {"base":{"name":"Golden Fortress","id":633,"ap":400,"hp":472510,"prod":-2555,"res":203,"mov":4.95},"arms":{"n":{"name":["Fireball"],"dmg":10577},"f":{"name":["Fireball"],"dmg":10577},"s":{"name":["Missile"],"dmg":19357}},"attacks":{"near":{"comp":[{"arm":"n","nb":12}],"abilities":{"crit":74.5}},"far":{"comp":[{"arm":"f","nb":12}],"abilities":{"crit":74.5}},"spe":{"comp":[{"arm":"s","nb":20}],"abilities":{"crit":74.5}}},"comment":"[Special] Generate a shield if there is none or performs the Special Attack.<br>[Shield] 472,510 HP with normal resistance from any attack."},
+
+    {"base":{"name":"Golden Rosa","id":634,"ap":153,"hp":233351,"prod":-1145,"res":100,"mov":5.60},"arms":{"n":{"name":["Slash"],"dmg":10210},"s":{"name":["Claw"],"dmg":21321},"y":{"name":["Explosion"],"dmg":77941}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":7},{"arm":"s","nb":16,"coef":0.3}]},"final":{"comp":[{"arm":"y","nb":1}]}},"comment":"[Recovery] 11,550 HP every 5 seconds."},
+
+    {"base":{"name":"Sky Jupiter Queen (P.M.)","id":635,"ap":520,"hp":316050,"prod":-2170,"res":"--","mov":3.00},"arms":{"f":{"name":["Missile"],"dmg":72078},"s":{"name":["Laser"],"dmg":3347},"x":{"name":["Fireball"],"dmg":8659}},"attacks":{"far":{"comp":[{"arm":"f","nb":1},{"arm":"x","nb":26}]},"spe":{"comp":[{"arm":"s","nb":64}],"abilities":{"stun":34.5}}}},
+
+    {"base":{"name":"Special Force (Custom Bike)","id":636,"ap":170,"hp":71037,"prod":-1550,"res":"--","mov":5.27},"arms":{"s":{"name":["Rush"],"dmg":6625},"x":{"name":["Bomb"],"dmg":865}},"attacks":{"spe":{"comp":[{"arm":"x","nb":35},{"arm":"s","nb":10}],"abilities":{"kb":34.5}}},"comment":"Special Force on bike and on foot share the same HP.<br><br>[Standing] Wheeling can block projectiles.<br>[Special] Thrown moto can block projectiles.<br>[Base return] restore the bike and heal 100% HP."},
+
+    {
+      "base":{
+        "name":"Incognito Agalia",
+        "id":637,
+        "ap":255,
+        "hp":122220,
+        "prod":-2140,
+        "res":80,
+        "mov":3.14
+      },
+      "arms":{
+        "n":{
+          "name":["Bat"],
+          "dmg":10486
+        },
+        "f":{
+          "name":["Blood Col"],
+          "dmg":1825
+        },
+        "s":{
+          "name":["Blood Rain"],
+          "dmg":2278
+        }
+      },
+      "attacks":{
+        "near":{"comp":[{"arm":"n","nb":6}],"abilities":{"crit":34.5}},
+        "far":{"comp":[{"arm":"f","nb":24}],"abilities":{"crit":34.5}},
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ],
+        "abilities":{
+            "crit":34.5
+          }
+        }
+      },
+      "comment":"[Far] Heal 912 HP per hit (up to 21,888 HP)."
+    },
+
+    {"base":{"name":"Vatn Ver. Crimson","id":638,"ap":352,"hp":364572,"prod":-2120,"res":88,"mov":5.30},"arms":{"n":{"name":[""],"dmg":2952},"f":{"name":["Bat Edge"],"dmg":14209},"s":{"name":["Demon's Gate"],"dmg":3033}},"attacks":{"near":{"comp":[{"arm":"n","nb":38}]},"far":{"comp":[{"arm":"f","nb":10}]},"spe":{"comp":[{"arm":"s","nb":33},{"arm":"s","nb":43},{"arm":"s","nb":36}]},"evade":{"comp":[{"arm":"n","nb":38}]}},"comment":"[Special] Demon's Gate can block projectiles."},
+
+    {"base":{"name":"10000000Taro","id":639,"ap":53,"hp":7026,"prod":-580,"res":1,"mov":3.80},"arms":{"n":{"name":["Energy Ball"],"dmg":797},"s":{"name":["Energy Ball"],"dmg":1135},"x":{"name":["Kick"],"dmg":5124}},"attacks":{"near":{"comp":[{"arm":"n","nb":11}]},"spe":{"comp":[{"arm":"s","nb":35}]},"evade":{"comp":[{"arm":"x","nb":1}]}},"comment":"Production at the frontline.<br>Evade: 34.5%"},
+
+    {"base":{"name":"Achetto","id":640,"ap":288,"hp":586409,"prod":-1825,"res":112,"mov":3.80},"arms":{"n":{"name":["Axe"],"dmg":26355},"f":{"name":["Axe"],"dmg":26520},"s":{"name":["Rolling Axe"],"dmg":60959}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"far":{"comp":[{"arm":"f","nb":5}]},"spe":{"comp":[{"arm":"s","nb":5}]},"counter":{"comp":[{"arm":"f","nb":5}]}}},
+
+    {"base":{"name":"Special Anastasia IV","id":641,"ap":272,"hp":261375,"prod":-1895,"res":100,"mov":4.04},"arms":{"f":{"name":["ULYANA's Staff", "Light Gun"],"dmg":621},"s":{"name":["Wall"],"dmg":83751}},"attacks":{"far":{"comp":[{"arm":"f","nb":150}]},"spe":{"comp":[{"arm":"s","nb":3}],"abilities":{"kb":34.5}}},"comment":"[Special] Walls can block projectiles."},
+
+    {"base":{"name":"Cyclobster","id":642,"ap":512,"hp":506584,"prod":-2690,"res":127,"mov":4.15},"arms":{"f":{"name":["Stabs"],"dmg":23550},"s":{"name":["Stabs"],"dmg":42388}},"attacks":{"far":{"comp":[{"arm":"f","nb":6}],"abilities":{"stun":34.5}},"spe":{"comp":[{"arm":"s","nb":19}],"abilities":{"stun":34.5}}}},
+
+    {"base":{"name":"Sky Jellyfish","id":643,"ap":102,"hp":52435,"prod":-1735,"res":100,"mov":3.52},"arms":{"f":{"name":["Zapping Discharge"],"dmg":1756},"s":{"name":["Jelly Bomb"],"dmg":2473},"y":{"name":["Jelly Bomb"],"dmg":3445}},"attacks":{"far":{"comp":[{"arm":"f","nb":12}],"abilities":{"stun":34.5}},"spe":{"comp":[{"arm":"s","nb":126}],"abilities":{"stun":34.5}},"final":{"comp":[{"arm":"y","nb":36}],"abilities":{"stun":34.5}}}},
+
+    {"base":{"name":"Donkey Slug (Fio)","id":644,"ap":102,"hp":252367,"prod":-1100,"res":45,"mov":3.90},"arms":{"f":{"name":["Vulcan"],"dmg":2011},"s":{"name":["Cannon"],"dmg":12912}},"attacks":{"far":{"comp":[{"arm":"f","nb":24}]},"spe":{"comp":[{"arm":"s","nb":4},{"arm":"f","nb":33}]}},"comment":"[Counter] Drop 1 HMG and 2 Bombs.<br>[Final] Drop 4 HMG and 5 Bombs."},
+
+    {"base":{"name":"Ralf's Augensterm","id":645,"ap":480,"hp":618935,"prod":-2115,"res":50,"mov":3.30},"arms":{"n":{"name":["Wire"],"dmg":17496},"f":{"name":["Fire"],"dmg":5766},"s":{"name":["Fire"],"dmg":5375}},"attacks":{"near":{"comp":[{"arm":"n","nb":2}]},"far":{"comp":[{"arm":"f","nb":14}]},"spe":{"comp":[{"arm":"s","nb":34}]},"counter":{"comp":[{"arm":"f","nb":14}]}}},
+
+    {"base":{"name":"Dolores","id":646,"ap":448,"hp":564979,"prod":-2170,"res":320,"mov":4.20},"arms":{"f":{"name":["Iceberg"],"dmg":27467},"s":{"name":["Ice Wind"],"dmg":2310},"x":{"name":["Ice Flower"],"dmg":23381}},"attacks":{"far":{"comp":[{"arm":"f","nb":1}],"abilities":{"stun":34.5}},"spe":{"comp":[{"arm":"s","nb":28},{"arm":"x","nb":10}],"abilities":{"stun":34.5}}},"comment":"[Attack] turn killed enemies into Snowman or Ice Cube.<br>[Snowman] 21,897 HP<br>[Ice Cube] 37,270 HP"},
+
+    {"base":{"name":"Special Julia","id":647,"ap":136,"hp":354334,"prod":-1805,"res":254,"mov":5.42},"arms":{"n":{"name":["Knife"],"dmg":7645},"f":{"name":["Bullet"],"dmg":2397},"s":{"name":["Blade Grenade"],"dmg":9818}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"far":{"comp":[{"arm":"f","nb":24}]},"spe":{"comp":[{"arm":"s","nb":16}]},"air":{"comp":[{"arm":"f","nb":36}]}},"comment":"[Assist] Rebel: +17.25% ATK"},
+
+    {
+      "base":{
+        "name":"MS-Alice.Ghost",
+        "id":648,
+        "ap":352,
+        "hp":218277,
+        "prod":-2235,
+        "res":67,
+        "mov":2.80
+      },
+      "arms":{
+        "n":{
+          "name":[""],
+          "dmg":26085
+        },
+        "f":{
+          "name":[""],
+          "dmg":36622
+        },
+        "s":{
+          "name":[""],
+          "dmg":9429
+        },
+        "y":{
+          "name":[""],
+          "dmg":1
+        }
+      },
+      "attacks":{
+        "near":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"n",
+              "nb":1
+            }
+          ]
+        },
+        "far":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"f",
+              "nb":1
+            }
+          ]
+        },
+        "spe":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"s",
+              "nb":1
+            }
+          ]
+        },
+        "final":{
+          "temp":1,
+          "comp":[
+            {
+              "arm":"x",
+              "nb":1
+            }
+          ]
+        }
+      },
+      "comment":""
+    },
+
+    {"base":{"name":"Special Amber","id":649,"ap":272,"hp":586477,"prod":-2290,"res":100,"mov":3.75},"arms":{"n":{"name":["Pile Lance"],"dmg":15604},"s":{"name":["Heat Pile Lance"],"dmg":35194}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":4}]}},"comment":"[Evade: 34.5%] Shield can block projectiles."},
+
+    {"base":{"name":"Golden Hopper Mecha","id":650,"ap":136,"hp":166625,"prod":-800,"res":100,"mov":10.08},"arms":{"s":{"name":["Explosion"],"dmg":130756}},"attacks":{"spe":{"comp":[{"arm":"s","nb":2}]},"final":{"comp":[{"arm":"s","nb":2}]}},"comment":"[Special] Can go through units with i-frames."}
+  ]
+}

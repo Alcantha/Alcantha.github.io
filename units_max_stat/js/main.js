@@ -1,7 +1,7 @@
-var unitsStats = [];
+let unitsStats = [];
 
-var $lastUpdate = $('.last-update');
-var $listUnit = $('.list-unit');
+let $lastUpdate = $('.last-update');
+let $listUnit = $('.list-unit');
 
 $(document).ready(function () {
 
@@ -10,17 +10,20 @@ function ajaxLoadUnitsMaxStat(url) {
     url: url,
     method: 'GET',
     dataType: 'json'
-  }).done(function (data) {
-    setLastUpdate(data);
+  }).done(data => {
+    if (data.lastUpdate) {
+      setLastUpdate(data.lastUpdate);
+    }
+
     loadUnitsMaxStat(data);
 
-  }).fail(function (a, b, c) {
+  }).fail((a, b, c) => {
     console.log(c.message);
   });
 }
 
-function setLastUpdate(data) {
-  var text = 'Last update: ' + data.lastUpdate;
+function setLastUpdate(lastUpdate) {
+  let text = 'Last update: ' + lastUpdate;
 
   $lastUpdate.text(text);
 }
@@ -28,11 +31,13 @@ function setLastUpdate(data) {
 function loadUnitsMaxStat(data) {
   unitsMaxStat = data.units.map((e) => new UnitMaxStat(e));
 
-  unitsMaxStat.forEach((e) => {
+  unitsMaxStat.forEach(e => {
     $listUnit.prepend(e.getShortHtml());
   });
 }
 
+ajaxLoadUnitsMaxStat('units-max-stat-551_600.json');
+ajaxLoadUnitsMaxStat('units-max-stat-601_650.json');
 ajaxLoadUnitsMaxStat('units-max-stat.json');
 
 });

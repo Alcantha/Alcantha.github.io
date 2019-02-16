@@ -1,0 +1,197 @@
+{
+  "lastUpdate": "2019-02-15",
+  "units": [
+    {
+      "base": {
+        "id": 587,
+        "name": "Giant Hunter Walker",
+        "ap": 544,
+        "hp": 536492,
+        "prod": -2490,
+        "res": 157,
+        "mov": 3.08
+      },
+      "arms": {
+        "f": { "dmg": 1700 },
+        "s": { "dmg": 2154 }
+      },
+      "attacks": {
+        "far": {
+          "temp": 1,
+          "comp": [
+            { "arm": "f", "nb": 1 }
+          ]
+        },
+        "spe": {
+         "temp": 1,
+          "comp": [
+            { "arm": "s", "nb": 1 }
+          ]
+        }
+      },
+      "comment": "[Destroyed] turn into a wall (1,034,860 HP)."
+    },
+
+    {"base":{"id":588,"name":"Smasher Returns","ap":119,"hp":236064,"prod":-965,"res":"--","mov":4.67},"arms":{"n":{"dmg":26203},"s":{"dmg":83792}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}],"abilities":{"kb":34.5}},"spe":{"comp":[{"arm":"s","nb":2}],"abilities":{"kb":34.5}}}},
+
+    {"base":{"id":589,"name":"Incognito Aswang","ap":153,"hp":226870,"prod":-1265,"res":200,"mov":4.22},"arms":{"n":{"dmg":8015},"f":{"dmg":7150},"s":{"dmg":15909}},"attacks":{"near":{"comp":[{"arm":"n","nb":11}]},"far":{"comp":[{"arm":"f","nb":11}]},"spe":{"comp":[{"arm":"s","nb":17}]}},"comment":"[Near/Far] heal 90% of the attack up to 11 times, convert killed unit."},
+
+    {
+      "base": {
+        "id": 590,
+        "name": "Teresa",
+        "ap": 288,
+        "hp": 296190,
+        "prod": -1910,
+        "res": 185,
+        "mov": 3.20
+      },
+      "arms": {
+        "n": { "dmg": 1003 },
+        "f": { "dmg": 1003 },
+        "s": { "dmg": 7323 }
+      },
+      "attacks": {
+        "near": {
+          "comp": [
+            { "arm": "n", "nb": 31 }
+          ],
+          "abilities": {
+            "crit": 74.5
+          }
+        },
+        "far": {
+          "comp": [
+            { "arm": "f", "nb": 1 }
+          ],
+          "abilities": {
+            "crit": 74.5
+          }
+        },
+        "spe": {
+          "comp": [
+            { "arm": "s", "nb": 8 }
+          ],
+          "abilities": {
+            "crit": 74.5
+          }
+        }
+      },
+      "comment": "[Far] performs in continue until there is a enemy near her."
+    },
+
+    {
+      "base": {
+        "id": 591,
+        "name": "Emma",
+        "ap": 336,
+        "hp": 297330,
+        "prod": -2225,
+        "res": 146,
+        "mov": 3.1
+      },
+      "arms": {
+        "f": {
+          "name": ["Handgun"],
+          "dmg": 10895
+        },
+        "s": {
+          "name": ["Recycle"],
+          "dmg": 9668
+        }
+      },
+      "attacks": {
+        "far": {
+          "temp": 1,
+          "comp": [
+          ],
+          "abilities": {
+            "crit": 74.5
+          }
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+          ],
+          "abilities": {
+            "crit": 74.5
+          }
+        }
+      }
+    },
+
+    {"base":{"id":592,"name":"Special Shizuka","ap":255,"hp":105898,"prod":-1770,"res":62,"mov":2.42},"arms":{"n":{"name":[],"dmg":14122},"f":{"name":[],"dmg":379},"s":{"name":[],"dmg":59087},"x":{"name":[],"dmg":5513}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}],"abilities":{"poison":34.5}},"far":{"comp":[{"arm":"f","nb":4}],"abilities":{"poison":34.5}},"spe":{"comp":[{"arm":"f","nb":16},{"arm":"s","nb":1},{"arm":"x","nb":12}],"abilities":{"poison":34.5}},"evade":{"comp":[{"arm":"x","nb":6}],"abilities":{"poison":34.5}}}},
+
+    {"base":{"name":"Karn (Amadeus)","id":593,"ap":384,"hp":274354,"prod":-2590,"res":80,"mov":2.80},"arms":{"f":{"name":["Cannon","Missile"],"dmg":7229},"s":{"name":["Cannon"],"dmg":8704}},"attacks":{"far":{"comp":[{"arm":"f","nb":4}],"abilities":{"kb":34.5}},"spe":{"comp":[{"arm":"s","nb":36}],"abilities":{"kb":34.5}}}},
+
+    {"base":{"name":"Shoe (Amadeus)","id":594,"ap":280,"hp":320711,"prod":-1190,"res":80,"mov":3.30},"arms":{"f":{"name":["Cannon","Missile"],"dmg":3131},"s":{"name":["Cannon","Missile"],"dmg":3852}},"attacks":{"far":{"comp":[{"arm":"f","nb":4}]},"spe":{"comp":[{"arm":"s","nb":32}]}},"comment":"[Buff] Karn (Amadeus): 54.5% ATK."},
+
+    {"base":{"name":"Golden Di-Cokka","id":595,"ap":153,"hp":224117,"prod":-800,"res":30,"mov":4.2},"arms":{"f":{"name":["Golden Cannon"],"dmg":7625},"s":{"name":["Golden Cannon Salvo"],"dmg":9222},"y":{"name":["Rocket"],"dmg":20854}},"attacks":{"far":{"comp":[{"arm":"f","nb":5}]},"spe":{"comp":[{"arm":"s","nb":15}]},"final":{"comp":[{"arm":"y","nb":1}]}},"comment":"[Final] Move forward to the nearest enemy and block for a few seconds."},
+
+    {"base":{"name":"Golden Nokana","id":596,"ap":400,"hp":737764,"prod":-2945,"res":"--","mov":4.77},"arms":{"f":{"name":["Cannon","Grenade"],"dmg":10324},"s":{"name":["Hellfire Cannon"],"dmg":2315}},"attacks":{"far":{"comp":[{"arm":"f","nb":4},{"arm":"f","nb":7}],"abilities":{"stun":34.5}},"spe":{"comp":[{"arm":"s","nb":10},{"arm":"s","nb":416}]}}},
+
+    {
+      "base": {
+        "name": "Beecham",
+        "id": 597,
+        "ap": 408,
+        "hp": 529883,
+        "prod": -2370,
+        "res": "--",
+        "mov": 2
+      },
+      "arms": {
+        "n": {
+          "name": ["Machine Gun"],
+          "dmg": 2038
+        },
+        "f": {
+          "name": ["Autocannon"],
+          "dmg": 2210
+        },
+        "s": {
+          "name": ["Baryon Cannon"],
+          "dmg": 4920
+        }
+      },
+      "attacks": {
+        "near": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "n",
+              "nb": 1
+            }
+          ]
+        },
+        "far": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "f",
+              "nb": 1
+            }
+          ]
+        },
+        "spe": {
+          "temp": 1,
+          "comp": [
+            {
+              "arm": "s",
+              "nb": 1
+            }
+          ],
+          "abilities": {
+            "kb": 34.5
+          }
+        }
+      }
+    },
+
+    {"base":{"name":"Special Chunyan","id":598,"ap":204,"hp":261578,"prod":-2550,"res":100,"mov":3.62},"arms":{"n":{"name":["Kung Fu"],"dmg":23857},"f":{"name":["Kung Fu"],"dmg":12175},"s":{"name":["Earthsmasher Arrow"],"dmg":54370},"x":{"name":["Debris"],"dmg":5841}},"attacks":{"near":{"comp":[{"arm":"n","nb":1},{"arm":"f","nb":2}],"abilities":{"crit":34.5}},"far":{"comp":[{"arm":"f","nb":2}],"abilities":{"crit":34.5}},"spe":{"comp":[{"arm":"s","nb":7},{"arm":"x","nb":20}],"abilities":{"crit":34.5}}},"comment":"[Special] Earth wall can block projectiles."},
+
+    {"base":{"name":"Elephant Slug (Ice)","id":599,"ap":400,"hp":429763,"prod":-1915,"res":"--","mov":1.80},"arms":{"f":{"name":["Vulcan"],"dmg":5140},"s":{"name":["Frozen Emission"],"dmg":37415}},"attacks":{"far":{"comp":[{"arm":"f","nb":8}]},"spe":{"comp":[{"arm":"s","nb":4}]}},"comment":"[Special] Damage reduced to 20% against the base. Turn killed enemies into Snowman (28,827 HP) or Ice Cube (44,200 HP)."},
+
+    {"base":{"name":"Leona Ver. Heroines","id":600,"ap":306,"hp":352989,"prod":-1740,"res":300,"mov":8.05},"arms":{"n":{"name":["Moon Slasher"],"dmg":18424},"s":{"name":["Slasher"],"dmg":29367}},"attacks":{"near":{"comp":[{"arm":"n","nb":1}]},"spe":{"comp":[{"arm":"s","nb":5}]},"counter":{"comp":[{"arm":"n","nb":1}]}}}
+  ]
+}
