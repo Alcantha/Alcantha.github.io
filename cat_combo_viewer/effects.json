@@ -1,0 +1,166 @@
+{
+  "boosts":[
+    {
+      "id":1,
+      "name":"Sm"
+    },
+    {
+      "id":2,
+      "name":"M"
+    },
+    {
+      "id":3,
+      "name":"L"
+    },
+    {
+      "id":4,
+      "name":"XL"
+    }
+  ],
+  "effects":[
+    {
+      "id":1,
+      "name":"Unit Attack",
+      "desc":"+#% Damage",
+      "boosts":[10,15,20,30]
+    },
+    {
+      "id":2,
+      "name":"Unit Defense",
+      "desc":"+#% Health",
+      "boosts":[10,20,30,50]
+    },
+    {
+      "id":3,
+      "name":"Unit Speed",
+      "desc":"+#% Speed",
+      "boosts":[10,15,20,30]
+    },
+    {
+      "id":4,
+      "name":"Cannon Start Level",
+      "desc":"Start at #%",
+      "boosts":[20,40,60,100]
+    },
+    {
+      "id":5,
+      "name":"Cat Cannon Power",
+      "desc":"+#% Cannon Damage",
+      "boosts":[20,50,100,200]
+    },
+    {
+      "id":6,
+      "name":"Cat Cannon Recharge",
+      "desc":"#s Faster",
+      "boosts":[5,10,15,0]
+    },
+    {
+      "id":7,
+      "name":"Cat Base Defense",
+      "desc":"+#% Base Health",
+      "boosts":[20,50,100,200]
+    },
+    {
+      "id":8,
+      "name":"Starting Money",
+      "desc":"Start with #\u00a2",
+      "boosts":[300,500,1000,2000]
+    },
+    {
+      "id":9,
+      "name":"Worker Cat Start Level",
+      "desc":"+# Level",
+      "boosts":[1,2,3,4]
+    },
+    {
+      "id":10,
+      "name":"Worker Cat Max",
+      "desc":"Max Wallet +#%",
+      "boosts":[10,20,30,50]
+    },
+    {
+      "id":11,
+      "name":"Research Power",
+      "desc":"Shorten by #F",
+      "boosts":[26,52,79,0]
+    },
+    {
+      "id":12,
+      "name":"Accounting Power",
+      "desc":"+#% Money Loot",
+      "boosts":[10,20,30,50]
+    },
+    {
+      "id":13,
+      "name":"Study Power",
+      "desc":"+#% XP",
+      "boosts":[10,15,20,30]
+    },
+    {
+      "id":14,
+      "name":"\"Strong\" Effect",
+      "desc":"Ability Effect +#%",
+      "boosts":[10,20,30,50]
+    },
+    {
+      "id":15,
+      "name":"\"Massive Damage\" Effect",
+      "desc":"Ability Effect +#%",
+      "boosts":[10,20,30,50]
+    },
+    {
+      "id":16,
+      "name":"\"Resistant\" Effect",
+      "desc":"Ability Effect +#%",
+      "boosts":[10,20,30,50]
+    },
+    {
+      "id":17,
+      "name":"\"Knockback\" Effect",
+      "desc":"+#% Knock Distance",
+      "boosts":[10,20,30,50]
+    },
+    {
+      "id":18,
+      "name":"\"Slow\" Effect",
+      "desc":"Ability Duration +#%",
+      "boosts":[10,20,30,50]
+    },
+    {
+      "id":19,
+      "name":"\"Freeze\" Effect",
+      "desc":"Ability Duration +#%",
+      "boosts":[10,20,30,50]
+    },
+    {
+      "id":20,
+      "name":"\"Weaken\" Effect",
+      "desc":"Ability Duration +#%",
+      "boosts":[10,20,30,50]
+    },
+    {
+      "id":21,
+      "name":"\"Strengthen\" Effect",
+      "desc":"+#% Damage",
+      "boosts":[20,30,50,100]
+    },
+    {
+      "id":22,
+      "name":"\"Critical\" Rate",
+      "desc":"+#% Critical chance",
+      "boosts":[1,2,3,4]
+    },
+    {
+      "id":23,
+      "name":"\"Witch Killer\" Effect",
+      "desc":"Ability Effect +?%",
+      "boosts":[1,1,1,1]
+    },
+    {
+      "id":24,
+      "name":"\"Eva Angel Killer\" Effect",
+      "desc":"Ability Effect +?%",
+      "boosts":[1,1,1,1]
+    }
+  ]
+}

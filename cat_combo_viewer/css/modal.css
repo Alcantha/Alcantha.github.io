@@ -1,0 +1,237 @@
+/* ----------------- */
+/* ----  Modal  ---- */
+/* ----------------- */
+
+.mf-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(127,127,127,0.5);
+}
+
+.mf-background.hidden {
+  display: none;
+}
+
+.mf-window {
+  position: relative;
+  margin: auto;
+
+  width: 100%;
+  height: 100%;
+
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+@media (min-width: 768px) and (min-height: 470px) {
+  .mf-window {
+    margin: 20px auto 0;
+    width: 680px;
+  }
+}
+
+.mf-container {
+  display: flex;
+  flex-direction: column;
+
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+
+  border: 5px solid black;
+
+  overflow: hidden;
+}
+@media (min-width: 768px) and (min-height: 470px) {
+  .mf-container {
+    border-radius: 30px;
+    height: calc(100% - 40px);
+  }
+}
+
+.mf-container hr {
+  margin: 0 30px;
+  border-top: 2px solid #7a7a7a;
+  border-right: 2px solid #989898;
+  border-bottom: 2px solid #474747;
+  border-left: 2px solid #353535;
+}
+
+/* ------------------ */
+/* ----  Header  ---- */
+/* ------------------ */
+
+.mf-container > header {
+  flex: 0 0 49px;
+
+  display: flex;
+
+  background: linear-gradient(180deg, #fff 40%, #c3c3c3 90%, #c3c3c3 100%);
+  box-shadow:
+    inset 0 -1px 0 0 #5d5d5d,
+    inset 0 -2px 0 0 #666,
+    inset 0 -3px 0 0 #a0a0a0;
+}
+
+.mf-container > header > .title {
+  margin: auto;
+
+  font-size: 36px;
+
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* ------------------ */
+/* ----  Footer  ---- */
+/* ------------------ */
+
+.mf-container > footer {
+  flex: 0 0 60px;
+
+  background: linear-gradient(180deg, #fff 20%, #b1b1b1 90%, #b1b1b1 100%);
+  box-shadow:
+    inset 0 1px 0 0 #636363,
+    inset 0 2px 0 0 #3c3c3c,
+    inset 0 3px 0 0 #010101,
+    inset 0 4px 0 0 #d7d7d7,
+    inset 0 -1px 0 0 #6c6c6c,
+    inset 0 -2px 0 0 #989898;
+
+  text-align: center;
+}
+
+/* ---------------- */
+/* ----  Main  ---- */
+/* ---------------- */
+
+.mf-container > main {
+  flex: 0 1 auto;
+
+  position: relative;
+  overflow: hidden auto;
+
+  height: 100%;
+  background-color: #8a8a8a;
+  box-shadow: inset 0 5px 5px 0 rgba(170,170,170,.5);
+}
+
+/* ------------------------ */
+/* ----  Close button  ---- */
+/* ------------------------ */
+
+.mf-window > .mf-close {
+  position: absolute;
+  top: 5px;
+  left: calc(100% - 51px);
+
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px black, inset 0 -1px black, inset 0 1px white;
+
+  width: 46px;
+  height: 46px;
+  background: linear-gradient(0deg, #c48b00 0, #ffc302 60%, #ffc302 100%);
+
+  cursor: pointer;
+}
+@media (min-width: 768px) and (min-height: 470px) {
+  .mf-window > .mf-close {
+    top: -8px;
+    left: calc(100% - 38px);
+  }
+}
+
+.mf-window > .mf-close:active {
+  transform: scale(0.8);
+}
+
+.mf-window > .mf-close > .cross {
+  position: absolute;
+  top: 17px;
+  left: 8px;
+
+  border-radius: 1px;
+  box-shadow: 0 0 0 3px black;
+
+  width: 30px;
+  height: 10px;
+  background-color: white;
+
+  transform: rotate(45deg);
+}
+
+.mf-window > .mf-close > .cross::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 10px;
+
+  border-radius: 1px;
+  box-shadow: 0 0 0 3px black;
+
+  width: 10px;
+  height: 30px;
+  background-color: white;
+}
+
+.mf-window > .mf-close > .cross::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 6px;
+
+  width: 18px;
+  height: 10px;
+  background-color: white;
+}
+
+/* ------------------- */
+/* ----  Buttons  ---- */
+/* ------------------- */
+
+.mf-container .mf-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mf-container .btn-bottom {
+  display: inline-block;
+  margin: 10px 0;
+  width: 240px;
+  border-radius: 10px;
+  font-size: 36px;
+}
+
+/* ------------------- */
+/* ----  Filters  ---- */
+/* ------------------- */
+
+.mf-container .filter {
+  display: flex;
+  align-items: center;
+
+  margin: 10px 0;
+
+  color: #ffc100;
+}
+
+.mf-container .filter .name {
+  flex: 0 0 150px;
+  text-align: center;
+
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.mf-container .filter .values {
+  flex: 0 1 auto;
+
+  margin-right: 30px;
+
+  width: 100%;
+  height: 100%;
+}

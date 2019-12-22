@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Cat Combo Viewer</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+<link rel="stylesheet" href="css/reset.css">
+
+<link rel="stylesheet" href="css/modal.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- -------------------------------------- -->
+<!-- ----------  Cat Combo List  ---------- -->
+<!-- -------------------------------------- -->
+
+<div class="container-main">
+  <div class="content-header">
+    <div class="title">Cat Combo Viewer</div>
+    <div class="aaa-title">
+      <div class="bc-btn-group btn-tabs">
+        <input type="radio" class="display-none" name="tab" id="deck-tab" disabled checked>
+        <label class="bc-btn-a bc-btn-primary text" for="deck-tab">Deck</label>
+
+        <input type="radio" class="display-none" name="tab" id="gallery-tab" disabled>
+        <label class="bc-btn-a bc-btn-primary text" for="gallery-tab">List</label>
+      </div>
+      <button type="button" class="bc-btn-a bc-btn-primary bc-btn-icon options" id="options" title="Options">
+      </button>
+    </div>
+  </div>
+
+  <div class="container-a" id="tab-container">
+    <div class="content-b show" data-tab="deck">
+
+      <div class="container-c">
+        <div class="deck-container">
+          <!-- Menu -->
+          <div class="deck-menu-icon">
+            <button type="button" class="bc-btn-a bc-btn-primary bc-btn-icon clear" id="clear-deck" title="Clear the deck"></button>
+            <div class="sep"></div>
+          </div>
+          <!-- Deck -->
+          <div class="deck unit-icon medium" id="currentDeck">
+            <div class="deck-row">
+              <div class="icons">
+                <div class="icon"><div class="image-icon"></div></div>
+                <div class="icon"><div class="image-icon"></div></div>
+                <div class="icon"><div class="image-icon"></div></div>
+                <div class="icon"><div class="image-icon"></div></div>
+                <div class="icon"><div class="image-icon"></div></div>
+              </div>
+              <div class="icons">
+                <div class="icon"><div class="image-icon"></div></div>
+                <div class="icon"><div class="image-icon"></div></div>
+                <div class="icon"><div class="image-icon"></div></div>
+                <div class="icon"><div class="image-icon"></div></div>
+                <div class="icon"><div class="image-icon"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="list-active-effect-content">
+          <!-- Active Effect Gallery -->
+          <div class="list-active-effect unit-icon medium" id="active-effect-gallery">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-b" data-tab="list">
+      <div class="list-cat-combo cat-combo-box unit-icon medium" id="list-cat-combo">
+        <div class="aaa-top">
+          <div class="bc-btn-group">
+            <button type="button" class="bc-btn-c btn-prev" id="comboTypePrev"></button>
+            <button type="button" class="bc-btn-c btn-name" id="comboTxtCurrType"></button>
+            <button type="button" class="bc-btn-c btn-next" id="comboTypeNext"></button>
+          </div>
+          <div class="bc-btn-group">
+            <button type="button" class="bc-btn-c btn-prev" id="comboPagePrev"></button>
+            <button type="button" class="bc-btn-c btn-name" id="comboTxtCurrPage"></button>
+            <button type="button" class="bc-btn-c btn-next" id="comboPageNext"></button>
+          </div>
+        </div>
+
+        <!-- Cat Combo Gallery -->
+        <div class="cat-combo-gallery" id="cat-combo-gallery">
+          <!-- Adjust the number of Cat Combo per page -->
+          <div class="cat-combo" style="opacity:0">
+            <div class="description">
+              <div class="name">Name</div>
+              <div class="effect">Effect</div>
+            </div>
+            <div class="icons">
+              <div class="icon"><span class="image-icon"></span></div>
+              <div class="icon"><span class="image-icon"></span></div>
+              <div class="icon"><span class="image-icon"></span></div>
+              <div class="icon"><span class="image-icon"></span></div>
+              <div class="icon"><span class="image-icon"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-footer">
+    This site is not affiliated with PONOS.
+  </div>
+</div>
+
+<div class="mf-background hidden" id="optionsModal">
+  <div class="mf-window">
+    <div class="mf-container">
+      <header>
+        <div class="title">Options</div>
+      </header>
+      <main>
+        <div class="content">
+          <div class="filter">
+            <div class="name">
+              Icon Size
+            </div>
+            <div class="values">
+              <div class="mf-buttons">
+                <input type="radio" class="display-none" name="iconSize" id="iconSizeSmall" data-icon-size="0">
+                <label class="bc-btn-b btn-form" for="iconSizeSmall">
+                  Small
+                </label>
+
+                <input type="radio" class="display-none" name="iconSize" id="iconSizeMedium" data-icon-size="1" checked>
+                <label class="bc-btn-b btn-form" for="iconSizeMedium">
+                  Medium
+                </label>
+
+                <input type="radio" class="display-none" name="iconSize" id="iconSizeLarge" data-icon-size="2">
+                <label class="bc-btn-b btn-form" for="iconSizeLarge">
+                  Large
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <button type="button" class="bc-btn-a bc-btn-primary btn-bottom mf-close">Close</button>
+      </footer>
+    </div>
+    <div class="mf-close">
+      <div class="cross"></div>
+    </div>
+  </div>
+</div>
+
+<div class="select-cat-unit unit-icon medium mf-background hidden" id="selectUnitModal">
+  <div class="mf-window">
+    <div class="mf-container">
+      <header>
+        <div class="title">Select a Cat Unit</div>
+      </header>
+      <main>
+        <div class="content">
+          <div class="filter">
+            <div class="name">
+              Form
+            </div>
+            <div class="values">
+              <div class="mf-buttons">
+                <input type="radio" class="btn-form display-none" name="form" id="formNormal" data-f="0" checked>
+                <label class="bc-btn-b" for="formNormal">
+                  Normal
+                </label>
+
+                <input type="radio" class="btn-form display-none" name="form" id="formEvolved" data-f="1">
+                <label class="bc-btn-b" for="formEvolved">
+                  Evolved
+                </label>
+
+                <input type="radio" class="btn-form display-none" name="form" id="formTrueForm" data-f="2">
+                <label class="bc-btn-b" for="formTrueForm">
+                  True Form
+                </label>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="filter">
+            <div class="name">
+              Normal
+            </div>
+            <div class="values">
+              <div class="icons" data-r="1" data-f="0">
+              </div>
+              <div class="icons hidden" data-r="1" data-f="1">
+              </div>
+              <div class="icons hidden" data-r="1" data-f="2">
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="filter">
+            <div class="name">
+              EX
+            </div>
+            <div class="values">
+              <div class="icons" data-r="2" data-f="0">
+              </div>
+              <div class="icons hidden" data-r="2" data-f="1">
+              </div>
+              <div class="icons hidden" data-r="2" data-f="2">
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="filter">
+            <div class="name">
+              Rare
+            </div>
+            <div class="values">
+              <div class="icons" data-r="3" data-f="0">
+              </div>
+              <div class="icons hidden" data-r="3" data-f="1">
+              </div>
+              <div class="icons hidden" data-r="3" data-f="2">
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="filter">
+            <div class="name">
+              Super Rare
+            </div>
+            <div class="values">
+              <div class="icons" data-r="4" data-f="0">
+              </div>
+              <div class="icons hidden" data-r="4" data-f="1">
+              </div>
+              <div class="icons hidden" data-r="4" data-f="2">
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="filter">
+            <div class="name">
+              Uber Rare
+            </div>
+            <div class="values">
+              <div class="icons" data-r="5" data-f="0">
+              </div>
+              <div class="icons hidden" data-r="5" data-f="1">
+              </div>
+              <div class="icons hidden" data-r="5" data-f="2">
+              </div>
+            </div>
+          </div>
+          <!--
+          <hr>
+          <div class="filter">
+            <div class="name">
+              Legend Rare
+            </div>
+            <div class="values">
+              <div class="icons" data-r="6" data-f="0">
+              </div>
+              <div class="icons hidden" data-r="6" data-f="1">
+              </div>
+              <div class="icons hidden" data-r="6" data-f="2">
+              </div>
+            </div>
+          </div>
+          -->
+        </div>
+      </main>
+      <footer>
+        <button type="button" class="bc-btn-a bc-btn-primary btn-bottom cancel" id="removeUnit">Remove</button>
+      </footer>
+    </div>
+    <div class="mf-close">
+      <div class="cross"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Cat Combo Gallery -->
+
+<div class="display-none" id="cat-combo-template">
+  <div class="cat-combo">
+    <div class="description">
+      <div class="name"></div>
+      <div class="effect"></div>
+    </div>
+    <div class="icons">
+      <div class="icon"><span class="image-icon"></span></div>
+      <div class="icon"><span class="image-icon"></span></div>
+      <div class="icon"><span class="image-icon"></span></div>
+      <div class="icon"><span class="image-icon"></span></div>
+      <div class="icon"><span class="image-icon"></span></div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3 aaa">
+    <div class="icon"><span class="image-icon"></span></div>
+    <div class="name"></div>
+  </div>
+</div>
+
+<!-- Active Effect -->
+
+<div class="display-none" id="active-effect-template">
+  <div class="active-effect">
+    <input class="cb-collapse" type="checkbox" checked>
+    <label class="name"></label>
+    <div class="cat-combos">
+    </div>
+  </div>
+</div>
+
+<script src="js/libs/jquery/jquery-3.4.1.min.js"></script><!-- 3.4.1 -->
+
+<script type="module" src="js/main.js"></script>
+
+</body>
+</html>
