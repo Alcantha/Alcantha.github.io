@@ -1566,7 +1566,6 @@
   {
     "id":287,
     "r":5,
-    "ignore":2,
     "names":["Strike Unit R.E.I.","Assault Unit R.E.I."]
   },
   {
@@ -1967,7 +1966,6 @@
   {
     "id":358,
     "r":5,
-    "ignore":2,
     "names":["Wolfchild Deale","Wolf Princess Deale"]
   },
   {
@@ -2376,7 +2374,7 @@
   {
     "id":428,
     "r":5,
-    "names":["Cat Clan Heroes","Cat Guild Heroes"]
+    "names":["Cat Clan Heroes","Cat Guild Heroes","Cat Quest Heroes"]
   },
   {
     "id":429,
@@ -2786,7 +2784,6 @@
   {
     "id":497,
     "r":5,
-    "ignore":2,
     "names":["Narita Kaihime","Wargod Kaihime"]
   },
   {
@@ -2822,7 +2819,6 @@
   {
     "id":503,
     "r":5,
-    "ignore":2,
     "names":["Myrcia","Myrcia, type ξ"]
   },
   {
@@ -2840,7 +2836,6 @@
   {
     "id":506,
     "r":5,
-    "ignore":2,
     "names":["Relentless Gladios","Gladios the Annihilator"]
   },
   {
@@ -2852,7 +2847,7 @@
   {
     "id":508,
     "r":3,
-    "ignore":1,
+    "ignore":2,
     "names":["Mightycat","Supercat"]
   },
   {
@@ -2924,7 +2919,6 @@
   {
     "id":520,
     "r":5,
-    "ignore":2,
     "names":["Lasvoss","Ultimate Lasvoss"]
   },
   {

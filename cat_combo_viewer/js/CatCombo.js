@@ -42,8 +42,8 @@ this.getUnits = function () {
 */
 this.checkUnits = function (listUnitDeck) {
   const listUnit = [];
-  let show = this.hasAny(listUnitDeck);
-  let active = this.hasAll(listUnitDeck.slice(0, 5));
+  const show = this.hasAny(listUnitDeck);
+  const active = this.hasAll(listUnitDeck.slice(0, 5));
 
   for (let i = 0; i < units.length; i++) {
     const present = checkPresent(units[i], listUnitDeck);
@@ -71,7 +71,7 @@ this.hasAny = function (listUnitDeck) {
 this.hasAll = function (listUnitDeck) {
   return units.every(a => {
     return listUnitDeck.some(b => {
-      return unitPresent(b, a);
+      return unitPresentAvailableForm(b, a);
     });
   });
 };

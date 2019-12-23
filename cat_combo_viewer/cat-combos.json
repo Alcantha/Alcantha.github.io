@@ -1470,6 +1470,57 @@
     ]
   },
   {
+    "name":"Cutting Edge",
+    "effect":{"id":3},
+    "units":[
+      {"id":287},
+      {"id":261,"f":1}
+    ]
+  },
+  {
+    "name":"Cosplay Fans",
+    "effect":{"id":21,"boost":2},
+    "units":[
+      {"id":358,"f":1},
+      {"id":71,"f":2}
+    ]
+  },
+  {
+    "name":"Cat Ears",
+    "effect":{"id":18,"boost":2},
+    "units":[
+      {"id":497},
+      {"id":269},
+      {"id":17}
+    ]
+  },
+  {
+    "name":"Co-op Mode",
+    "effect":{"id":1},
+    "units":[
+      {"id":503},
+      {"id":75},
+      {"id":105}
+    ]
+  },
+  {
+    "name":"Shields of all Sizes",
+    "effect":{"id":12},
+    "units":[
+      {"id":506},
+      {"id":211}
+    ]
+  },
+  {
+    "name":"Evil Guys",
+    "effect":{"id":11,"boost":3},
+    "units":[
+      {"id":520},
+      {"id":173},
+      {"id":320}
+    ]
+  },
+  {
     "name":"My Very Best Friend",
     "effect":{"id":23,"boost":4},
     "units":[
