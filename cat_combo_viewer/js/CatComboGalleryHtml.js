@@ -30,8 +30,8 @@ const listCcType = [
   { name: 'All', size: '', index: 'all' },
   { name: 'Skill', size: '', index: 'skills' },
   { name: 'Effect', size: '', index: 'effects' },
-  { name: 'Cannon/Base', size: '14px', index: 'cannons' },
-  { name: 'Money/Worker', size: '13px', index: 'moneys' },
+  { name: 'Cannon/Base', size: '13px', index: 'cannons' },
+  { name: 'Money/Worker', size: '11px', index: 'moneys' },
   { name: 'Other', size: '', index: 'others' },
 ];
 const nbCcType = listCcType.length;
