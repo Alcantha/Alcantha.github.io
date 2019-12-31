@@ -53,7 +53,7 @@ Grid:
   --icon-height: 38.25px;
 
   --icon-border-size: 2.5px;
-  --font-size-name: 16px;
+  --font-size-name: 15px;
   --font-size-effect: 11px;
   --font-size-icon: 37px;
 
@@ -447,6 +447,14 @@ body {
   justify-content: center;
   padding: 5px 0;
 }
+.cat-combo-box.medium .cat-combo-gallery .icons {
+  flex: 1 0 60%;
+}
+@media (min-width: 576px) {
+  .cat-combo-gallery .icons {
+    flex: 1 0 50%;
+  }
+}
 
 /* ----  Select Cat Unit  ---- */
 
@@ -647,10 +655,11 @@ n   no        red
 .deck-container {
   flex: 1 0 0;
   background-color: #ffe290;
+  overflow-y: auto;
 }
 @media (min-height: 420px) {
   .deck-container {
-    flex: 0 1 0;
+    flex: 0 1 auto;
   }
 }
 
@@ -739,13 +748,13 @@ n   no        red
 }
 
 .active-effect > .name::before {
-  content: "\23f5"; /* right */
+  content: "\25b8"; /* right */
   margin-right: 4px;
   width: 14px;
 }
 
 .active-effect > .cb-collapse:checked + .name::before {
-  content: "\23f7"; /* down */
+  content: "\25be"; /* down */
 }
 
 .active-effect > .cb-collapse:not(:checked) + .name + .cat-combos {
@@ -983,15 +992,16 @@ input:checked + .bc-btn-b {
 }
 
 .bc-btn-c.btn-prev::before {
-  content: '\2bc7';
+  content: '\25c0';
 
   position: absolute;
-  top: 0px;
-  left: 3px;
+  top: 5px;
+  left: 5px;
 
   color: #886300;
-  font-size: 20px;
+  font-size: 16px;
   text-shadow: 0px 1px #decc1a, 1px 0px #d0a11f;
+
 }
 
 .bc-btn-c.btn-name {
@@ -1007,15 +1017,16 @@ input:checked + .bc-btn-b {
 }
 
 .bc-btn-c.btn-next::before {
-  content: '\2bc8';
+  content: '\25b6';
 
   position: absolute;
-  top: 0px;
-  right: 3px;
+  top: 5px;
+  right: 5px;
 
   color: #886300;
-  font-size: 20px;
+  font-size: 16px;
   text-shadow: 0px 1px #decc1a, -1px 0px #d0a11f;
+
 }
 
 .bc-btn-group > .bc-btn-c {
