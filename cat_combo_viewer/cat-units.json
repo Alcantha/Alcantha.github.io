@@ -767,7 +767,7 @@
     "id":145,
     "r":4,
     "ignore":2,
-    "names":["Cat Base Mini","Cat Base Jr."]
+    "names":["Cat Base Mini","Cat Base Jr.","Cat Base Ultra"]
   },
   {
     "id":146,
@@ -1294,17 +1294,17 @@
   {
     "id":238,
     "r":4,
-    "names":["Freshman Cat Jobs","Prof. Cat Jobs"]
+    "names":["Freshman Cat Jobs","Prof. Cat Jobs","Headmaster Cat Jobs"]
   },
   {
     "id":239,
     "r":4,
-    "names":["Rich Cat III","Rich Cat Sr."]
+    "names":["Rich Cat III","Rich Cat Sr.","Richest Cat"]
   },
   {
     "id":240,
     "r":4,
-    "names":["Sniper the Recruit","Sniper the Heavy"]
+    "names":["Sniper the Recruit","Sniper the Heavy","Sniper the Deadeye"]
   },
   {
     "id":241,

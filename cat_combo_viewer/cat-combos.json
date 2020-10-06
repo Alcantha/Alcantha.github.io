@@ -1535,5 +1535,12 @@
       {"id":403},
       {"id":406}
     ]
+  },
+  {
+    "name":"Offshore Accounts",
+    "effect":{"id":8,"boost":2},
+    "units":[
+      {"id":239,"f":2}
+    ]
   }
 ]

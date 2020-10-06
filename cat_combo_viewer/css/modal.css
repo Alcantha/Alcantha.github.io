@@ -80,10 +80,15 @@
 .mf-container > header > .title {
   margin: auto;
 
-  font-size: 36px;
+  font-size: 28px;
 
   -moz-user-select: none;
   user-select: none;
+}
+@media (min-height: 420px) {
+  .mf-container > header > .title {
+    font-size: 36px;
+  }
 }
 
 /* ------------------ */
