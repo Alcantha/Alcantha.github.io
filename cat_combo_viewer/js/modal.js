@@ -7,7 +7,7 @@ const MODAL_CL_NONE = 0;
 const MODAL_CL_SELF = 1;
 
 const Modal = function ({
-  selector,
+  modalId,
   onInit = null,
   beforeOpen = null,
   afterOpen = null,
@@ -16,8 +16,7 @@ const Modal = function ({
   onClose = null,
 } = {}) {
   const self = this;
-  const $modal = $(selector);
-  const $modalClose = $('.mf-close', $modal);
+  const modalElement = document.getElementById(modalId);
 
   // -----------------
   // ----  Modal  ----
@@ -39,7 +38,7 @@ const Modal = function ({
     }
 
     if (res !== MODAL_OP_NONE) {
-      $modal.removeClass('hidden');
+      modalElement.classList.toggle('hidden', false);
     }
 
     if (afterOpen) {
@@ -56,7 +55,7 @@ const Modal = function ({
     }
 
     if (res !== MODAL_CL_NONE) {
-      $modal.addClass('hidden');
+      modalElement.classList.toggle('hidden', true);
     }
   };
 
@@ -92,24 +91,37 @@ const Modal = function ({
   // ----  Event  ----
   // -----------------
 
-  // Valid
-  if (onValid) {
-    $('.valid', $modal).on('click', this.valid);
-  }
+  modalElement.addEventListener('click', function (e) {
+    // Valid
+    const btnValidElement = e.path.find(e2 => e2.classList != null && e2.classList.contains('valid'));
 
-  // Cancel
-  if (onValid) {
-    $('.cancel', $modal).on('click', this.cancel);
-  }
+    if (btnValidElement != null) {
+      self.valid();
+      return;
+    }
 
-  // Close
-  $modalClose.on('click', this.close);
+    // Cancel
+    const btnCancelElement = e.path.find(e2 => e2.classList != null && e2.classList.contains('cancel'));
+
+    if (btnCancelElement != null) {
+      self.cancel();
+      return;
+    }
+
+    // Close
+    const btnCloseElement = e.path.find(e2 => e2.classList != null && e2.classList.contains('mf-close'));
+
+    if (btnCloseElement != null) {
+      self.close();
+      return;
+    }
+  });
 
   // --------------------------
   // ----  Initialization  ----
   // --------------------------
 
-  this.$modal = $modal;
+  this.modalElement = modalElement;
 
   this.data = { };
 };

@@ -3,18 +3,23 @@
 import * as bc from './bc.js'
 import UnitIconHtml from './UnitIconHtml.js';
 
-const $catComboTemplate = $('#cat-combo-template > .cat-combo').eq(0);
+const catComboElementModel = document.querySelector('#cat-combo-template > .cat-combo');
+
+const createCatComboElement = function () {
+  return catComboElementModel.cloneNode(true);
+};
+
+// Class CatComboHtml
 
 const CatComboHtml = function (catCombo) {
 
-const $catCombo = $catComboTemplate.clone();
+const catComboElement = createCatComboElement();
 
-const $descName = $('> .description > .name', $catCombo);
-const $descEffect = $('> .description > .effect', $catCombo);
+const descNameElement = catComboElement.getElementsByClassName('name')[0];
+const descEffectElement = catComboElement.getElementsByClassName('effect')[0];
 
-const listUnitIconHtml = $('> .icons > .icon', $catCombo)
-  .map((i, e) => new UnitIconHtml({ $unitIcon: $(e) }))
-  .toArray();
+const listUnitIconHtml = Array.from(catComboElement.getElementsByClassName('icon'))
+  .map(e => new UnitIconHtml({ unitIconElt: e }));
 
 let catCombo_ = catCombo;
 
@@ -64,20 +69,20 @@ this.setPresent = function (listPresent) {
 // HTML
 
 this.getHtml = function () {
-  return $catCombo;
+  return catComboElement;
 };
 
 // Render
 
 this.render = function () {
-  $catCombo.toggle(show);
+  catComboElement.style.display = show ? 'flex' : 'none';
 
   if (show) {
     // Description hidden in Active Effect.
-    $descEffect.toggle(activeEffectMode == false);
+    descEffectElement.style.display = !activeEffectMode ? 'block' : 'none';
 
     // Background color of active combo.
-    $catCombo.toggleClass('cc-active', catCombo_.isActive());
+    catComboElement.classList.toggle('cc-active', catCombo_.isActive());
 
     if (activeEffectMode) {
       this.setDescName(catCombo_.getActiveEffectName());
@@ -91,11 +96,11 @@ this.render = function () {
 };
 
 this.setDescName = function (descName) {
-  $descName.text(descName);
+  descNameElement.textContent = descName;
 };
 
 this.setDescEffect = function (descEffect) {
-  $descEffect.text(descEffect);
+  descEffectElement.textContent = descEffect;
 };
 
 }; // CatComboHtml

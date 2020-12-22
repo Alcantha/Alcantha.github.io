@@ -14,11 +14,11 @@ let isReady = false;
 
 const bcData = new BattleCatData();
 
-const catComboGalleryHtml = new CatComboGalleryHtml('#list-cat-combo', bcData);
+const catComboGalleryHtml = new CatComboGalleryHtml('list-cat-combo', bcData);
 
-const activeEffectGalleryHtml = new ActiveEffectGalleryHtml('#active-effect-gallery', bcData);
+const activeEffectGalleryHtml = new ActiveEffectGalleryHtml('active-effect-gallery', bcData);
 
-const deckHtml = new DeckHtml('#currentDeck', bcData, selectUnitModal, activeEffectGalleryHtml);
+const deckHtml = new DeckHtml('currentDeck', bcData, selectUnitModal, activeEffectGalleryHtml);
 
 catComboGalleryHtml.setDeckHtml(deckHtml);
 activeEffectGalleryHtml.setDeckHtml(deckHtml);
@@ -27,7 +27,7 @@ activeEffectGalleryHtml.setDeckHtml(deckHtml);
 // ----  Script  ----
 // ------------------
 
-$(document).ready(function () {
+(function () {
 
 // ---------------------
 // ----  Cat Combo  ----
@@ -48,54 +48,56 @@ const initCatComboGallery = function (bcData) {
 
 const initEvent = function () {
   // Options
-  $('#options').on('click', function () {
+  const optionsElement = document.getElementById('options');
+
+  optionsElement.addEventListener('click', function (e) {
     optionsModal.open();
   });
+  //*/
 
   // Tab
-  const $btnDeckTab = $('#deck-tab');
-  const $btnListTab = $('#gallery-tab');
-  const $tabContainer = $('#tab-container');
-  const $deckTab = $('> [data-tab="deck"]', $tabContainer);
-  const $listTab = $('> [data-tab="list"]', $tabContainer);
+  const btnDeckTabElement = document.getElementById('deck-tab');
+  const btnListTabElement = document.getElementById('gallery-tab');
+  const tabContainerElement = document.getElementById('tab-container');
+  const deckTabElement = tabContainerElement.querySelector('[data-tab="deck"]');
+  const listTabElement = tabContainerElement.querySelector('[data-tab="list"]');
 
-  $btnDeckTab.on('click', function (e) {
+  btnDeckTabElement.addEventListener('click', function (e) {
     if (!isReady) {
       e.preventDefault();
       return false;
     }
 
-    $deckTab.toggleClass('show', true);
-    $listTab.toggleClass('show', false);
+    deckTabElement.classList.toggle('show', true);
+    listTabElement.classList.toggle('show', false);
   });
 
-  $btnListTab.on('click', function (e) {
+  btnListTabElement.addEventListener('click', function (e) {
     if (!isReady) {
       e.preventDefault();
       return false;
     }
 
-    $deckTab.toggleClass('show', false);
-    $listTab.toggleClass('show', true);
+    deckTabElement.classList.toggle('show', false);
+    listTabElement.classList.toggle('show', true);
 
     catComboGalleryHtml.renderPageWithHeight();
   });
 
-  $btnDeckTab.attr('disabled', null);
-  $btnListTab.attr('disabled', null);
+  btnDeckTabElement.disabled = false;
+  btnListTabElement.disabled = false;
 
   // Clear deck
-  const $btnClearDeck = $('#clear-deck');
+  const btnClearDeckElement = document.getElementById('clear-deck');
 
-  $btnClearDeck.on('click', function () {
+  btnClearDeckElement.addEventListener('click', function () {
     deckHtml.clearDeck();
   });
 
   // Nb of Cat Combo per page
-  const $html = $('html');
   let resizeTimeoutId = 0;
   window.addEventListener('resize', function () {
-    if ($listTab.hasClass('show') || $html.width() >= 992) {
+      if (listTabElement.classList.contains('show') || window.clientWidth >= 992) {
       clearTimeout(resizeTimeoutId);
       resizeTimeoutId = setTimeout(function () {
         catComboGalleryHtml.renderPageWithHeight();
@@ -128,4 +130,4 @@ bcData.loadAll().then(function () {
   isReady = true;
 });
 
-});
+})();

@@ -8,12 +8,12 @@ const getCssBgPositionY = function (id) {
   return `calc(var(--icon-height) * -${id - 1})`;
 };
 
-const toggleIconSize = function ($element, iconSize) {
+const toggleIconSize = function (element, iconSize) {
   const toggleMediumIcon = (iconSize === MEDIUM_ICON);
   const toggleLargeIcon = (iconSize === LARGE_ICON);
 
-  $element.toggleClass('medium', toggleMediumIcon);
-  $element.toggleClass('large', toggleLargeIcon);
+  element.classList.toggle('medium', toggleMediumIcon);
+  element.classList.toggle('large', toggleLargeIcon);
 };
 
 export {

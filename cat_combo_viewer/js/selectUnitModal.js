@@ -13,38 +13,38 @@ import UnitIconHtml from './UnitIconHtml.js';
 const SELECTED_ICON = '1';
 
 const selectUnitModal = new modal.Modal({
-  selector: '#selectUnitModal',
+  modalId: 'selectUnitModal',
 
   onInit(self, { bcData }) {
     initListUnitSelect(bcData);
 
-    self.data.$mainContent = $('main', self.$modal).eq(0);
-    self.data.$content = $('main > .content', self.$modal).eq(0);
+    self.data.mainContentElement = self.modalElement.querySelector('main');
+    self.data.contentElement = self.modalElement.querySelector('main > .content');
 
     // Current unit selected.
     self.data.currentUnit = {
       id: bc.ID_NONE,
       form: bc.FORM_NONE,
-      $selected: null,
+      selectedElement: null,
       tempId: bc.ID_NONE,
     };
 
     // Form buttons.
-    self.data.$forms = [];
+    self.data.listUnitForm = [];
 
     bc.LIST_FORM.forEach(f => {
-      const input = $(`.btn-form[data-f="${f}"]`, self.$modal);
-      const label = $(`.btn-form[data-f="${f}"] + label`, self.$modal);
+      const inputElement = self.modalElement.querySelector(`.btn-form[data-f="${f}"]`);
+      const labelElement = self.modalElement.querySelector(`.btn-form[data-f="${f}"] + label`);
 
-      self.data.$forms[f] = { input, label };
+      self.data.listUnitForm[f] = { inputElement, labelElement };
 
       // Select the unit form.
-      self.data.$forms[f].label.on('click', function () {
+      self.data.listUnitForm[f].labelElement.addEventListener('click', function () {
         setFormContent(f);
       });
 
       // Set the unit form.
-      self.data.$forms[f].label.on('dblclick', function () {
+      self.data.listUnitForm[f].labelElement.addEventListener('dblclick', function () {
         const { id, form } = self.data.currentUnit;
 
         if (id !== bc.ID_NONE) {
@@ -53,24 +53,26 @@ const selectUnitModal = new modal.Modal({
       });
     });
 
-    self.data.$removeUnit = $('#removeUnit');
+    self.data.removeUnitElement = document.getElementById('removeUnit');
 
     // Click on Cat Unit
-    self.$modal.on('click', '.icon', function () {
-      const $unitIcon = $(this);
+    self.modalElement.addEventListener('click', function (e) {
+      const iconElement = e.path.find(e2 => e2.classList != null && e2.classList.contains('icon'));
 
-      const id = $unitIcon.attr('data-id');
-      const selected = $unitIcon.attr('data-s') === SELECTED_ICON;
+      if (iconElement == null) return;
+
+      const id = iconElement.getAttribute('data-id');
+      const selected = iconElement.getAttribute('data-s') === SELECTED_ICON;
 
       if (id > 0 && !selected) {
         // Reset the selected units.
-        const form = $unitIcon.attr('data-form');
+        const form = iconElement.getAttribute('data-form');
 
         selectCatUnit(bcData, id, form);
       }
     });
 
-    self.data.$forms[bc.FORM_NORMAL].label.click();
+    self.data.listUnitForm[bc.FORM_NORMAL].labelElement.click();
 
     selectUnitModal.ready = true;
   },
@@ -89,7 +91,8 @@ const selectUnitModal = new modal.Modal({
       setFormContent(bc.FORM_NORMAL);
     }
 
-    self.data.$removeUnit.attr('disabled', !validId);
+    //self.data.removeUnitElement.setAttribute('disabled', !validId);
+    self.data.removeUnitElement.disabled = !validId;
 
     // List of unit already selected
     self.data.listSelectedId = listSelectedId;
@@ -103,24 +106,21 @@ const selectUnitModal = new modal.Modal({
 
   afterOpen(self, { id, form }) {
     const validId = (id != null && id > 0);
-    const $main = self.data.$mainContent;
+    const mainContentElement = self.data.mainContentElement;
 
     if (validId) {
-      const $unitIcon = self.$modal.find(`.icon[data-id=${id}][data-form=${form}]`);
+      const unitIconElement = self.modalElement.querySelector(`.icon[data-id="${id}"][data-form="${form}"]`);
 
-      if ($unitIcon.length) {
-        // Scroll with the selected unit at the center.
-        const $content = self.data.$content;
-        const top = $unitIcon.offset().top - $content.offset().top + 10 - ($main.height() - $unitIcon.height()) / 2;
+      if (unitIconElement != null) {
+        const top = unitIconElement.offsetTop - self.data.contentElement.offsetTop + 10 - (mainContentElement.clientHeight - unitIconElement.clientHeight) / 2;
 
-        $main.scrollTop(top);
+        mainContentElement.scroll(0, top);
 
       } else {
-        // Scroll at the top when there is no unit selected.
-        $main.scrollTop(0);
+        mainContentElement.scroll(0, 0);
       }
     } else {
-      $main.scrollTop(0);
+      mainContentElement.scroll(0, 0);
     }
   },
 
@@ -150,7 +150,7 @@ const selectUnitModal = new modal.Modal({
 });
 
 selectUnitModal.enableLargeIcon = function (iconSize) {
-  utils.toggleIconSize(selectUnitModal.$modal, iconSize);
+  utils.toggleIconSize(selectUnitModal.modalElement, iconSize);
 };
 
 selectUnitModal.ready = false;
@@ -171,7 +171,7 @@ const selectCatUnit = function (bcData, id, form) {
 // ------------------------------
 
 const initListUnitSelect = function (bcData) {
-  const $modal = selectUnitModal.$modal;
+  const modalElement = selectUnitModal.modalElement;
 
   const arrUnitSelect = [null];
 
@@ -180,9 +180,9 @@ const initListUnitSelect = function (bcData) {
     const arrForm = [];
 
     bc.LIST_FORM.forEach(form => {
-      const $icons = $(`.icons[data-r=${r}][data-f=${form}]`, $modal);
+      const iconsElement = modalElement.querySelector(`.icons[data-r="${r}"][data-f="${form}"]`);
 
-      arrForm[form] = $icons;
+      arrForm[form] = iconsElement;
     });
 
     arrUnitSelect[r] = arrForm;
@@ -196,12 +196,12 @@ const initListUnitSelect = function (bcData) {
     const arrRarity = arrUnitSelect[rarity];
 
     bc.LIST_FORM.forEach(form => {
-      const $icons = arrRarity[form];
+      const iconsElement = arrRarity[form];
 
-      if ($icons.length > 0) {
-        const unitIcon = createUnitIcon(catUnit, form);
-        $icons.append(unitIcon.getHtml());
-      }
+      if (iconsElement == null) return;
+
+      const unitIcon = createUnitIcon(catUnit, form);
+      iconsElement.appendChild(unitIcon.getHtml());
     });
   });
 };
@@ -224,25 +224,26 @@ const createUnitIcon = function (catUnit, form) {
 
 // Set the current Cat Unit
 const setCurrentUnit = function (selectedId, selectedForm) {
-  if (selectUnitModal.data.currentUnit.$selected != null) {
-    selectUnitModal.data.currentUnit.$selected.removeClass('selected');
+  if (selectUnitModal.data.currentUnit.selectedElement != null) {
+    selectUnitModal.data.currentUnit.selectedElement.classList.toggle('selected', false);
   }
 
   // Get the unit icon to put the selection.
-  const $unitIcon = $(`.icon[data-id=${selectedId}][data-form=${selectedForm}]`, selectUnitModal.$modal);
+  const unitIconElement = selectUnitModal.modalElement.querySelector(`.icon[data-id="${selectedId}"][data-form="${selectedForm}"]`);
 
-  const found = $unitIcon.length > 0;
+  const found = unitIconElement != null;
 
   if (found) {
-    $unitIcon.addClass('selected');
+    unitIconElement.classList.toggle('selected', true);
   }
 
   const id = found ? selectedId : bc.ID_NONE;
   const form = found ? selectedForm : bc.FORM_NONE;
-  const $selected = found ? $unitIcon : null;
+
+  const selectedElement = found ? unitIconElement : null;
   const tempId = found ? bc.ID_NONE : selectedId;
 
-  selectUnitModal.data.currentUnit = { id, form, $selected, tempId };
+  selectUnitModal.data.currentUnit = { id, form, selectedElement, tempId };
 };
 
 // ---------------------
@@ -251,10 +252,10 @@ const setCurrentUnit = function (selectedId, selectedForm) {
 
 // Make a click on the "form" button.
 const setFormButton = function (newForm) {
-  const $form = selectUnitModal.data.$forms[newForm];
+  const unitForm = selectUnitModal.data.listUnitForm[newForm];
 
-  if ($form != null) {
-    $form.input.prop('checked', true);
+  if (unitForm != null) {
+    unitForm.inputElement.checked = true;
   }
 };
 
@@ -263,7 +264,11 @@ const setFormContent = function (newForm) {
   if (selectUnitModal.data.currentUnit.form !== newForm) {
     bc.LIST_FORM.forEach(form => {
       // Hide all except the new form
-      selectUnitModal.$modal.find(`.icons[data-f=${form}]`).toggleClass('hidden', newForm !== form);
+      const arrIconsElement = selectUnitModal.modalElement.querySelectorAll(`.icons[data-f="${form}"]`);
+
+      arrIconsElement.forEach(e => {
+        e.classList.toggle('hidden', newForm !== form);
+      });
     });
 
     if (selectUnitModal.data.currentUnit.id !== bc.ID_NONE
@@ -302,15 +307,27 @@ const setSelectedUnits = function (enable, selectedId, form) {
   const s = enable ? SELECTED_ICON : null;
 
   selectUnitModal.data.listSelectedId.forEach(id => {
-    $(`.icon[data-id=${id}]`, selectUnitModal.$modal).attr('data-s', s);
+    const listUnitIconElement = selectUnitModal.modalElement.querySelectorAll(`.icon[data-id="${id}"]`);
+
+    if (listUnitIconElement.length > 0) {
+      listUnitIconElement.forEach(e => e.setAttribute('data-s', s));
+    }
 
     if (enable && id === selectedId) {
       // Allow to select other forms of the same unit.
       const fa = form === bc.FORM_NORMAL ? bc.FORM_TRUE_FORM : bc.FORM_NORMAL;
       const fb = form === bc.FORM_EVOLVED ? bc.FORM_TRUE_FORM : bc.FORM_EVOLVED;
 
-      $(`.icon[data-id=${id}][data-form=${fa}]`, selectUnitModal.$modal).attr('data-s', null);
-      $(`.icon[data-id=${id}][data-form=${fb}]`, selectUnitModal.$modal).attr('data-s', null);
+      const unitIconElementA = selectUnitModal.modalElement.querySelector(`.icon[data-id="${id}"][data-form="${fa}"]`);
+      const unitIconElementB = selectUnitModal.modalElement.querySelector(`.icon[data-id="${id}"][data-form="${fb}"]`);
+
+      if (unitIconElementA != null) {
+        unitIconElementA.setAttribute('data-s', null);
+      }
+
+      if (unitIconElementB != null) {
+        unitIconElementB.setAttribute('data-s', null);
+      }
     }
   });
 };

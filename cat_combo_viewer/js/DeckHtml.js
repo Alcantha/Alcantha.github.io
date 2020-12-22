@@ -5,13 +5,14 @@ import * as bc from './bc.js';
 
 import UnitIconHtml from './UnitIconHtml.js';
 
-const DeckHtml = function (selector, bcData, selectUnitModal, activeEffectGalleryHtml) {
+const DeckHtml = function (deckId, bcData, selectUnitModal, activeEffectGalleryHtml) {
 
 const self = this;
 
 // HTML element of the deck.
-const $currentDeck = $(selector);
-const $deckContainer = $currentDeck.parent();
+const currentDeckElement = document.getElementById(deckId);
+
+const deckContainerElement = currentDeckElement.parentNode;
 
 // List of unit icon.
 const listUnitIconHtml = [];
@@ -25,30 +26,36 @@ const init = function () {
 };
 
 const initListUnitIconHtml = function () {
+  let count = 0;
+
   // Initialize the list of unit icon.
-  $('.icon', $currentDeck).each((i, e) => {
-    const $this = $(e);
+  const icons = Array.from(currentDeckElement.getElementsByClassName('icon'));
 
-    //const pos = $this.data('pos');
-    const pos = $this.parent().index() * 5 + $this.index() + 1;
+  icons.forEach((unitIconElt, i) => {
+    const position = ++count;
 
-    listUnitIconHtml[pos] = new UnitIconHtml({ $unitIcon: $this });
+    listUnitIconHtml[position] = new UnitIconHtml({ unitIconElt, position });
   });
 };
 
 const initEventSelectUnit = function () {
   // Initialize the events.
-  $currentDeck.on('click', '.icon', function () {
+  currentDeckElement.addEventListener('click', function (e) {
     // Open the modal "Select Cat Unit" when the user click on the
     // deck slot.
     if (!selectUnitModal.ready) {
       return;
     }
 
-    const $this = $(this);
-    const pos = $this.parent().index() * 5 + $this.index() + 1;
-    const id = Number.parseInt($this.attr('data-id'));
-    const form = $this.attr('data-form');
+    const iconElement = e.path.find(e2 => e2.classList != null && e2.classList.contains('icon'));
+
+    if (iconElement == null) {
+      return;
+    }
+
+    const pos = Number.parseInt(iconElement.getAttribute('data-pos'));
+    const id = Number.parseInt(iconElement.getAttribute('data-id'));
+    const form = iconElement.getAttribute('data-form');
 
     const callbackSelectedUnit = function (catUnit, form) {
       // Set the unit in the slot once it has been selected.
@@ -57,55 +64,40 @@ const initEventSelectUnit = function () {
 
     // List of unit ID already present in the deck.
     const listSelectedId = listUnitIconHtml
-      .map(icon => icon.getId())
-      .filter(iconId => iconId !== bc.ID_NONE);
+    .map(icon => icon.getId())
+    .filter(iconId => iconId !== bc.ID_NONE);
 
     selectUnitModal.open({ id, form, listSelectedId, callbackSelectedUnit });
   });
 };
 
 const initDrop = function () {
+  const callback = function (posDragged, pos) {
+    moveUnit(posDragged, pos);
+    renderMoveUnit(posDragged, pos);
+
+    // Update active effect.
+    checkUnits();
+  };
+
   for (let pos = 1; pos <= 10; pos++) {
     const unitIconHtml = listUnitIconHtml[pos];
 
-    const $unitIcon = unitIconHtml.getHtml();
-
-    // Starting to drag an unit icon.
-    $unitIcon[0].addEventListener('dragstart', function (e) {
-      e.dataTransfer.setData('text/plain', pos);
-    });
-
-    // Allow the unit to be dragged in the other slots.
-    $unitIcon[0].addEventListener('dragover', function (e) {
-      e.preventDefault();
-    });
-
-    // Swap the units when dropped in another slot.
-    $unitIcon[0].addEventListener('drop', function (e) {
-      e.preventDefault();
-
-      const posDragged = parseInt(e.dataTransfer.getData('text/plain'));
-
-      moveUnit(posDragged, pos);
-      renderMoveUnit(posDragged, pos);
-
-      // Update active effect.
-      checkUnits();
-    });
+    unitIconHtml.initDrop(pos, callback);
   }
 
   // Allow the unit icon to be dragged in the deck container.
-  $deckContainer[0].addEventListener('dragover', function (e) {
+  deckContainerElement.addEventListener('dragover', function (e) {
     e.preventDefault();
   });
 
   // Remove the unit when it is not dropped in a slot.
-  $deckContainer[0].addEventListener('drop', function (e) {
+  deckContainerElement.addEventListener('drop', function (e) {
     e.preventDefault();
 
-    const $target = $(e.target);
+    const targetElement = e.target;
 
-    if (!$target.hasClass('image-icon')) {
+    if (!targetElement.classList.contains('image-icon')) {
       // Remove the unit from the deck.
       const posDragged = parseInt(e.dataTransfer.getData('text/plain'));
 
@@ -200,7 +192,7 @@ const getListUnit = function () {
 };
 
 this.enableLargeIcon = function (iconSize) {
-  utils.toggleIconSize($currentDeck, iconSize);
+  utils.toggleIconSize(currentDeckElement, iconSize);
 };
 
 this.addCatUnit = function (catUnit, form, pos = 10, ignoreLowForm = false) {

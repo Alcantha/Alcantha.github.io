@@ -4,22 +4,20 @@ import * as utils from './utils.js';
 import * as bc from './bc.js';
 import CatComboHtml from './CatComboHtml.js';
 
-const CatComboGalleryHtml = function (selector, bcData) {
+const CatComboGalleryHtml = function (listCatComboId, bcData) {
 
 const self = this;
 
-const $html = $('html');
+const listCatComboElement = document.getElementById(listCatComboId);
+const catComboGalleryElement = listCatComboElement.querySelector('.cat-combo-gallery');
 
-const $listCatCombo = $(selector).eq(0);
-const $catComboGallery = $('> .cat-combo-gallery', $listCatCombo);
+const txtCurrTypeElement = document.getElementById('comboTxtCurrType');
+const btnTypePrevElement = document.getElementById('comboTypePrev');
+const btnTypeNextElement = document.getElementById('comboTypeNext');
 
-const $txtCurrType = $('#comboTxtCurrType', $listCatCombo);
-const $btnTypePrev = $('#comboTypePrev', $listCatCombo);
-const $btnTypeNext = $('#comboTypeNext', $listCatCombo);
-
-const $txtCurrPage = $('#comboTxtCurrPage', $listCatCombo);
-const $btnPagePrev = $('#comboPagePrev', $listCatCombo);
-const $btnPageNext = $('#comboPageNext', $listCatCombo);
+const txtCurrPageElement = document.getElementById('comboTxtCurrPage');
+const btnPagePrevElement = document.getElementById('comboPagePrev');
+const btnPageNextElement = document.getElementById('comboPageNext');
 
 const listCatComboShow = [];
 const listCatComboShowHtml = [];
@@ -52,41 +50,44 @@ this.init = function () {
   nbCatCombo = currListCatCombo.length;
 
   // Previous type
-  $btnTypePrev.on('click', function () {
+  btnTypePrevElement.addEventListener('click', function () {
     currCcType = (currCcType - 1 + nbCcType) % nbCcType;
 
     self.renderType();
   });
 
   // Next type
-  $btnTypeNext.on('click', function () {
+  btnTypeNextElement.addEventListener('click', function () {
     currCcType = (currCcType + 1) % nbCcType;
 
     self.renderType();
   });
 
   // Previous page
-  $btnPagePrev.on('click', function () {
+  btnPagePrevElement.addEventListener('click', function () {
     currPage = (currPage - 1 + nbTotalPage) % nbTotalPage;
 
     self.renderPage();
   });
 
   // Next page
-  $btnPageNext.on('click', function () {
+  btnPageNextElement.addEventListener('click', function () {
     currPage = (currPage + 1) % nbTotalPage;
 
     self.renderPage();
   });
 
   // Add cat unit in the deck
-  $catComboGallery.on('click', '.icon', function (e) {
-    const $this = $(this);
-    const catUnitId = $this.attr('data-id');
+  catComboGalleryElement.addEventListener('click', function (e) {
+    const iconElement = e.path.find(e2 => e2.classList != null && e2.classList.contains('icon'));
+
+    if (iconElement == null) return;
+
+    const catUnitId = iconElement.getAttribute('data-id');
 
     if (deckHtml != null && catUnitId !== bc.ID_NOT_FOUND && catUnitId !== bc.ID_NONE) {
       const catUnit = bcData.getCatUnit(catUnitId);
-      const form = $this.attr('data-form');
+      const form = iconElement.getAttribute('data-form');
 
       deckHtml.addCatUnit(catUnit, form, 10, true);
     }
@@ -107,7 +108,7 @@ this.addCatCombo = function (catCombo) {
   listCatComboShow.push(catCombo);
   listCatComboShowHtml.push(catComboHtml);
 
-  $catComboGallery.append(catComboHtml.getHtml());
+  catComboGalleryElement.appendChild(catComboHtml.getHtml());
 };
 
 this.getCatCombo = function (index) {
@@ -129,9 +130,11 @@ this.updateType = function () {
 this.updateComboPerPage = function () {
   const indexCombo = currPage * nbComboPerPage;
 
-  const galleryHeight = $html.height() - 120; // "100vh - 120px"
-  const $catCombo = $('> :first-child', $catComboGallery);
-  const comboHeight = $catCombo.length > 0 ? $catCombo.outerHeight(true) : 70;
+  const galleryHeight = document.body.clientHeight - 170;
+  const catComboElement = catComboGalleryElement.querySelector(':first-child');
+  const comboHeight = catComboElement != null && catComboElement.offsetHeight > 0
+    ? catComboElement.offsetHeight
+    : 70;
 
   nbComboPerPage = Math.floor(galleryHeight / comboHeight);
 
@@ -163,11 +166,11 @@ this.updatePage = function () {
 // Render
 
 this.clear = function () {
-  $catComboGallery.empty();
+  catComboGalleryElement.innerHTML = '';
 };
 
 this.enableLargeIcon = function (iconSize) {
-  utils.toggleIconSize($listCatCombo, iconSize);
+  utils.toggleIconSize(listCatComboElement, iconSize);
 
   const indexCombo = currPage * nbComboPerPage;
 
@@ -179,8 +182,8 @@ this.enableLargeIcon = function (iconSize) {
 this.renderButtonType = function () {
   const { name, size } = listCcType[currCcType];
 
-  $txtCurrType.text(name);
-  $txtCurrType.css('font-size', size);
+  txtCurrTypeElement.textContent = name;
+  txtCurrTypeElement.style.fontSize = size;
 };
 
 this.renderType = function () {
@@ -193,7 +196,7 @@ this.renderType = function () {
 };
 
 this.renderButtonPage = function () {
-  $txtCurrPage.text(`${currPage + 1} / ${nbTotalPage}`);
+  txtCurrPageElement.textContent = `${currPage + 1} / ${nbTotalPage}`;
 };
 
 this.renderPageWithHeight = function () {

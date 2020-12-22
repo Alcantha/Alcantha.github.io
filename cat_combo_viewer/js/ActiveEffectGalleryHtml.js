@@ -6,23 +6,33 @@ import * as bc from './bc.js';
 import ActiveEffect from './ActiveEffect.js';
 import ActiveEffectHtml from './ActiveEffectHtml.js';
 
-const ActiveEffectGalleryHtml = function (selector, bcData) {
+// Class ActiveEffectGalleryHtml
 
-const $activeEffectGallery = $(selector);
+const ActiveEffectGalleryHtml = function (galleryId, bcData) {
+
+const activeEffectGalleryElement = document.getElementById(galleryId);
 
 const listActiveEffectHtml = [];
 
 let deckHtml = null;
 
 const init = function () {
-  // Add cat unit from uncomplete combo.
-  $activeEffectGallery.on('click', '.icon[data-present="v"]', function (e) {
-    const $this = $(this);
-    const catUnitId = $this.attr('data-id');
+  // When the use click in the unit icon, add the cat unit in the deck from uncomplete combo.
+  activeEffectGalleryElement.addEventListener('click', function (e) {
+    // Search for the element with the tag "icon".
+    const iconElement = e.path.find(e2 => e2.classList != null && e2.classList.contains('icon'));
+
+    if (iconElement == null) {
+      return;
+    }
+
+    const catUnitId = iconElement.getAttribute('data-id');
 
     if (deckHtml != null && catUnitId !== bc.ID_NOT_FOUND && catUnitId !== bc.ID_NONE) {
+      // Add the cat unit in the deck
       const catUnit = bcData.getCatUnit(catUnitId);
-      const form = $this.attr('data-form');
+
+      const form = iconElement.getAttribute('data-form');
 
       deckHtml.addCatUnit(catUnit, form);
     }
@@ -30,7 +40,7 @@ const init = function () {
 };
 
 this.enableLargeIcon = function (iconSize) {
-  utils.toggleIconSize($activeEffectGallery, iconSize);
+  utils.toggleIconSize(activeEffectGalleryElement, iconSize);
 };
 
 this.setDeckHtml = function (deckHtml_) {
@@ -46,7 +56,7 @@ this.addActiveEffect = function (activeEffect) {
 
   listActiveEffectHtml[effectId] = activeEffectHtml;
 
-  $activeEffectGallery.append(activeEffectHtml.getHtml());
+  activeEffectGalleryElement.appendChild(activeEffectHtml.getHtml());
 };
 
 this.getActiveEffect = function (effectId) {

@@ -5,15 +5,31 @@ import * as bc from './bc.js';
 
 import CatUnit from './CatUnit.js';
 
-const $unitIconTemplate = $('<div class="icon"><div class="image-icon"></div></div>');
+const createUnitIconElement = function () {
+  // <div class="icon">
+  //   <div class="image-icon"></div>
+  // </div>
+  const iconElement = document.createElement('div');
+  iconElement.className = 'icon';
+
+  const imageIconElement = document.createElement('div');
+  imageIconElement.className = 'image-icon';
+
+  iconElement.appendChild(imageIconElement);
+
+  return iconElement;
+};
+
+// Class UnitIconHtml
 
 const UnitIconHtml = function ({
-  $unitIcon = null,
+  unitIconElt = null,
   catUnit = null,
   form = bc.FORM_NONE,
+  position = null,
 } = {}) {
 
-let $unitIcon_ = $unitIcon;
+let unitIconElement = unitIconElt;
 let catUnit_ = catUnit;
 let form_ = form;
 
@@ -21,8 +37,12 @@ let form_ = form;
 let present = null;
 
 this.init = function () {
-  if ($unitIcon_ == null) {
-    $unitIcon_ = $unitIconTemplate.clone();
+  if (unitIconElement == null) {
+    unitIconElement = createUnitIconElement();
+  }
+
+  if (position != null) {
+    unitIconElement.setAttribute('data-pos', position);
   }
 };
 
@@ -53,15 +73,35 @@ this.setPresent = function (p) {
 };
 
 this.getHtml = function () {
-  return $unitIcon_;
+  return unitIconElement;
+};
+
+this.initDrop = function (pos, callback) {
+  unitIconElement.addEventListener('dragstart', function (e) {
+    e.dataTransfer.setData('text/plain', pos);
+  });
+
+  // Allow the unit to be dragged in the other slots.
+  unitIconElement.addEventListener('dragover', function (e) {
+    e.preventDefault();
+  });
+
+  // Swap the units when dropped in another slot.
+  unitIconElement.addEventListener('drop', function (e) {
+    e.preventDefault();
+
+    const posDragged = parseInt(e.dataTransfer.getData('text/plain'));
+
+    callback(posDragged, pos);
+  });
 };
 
 this.updateDraggable = function () {
-  $unitIcon_.attr('draggable', catUnit_ != null);
+  unitIconElement.setAttribute('draggable', catUnit_ != null);
 };
 
 this.render = function () {
-  const $imageIcon = $unitIcon_.children().eq(0);
+  const imageIconElement = unitIconElement.firstElementChild;
 
   let id = bc.ID_NONE;
   let unitName = '';
@@ -71,12 +111,12 @@ this.render = function () {
     unitName = catUnit_.getName(form_);
   }
 
-  $unitIcon_.attr('data-id', id);
-  $unitIcon_.attr('data-form', form_);
-  $unitIcon_.attr('title', unitName);
-  $unitIcon_.attr('data-present', present);
+  unitIconElement.setAttribute('data-id', id);
+  unitIconElement.setAttribute('data-form', form_);
+  unitIconElement.setAttribute('title', unitName);
+  unitIconElement.setAttribute('data-present', present);
 
-  $imageIcon.css('background-position-y', utils.getCssBgPositionY(id));
+  imageIconElement.style.backgroundPositionY = utils.getCssBgPositionY(id);
 };
 
 this.init();

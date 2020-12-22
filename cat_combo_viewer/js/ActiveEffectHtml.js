@@ -2,23 +2,31 @@
 
 import CatComboHtml from './CatComboHtml.js';
 
-const $activeEffectTemplate = $('#active-effect-template > .active-effect').eq(0);
+const activeEffectElementModel = document.querySelector('#active-effect-template > .active-effect');
+
+const createActiveEffectElement = function () {
+  return activeEffectElementModel.cloneNode(true);
+};
+
+// Class ActiveEffectHtml
 
 const ActiveEffectHtml = function (activeEffect, bcData) {
 
-const $activeEffect = $activeEffectTemplate.clone();
+const activeEffectElement = createActiveEffectElement();
 
-const $input = $('> input.cb-collapse', $activeEffect).eq(0);
-const $name = $('> .name', $activeEffect).eq(0);
-const $catCombos = $('> .cat-combos', $activeEffect).eq(0);
+const inputElement = activeEffectElement.getElementsByClassName('cb-collapse')[0];
+const nameElement = activeEffectElement.getElementsByClassName('name')[0];
+
+const catCombosElement = activeEffectElement.getElementsByClassName('cat-combos')[0];
 
 const listCatCombo = [];
 let show = false;
 
 const setInputId = function (id) {
   const name = `activeEffect${id}`;
-  $input.attr('id', name);
-  $name.attr('for', name);
+
+  inputElement.setAttribute('id', name);
+  nameElement.setAttribute('for', name);
 };
 
 this.getActiveEffect = function () {
@@ -38,7 +46,7 @@ this.addCatCombo = function (catCombo) {
 
   listCatCombo.push(catComboHtml);
 
-  $catCombos.append(catComboHtml.getHtml());
+  catCombosElement.append(catComboHtml.getHtml());
 };
 
 this.checkUnits = function (listUnitDeck) {
@@ -58,15 +66,15 @@ this.checkUnits = function (listUnitDeck) {
 };
 
 this.getHtml = function () {
-  return $activeEffect;
+  return activeEffectElement;
 };
 
 this.render = function () {
-  $activeEffect.toggle(show);
+  activeEffectElement.style.display = show ? 'block' : 'none';
 
   if (show) {
     // Title
-    $name.text(activeEffect.getTitle());
+    nameElement.textContent = activeEffect.getTitle();
 
     // Cat Combos
     listCatCombo.forEach(catComboHtml => catComboHtml.render());

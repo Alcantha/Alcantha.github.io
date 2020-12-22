@@ -8,7 +8,7 @@ import * as modal from './modal.js';
 // -----------------
 
 const optionsModal = new modal.Modal({
-  selector: '#optionsModal',
+  modalId: 'optionsModal',
 
   onInit(self, {
     catComboGalleryHtml,
@@ -16,9 +16,9 @@ const optionsModal = new modal.Modal({
     activeEffectGalleryHtml,
     selectUnitModal,
   }) {
-    self.data.$btnIconSizeSmall = $('#iconSizeSmall', self.$modal).eq(0);
-    self.data.$btnIconSizeMedium = $('#iconSizeMedium', self.$modal).eq(0);
-    self.data.$btnIconSizeLarge = $('#iconSizeLarge', self.$modal).eq(0);
+    self.data.btnIconSizeSmallElement = self.modalElement.querySelector('#iconSizeSmall');
+    self.data.btnIconSizeMediumElement = self.modalElement.querySelector('#iconSizeMedium');
+    self.data.btnIconSizeLargeElement = self.modalElement.querySelector('#iconSizeLarge');
 
     const updateUnitIconSize = function () {
       const iconSize = getIconSize(self);
@@ -29,15 +29,13 @@ const optionsModal = new modal.Modal({
       selectUnitModal.enableLargeIcon(iconSize);
     };
 
-    self.data.$btnIconSizeSmall.on('click', function () {
+    self.data.btnIconSizeSmallElement.addEventListener('click', function () {
       updateUnitIconSize();
     });
-
-    self.data.$btnIconSizeMedium.on('click', function () {
+    self.data.btnIconSizeMediumElement.addEventListener('click', function () {
       updateUnitIconSize();
     });
-
-    self.data.$btnIconSizeLarge.on('click', function () {
+    self.data.btnIconSizeLargeElement.addEventListener('click', function () {
       updateUnitIconSize();
     });
 
@@ -46,9 +44,9 @@ const optionsModal = new modal.Modal({
 });
 
 const getIconSize = function (modal) {
-  const $checkedRadio = $('[name="iconSize"]:checked', modal.$modal);
+  const checkedRadioElement = modal.modalElement.querySelector('[name="iconSize"]:checked');
 
-  return $checkedRadio.attr('data-icon-size');
+  return checkedRadioElement.getAttribute('data-icon-size');
 };
 
 export default optionsModal;
