@@ -79,7 +79,7 @@ this.init = function () {
 
   // Add cat unit in the deck
   catComboGalleryElement.addEventListener('click', function (e) {
-    const iconElement = e.path.find(e2 => e2.classList != null && e2.classList.contains('icon'));
+    const iconElement = utils.getListPath(e).find(e2 => e2.classList != null && e2.classList.contains('icon'));
 
     if (iconElement == null) return;
 

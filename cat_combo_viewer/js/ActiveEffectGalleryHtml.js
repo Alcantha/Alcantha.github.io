@@ -20,7 +20,7 @@ const init = function () {
   // When the use click in the unit icon, add the cat unit in the deck from uncomplete combo.
   activeEffectGalleryElement.addEventListener('click', function (e) {
     // Search for the element with the tag "icon".
-    const iconElement = e.path.find(e2 => e2.classList != null && e2.classList.contains('icon'));
+    const iconElement = utils.getListPath(e).find(e2 => e2.classList != null && e2.classList.contains('icon'));
 
     if (iconElement == null) {
       return;

@@ -1,5 +1,7 @@
 'use strict';
 
+import * as utils from './utils.js';
+
 const MODAL_OP_NONE = 'a';
 const MODAL_OP_SELF = 'b';
 
@@ -93,7 +95,7 @@ const Modal = function ({
 
   modalElement.addEventListener('click', function (e) {
     // Valid
-    const btnValidElement = e.path.find(e2 => e2.classList != null && e2.classList.contains('valid'));
+    const btnValidElement = utils.getListPath(e).find(e2 => e2.classList != null && e2.classList.contains('valid'));
 
     if (btnValidElement != null) {
       self.valid();
@@ -101,7 +103,7 @@ const Modal = function ({
     }
 
     // Cancel
-    const btnCancelElement = e.path.find(e2 => e2.classList != null && e2.classList.contains('cancel'));
+    const btnCancelElement = utils.getListPath(e).find(e2 => e2.classList != null && e2.classList.contains('cancel'));
 
     if (btnCancelElement != null) {
       self.cancel();
@@ -109,7 +111,7 @@ const Modal = function ({
     }
 
     // Close
-    const btnCloseElement = e.path.find(e2 => e2.classList != null && e2.classList.contains('mf-close'));
+    const btnCloseElement = utils.getListPath(e).find(e2 => e2.classList != null && e2.classList.contains('mf-close'));
 
     if (btnCloseElement != null) {
       self.close();

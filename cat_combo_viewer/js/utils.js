@@ -16,10 +16,15 @@ const toggleIconSize = function (element, iconSize) {
   element.classList.toggle('large', toggleLargeIcon);
 };
 
+const getListPath = function (event) {
+  return event.path || (event.composedPath && event.composedPath()) || [];
+};
+
 export {
   SMALL_ICON,
   MEDIUM_ICON,
   LARGE_ICON,
   getCssBgPositionY,
   toggleIconSize,
+  getListPath,
 };
