@@ -1544,6 +1544,13 @@
     ]
   },
   {
+    "name":"Spinning Out",
+    "effect":{"id":8,"boost":1},
+    "units":[
+      {"id":559}
+    ]
+  },
+  {
     "name":"Clear Skies",
     "effect":{"id":14,"boost":1},
     "units":[
