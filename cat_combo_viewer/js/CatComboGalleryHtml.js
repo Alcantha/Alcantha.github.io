@@ -130,7 +130,7 @@ this.updateType = function () {
 this.updateComboPerPage = function () {
   const indexCombo = currPage * nbComboPerPage;
 
-  const galleryHeight = document.body.clientHeight - 170;
+  const galleryHeight = document.body.clientHeight - 190;
   const catComboElement = catComboGalleryElement.querySelector(':first-child');
   const comboHeight = catComboElement != null && catComboElement.offsetHeight > 0
     ? catComboElement.offsetHeight
