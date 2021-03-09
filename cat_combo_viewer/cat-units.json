@@ -1406,17 +1406,17 @@
   {
     "id":258,
     "r":5,
-    "names":["Thunder God Zeus","The Majestic Zeus"]
+    "names":["Thunder God Zeus","The Majestic Zeus","Almighty Zeus"]
   },
   {
     "id":259,
     "r":5,
-    "names":["Anubis the Protector","Anubis the Unblemished"]
+    "names":["Anubis the Protector","Anubis the Unblemished","Almighty Anubis"]
   },
   {
     "id":260,
     "r":5,
-    "names":["Radiant Aphrodite","Megaphrodite"]
+    "names":["Radiant Aphrodite","Megaphrodite","Almighty Aphrodite"]
   },
   {
     "id":261,
@@ -1482,12 +1482,12 @@
   {
     "id":272,
     "r":5,
-    "names":["Shining Amaterasu","Glorious Amaterasu"]
+    "names":["Shining Amaterasu","Glorious Amaterasu","Almighty Amaterasu"]
   },
   {
     "id":273,
     "r":5,
-    "names":["Splendid Ganesha","Exalted Ganesha"]
+    "names":["Splendid Ganesha","Exalted Ganesha","Almighty Ganesha"]
   },
   {
     "id":274,
@@ -1550,7 +1550,7 @@
   {
     "id":284,
     "r":5,
-    "names":["Pai-Pai","Pai-Pai Z"]
+    "names":["Pai-Pai","Pai-Pai Z","Pai-Pai DX"]
   },
   {
     "id":285,
@@ -1566,7 +1566,7 @@
   {
     "id":287,
     "r":5,
-    "names":["Strike Unit R.E.I.","Assault Unit R.E.I."]
+    "names":["Strike Unit R.E.I.","Assault Unit R.E.I.","Flight Unit R.E.I."]
   },
   {
     "id":288,
@@ -1734,7 +1734,7 @@
   {
     "id":317,
     "r":5,
-    "names":["Wrathful Poseidon","Valiant Poseidon"]
+    "names":["Wrathful Poseidon","Valiant Poseidon","Almighty Poseidon"]
   },
   {
     "id":318,
@@ -2075,7 +2075,6 @@
   {
     "id":377,
     "r":3,
-    "ignore":2,
     "names":["Rover Cat","Rover Cat Mk II","Catellite"]
   },
   {
@@ -2200,7 +2199,7 @@
   {
     "id":398,
     "r":5,
-    "names":["Sakura Sonic","Afterschool Sakura"]
+    "names":["Sakura Sonic","Afterschool Sakura","Sacred Blade Sakura"]
   },
   {
     "id":399,
@@ -2443,7 +2442,7 @@
   {
     "id":440,
     "r":5,
-    "names":["Empress Chronos","Chronos the Infinite"]
+    "names":["Empress Chronos","Chronos the Infinite","Almighty Chronos"]
   },
   {
     "id":441,

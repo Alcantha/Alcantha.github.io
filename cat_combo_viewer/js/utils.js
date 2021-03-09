@@ -4,8 +4,8 @@ const SMALL_ICON = '0';
 const MEDIUM_ICON = '1';
 const LARGE_ICON = '2';
 
-const getCssBgPositionY = function (id) {
-  return `calc(var(--icon-height) * -${id - 1})`;
+const getCssBgPositionY = function (offset) {
+  return `calc(var(--icon-height) * -${offset})`;
 };
 
 const toggleIconSize = function (element, iconSize) {

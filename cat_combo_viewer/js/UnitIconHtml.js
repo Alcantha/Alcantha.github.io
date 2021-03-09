@@ -105,10 +105,14 @@ this.render = function () {
 
   let id = bc.ID_NONE;
   let unitName = '';
+  let startId = 1;
+  let offset = 0;
 
   if (catUnit_ != null) {
     id = catUnit_.getId();
     unitName = catUnit_.getName(form_);
+    startId = Number.parseInt((id - 1) / 100) * 100 + 1;
+    offset = ((id - 1) % 100);
   }
 
   unitIconElement.setAttribute('data-id', id);
@@ -116,7 +120,9 @@ this.render = function () {
   unitIconElement.setAttribute('title', unitName);
   unitIconElement.setAttribute('data-present', present);
 
-  imageIconElement.style.backgroundPositionY = utils.getCssBgPositionY(id);
+  unitIconElement.setAttribute('data-start-id', startId);
+
+  imageIconElement.style.backgroundPositionY = utils.getCssBgPositionY(offset);
 };
 
 this.init();

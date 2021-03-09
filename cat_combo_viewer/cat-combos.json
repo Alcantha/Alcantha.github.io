@@ -1542,5 +1542,13 @@
     "units":[
       {"id":239,"f":2}
     ]
+  },
+  {
+    "name":"Clear Skies",
+    "effect":{"id":14,"boost":1},
+    "units":[
+      {"id":288,"f":2},
+      {"id":377,"f":2}
+    ]
   }
 ]
