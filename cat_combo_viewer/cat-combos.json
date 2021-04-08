@@ -1557,5 +1557,21 @@
       {"id":288,"f":2},
       {"id":377,"f":2}
     ]
+  },
+  {
+    "name":"Witch Trial",
+    "effect":{"id":18,"boost":1},
+    "units":[
+      {"id":56},
+      {"id":13}
+    ]
+  },
+  {
+    "name":"Breakfast in Undies",
+    "effect":{"id":18,"boost":1},
+    "units":[
+      {"id":154},
+      {"id":16}
+    ]
   }
 ]

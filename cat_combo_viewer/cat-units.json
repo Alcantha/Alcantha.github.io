@@ -2871,7 +2871,7 @@
     "id":512,
     "r":5,
     "ignore":2,
-    "names":["Ryu","Ryu CC"]
+    "names":["Ryu","Ryu CC", "Kage"]
   },
   {
     "id":513,
@@ -2918,7 +2918,7 @@
   {
     "id":520,
     "r":5,
-    "names":["Lasvoss","Ultimate Lasvoss"]
+    "names":["Lasvoss","Ultimate Lasvoss","Lasvoss Reborn"]
   },
   {
     "id":521,
@@ -2954,7 +2954,7 @@
     "id":526,
     "r":5,
     "ignore":2,
-    "names":["Kintaro","Kinrangers RoboForce"]
+    "names":["Kintaro","Kinrangers RoboForce","Kinrangers GigaForce"]
   },
   {
     "id":527,
@@ -3374,5 +3374,83 @@
     "r":5,
     "ignore":2,
     "names":["Blooming Kamukura","Everbloom Kamukura"]
+  },
+  {
+    "id":597,
+    "r":5,
+    "ignore":2,
+    "names":["Ranma Saotome (M)","Ranma Saotome (F)"]
+  },
+  {
+    "id":598,
+    "r":5,
+    "ignore":2,
+    "names":["Akane Tendo","Akane Tendo (Gi)"]
+  },
+  {
+    "id":599,
+    "r":5,
+    "ignore":2,
+    "names":["Hibiki Ryoga (Pig)","Hibiki Ryoga"]
+  },
+  {
+    "id":600,
+    "r":5,
+    "ignore":2,
+    "names":["Shampoo (Cat)","Shampoo"]
+  },
+  {
+    "id":601,
+    "r":5,
+    "ignore":2,
+    "names":["Mousse (Duck)","Mousse"]
+  },
+  {
+    "id":602,
+    "r":4,
+    "ignore":2,
+    "names":["Happosai","Happosai (Lewd)"]
+  },
+  {
+    "id":603,
+    "r":4,
+    "ignore":2,
+    "names":["Ukyo Kuonji (GR)","Ukyo Kuonji"]
+  },
+  {
+    "id":604,
+    "r":4,
+    "ignore":2,
+    "names":["Tatewaki Kuno (Gi)","Tatewaki Kuno"]
+  },
+  {
+    "id":605,
+    "r":3,
+    "ignore":2,
+    "names":["Ranma Cat (M)","Ranma Cat (F)"]
+  },
+  {
+    "id":606,
+    "r":3,
+    "ignore":2,
+    "names":["Akane Cat","Akane Cat (Gi)"]
+  },
+  {
+    "id":607,
+    "r":2,
+    "ignore":2,
+    "names":["Panda Cat","Gemma Cat"]
+  },
+  {
+    "id":608,
+    "r":5,
+    "ignore":2,
+    "names":["Adventurer Kanna","Swashbuckler Kanna"]
+  },
+  {
+    "id":609,
+    "r":2,
+    "ignore":2,
+    "names":["Wafer Cat","Wafer Cat BIG"]
   }
 ]

@@ -567,18 +567,6 @@ body {
   box-shadow: inherit;
 }
 
-.icon[data-form="0"] .image-icon {
-  background-image: url("../images/normal.png");
-}
-
-.icon[data-form="1"] .image-icon {
-  background-image: url("../images/evolved.png");
-}
-
-.icon[data-form="2"] .image-icon {
-  background-image: url("../images/true_form.png");
-}
-
 .icon[data-form="0"][data-start-id="1"] .image-icon {
   background-image: url("../images/normal_1-100.png");
 }
