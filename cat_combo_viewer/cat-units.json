@@ -2519,8 +2519,7 @@
   {
     "id":453,
     "r":3,
-    "ignore":2,
-    "names":["Primordial Cat","Modern Cat"]
+    "names":["Primordial Cat","Modern Cat","Future Cat"]
   },
   {
     "id":454,
@@ -2971,7 +2970,6 @@
   {
     "id":529,
     "r":3,
-    "ignore":2,
     "names":["Cossack Cat","Vodka Cat"]
   },
   {
