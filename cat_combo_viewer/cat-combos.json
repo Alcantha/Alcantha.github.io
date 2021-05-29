@@ -1581,5 +1581,21 @@
       {"id":529,"f":1},
       {"id":453,"f":2}
     ]
+  },
+  {
+    "name":"Street Bazaar",
+    "effect":{"id":17,"boost":1},
+    "units":[
+      {"id":147},
+      {"id":304}
+    ]
+  },
+  {
+    "name":"Working Vacation",
+    "effect":{"id":15,"boost":1},
+    "units":[
+      {"id":41},
+      {"id":15,"f":2}
+    ]
   }
 ]
