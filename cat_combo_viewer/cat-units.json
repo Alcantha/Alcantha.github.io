@@ -2464,32 +2464,27 @@
   {
     "id":444,
     "r":4,
-    "ignore":2,
-    "names":["Driller Cat","Power Driller Cat"]
+    "names":["Driller Cat","Power Driller Cat","Neo Driller Cat"]
   },
   {
     "id":445,
     "r":4,
-    "ignore":2,
-    "names":["Piledriver Cat","Power Piledriver Cat"]
+    "names":["Piledriver Cat","Power Piledriver Cat","Neo Piledriver Cat"]
   },
   {
     "id":446,
     "r":4,
-    "ignore":2,
-    "names":["Cutter Cat","Power Cutter Cat"]
+    "names":["Cutter Cat","Power Cutter Cat","Neo Cutter Cat"]
   },
   {
     "id":447,
     "r":4,
-    "ignore":2,
-    "names":["Backhoe Cat","Power Backhoe Cat"]
+    "names":["Backhoe Cat","Power Backhoe Cat","Neo Backhoe Cat"]
   },
   {
     "id":448,
     "r":4,
-    "ignore":2,
-    "names":["Miter Saw Cat","Power Saw Cat"]
+    "names":["Miter Saw Cat","Power Saw Cat","Neo Saw Cat"]
   },
   {
     "id":449,

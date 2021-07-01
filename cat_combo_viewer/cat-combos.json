@@ -1597,5 +1597,45 @@
       {"id":41},
       {"id":15,"f":2}
     ]
+  },
+  {
+    "name":"Dragon Driller",
+    "effect":{"id":20,"boost":1},
+    "units":[
+      {"id":444,"f":1},
+      {"id":313,"f":1}
+    ]
+  },
+  {
+    "name":"Mythic Driver",
+    "effect":{"id":17,"boost":1},
+    "units":[
+      {"id":445,"f":1},
+      {"id":314,"f":1}
+    ]
+  },
+  {
+    "name":"Brave Cutter",
+    "effect":{"id":1,"boost":1},
+    "units":[
+      {"id":446,"f":1},
+      {"id":212,"f":1}
+    ]
+  },
+  {
+    "name":"Whale Digger",
+    "effect":{"id":22,"boost":1},
+    "units":[
+      {"id":447,"f":1},
+      {"id":312,"f":1}
+    ]
+  },
+  {
+    "name":"Sexy Sawer",
+    "effect":{"id":16,"boost":1},
+    "units":[
+      {"id":448,"f":1},
+      {"id":246,"f":1}
+    ]
   }
 ]
