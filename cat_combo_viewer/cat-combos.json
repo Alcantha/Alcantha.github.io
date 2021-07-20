@@ -1637,5 +1637,29 @@
       {"id":448,"f":1},
       {"id":246,"f":1}
     ]
+  },
+  {
+    "name":"Mini-Saurus",
+    "effect":{"id":11,"boost":1},
+    "units":[
+      {"id":210,"f":1},
+      {"id":47,"f":1}
+    ]
+  },
+  {
+    "name":"Little Warriors",
+    "effect":{"id":2,"boost":1},
+    "units":[
+      {"id":211,"f":1},
+      {"id":150,"f":1}
+    ]
+  },
+  {
+    "name":"Micro Fighters",
+    "effect":{"id":14,"boost":1},
+    "units":[
+      {"id":212,"f":1},
+      {"id":48,"f":1}
+    ]
   }
 ]
