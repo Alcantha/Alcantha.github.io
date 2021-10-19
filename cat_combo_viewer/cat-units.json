@@ -2770,8 +2770,8 @@
   {
     "id":496,
     "r":3,
-    "ignore":1,
-    "names":["Matador Cat","Flamenco Cat"]
+    "ignore":2,
+    "names":["Matador Cat","Flamenco Cat","Bellydance Cat"]
   },
   {
     "id":497,
@@ -3442,7 +3442,108 @@
   {
     "id":609,
     "r":2,
-    "ignore":2,
+    "ignore":1,
     "names":["Wafer Cat","Wafer Cat BIG"]
+  },
+  {
+    "id":610,
+    "r":5,
+    "ignore":2,
+    "names":["Dark Aegis Garu","Dark Beastlord Garu"]
+  },
+  {
+    "id":611,
+    "r":2,
+    "ignore":2,
+    "names":["Gold Brick Cat","King Ingot Cat","King Nekokhamen"]
+  },
+  {
+    "id":612,
+    "r":3,
+    "ignore":2,
+    "names":["Godzilla Cat","Shin Godzilla Cat"]
+  },
+  {
+    "id":613,
+    "r":6,
+    "ignore":2,
+    "names":["Princess Cat","Empress Cat "]
+  },
+  {
+    "id":614,
+    "r":2,
+    "ignore":2,
+    "names":["Elder Mask Doron","Cat Mask Doron"]
+  },
+  {
+    "id":615,
+    "r":5,
+    "ignore":2,
+    "names":["Kaguya of the Coast","The Southern Sun "]
+  },
+  {
+    "id":616,
+    "r":2,
+    "ignore":2,
+    "names":["Kabuto Cat","Golden Kabuto Cat"]
+  },
+  {
+    "id":617,
+    "r":2,
+    "ignore":2,
+    "names":["Kuwagata Cat","King Kuwagata Cat"]
+  },
+  {
+    "id":618,
+    "r":5,
+    "ignore":2,
+    "names":["Summoner Satoru","Dark Summoner Satoru"]
+  },
+  {
+    "id":619,
+    "r":5,
+    "ignore":2,
+    "names":["Shiro Amakusa","Wargod Amakusa"]
+  },
+  {
+    "id":620,
+    "r":5,
+    "ignore":2,
+    "names":["Lilin","Lilin, type π"]
+  },
+  {
+    "id":621,
+    "r":5,
+    "ignore":2,
+    "names":["Hevijak the Wicked","Wicked King Hevijak"]
+  },
+  {
+    "id":622,
+    "r":3,
+    "ignore":2,
+    "names":["Aku Researcher","Evil Aku Researcher"]
+  },
+  {
+    "id":623,
+    "r":2,
+    "ignore":2,
+    "names":["Jagando Jr.","Lord of Ruin Jagando Jr."]
+  },
+  {
+    "id":624,
+    "r":3,
+    "ignore":2,
+    "names":["Pied Piper Cat","Komuso Cat"]
+  },
+  {
+    "id":625,
+    "r":5,
+    "names":["Kunio-kun","Dodgeball Kunio-kun"]
+  },
+  {
+    "id":626,
+    "r":5,
+    "ignore":2,
+    "names":["Furiluga","Furilan Pasalan"]
   }
 ]

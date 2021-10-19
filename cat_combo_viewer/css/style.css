@@ -639,6 +639,18 @@ body {
   background-image: url("../images/true_form_501-600.png");
 }
 
+.icon[data-form="0"][data-start-id="601"] .image-icon {
+  background-image: url("../images/normal_601-700.png");
+}
+
+.icon[data-form="1"][data-start-id="601"] .image-icon {
+  background-image: url("../images/evolved_601-700.png");
+}
+
+.icon[data-form="2"][data-start-id="601"] .image-icon {
+  background-image: url("../images/true_form_601-700.png");
+}
+
 /* ----  Cat Combo  ---- */
 
 .icon[data-id="-1"] .image-icon {
