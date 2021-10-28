@@ -1692,5 +1692,29 @@
     "units":[
       {"id":625}
     ]
+  },
+  {
+    "name":"Dance a Little, Eat a Little",
+    "effect":{"id":18,"boost":1},
+    "units":[
+      {"id":312,"f":1},
+      {"id":496,"f":1}
+    ]
+  },
+  {
+    "name":"Tiny Ancient Hunt",
+    "effect":{"id":1,"boost":1},
+    "units":[
+      {"id":313,"f":1},
+      {"id":38,"f":1}
+    ]
+  },
+  {
+    "name":"Étoile minimum",
+    "effect":{"id":2,"boost":1},
+    "units":[
+      {"id":314,"f":1},
+      {"id":42,"f":1}
+    ]
   }
 ]
