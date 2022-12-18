@@ -1,0 +1,139 @@
+name: Embodiment of Scarlet Devil
+number: 6
+stages:
+-
+  stage:
+    name: Stage 1
+    musics:
+    -
+      name: A Soul as Red as a Ground Cherry
+      url: https://www.youtube.com/watch?v=w279PjazOAw
+  boss:
+    name: Boss 1
+    characters:
+    -
+      name: Rumia
+      species: Youkai
+      abilities: Manipulation of Darkness
+    musics:
+    -
+      name: Apparitions Stalk the Night
+      url: https://www.youtube.com/watch?v=zUvEHNW6y_A
+-
+  stage:
+    name: Stage 2
+    characters:
+    -
+      name: Daiyousei
+      species: Fairy
+      abilities: Unknown
+    musics:
+    -
+      name: Lunate Elf
+      url: https://www.youtube.com/watch?v=-Gx6D-i2Fqo
+  boss:
+    name: Boss 2
+    characters:
+    -
+      name: Cirno
+      species: Fairy
+      abilities: Manipulation of Cold
+    musics:
+    -
+      name: Beloved Tomboyish Daughter
+      url: https://www.youtube.com/watch?v=FG7flaqNFIY
+-
+  stage:
+    name: Stage 3
+    musics:
+    -
+      name: Shanghai Teahouse ~ Chinese Tea
+      url: https://www.youtube.com/watch?v=XpPlPKWW1Y0
+  boss:
+    name: Boss 3
+    characters:
+    -
+      name: Hong Meiling
+      species: Youkai
+      abilities: Manipulation of Qi
+    musics:
+    -
+      name: Shanghai Alice of Meiji 17
+      url: https://www.youtube.com/watch?v=qefeBGGszRI
+-
+  stage:
+    name: Stage 4
+    characters:
+    -
+      name: Koakuma
+      species: Devil
+      abilities: Unknown
+    musics:
+    -
+      name: Voile, the Magic Library
+      url: https://www.youtube.com/watch?v=ogtZZLPHqus
+  boss:
+    name: Boss 4
+    characters:
+    -
+      name: Patchouli Knowledge
+      species: Magician
+      abilities: Manipulation of All Elements
+    musics:
+    -
+      name: Locked Girl ~ The Girl's Secret Room
+      url: https://www.youtube.com/watch?v=qUEPCSzOHmo
+-
+  stage:
+    name: Stage 5
+    musics:
+    -
+      name: The Maid and the Pocket Watch of Blood
+      url: https://www.youtube.com/watch?v=cBWOIyKZ6is
+  boss:
+    name: Boss 5
+    characters:
+    -
+      name: Sakuya Izayoi
+      species: Human
+      abilities: Manipulation of Time
+    musics:
+    -
+      name: Lunar Clock ~ Luna Dial
+      url: https://www.youtube.com/watch?v=m1nRuWqW09Q
+-
+  stage:
+    name: Stage 6
+    musics:
+    -
+      name: The Young Descendant of Tepes
+      url: https://www.youtube.com/watch?v=JZ1jgSkP0Oc
+  boss:
+    name: Boss 6
+    characters:
+    -
+      name: Remilia Scarlet
+      species: Vampire
+      abilities: Manipulation of Fate
+    musics:
+    -
+      name: Septette for the Dead Princess
+      url: https://www.youtube.com/watch?v=uQ1YJMvSKP8
+-
+  stage:
+    name: EX Stage
+    musics:
+    -
+      name: The Centennial Festival for Magical Girls
+      url: https://www.youtube.com/watch?v=B_5o9nETAPE
+  boss:
+    name: EX Boss
+    characters:
+    -
+      name: Flandre Scarlet
+      species: Vampire
+      abilities: Destruction of Anything
+    musics:
+    -
+      name: U.N. Owen was Her?
+      url: https://www.youtube.com/watch?v=xcvouNwZbI0

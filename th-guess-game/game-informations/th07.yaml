@@ -1,0 +1,168 @@
+name: Perfect Cherry Blossom
+number: 7
+stages:
+-
+  stage:
+    name: Stage 1
+    characters:
+    -
+      name: Cirno
+      species: Fairy
+      abilities: Manipulation of Cold
+    musics:
+    -
+      name: Paradise ~ Deep Mountain
+      url: https://www.youtube.com/watch?v=hjRRg8p8YCc
+  boss:
+    name: Boss 1
+    characters:
+    -
+      name: Letty Whiterock
+      species: Yuki-Onna
+      abilities: Manipulation of Chill
+    musics:
+    -
+      name: Crystallized Silver
+      url:  https://www.youtube.com/watch?v=BpDoqVrFCc0
+-
+  stage:
+    name: Stage 2
+    musics:
+    -
+      name: The Fantastic Legend of Tohno
+      url: https://www.youtube.com/watch?v=P4dnkdikJMw
+  boss:
+    name: Boss 2
+    characters:
+    -
+      name: Chen
+      species: Nekomata
+      abilities: Youjutsu
+    musics:
+    -
+      name: Diao Ye Zong (Withered Leaf)
+      url: https://www.youtube.com/watch?v=asIr5qxkOnw
+-
+  stage:
+    name: Stage 3
+    musics:
+    -
+      name: The Doll Maker of Bucuresti
+      url: https://www.youtube.com/watch?v=deMn8DAKOMw
+  boss:
+    name: Boss 3
+    characters:
+    -
+      name: Alice Margatroid
+      species: Youkai
+      abilities: Manipulation of Dolls
+    musics:
+    -
+      name: Doll Judgment ~ The Girl who Played with People's Shapes
+      url: https://www.youtube.com/watch?v=3K38Z8qAkqo
+-
+  stage:
+    name: Stage 4
+    characters:
+    -
+      name: Lily White
+      species: Fairy
+      abilities: Heralding the Arrival of Spring
+    musics:
+    -
+      name: The Capital City of Flowers in the Sky
+      url: https://www.youtube.com/watch?v=hfbfl0MlIAU
+  boss:
+    name: Boss 4
+    characters:
+    -
+      name: Lunasa Prismriver
+      species: Poltergeist
+      abilities: Perform Melancholic Notes
+    -
+      name: Lyrica Prismriver
+      species: Poltergeist
+      abilities: Perform Illusionary Notes
+    -
+      name: Merlin Prismriver
+      species: Poltergeist
+      abilities: Perform Maniac Notes
+    musics:
+    -
+      name: Ghostly Band ~ Phantom Ensemble
+      url: https://www.youtube.com/watch?v=ilWjpT0JPIk
+-
+  stage:
+    name: Stage 5
+    musics:
+    -
+      name: Mystic Oriental Dream ~ Ancient Temple
+      url: https://www.youtube.com/watch?v=QOY4eL-pKAY
+  boss:
+    name: Boss 5
+    characters:
+    -
+      name: Youmu Konpaku
+      species: Half-Human Half-Phantom
+      abilities: Sword Fighting
+    musics:
+    -
+      name: Hiroari Shoots a Strange Bird ~ Till When?
+      url: https://www.youtube.com/watch?v=0W7vUwkgp5A
+-
+  stage:
+    name: Stage 6
+    musics:
+    -
+      name: Ultimate Truth
+      url: https://www.youtube.com/watch?v=svbNyNi79Dk
+  boss:
+    name: Boss 6
+    characters:
+    -
+      name: Yuyuko Saigyouji
+      species: Ghost
+      abilities: Manipulation of Death
+    musics:
+    -
+      name: Bloom Nobly, Cherry Blossoms of Sumizome ~ Border of Life
+      url: https://www.youtube.com/watch?v=AAdHRSUNZUs
+    -
+      name: Border of Life
+      url: https://www.youtube.com/watch?v=3oDWlQbqCBc
+-
+  stage:
+    name: EX Stage
+    musics:
+    -
+      name: Charming Domination
+      url: https://www.youtube.com/watch?v=pt59eWm1-us
+  boss:
+    name: EX Boss
+    characters:
+    -
+      name: Ran Yakumo
+      species: Kitsune
+      abilities: Use Shikigami
+    musics:
+    -
+      name: A Maiden's Illusionary Funeral ~ Necro-Fantasy
+      url: https://www.youtube.com/watch?v=8yGYuaXnOtY
+-
+  stage:
+    name: Phantasm Stage
+    musics:
+    -
+      name: Charming Domination ~ Who done it?
+      url: https://www.youtube.com/watch?v=kD1S4qk_2XY
+  boss:
+    name: Phantasm Boss
+    characters:
+    -
+      name: Yukari Yakumo
+      species: Youkai
+      abilities: Manipulation of Boundaries
+    musics:
+    -
+      name: Necrofantasia
+      url: https://www.youtube.com/watch?v=ygy6O9kVt7U
