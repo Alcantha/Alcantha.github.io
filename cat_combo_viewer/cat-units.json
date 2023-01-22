@@ -82,7 +82,7 @@
   {
     "id":17,
     "r":2,
-    "names":["Moneko","Miss MONEKO"]
+    "names":["Moneko","Miss MONEKO","Superstar MONEKO"]
   },
   {
     "id":18,
@@ -686,7 +686,7 @@
   {
     "id":130,
     "r":4,
-    "names":["Gold Cat","Gold Macho Cat"]
+    "names":["Gold Cat","Gold Macho Cat","Glittering Macho Cat"]
   },
   {
     "id":131,
@@ -1234,7 +1234,7 @@
   {
     "id":228,
     "r":3,
-    "names":["Pumpcat","Cat O'Lantern"]
+    "names":["Pumpcat","Cat O'Lantern","Harbinger Cat"]
   },
   {
     "id":229,
@@ -1544,7 +1544,7 @@
   {
     "id":283,
     "r":3,
-    "names":["Awa-Odori Cat","So-Ran Cat"]
+    "names":["Awa-Odori Cat","So-Ran Cat","Gorgeous Groovin' Cat"]
   },
   {
     "id":284,
@@ -1749,7 +1749,7 @@
   {
     "id":320,
     "r":3,
-    "names":["Killer Cat","True Killer Cat"]
+    "names":["Killer Cat","True Killer Cat","Radical Cat"]
   },
   {
     "id":321,
@@ -2945,7 +2945,6 @@
   {
     "id":526,
     "r":5,
-    "ignore":2,
     "names":["Kintaro","Kinrangers RoboForce","Kinrangers GigaForce"]
   },
   {
@@ -2998,7 +2997,6 @@
   {
     "id":535,
     "r":5,
-    "ignore":2,
     "names":["Hades the Punisher","Hades the Deathdealer","Almighty Hades"]
   },
   {
@@ -3207,8 +3205,7 @@
   {
     "id":570,
     "r":5,
-    "ignore":2,
-    "names":["Gravi","Gravolo"]
+    "names":["Gravi","Gravolo","Gravolodon"]
   },
   {
     "id":571,
@@ -3357,8 +3354,7 @@
   {
     "id":595,
     "r":5,
-    "ignore":2,
-    "names":["Mighty Aether Ltd.","Atlantis Logistix"]
+    "names":["Mighty Aether Ltd.","Atlantis Logistix","Ultra Atlantis Logistix"]
   },
   {
     "id":596,
@@ -3435,8 +3431,7 @@
   {
     "id":608,
     "r":5,
-    "ignore":2,
-    "names":["Adventurer Kanna","Swashbuckler Kanna"]
+    "names":["Adventurer Kanna","Swashbuckler Kanna","Adventure Girl Kanna"]
   },
   {
     "id":609,
@@ -3501,14 +3496,12 @@
   {
     "id":619,
     "r":5,
-    "ignore":2,
-    "names":["Shiro Amakusa","Wargod Amakusa"]
+    "names":["Shiro Amakusa","Wargod Amakusa","Immortal Amakusa"]
   },
   {
     "id":620,
     "r":5,
-    "ignore":2,
-    "names":["Lilin","Lilin, type π"]
+    "names":["Lilin","Lilin π","Divine Lilin π"]
   },
   {
     "id":621,
@@ -3544,5 +3537,201 @@
     "r":5,
     "ignore":2,
     "names":["Furiluga","Furilan Pasalan"]
+  },
+  {
+    "id":627,
+    "r":2,
+    "ignore":1,
+    "names":["Cat Giraffe Modoki","Suruma Cat Giraffe Modoki"]
+  },
+  {
+    "id":628,
+    "r":2,
+    "ignore":1,
+    "names":["Catnip Tricky","Tenma Catnip Tricky"]
+  },
+  {
+    "id":629,
+    "r":2,
+    "ignore":1,
+    "names":["Catnip Dragon","Famous Catnip Dragon "]
+  },
+  {
+    "id":630,
+    "r":4,
+    "ignore":2,
+    "names":["Brainwashed Cat","Brainwashed Macho Cat"]
+  },
+  {
+    "id":631,
+    "r":3,
+    "ignore":2,
+    "names":["Calligraphy Cat","Tea Master Cat"]
+  },
+  {
+    "id":632,
+    "r":5,
+    "ignore":2,
+    "names":["Yamii","Yaminoir"]
+  },
+  {
+    "id":633,
+    "r":5,
+    "names":["Mighty Deth-Troy-R","Siege Walker Diabolosa","Obliterator Diabolosa"]
+  },
+  {
+    "id":634,
+    "r":5,
+    "ignore":2,
+    "names":["Shitakiri Sparrow","Shitakiri Sparrow"]
+  },
+  {
+    "id":635,
+    "r":5,
+    "ignore":2,
+    "names":["White Knight Cyclops","Black Knight Kyklops"]
+  },
+  {
+    "id":636,
+    "r":2,
+    "ignore":1,
+    "names":["1 Million Dollar Cat","100 Million Dollar Cat"]
+  },
+  {
+    "id":637,
+    "r":4,
+    "ignore":2,
+    "names":["Brainwashed Tank Cat","Brainwashed Wall Cat"]
+  },
+  {
+    "id":638,
+    "r":2,
+    "ignore":1,
+    "names":["Xiaoqiong & Cat","Xiaoqiong & Cat CC"]
+  },
+  {
+    "id":639,
+    "r":3,
+    "ignore":1,
+    "names":["Nana & Cat","Nana & Cat CC"]
+  },
+  {
+    "id":640,
+    "r":3,
+    "ignore":1,
+    "names":["Emilia & Cat","Emilia & Cat CC"]
+  },
+  {
+    "id":641,
+    "r":2,
+    "ignore":1,
+    "names":["Ann & Cat","Ann & Cat CC"]
+  },
+  {
+    "id":642,
+    "r":5,
+    "ignore":2,
+    "names":["Iz the Dancer","Iz the Alluring Dancer"]
+  },
+  {
+    "id":643,
+    "r":5,
+    "ignore":2,
+    "names":["Lucifer the Fallen","Grand Lucifer","Almighty Lucifer"]
+  },
+  {
+    "id":644,
+    "r":1,
+    "ignore":2,
+    "names":["Superfeline","Superfeline II","True Superfeline"]
+  },
+  {
+    "id":645,
+    "r":5,
+    "ignore":2,
+    "names":["Sweet Love Mekako","Bittersweet Mekako"]
+  },
+  {
+    "id":646,
+    "r":4,
+    "ignore":2,
+    "names":["Brainwashed Axe Cat","Brainwashed Brave Cat"]
+  },
+  {
+    "id":647,
+    "r":2,
+    "ignore":2,
+    "names":["Firecracker Cat","Firecracker Macho Cat"]
+  },
+  {
+    "id":648,
+    "r":5,
+    "ignore":2,
+    "names":["Huntress Terun","Huntress Terun ζ"]
+  },
+  {
+    "id":649,
+    "r":5,
+    "ignore":2,
+    "names":["Lovestruck Lesser Demon","Lovestruck Greater Demon"]
+  },
+  {
+    "id":650,
+    "r":5,
+    "ignore":2,
+    "names":["Hattori Hanzo","Wargod Hanzo"]
+  },
+  {
+    "id":651,
+    "r":2,
+    "ignore":2,
+    "names":["Secret Crush Cat","Girlfriend Cat"]
+  },
+  {
+    "id":652,
+    "r":2,
+    "ignore":2,
+    "names":["Tomboy Lion Cat","Iron-Masked Lion Cat"]
+  },
+  {
+    "id":653,
+    "r":2,
+    "ignore":2,
+    "names":["Chalkboard Eraser Cat","Chalkboard Punk Cat"]
+  },
+  {
+    "id":654,
+    "r":2,
+    "ignore":2,
+    "names":["Elder Beast Naala","Storm Beast Naala","Awakened Naala"]
+  },
+  {
+    "id":655,
+    "r":4,
+    "ignore":2,
+    "names":["Brainwashed Gross Cat","Brainwashed Sexy Legs Cat"]
+  },
+  {
+    "id":656,
+    "r":5,
+    "ignore":2,
+    "names":["Bliza","Blizana"]
+  },
+  {
+    "id":657,
+    "r":2,
+    "ignore":2,
+    "names":["Ancient Egg N001","Mystic Egg N001","Haniwa Cat"]
+  },
+  {
+    "id":658,
+    "r":5,
+    "ignore":2,
+    "names":["Iz the Dancer of Grief","Iz the Lady of Mourning"]
+  },
+  {
+    "id":659,
+    "r":3,
+    "names":["Ancient Egg: N101","Cinnabar Egg: N101","Courier Cat"]
   }
 ]
