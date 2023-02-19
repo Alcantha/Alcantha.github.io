@@ -1796,5 +1796,21 @@
       {"id":324,"f":2},
       {"id":100,"f":2}
     ]
+  },
+  {
+    "name":"Truant Angel",
+    "effect":{"id":14,"boost":1},
+    "units":[
+      {"id":643,"f":2},
+      {"id":670,"f":2}
+    ]
+  },
+  {
+    "name":"Dark End to the Holiday",
+    "effect":{"id":16,"boost":2},
+    "units":[
+      {"id":632,"f":2},
+      {"id":443,"f":2}
+    ]
   }
 ]

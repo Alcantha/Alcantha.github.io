@@ -2457,7 +2457,6 @@
   {
     "id":443,
     "r":3,
-    "ignore":2,
     "names":["Lone Cat and Kitten","Vendor Cat and Kitten","Tourist Cat"]
   },
   {
@@ -3571,8 +3570,7 @@
   {
     "id":632,
     "r":5,
-    "ignore":2,
-    "names":["Yamii","Yaminoir"]
+    "names":["Yamii","Yaminoir","Yaminora"]
   },
   {
     "id":633,
@@ -3636,7 +3634,6 @@
   {
     "id":643,
     "r":5,
-    "ignore":2,
     "names":["Lucifer the Fallen","Grand Lucifer","Almighty Lucifer"]
   },
   {
@@ -3733,5 +3730,70 @@
     "id":659,
     "r":3,
     "names":["Ancient Egg: N101","Cinnabar Egg: N101","Courier Cat"]
+  },
+  {
+    "id":660,
+    "r":3,
+    "ignore":2,
+    "names":["Ancient Egg: N102","Teal Egg: N102","Catarzan"]
+  },
+  {
+    "id":661,
+    "r":5,
+    "ignore":2,
+    "names":["Sea Serpent Daliasan","Sea King Daliasan"]
+  },
+  {
+    "id":662,
+    "r":5,
+    "ignore":2,
+    "names":["Chronos the Bride","Wedding Chronos"]
+  },
+  {
+    "id":663,
+    "r":4,
+    "ignore":2,
+    "names":["Brainwashed Cow Cat","Brainwashed Giraffe Cat",""]
+  },
+  {
+    "id":664,
+    "r":3,
+    "ignore":2,
+    "names":["Ancient Egg: N103","Black Egg: N103","Gas Mask Cat"]
+  },
+  {
+    "id":665,
+    "r":3,
+    "ignore":2,
+    "names":["Ancient Egg: N104","Green Egg: N104","Surgeon Cat"]
+  },
+  {
+    "id":666,
+    "r":2,
+    "ignore":2,
+    "names":["Ancient Egg: N201","Dark Egg: N201","Exorcist Cat"]
+  },
+  {
+    "id":667,
+    "r":5,
+    "ignore":2,
+    "names":["Night Beach Lilin","Night Beach Lilinπ"]
+  },
+  {
+    "id":668,
+    "r":4,
+    "ignore":2,
+    "names":["Brainwashed Bird Cat","Brainwashed UFO Cat"]
+  },
+  {
+    "id":669,
+    "r":5,
+    "ignore":2,
+    "names":["Cat Tengu","Grand Yokai Tengu"]
+  },
+  {
+    "id":670,
+    "r":2,
+    "names":["Ancient Egg: N003","Evil Egg: N003","Cat Cactus"]
   }
 ]
