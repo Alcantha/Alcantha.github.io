@@ -1,1816 +1,3593 @@
 [
   {
-    "name":"Cat Army",
-    "effect":{"id":9},
-    "units":[
-      {"id":1},
-      {"id":2},
-      {"id":3},
-      {"id":4},
-      {"id":5}
-    ]
-  },
-  {
-    "name":"Behind Closed Doors",
-    "effect":{"id":5},
-    "units":[
-      {"id":14},
-      {"id":13}
-    ]
-  },
-  {
-    "name":"Cap'n Ahab",
-    "effect":{"id":7},
-    "units":[
-      {"id":52,"f":1},
-      {"id":7,"f":1}
-    ]
-  },
-  {
-    "name":"Deathrock",
-    "effect":{"id":4},
-    "units":[
-      {"id":20},
-      {"id":149}
-    ]
-  },
-  {
-    "name":"Cool Japan",
-    "effect":{"id":1,"boost":2},
-    "units":[
-      {"id":19},
-      {"id":22},
-      {"id":21},
-      {"id":62}
-    ]
-  },
-  {
-    "name":"Sunbathers",
-    "effect":{"id":9},
-    "units":[
-      {"id":7,"f":2},
-      {"id":200,"f":1}
-    ]
-  },
-  {
-    "name":"Sound of Wings",
-    "effect":{"id":6},
-    "units":[
-      {"id":57,"f":1},
-      {"id":6}
-    ]
-  },
-  {
-    "name":"Choppers",
-    "effect":{"id":1},
-    "units":[
-      {"id":14,"f":1},
-      {"id":3},
-      {"id":73,"f":1}
-    ]
-  },
-  {
-    "name":"Apples and Oranges",
-    "effect":{"id":7},
-    "units":[
-      {"id":15,"f":1},
-      {"id":40}
-    ]
-  },
-  {
-    "name":"Take a Bow",
-    "effect":{"id":17},
-    "units":[
-      {"id":2},
-      {"id":170,"f":1}
-    ]
-  },
-  {
-    "name":"Sister Act",
-    "effect":{"id":1},
-    "units":[
-      {"id":17},
-      {"id":132}
-    ]
-  },
-  {
-    "name":"Hecks Angels",
-    "effect":{"id":3},
-    "units":[
-      {"id":18,"f":1},
-      {"id":159}
-    ]
-  },
-  {
-    "name":"Lingerie Special",
-    "effect":{"id":9},
-    "units":[
-      {"id":124,"f":1},
-      {"id":16}
-    ]
-  },
-  {
-    "name":"In Bloom",
-    "effect":{"id":19},
-    "units":[
-      {"id":73,"f":1},
-      {"id":128}
-    ]
-  },
-  {
-    "name":"Childhood Friends",
-    "effect":{"id":6},
-    "units":[
-      {"id":270},
-      {"id":210}
-    ]
-  },
-  {
-    "name":"Rawhide",
-    "effect":{"id":3},
-    "units":[
-      {"id":5},
-      {"id":146,"f":1}
-    ]
-  },
-  {
-    "name":"Puppeteers Guild",
-    "effect":{"id":4,"boost":2},
-    "units":[
-      {"id":227},
-      {"id":127,"f":1}
-    ]
-  },
-  {
-    "name":"Pyon Pyon for Two",
-    "effect":{"id":10},
-    "units":[
-      {"id":38},
-      {"id":89}
-    ]
-  },
-  {
-    "name":"Helping Hand",
-    "effect":{"id":18},
-    "units":[
-      {"id":31},
-      {"id":10,"f":1}
-    ]
-  },
-  {
-    "name":"Fall in Love",
-    "effect":{"id":15},
-    "units":[
-      {"id":57,"f":1},
-      {"id":110}
-    ]
-  },
-  {
-    "name":"Frog Prince",
-    "effect":{"id":14},
-    "units":[
-      {"id":151,"f":1},
-      {"id":19,"f":1}
-    ]
-  },
-  {
-    "name":"Treasured Grandchild",
-    "effect":{"id":4,"boost":2},
-    "units":[
-      {"id":60},
-      {"id":133}
-    ]
-  },
-  {
-    "name":"No Stage Fright",
-    "effect":{"id":16},
-    "units":[
-      {"id":10},
-      {"id":42,"f":1}
-    ]
-  },
-  {
-    "name":"Biohazard",
-    "effect":{"id":11},
-    "units":[
-      {"id":20},
-      {"id":12}
-    ]
-  },
-  {
-    "name":"Midsummer Sun",
-    "effect":{"id":15},
-    "units":[
-      {"id":128,"f":1},
-      {"id":39,"f":1}
-    ]
-  },
-  {
-    "name":"Reindeer's Gift",
-    "effect":{"id":8},
-    "units":[
-      {"id":75},
-      {"id":245}
-    ]
-  },
-  {
-    "name":"Silver Screen",
-    "effect":{"id":12},
-    "units":[
-      {"id":154,"f":1},
-      {"id":10}
-    ]
-  },
-  {
-    "name":"Long-Legged",
-    "effect":{"id":18,"boost":2},
-    "units":[
-      {"id":4},
-      {"id":169,"f":1}
-    ]
-  },
-  {
-    "name":"Life of the Party",
-    "effect":{"id":7},
-    "units":[
-      {"id":129,"f":1},
-      {"id":33,"f":1}
-    ]
-  },
-  {
-    "name":"Good Jobs!",
-    "effect":{"id":13},
-    "units":[
-      {"id":238,"f":1}
-    ]
-  },
-  {
-    "name":"Thirteen",
-    "effect":{"id":17},
-    "units":[
-      {"id":240,"f":1}
-    ]
-  },
-  {
-    "name":"Itchy Riches",
-    "effect":{"id":9},
-    "units":[
-      {"id":239,"f":1}
-    ]
-  },
-  {
-    "name":"Attack of the Li'ls",
-    "effect":{"id":3,"boost":2},
-    "units":[
-      {"id":210},
-      {"id":211},
-      {"id":212},
-      {"id":246},
-      {"id":247}
-    ]
-  },
-  {
-    "name":"X-Files",
-    "effect":{"id":5},
-    "units":[
-      {"id":198,"f":1},
-      {"id":6,"f":1}
-    ]
-  },
-  {
-    "name":"Legs for Days",
-    "effect":{"id":17},
-    "units":[
-      {"id":4,"f":1},
-      {"id":95,"f":1}
-    ]
-  },
-  {
-    "name":"Art History",
-    "effect":{"id":16},
-    "units":[
-      {"id":149,"f":1},
-      {"id":61,"f":1}
-    ]
-  },
-  {
-    "name":"Moby Dick",
-    "effect":{"id":2},
-    "units":[
-      {"id":52,"f":1},
-      {"id":7,"f":1},
-      {"id":98,"f":1}
-    ]
-  },
-  {
-    "name":"Back to School",
-    "effect":{"id":10},
-    "units":[
-      {"id":7},
-      {"id":98},
-      {"id":75}
-    ]
-  },
-  {
-    "name":"Eye of the Storm",
-    "effect":{"id":2,"boost":2},
-    "units":[
-      {"id":61},
-      {"id":89},
-      {"id":79},
-      {"id":127},
-      {"id":155}
-    ]
-  },
-  {
-    "name":"Mo' Hawks",
-    "effect":{"id":17},
-    "units":[
-      {"id":1,"f":2},
-      {"id":99,"f":1}
-    ]
-  },
-  {
-    "name":"Saucers",
-    "effect":{"id":15},
-    "units":[
-      {"id":6,"f":1},
-      {"id":97,"f":1}
-    ]
-  },
-  {
-    "name":"Mecha",
-    "effect":{"id":18},
-    "units":[
-      {"id":79,"f":1},
-      {"id":82,"f":1}
-    ]
-  },
-  {
-    "name":"Macho Man",
-    "effect":{"id":21},
-    "units":[
-      {"id":4,"f":2},
-      {"id":10,"f":2}
-    ]
-  },
-  {
-    "name":"Bouncing Four",
-    "effect":{"id":8,"boost":2},
-    "units":[
-      {"id":124,"f":1},
-      {"id":89,"f":1}
-    ]
-  },
-  {
-    "name":"Pulling Strings",
-    "effect":{"id":8},
-    "units":[
-      {"id":53,"f":1},
-      {"id":127,"f":1}
-    ]
-  },
-  {
-    "name":"King and Queen",
-    "effect":{"id":9},
-    "units":[
-      {"id":8,"f":2},
-      {"id":43,"f":1}
-    ]
-  },
-  {
-    "name":"Enter the Ninja",
-    "effect":{"id":3,"boost":2},
-    "units":[
-      {"id":19},
-      {"id":262}
-    ]
-  },
-  {
-    "name":"Troubled Youth",
-    "effect":{"id":21},
-    "units":[
-      {"id":131},
-      {"id":195}
-    ]
-  },
-  {
-    "name":"Duet",
-    "effect":{"id":9},
-    "units":[
-      {"id":17},
-      {"id":149}
-    ]
-  },
-  {
-    "name":"Firewatch",
-    "effect":{"id":20},
-    "units":[
-      {"id":8},
-      {"id":99},
-      {"id":204,"f":1}
-    ]
-  },
-  {
-    "name":"Polk on Rice",
-    "effect":{"id":2},
-    "units":[
-      {"id":107},
-      {"id":22,"f":2}
-    ]
-  },
-  {
-    "name":"Smiles at Cats",
-    "effect":{"id":19},
-    "units":[
-      {"id":1},
-      {"id":108,"f":1}
-    ]
-  },
-  {
-    "name":"Lion King",
-    "effect":{"id":14},
-    "units":[
-      {"id":5,"f":2},
-      {"id":110,"f":1}
-    ]
-  },
-  {
-    "name":"Peach 'n Banana",
-    "effect":{"id":3},
-    "units":[
-      {"id":137},
-      {"id":15}
-    ]
-  },
-  {
-    "name":"Honnoji's Curse",
-    "effect":{"id":19},
-    "units":[
-      {"id":129},
-      {"id":74}
-    ]
-  },
-  {
-    "name":"Cool in the Heat",
-    "effect":{"id":19},
-    "units":[
-      {"id":43},
-      {"id":128,"f":1}
-    ]
-  },
-  {
-    "name":"Apollo Mission",
-    "effect":{"id":6},
-    "units":[
-      {"id":79},
-      {"id":139,"f":1}
-    ]
-  },
-  {
-    "name":"Bony Bone",
-    "effect":{"id":11},
-    "units":[
-      {"id":53,"f":1},
-      {"id":20,"f":2}
-    ]
-  },
-  {
-    "name":"Chilvary and Candy",
-    "effect":{"id":18,"boost":2},
-    "units":[
-      {"id":86},
-      {"id":21,"f":2}
-    ]
-  },
-  {
-    "name":"Ratings Competition",
-    "effect":{"id":12},
-    "units":[
-      {"id":197},
-      {"id":10}
-    ]
-  },
-  {
-    "name":"Cats 'n Tanks",
-    "effect":{"id":6},
-    "units":[
-      {"id":64},
-      {"id":82},
-      {"id":81,"f":2}
-    ]
-  },
-  {
-    "name":"Headband",
-    "effect":{"id":5},
-    "units":[
-      {"id":64},
-      {"id":71,"f":1},
-      {"id":137}
-    ]
-  },
-  {
-    "name":"Watch Me Whip",
-    "effect":{"id":4},
-    "units":[
-      {"id":14},
-      {"id":123,"f":1}
-    ]
-  },
-  {
-    "name":"Masquerade",
-    "effect":{"id":17,"boost":2},
-    "units":[
-      {"id":131},
-      {"id":14,"f":1},
-      {"id":81}
-    ]
-  },
-  {
-    "name":"Crazy Hearts",
-    "effect":{"id":8,"boost":3},
-    "units":[
-      {"id":92},
-      {"id":93},
-      {"id":94},
-      {"id":95},
-      {"id":96}
-    ]
-  },
-  {
-    "name":"Power of Darkness",
-    "effect":{"id":20,"boost":2},
-    "units":[
-      {"id":3,"f":2},
-      {"id":14,"f":2}
-    ]
-  },
-  {
-    "name":"Gross!!!",
-    "effect":{"id":19,"boost":2},
-    "units":[
-      {"id":4},
-      {"id":95},
-      {"id":177,"f":1}
-    ]
-  },
-  {
-    "name":"Nyanko, Inc.",
-    "effect":{"id":9},
-    "units":[
-      {"id":71},
-      {"id":123,"f":1}
-    ]
-  },
-  {
-    "name":"Seasons of Love",
-    "effect":{"id":14,"boost":2},
-    "units":[
-      {"id":101},
-      {"id":105},
-      {"id":110}
-    ]
-  },
-  {
-    "name":"Flash in the Pan",
-    "effect":{"id":17},
-    "units":[
-      {"id":33,"f":1},
-      {"id":81,"f":1}
-    ]
-  },
-  {
-    "name":"Blossoming",
-    "effect":{"id":16},
-    "units":[
-      {"id":73,"f":1},
-      {"id":80}
-    ]
-  },
-  {
-    "name":"Bento Special",
-    "effect":{"id":8,"boost":2},
-    "units":[
-      {"id":75,"f":1},
-      {"id":62}
-    ]
-  },
-  {
-    "name":"Speak of the Devil",
-    "effect":{"id":12,"boost":2},
-    "units":[
-      {"id":45},
-      {"id":81}
-    ]
-  },
-  {
-    "name":"Classical Arts",
-    "effect":{"id":18},
-    "units":[
-      {"id":127,"f":1},
-      {"id":153,"f":1}
-    ]
-  },
-  {
-    "name":"Sportswoman",
-    "effect":{"id":2},
-    "units":[
-      {"id":101,"f":1},
-      {"id":37,"f":1}
-    ]
-  },
-  {
-    "name":"Gentlemen",
-    "effect":{"id":10},
-    "units":[
-      {"id":81,"f":1},
-      {"id":50,"f":1}
-    ]
-  },
-  {
-    "name":"Spinners",
-    "effect":{"id":3},
-    "units":[
-      {"id":18},
-      {"id":105}
-    ]
-  },
-  {
-    "name":"Longnecks",
-    "effect":{"id":9,"boost":2},
-    "units":[
-      {"id":5,"f":1},
-      {"id":170,"f":1}
-    ]
-  },
-  {
-    "name":"Feel the Dance",
-    "effect":{"id":2},
-    "units":[
-      {"id":23,"f":1},
-      {"id":33},
-      {"id":11,"f":2}
-    ]
-  },
-  {
-    "name":"Special Treatment",
-    "effect":{"id":17,"boost":2},
-    "units":[
-      {"id":144},
-      {"id":80,"f":1}
-    ]
-  },
-  {
-    "name":"Horror Movies",
-    "effect":{"id":16,"boost":2},
-    "units":[
-      {"id":20},
-      {"id":129},
-      {"id":34,"f":1}
-    ]
-  },
-  {
-    "name":"Cat High",
-    "effect":{"id":20},
-    "units":[
-      {"id":202,"f":1},
-      {"id":32},
-      {"id":101}
-    ]
-  },
-  {
-    "name":"Spearfight",
-    "effect":{"id":19},
-    "units":[
-      {"id":139},
-      {"id":25}
-    ]
-  },
-  {
-    "name":"Heart Beat",
-    "effect":{"id":18},
-    "units":[
-      {"id":213},
-      {"id":89}
-    ]
-  },
-  {
-    "name":"Lolly Fanciers",
-    "effect":{"id":18},
-    "units":[
-      {"id":16,"f":2},
-      {"id":173}
-    ]
-  },
-  {
-    "name":"Master-Apprentice",
-    "effect":{"id":19},
-    "units":[
-      {"id":11},
-      {"id":133}
-    ]
-  },
-  {
-    "name":"Three Kings",
-    "effect":{"id":2},
-    "units":[
-      {"id":110,"f":1},
-      {"id":8,"f":2},
-      {"id":5,"f":2}
-    ]
-  },
-  {
-    "name":"Girlish Innocents",
-    "effect":{"id":7,"boost":2},
-    "units":[
-      {"id":101},
-      {"id":151}
-    ]
-  },
-  {
-    "name":"Headbanger's Ball",
-    "effect":{"id":8,"boost":2},
-    "units":[
-      {"id":5},
-      {"id":96},
-      {"id":149}
-    ]
-  },
-  {
-    "name":"Showoffs",
-    "effect":{"id":10},
-    "units":[
-      {"id":18,"f":2},
-      {"id":155,"f":1}
-    ]
-  },
-  {
-    "name":"Sweets",
-    "effect":{"id":6,"boost":2},
-    "units":[
-      {"id":16,"f":2},
-      {"id":21,"f":2},
-      {"id":177}
-    ]
-  },
-  {
-    "name":"Pointy Bits",
-    "effect":{"id":21},
-    "units":[
-      {"id":241,"f":1},
-      {"id":8,"f":2}
-    ]
-  },
-  {
-    "name":"Yesterday's Enemy",
-    "effect":{"id":4,"boost":2},
-    "units":[
-      {"id":131},
-      {"id":173},
-      {"id":269}
-    ]
-  },
-  {
-    "name":"Punchpunchpunch!",
-    "effect":{"id":1,"boost":2},
-    "units":[
-      {"id":9},
-      {"id":100},
-      {"id":101},
-      {"id":35,"f":1}
-    ]
-  },
-  {
-    "name":"Lust for Battle",
-    "effect":{"id":1},
-    "units":[
-      {"id":3},
-      {"id":131},
-      {"id":45}
-    ]
-  },
-  {
-    "name":"Punish the Lewd",
-    "effect":{"id":16},
-    "units":[
-      {"id":81,"f":1},
-      {"id":258}
-    ]
-  },
-  {
-    "name":"Team of Two",
-    "effect":{"id":2,"boost":2},
-    "units":[
-      {"id":153},
-      {"id":82},
-      {"id":124},
-      {"id":105},
-      {"id":89,"f":1}
-    ]
-  },
-  {
-    "name":"Double Typhoon",
-    "effect":{"id":15},
-    "units":[
-      {"id":76},
-      {"id":268}
-    ]
-  },
-  {
-    "name":"Trick of the Wind",
-    "effect":{"id":17},
-    "units":[
-      {"id":268},
-      {"id":24}
-    ]
-  },
-  {
-    "name":"IT Crowd",
-    "effect":{"id":12},
-    "units":[
-      {"id":261},
-      {"id":36}
-    ]
-  },
-  {
-    "name":"Aerial Recon",
-    "effect":{"id":11,"boost":2},
-    "units":[
-      {"id":6},
-      {"id":97},
-      {"id":19,"f":2},
-      {"id":261,"f":1}
-    ]
-  },
-  {
-    "name":"Under Arrest",
-    "effect":{"id":18},
-    "units":[
-      {"id":213},
-      {"id":80,"f":2}
-    ]
-  },
-  {
-    "name":"Cat Circus",
-    "effect":{"id":8,"boost":2},
-    "units":[
-      {"id":5,"f":2},
-      {"id":131},
-      {"id":227}
-    ]
-  },
-  {
-    "name":"Checkered Skirt",
-    "effect":{"id":11},
-    "units":[
-      {"id":24},
-      {"id":160,"f":1}
-    ]
-  },
-  {
-    "name":"Double Date",
-    "effect":{"id":15},
-    "units":[
-      {"id":153},
-      {"id":82}
-    ]
-  },
-  {
-    "name":"Lazing About",
-    "effect":{"id":14},
-    "units":[
-      {"id":34},
-      {"id":80}
-    ]
-  },
-  {
-    "name":"Curses!!!",
-    "effect":{"id":19},
-    "units":[
-      {"id":129},
-      {"id":71,"f":1}
-    ]
-  },
-  {
-    "name":"Immodest Modesty",
-    "effect":{"id":10},
-    "units":[
-      {"id":24,"f":2},
-      {"id":52,"f":1}
-    ]
-  },
-  {
-    "name":"Jibbly Studio",
-    "effect":{"id":5,"boost":2},
-    "units":[
-      {"id":6,"f":2},
-      {"id":9,"f":1},
-      {"id":56}
-    ]
-  },
-  {
-    "name":"Pumpkinpants",
-    "effect":{"id":19},
-    "units":[
-      {"id":4,"f":1},
-      {"id":228,"f":1}
-    ]
-  },
-  {
-    "name":"Paranormal Activity",
-    "effect":{"id":9,"boost":2},
-    "units":[
-      {"id":39},
-      {"id":129},
-      {"id":81}
-    ]
-  },
-  {
-    "name":"Liver Trouble",
-    "effect":{"id":5},
-    "units":[
-      {"id":80},
-      {"id":11,"f":1}
-    ]
-  },
-  {
-    "name":"Age of Dinosaurs",
-    "effect":{"id":7},
-    "units":[
-      {"id":8},
-      {"id":47}
-    ]
-  },
-  {
-    "name":"Toying Around",
-    "effect":{"id":12},
-    "units":[
-      {"id":148},
-      {"id":128},
-      {"id":82,"f":1}
-    ]
-  },
-  {
-    "name":"Rich and Poor",
-    "effect":{"id":8},
-    "units":[
-      {"id":1},
-      {"id":130}
-    ]
-  },
-  {
-    "name":"Koi and Dragon",
-    "effect":{"id":6,"boost":2},
-    "units":[
-      {"id":105},
-      {"id":87}
-    ]
-  },
-  {
-    "name":"Playing Slayer",
-    "effect":{"id":14},
-    "units":[
-      {"id":3,"f":1},
-      {"id":178}
-    ]
-  },
-  {
-    "name":"As Above, So Below",
-    "effect":{"id":20},
-    "units":[
-      {"id":6,"f":2},
-      {"id":84}
-    ]
-  },
-  {
-    "name":"Future of War",
-    "effect":{"id":14},
-    "units":[
-      {"id":196},
-      {"id":261,"f":1}
-    ]
-  },
-  {
-    "name":"Bazooka Bros.",
-    "effect":{"id":5},
-    "units":[
-      {"id":12,"f":1},
-      {"id":269}
-    ]
-  },
-  {
-    "name":"Rivalry",
-    "effect":{"id":9},
-    "units":[
-      {"id":269},
-      {"id":25}
-    ]
-  },
-  {
-    "name":"Heavenly Kings",
-    "effect":{"id":15},
-    "units":[
-      {"id":72,"f":2},
-      {"id":26,"f":2},
-      {"id":96,"f":2}
-    ]
-  },
-  {
-    "name":"Sweep the Area",
-    "effect":{"id":6},
-    "units":[
-      {"id":12},
-      {"id":88}
-    ]
-  },
-  {
-    "name":"Steel Saviors",
-    "effect":{"id":16},
-    "units":[
-      {"id":82,"f":1},
-      {"id":44}
-    ]
-  },
-  {
-    "name":"Galactic Travel",
-    "effect":{"id":3},
-    "units":[
-      {"id":79},
-      {"id":136,"f":1}
-    ]
-  },
-  {
-    "name":"Struck by Lightning",
-    "effect":{"id":15},
-    "units":[
-      {"id":77},
-      {"id":20,"f":2}
-    ]
-  },
-  {
-    "name":"Neckless Chic",
-    "effect":{"id":17},
-    "units":[
-      {"id":9,"f":2},
-      {"id":172,"f":1}
-    ]
-  },
-  {
-    "name":"Blue Lagoon",
-    "effect":{"id":12},
-    "units":[
-      {"id":135,"f":1},
-      {"id":7,"f":2}
-    ]
-  },
-  {
-    "name":"Dog Gods",
-    "effect":{"id":5},
-    "units":[
-      {"id":131},
-      {"id":259}
-    ]
-  },
-  {
-    "name":"Volcanic Fury",
-    "effect":{"id":4,"boost":2},
-    "units":[
-      {"id":126},
-      {"id":98,"f":2}
-    ]
-  },
-  {
-    "name":"Cursed Strength",
-    "effect":{"id":6,"boost":2},
-    "units":[
-      {"id":71,"f":1},
-      {"id":58}
-    ]
-  },
-  {
-    "name":"Secret Agency",
-    "effect":{"id":10},
-    "units":[
-      {"id":19},
-      {"id":135}
-    ]
-  },
-  {
-    "name":"Living in Love",
-    "effect":{"id":5},
-    "units":[
-      {"id":101},
-      {"id":260}
-    ]
-  },
-  {
-    "name":"Jungle Women",
-    "effect":{"id":14},
-    "units":[
-      {"id":131},
-      {"id":106}
-    ]
-  },
-  {
-    "name":"Dreams of Flying",
-    "effect":{"id":17},
-    "units":[
-      {"id":136},
-      {"id":19,"f":2}
-    ]
-  },
-  {
-    "name":"Offering to the Gods",
-    "effect":{"id":7,"boost":2},
-    "units":[
-      {"id":272},
-      {"id":75,"f":1}
-    ]
-  },
-  {
-    "name":"Blessed Strength",
-    "effect":{"id":4,"boost":2},
-    "units":[
-      {"id":25,"f":2},
-      {"id":85}
-    ]
-  },
-  {
-    "name":"Gang of Killers",
-    "effect":{"id":12},
-    "units":[
-      {"id":213,"f":1},
-      {"id":269}
-    ]
-  },
-  {
-    "name":"Classic Headwear",
-    "effect":{"id":4,"boost":2},
-    "units":[
-      {"id":283},
-      {"id":138}
-    ]
-  },
-  {
-    "name":"Arm Day Everyday",
-    "effect":{"id":2,"boost":2},
-    "units":[
-      {"id":9},
-      {"id":11},
-      {"id":10,"f":2},
-      {"id":171,"f":1}
-    ]
-  },
-  {
-    "name":"Like a Record, Baby",
-    "effect":{"id":5,"boost":2},
-    "units":[
-      {"id":125,"f":1},
-      {"id":268,"f":1},
-      {"id":89}
-    ]
-  },
-  {
-    "name":"Blessed Business",
-    "effect":{"id":10,"boost":2},
-    "units":[
-      {"id":273},
-      {"id":261}
-    ]
-  },
-  {
-    "name":"My Very Best Friend",
-    "effect":{"id":23,"boost":4},
-    "units":[
-      {"id":300},
-      {"id":301}
-    ]
-  },
-  {
-    "name":"Hot, Fresh 'n' Fast",
-    "effect":{"id":12,"boost":2},
-    "units":[
-      {"id":304},
-      {"id":284}
-    ]
-  },
-  {
-    "name":"Commuter Life",
-    "effect":{"id":10},
-    "units":[
-      {"id":71},
-      {"id":285}
-    ]
-  },
-  {
-    "name":"Take Me Out",
-    "effect":{"id":2},
-    "units":[
-      {"id":202,"f":1},
-      {"id":288},
-      {"id":39,"f":1}
-    ]
-  },
-  {
-    "name":"Green Thumb",
-    "effect":{"id":8},
-    "units":[
-      {"id":309},
-      {"id":128}
-    ]
-  },
-  {
-    "name":"Purple Heart",
-    "effect":{"id":20},
-    "units":[
-      {"id":305},
-      {"id":80,"f":1}
-    ]
-  },
-  {
-    "name":"Marine Tours",
-    "effect":{"id":15},
-    "units":[
-      {"id":306,"f":1},
-      {"id":7},
-      {"id":312}
-    ]
-  },
-  {
-    "name":"Pedal Powered",
-    "effect":{"id":17},
-    "units":[
-      {"id":307},
-      {"id":18}
-    ]
-  },
-  {
-    "name":"Nationals",
-    "effect":{"id":18},
-    "units":[
-      {"id":202,"f":1},
-      {"id":308}
-    ]
-  },
-  {
-    "name":"Trainspotting",
-    "effect":{"id":4},
-    "units":[
-      {"id":285},
-      {"id":150,"f":2}
-    ]
-  },
-  {
-    "name":"Brunch Rush",
-    "effect":{"id":6},
-    "units":[
-      {"id":274,"f":1},
-      {"id":154}
-    ]
-  },
-  {
-    "name":"Black & White",
-    "effect":{"id":10},
-    "units":[
-      {"id":320},
-      {"id":1}
-    ]
-  },
-  {
-    "name":"Royal Submariner",
-    "effect":{"id":9},
-    "units":[
-      {"id":317},
-      {"id":110,"f":1}
-    ]
-  },
-  {
-    "name":"Cutting Edge",
-    "effect":{"id":3},
-    "units":[
-      {"id":287},
-      {"id":261,"f":1}
-    ]
-  },
-  {
-    "name":"Contest of Champs",
-    "effect":{"id":1},
-    "units":[
-      {"id":326},
-      {"id":22},
-      {"id":11},
-      {"id":101,"f":2}
-    ]
-  },
-  {
-    "name":"Put On Ice",
-    "effect":{"id":3},
-    "units":[
-      {"id":153},
-      {"id":325}
-    ]
-  },
-  {
-    "name":"Greatswords",
-    "effect":{"id":5,"boost":2},
-    "units":[
-      {"id":324},
-      {"id":126}
-    ]
-  },
-  {
-    "name":"You Will Find Happiness",
-    "effect":{"id":24,"boost":4},
-    "units":[
-      {"id":403},
-      {"id":406}
-    ]
-  },
-  {
-    "name":"Miracle Performance",
-    "effect":{"id":22},
-    "units":[
-      {"id":17},
-      {"id":419}
-    ]
-  },
-  {
-    "name":"Roasted Marshmallow",
-    "effect":{"id":12},
-    "units":[
-      {"id":360},
-      {"id":177}
-    ]
-  },
-  {
-    "name":"Meowin' in the Rain",
-    "effect":{"id":18},
-    "units":[
-      {"id":361},
-      {"id":344}
-    ]
-  },
-  {
-    "name":"Chance of Tornado",
-    "effect":{"id":16},
-    "units":[
-      {"id":362},
-      {"id":268}
-    ]
-  },
-  {
-    "name":"High Voltage",
-    "effect":{"id":3},
-    "units":[
-      {"id":402},
-      {"id":261}
-    ]
-  },
-  {
-    "name":"Two As One",
-    "effect":{"id":6,"boost":2},
-    "units":[
-      {"id":352},
-      {"id":124}
-    ]
-  },
-  {
-    "name":"Boiled Egg",
-    "effect":{"id":19},
-    "units":[
-      {"id":418},
-      {"id":330}
-    ]
-  },
-  {
-    "name":"Cheating Heart?",
-    "effect":{"id":11,"boost":2},
-    "units":[
-      {"id":22,"f":1},
-      {"id":432}
-    ]
-  },
-  {
-    "name":"Part-Time Coworkers",
-    "effect":{"id":2},
-    "units":[
-      {"id":398,"f":1},
-      {"id":274,"f":1}
-    ]
-  },
-  {
-    "name":"Imperial Court",
-    "effect":{"id":14},
-    "units":[
-      {"id":339},
-      {"id":82}
-    ]
-  },
-  {
-    "name":"Soft and Flexible",
-    "effect":{"id":7,"boost":2},
-    "units":[
-      {"id":437},
-      {"id":177,"f":1}
-    ]
-  },
-  {
-    "name":"Power in Numbers",
-    "effect":{"id":20},
-    "units":[
-      {"id":428},
-      {"id":64}
-    ]
-  },
-  {
-    "name":"Scantily Clad",
-    "effect":{"id":15,"boost":2},
-    "units":[
-      {"id":337,"f":1},
-      {"id":24},
-      {"id":16}
-    ]
-  },
-  {
-    "name":"Cosplay Fans",
-    "effect":{"id":21,"boost":2},
-    "units":[
-      {"id":358,"f":1},
-      {"id":71,"f":2}
-    ]
-  },
-  {
-    "name":"Post-Apocalypse",
-    "effect":{"id":1},
-    "units":[
-      {"id":323,"f":1},
-      {"id":18,"f":1},
-      {"id":15,"f":1}
-    ]
-  },
-  {
-    "name":"Kimono Champs",
-    "effect":{"id":11,"boost":3},
-    "units":[
-      {"id":335},
-      {"id":129},
-      {"id":283}
-    ]
-  },
-  {
-    "name":"Growth Spurt",
-    "effect":{"id":10,"boost":2},
-    "units":[
-      {"id":359},
-      {"id":22}
-    ]
-  },
-  {
-    "name":"Dragons Old and Young",
-    "effect":{"id":14},
-    "units":[
-      {"id":397},
-      {"id":313,"f":1}
-    ]
-  },
-  {
-    "name":"Wheels of Fate",
-    "effect":{"id":6,"boost":2},
-    "units":[
-      {"id":440},
-      {"id":18},
-      {"id":15,"f":1}
-    ]
-  },
-  {
-    "name":"Independence Day",
-    "effect":{"id":1},
-    "units":[
-      {"id":356,"f":1},
-      {"id":6,"f":1},
-      {"id":248,"f":1}
-    ]
-  },
-  {
-    "name":"Fresh Catch",
-    "effect":{"id":16,"boost":3},
-    "units":[
-      {"id":336},
-      {"id":7},
-      {"id":312},
-      {"id":75,"f":1}
-    ]
-  },
-  {
-    "name":"Shields of all Sizes",
-    "effect":{"id":12},
-    "units":[
-      {"id":506},
-      {"id":211}
-    ]
-  },
-  {
-    "name":"Co-op Mode",
-    "effect":{"id":1},
-    "units":[
-      {"id":503},
-      {"id":75},
-      {"id":105}
-    ]
-  },
-  {
-    "name":"Bad Guys",
-    "effect":{"id":11,"boost":3},
-    "units":[
-      {"id":520},
-      {"id":173},
-      {"id":320}
-    ]
-  },
-  {
-    "name":"Cat Ears",
-    "effect":{"id":18,"boost":2},
-    "units":[
-      {"id":497},
-      {"id":269},
-      {"id":17}
-    ]
-  },
-  {
-    "name":"Spinning Out",
-    "effect":{"id":8,"boost":1},
-    "units":[
-      {"id":559}
-    ]
-  },
-  {
-    "name":"Offshore Accounts",
-    "effect":{"id":8,"boost":2},
-    "units":[
-      {"id":239,"f":2}
-    ]
-  },
-  {
-    "name":"Ninjutsu Cute",
-    "effect":{"id":22,"boost":1},
-    "units":[
-      {"id":398,"f":2}
-    ]
-  },
-  {
-    "name":"Clear Skies",
-    "effect":{"id":14,"boost":1},
-    "units":[
-      {"id":288,"f":2},
-      {"id":377,"f":2}
-    ]
-  },
-  {
-    "name":"Drinking Age",
-    "effect":{"id":3,"boost":1},
-    "units":[
-      {"id":529,"f":1},
-      {"id":453,"f":2}
-    ]
-  },
-  {
-    "name":"Witch Trial",
-    "effect":{"id":18,"boost":1},
-    "units":[
-      {"id":56},
-      {"id":13}
-    ]
-  },
-  {
-    "name":"Breakfast in Undies",
-    "effect":{"id":18,"boost":1},
-    "units":[
-      {"id":154},
-      {"id":16}
-    ]
-  },
-  {
-    "name":"Street Bazaar",
-    "effect":{"id":17,"boost":1},
-    "units":[
-      {"id":147},
-      {"id":304}
-    ]
-  },
-  {
-    "name":"Working Vacation",
-    "effect":{"id":15,"boost":1},
-    "units":[
-      {"id":41},
-      {"id":15,"f":2}
-    ]
-  },
-  {
-    "name":"Dragon Driller",
-    "effect":{"id":20,"boost":1},
-    "units":[
-      {"id":444,"f":1},
-      {"id":313,"f":1}
-    ]
-  },
-  {
-    "name":"Mythic Driver",
-    "effect":{"id":17,"boost":1},
-    "units":[
-      {"id":445,"f":1},
-      {"id":314,"f":1}
-    ]
-  },
-  {
-    "name":"Brave Cutter",
-    "effect":{"id":1,"boost":1},
-    "units":[
-      {"id":446,"f":1},
-      {"id":212,"f":1}
-    ]
-  },
-  {
-    "name":"Whale Digger",
-    "effect":{"id":22,"boost":1},
-    "units":[
-      {"id":447,"f":1},
-      {"id":312,"f":1}
-    ]
-  },
-  {
-    "name":"Sexy Sawer",
-    "effect":{"id":16,"boost":1},
-    "units":[
-      {"id":448,"f":1},
-      {"id":246,"f":1}
-    ]
-  },
-  {
-    "name":"Mini-Saurus",
-    "effect":{"id":11,"boost":1},
-    "units":[
-      {"id":210,"f":1},
-      {"id":47,"f":1}
-    ]
-  },
-  {
-    "name":"Little Warriors",
-    "effect":{"id":2,"boost":1},
-    "units":[
-      {"id":211,"f":1},
-      {"id":150,"f":1}
-    ]
-  },
-  {
-    "name":"Micro Fighters",
-    "effect":{"id":14,"boost":1},
-    "units":[
-      {"id":212,"f":1},
-      {"id":48,"f":1}
-    ]
-  },
-  {
-    "name":"Minicyclone",
-    "effect":{"id":17,"boost":1},
-    "units":[
-      {"id":246,"f":1},
-      {"id":39,"f":1}
-    ]
-  },
-  {
-    "name":"Big Game Hunter",
-    "effect":{"id":3,"boost":1},
-    "units":[
-      {"id":247,"f":1},
-      {"id":50,"f":1}
-    ]
-  },
-  {
-    "name":"Mystery Club",
-    "effect":{"id":19,"boost":1},
-    "units":[
-      {"id":248,"f":1},
-      {"id":309,"f":1}
-    ]
-  },
-  {
-    "name":"Don't Mess With Me!",
-    "effect":{"id":9,"boost":2},
-    "units":[
-      {"id":625}
-    ]
-  },
-  {
-    "name":"Dance a Little, Eat a Little",
-    "effect":{"id":18,"boost":1},
-    "units":[
-      {"id":312,"f":1},
-      {"id":496,"f":1}
-    ]
-  },
-  {
-    "name":"Tiny Ancient Hunt",
-    "effect":{"id":1,"boost":1},
-    "units":[
-      {"id":313,"f":1},
-      {"id":38,"f":1}
-    ]
-  },
-  {
-    "name":"Étoile minimum",
-    "effect":{"id":2,"boost":1},
-    "units":[
-      {"id":314,"f":1},
-      {"id":42,"f":1}
-    ]
-  },
-  {
-    "name":"Sacrifice",
-    "effect":{"id":2,"boost":1},
-    "units":[
-      {"id":618,"f":1},
-      {"id":13,"f":1}
-    ]
-  },
-  {
-    "name":"Warriors of Justice",
-    "effect":{"id":6,"boost":3},
-    "units":[
-      {"id":526,"f":1},
-      {"id":79,"f":2},
-      {"id":3,"f":1}
-    ]
-  },
-  {
-    "name":"One-Way Ticket to Hell",
-    "effect":{"id":14,"boost":1},
-    "units":[
-      {"id":535,"f":1},
-      {"id":14,"f":1}
-    ]
-  },
-  {
-    "name":"Going Stones",
-    "effect":{"id":2,"boost":1},
-    "units":[
-      {"id":570,"f":1},
-      {"id":325,"f":1}
-    ]
-  },
-  {
-    "name":"Cat Transport",
-    "effect":{"id":9,"boost":2},
-    "units":[
-      {"id":595},
-      {"id":659,"f":2}
-    ]
-  },
-  {
-    "name":"Dream Box",
-    "effect":{"id":15,"boost":1},
-    "units":[
-      {"id":608},
-      {"id":15,"f":2}
-    ]
-  },
-  {
-    "name":"Land-Air Assault",
-    "effect":{"id":1,"boost":2},
-    "units":[
-      {"id":633,"f":2},
-      {"id":97,"f":2}
-    ]
-  },
-  {
-    "name":"Forbidden Compound",
-    "effect":{"id":6,"boost":1},
-    "units":[
-      {"id":620,"f":2}
-    ]
-  },
-  {
-    "name":"Berserkers",
-    "effect":{"id":12,"boost":3},
-    "units":[
-      {"id":619,"f":2},
-      {"id":324,"f":2},
-      {"id":100,"f":2}
-    ]
-  },
-  {
-    "name":"Truant Angel",
-    "effect":{"id":14,"boost":1},
-    "units":[
-      {"id":643,"f":2},
-      {"id":670,"f":2}
-    ]
-  },
-  {
-    "name":"Dark End to the Holiday",
-    "effect":{"id":16,"boost":2},
-    "units":[
-      {"id":632,"f":2},
-      {"id":443,"f":2}
+    "name": "Cat Army",
+    "effect": {
+      "id": 9
+    },
+    "units": [
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      },
+      {
+        "id": 3
+      },
+      {
+        "id": 4
+      },
+      {
+        "id": 5
+      }
+    ]
+  },
+  {
+    "name": "Behind Closed Doors",
+    "effect": {
+      "id": 5
+    },
+    "units": [
+      {
+        "id": 14
+      },
+      {
+        "id": 13
+      }
+    ]
+  },
+  {
+    "name": "Cap'n Ahab",
+    "effect": {
+      "id": 7
+    },
+    "units": [
+      {
+        "id": 52,
+        "f": 1
+      },
+      {
+        "id": 7,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Deathrock",
+    "effect": {
+      "id": 4
+    },
+    "units": [
+      {
+        "id": 20
+      },
+      {
+        "id": 149
+      }
+    ]
+  },
+  {
+    "name": "Cool Japan",
+    "effect": {
+      "id": 1,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 19
+      },
+      {
+        "id": 22
+      },
+      {
+        "id": 21
+      },
+      {
+        "id": 62
+      }
+    ]
+  },
+  {
+    "name": "Sunbathers",
+    "effect": {
+      "id": 9
+    },
+    "units": [
+      {
+        "id": 7,
+        "f": 2
+      },
+      {
+        "id": 200,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Sound of Wings",
+    "effect": {
+      "id": 6
+    },
+    "units": [
+      {
+        "id": 57,
+        "f": 1
+      },
+      {
+        "id": 6
+      }
+    ]
+  },
+  {
+    "name": "Choppers",
+    "effect": {
+      "id": 1
+    },
+    "units": [
+      {
+        "id": 14,
+        "f": 1
+      },
+      {
+        "id": 3
+      },
+      {
+        "id": 73,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Apples and Oranges",
+    "effect": {
+      "id": 7
+    },
+    "units": [
+      {
+        "id": 15,
+        "f": 1
+      },
+      {
+        "id": 40
+      }
+    ]
+  },
+  {
+    "name": "Take a Bow",
+    "effect": {
+      "id": 17
+    },
+    "units": [
+      {
+        "id": 2
+      },
+      {
+        "id": 170,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Sister Act",
+    "effect": {
+      "id": 1
+    },
+    "units": [
+      {
+        "id": 17
+      },
+      {
+        "id": 132
+      }
+    ]
+  },
+  {
+    "name": "Hecks Angels",
+    "effect": {
+      "id": 3
+    },
+    "units": [
+      {
+        "id": 18,
+        "f": 1
+      },
+      {
+        "id": 159
+      }
+    ]
+  },
+  {
+    "name": "Lingerie Special",
+    "effect": {
+      "id": 9
+    },
+    "units": [
+      {
+        "id": 124,
+        "f": 1
+      },
+      {
+        "id": 16
+      }
+    ]
+  },
+  {
+    "name": "In Bloom",
+    "effect": {
+      "id": 19
+    },
+    "units": [
+      {
+        "id": 73,
+        "f": 1
+      },
+      {
+        "id": 128
+      }
+    ]
+  },
+  {
+    "name": "Childhood Friends",
+    "effect": {
+      "id": 6
+    },
+    "units": [
+      {
+        "id": 270
+      },
+      {
+        "id": 210
+      }
+    ]
+  },
+  {
+    "name": "Rawhide",
+    "effect": {
+      "id": 3
+    },
+    "units": [
+      {
+        "id": 5
+      },
+      {
+        "id": 146,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Puppeteers Guild",
+    "effect": {
+      "id": 4,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 227
+      },
+      {
+        "id": 127,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Pyon Pyon for Two",
+    "effect": {
+      "id": 10
+    },
+    "units": [
+      {
+        "id": 38
+      },
+      {
+        "id": 89
+      }
+    ]
+  },
+  {
+    "name": "Helping Hand",
+    "effect": {
+      "id": 18
+    },
+    "units": [
+      {
+        "id": 31
+      },
+      {
+        "id": 10,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Fall in Love",
+    "effect": {
+      "id": 15
+    },
+    "units": [
+      {
+        "id": 57,
+        "f": 1
+      },
+      {
+        "id": 110
+      }
+    ]
+  },
+  {
+    "name": "Frog Prince",
+    "effect": {
+      "id": 14
+    },
+    "units": [
+      {
+        "id": 151,
+        "f": 1
+      },
+      {
+        "id": 19,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Treasured Grandchild",
+    "effect": {
+      "id": 4,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 60
+      },
+      {
+        "id": 133
+      }
+    ]
+  },
+  {
+    "name": "No Stage Fright",
+    "effect": {
+      "id": 16
+    },
+    "units": [
+      {
+        "id": 10
+      },
+      {
+        "id": 42,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Biohazard",
+    "effect": {
+      "id": 11
+    },
+    "units": [
+      {
+        "id": 20
+      },
+      {
+        "id": 12
+      }
+    ]
+  },
+  {
+    "name": "Midsummer Sun",
+    "effect": {
+      "id": 15
+    },
+    "units": [
+      {
+        "id": 128,
+        "f": 1
+      },
+      {
+        "id": 39,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Reindeer's Gift",
+    "effect": {
+      "id": 8
+    },
+    "units": [
+      {
+        "id": 75
+      },
+      {
+        "id": 245
+      }
+    ]
+  },
+  {
+    "name": "Silver Screen",
+    "effect": {
+      "id": 12
+    },
+    "units": [
+      {
+        "id": 154,
+        "f": 1
+      },
+      {
+        "id": 10
+      }
+    ]
+  },
+  {
+    "name": "Long-Legged",
+    "effect": {
+      "id": 18,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 4
+      },
+      {
+        "id": 169,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Life of the Party",
+    "effect": {
+      "id": 7
+    },
+    "units": [
+      {
+        "id": 129,
+        "f": 1
+      },
+      {
+        "id": 33,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Good Jobs!",
+    "effect": {
+      "id": 13
+    },
+    "units": [
+      {
+        "id": 238,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Thirteen",
+    "effect": {
+      "id": 17
+    },
+    "units": [
+      {
+        "id": 240,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Itchy Riches",
+    "effect": {
+      "id": 9
+    },
+    "units": [
+      {
+        "id": 239,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Attack of the Li'ls",
+    "effect": {
+      "id": 3,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 210
+      },
+      {
+        "id": 211
+      },
+      {
+        "id": 212
+      },
+      {
+        "id": 246
+      },
+      {
+        "id": 247
+      }
+    ]
+  },
+  {
+    "name": "X-Files",
+    "effect": {
+      "id": 5
+    },
+    "units": [
+      {
+        "id": 198,
+        "f": 1
+      },
+      {
+        "id": 6,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Legs for Days",
+    "effect": {
+      "id": 17
+    },
+    "units": [
+      {
+        "id": 4,
+        "f": 1
+      },
+      {
+        "id": 95,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Art History",
+    "effect": {
+      "id": 16
+    },
+    "units": [
+      {
+        "id": 149,
+        "f": 1
+      },
+      {
+        "id": 61,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Moby Dick",
+    "effect": {
+      "id": 2
+    },
+    "units": [
+      {
+        "id": 52,
+        "f": 1
+      },
+      {
+        "id": 7,
+        "f": 1
+      },
+      {
+        "id": 98,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Back to School",
+    "effect": {
+      "id": 10
+    },
+    "units": [
+      {
+        "id": 7
+      },
+      {
+        "id": 98
+      },
+      {
+        "id": 75
+      }
+    ]
+  },
+  {
+    "name": "Eye of the Storm",
+    "effect": {
+      "id": 2,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 61
+      },
+      {
+        "id": 89
+      },
+      {
+        "id": 79
+      },
+      {
+        "id": 127
+      },
+      {
+        "id": 155
+      }
+    ]
+  },
+  {
+    "name": "Mo' Hawks",
+    "effect": {
+      "id": 17
+    },
+    "units": [
+      {
+        "id": 1,
+        "f": 2
+      },
+      {
+        "id": 99,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Saucers",
+    "effect": {
+      "id": 15
+    },
+    "units": [
+      {
+        "id": 6,
+        "f": 1
+      },
+      {
+        "id": 97,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Mecha",
+    "effect": {
+      "id": 18
+    },
+    "units": [
+      {
+        "id": 79,
+        "f": 1
+      },
+      {
+        "id": 82,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Macho Man",
+    "effect": {
+      "id": 21
+    },
+    "units": [
+      {
+        "id": 4,
+        "f": 2
+      },
+      {
+        "id": 10,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Bouncing Four",
+    "effect": {
+      "id": 8,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 124,
+        "f": 1
+      },
+      {
+        "id": 89,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Pulling Strings",
+    "effect": {
+      "id": 8
+    },
+    "units": [
+      {
+        "id": 53,
+        "f": 1
+      },
+      {
+        "id": 127,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "King and Queen",
+    "effect": {
+      "id": 9
+    },
+    "units": [
+      {
+        "id": 8,
+        "f": 2
+      },
+      {
+        "id": 43,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Enter the Ninja",
+    "effect": {
+      "id": 3,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 19
+      },
+      {
+        "id": 262
+      }
+    ]
+  },
+  {
+    "name": "Troubled Youth",
+    "effect": {
+      "id": 21
+    },
+    "units": [
+      {
+        "id": 131
+      },
+      {
+        "id": 195
+      }
+    ]
+  },
+  {
+    "name": "Duet",
+    "effect": {
+      "id": 9
+    },
+    "units": [
+      {
+        "id": 17
+      },
+      {
+        "id": 149
+      }
+    ]
+  },
+  {
+    "name": "Firewatch",
+    "effect": {
+      "id": 20
+    },
+    "units": [
+      {
+        "id": 8
+      },
+      {
+        "id": 99
+      },
+      {
+        "id": 204,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Polk on Rice",
+    "effect": {
+      "id": 2
+    },
+    "units": [
+      {
+        "id": 107
+      },
+      {
+        "id": 22,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Smiles at Cats",
+    "effect": {
+      "id": 19
+    },
+    "units": [
+      {
+        "id": 1
+      },
+      {
+        "id": 108,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Lion King",
+    "effect": {
+      "id": 14
+    },
+    "units": [
+      {
+        "id": 5,
+        "f": 2
+      },
+      {
+        "id": 110,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Peach 'n Banana",
+    "effect": {
+      "id": 3
+    },
+    "units": [
+      {
+        "id": 137
+      },
+      {
+        "id": 15
+      }
+    ]
+  },
+  {
+    "name": "Honnoji's Curse",
+    "effect": {
+      "id": 19
+    },
+    "units": [
+      {
+        "id": 129
+      },
+      {
+        "id": 74
+      }
+    ]
+  },
+  {
+    "name": "Cool in the Heat",
+    "effect": {
+      "id": 19
+    },
+    "units": [
+      {
+        "id": 43
+      },
+      {
+        "id": 128,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Apollo Mission",
+    "effect": {
+      "id": 6
+    },
+    "units": [
+      {
+        "id": 79
+      },
+      {
+        "id": 139,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Bony Bone",
+    "effect": {
+      "id": 11
+    },
+    "units": [
+      {
+        "id": 53,
+        "f": 1
+      },
+      {
+        "id": 20,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Chilvary and Candy",
+    "effect": {
+      "id": 18,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 86
+      },
+      {
+        "id": 21,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Ratings Competition",
+    "effect": {
+      "id": 12
+    },
+    "units": [
+      {
+        "id": 197
+      },
+      {
+        "id": 10
+      }
+    ]
+  },
+  {
+    "name": "Cats 'n Tanks",
+    "effect": {
+      "id": 6
+    },
+    "units": [
+      {
+        "id": 64
+      },
+      {
+        "id": 82
+      },
+      {
+        "id": 81,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Headband",
+    "effect": {
+      "id": 5
+    },
+    "units": [
+      {
+        "id": 64
+      },
+      {
+        "id": 71,
+        "f": 1
+      },
+      {
+        "id": 137
+      }
+    ]
+  },
+  {
+    "name": "Watch Me Whip",
+    "effect": {
+      "id": 4
+    },
+    "units": [
+      {
+        "id": 14
+      },
+      {
+        "id": 123,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Masquerade",
+    "effect": {
+      "id": 17,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 131
+      },
+      {
+        "id": 14,
+        "f": 1
+      },
+      {
+        "id": 81
+      }
+    ]
+  },
+  {
+    "name": "Crazy Hearts",
+    "effect": {
+      "id": 8,
+      "boost": 3
+    },
+    "units": [
+      {
+        "id": 92
+      },
+      {
+        "id": 93
+      },
+      {
+        "id": 94
+      },
+      {
+        "id": 95
+      },
+      {
+        "id": 96
+      }
+    ]
+  },
+  {
+    "name": "Power of Darkness",
+    "effect": {
+      "id": 20,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 3,
+        "f": 2
+      },
+      {
+        "id": 14,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Gross!!!",
+    "effect": {
+      "id": 19,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 4
+      },
+      {
+        "id": 95
+      },
+      {
+        "id": 177,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Nyanko, Inc.",
+    "effect": {
+      "id": 9
+    },
+    "units": [
+      {
+        "id": 71
+      },
+      {
+        "id": 123,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Seasons of Love",
+    "effect": {
+      "id": 14,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 101
+      },
+      {
+        "id": 105
+      },
+      {
+        "id": 110
+      }
+    ]
+  },
+  {
+    "name": "Flash in the Pan",
+    "effect": {
+      "id": 17
+    },
+    "units": [
+      {
+        "id": 33,
+        "f": 1
+      },
+      {
+        "id": 81,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Blossoming",
+    "effect": {
+      "id": 16
+    },
+    "units": [
+      {
+        "id": 73,
+        "f": 1
+      },
+      {
+        "id": 80
+      }
+    ]
+  },
+  {
+    "name": "Bento Special",
+    "effect": {
+      "id": 8,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 75,
+        "f": 1
+      },
+      {
+        "id": 62
+      }
+    ]
+  },
+  {
+    "name": "Speak of the Devil",
+    "effect": {
+      "id": 12,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 45
+      },
+      {
+        "id": 81
+      }
+    ]
+  },
+  {
+    "name": "Classical Arts",
+    "effect": {
+      "id": 18
+    },
+    "units": [
+      {
+        "id": 127,
+        "f": 1
+      },
+      {
+        "id": 153,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Sportswoman",
+    "effect": {
+      "id": 2
+    },
+    "units": [
+      {
+        "id": 101,
+        "f": 1
+      },
+      {
+        "id": 37,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Gentlemen",
+    "effect": {
+      "id": 10
+    },
+    "units": [
+      {
+        "id": 81,
+        "f": 1
+      },
+      {
+        "id": 50,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Spinners",
+    "effect": {
+      "id": 3
+    },
+    "units": [
+      {
+        "id": 18
+      },
+      {
+        "id": 105
+      }
+    ]
+  },
+  {
+    "name": "Longnecks",
+    "effect": {
+      "id": 9,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 5,
+        "f": 1
+      },
+      {
+        "id": 170,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Feel the Dance",
+    "effect": {
+      "id": 2
+    },
+    "units": [
+      {
+        "id": 23,
+        "f": 1
+      },
+      {
+        "id": 33
+      },
+      {
+        "id": 11,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Special Treatment",
+    "effect": {
+      "id": 17,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 144
+      },
+      {
+        "id": 80,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Horror Movies",
+    "effect": {
+      "id": 16,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 20
+      },
+      {
+        "id": 129
+      },
+      {
+        "id": 34,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Cat High",
+    "effect": {
+      "id": 20
+    },
+    "units": [
+      {
+        "id": 202,
+        "f": 1
+      },
+      {
+        "id": 32
+      },
+      {
+        "id": 101
+      }
+    ]
+  },
+  {
+    "name": "Spearfight",
+    "effect": {
+      "id": 19
+    },
+    "units": [
+      {
+        "id": 139
+      },
+      {
+        "id": 25
+      }
+    ]
+  },
+  {
+    "name": "Heart Beat",
+    "effect": {
+      "id": 18
+    },
+    "units": [
+      {
+        "id": 213
+      },
+      {
+        "id": 89
+      }
+    ]
+  },
+  {
+    "name": "Lolly Fanciers",
+    "effect": {
+      "id": 18
+    },
+    "units": [
+      {
+        "id": 16,
+        "f": 2
+      },
+      {
+        "id": 173
+      }
+    ]
+  },
+  {
+    "name": "Master-Apprentice",
+    "effect": {
+      "id": 19
+    },
+    "units": [
+      {
+        "id": 11
+      },
+      {
+        "id": 133
+      }
+    ]
+  },
+  {
+    "name": "Three Kings",
+    "effect": {
+      "id": 2
+    },
+    "units": [
+      {
+        "id": 110,
+        "f": 1
+      },
+      {
+        "id": 8,
+        "f": 2
+      },
+      {
+        "id": 5,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Girlish Innocents",
+    "effect": {
+      "id": 7,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 101
+      },
+      {
+        "id": 151
+      }
+    ]
+  },
+  {
+    "name": "Headbanger's Ball",
+    "effect": {
+      "id": 8,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 5
+      },
+      {
+        "id": 96
+      },
+      {
+        "id": 149
+      }
+    ]
+  },
+  {
+    "name": "Showoffs",
+    "effect": {
+      "id": 10
+    },
+    "units": [
+      {
+        "id": 18,
+        "f": 2
+      },
+      {
+        "id": 155,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Sweets",
+    "effect": {
+      "id": 6,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 16,
+        "f": 2
+      },
+      {
+        "id": 21,
+        "f": 2
+      },
+      {
+        "id": 177
+      }
+    ]
+  },
+  {
+    "name": "Pointy Bits",
+    "effect": {
+      "id": 21
+    },
+    "units": [
+      {
+        "id": 241,
+        "f": 1
+      },
+      {
+        "id": 8,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Yesterday's Enemy",
+    "effect": {
+      "id": 4,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 131
+      },
+      {
+        "id": 173
+      },
+      {
+        "id": 269
+      }
+    ]
+  },
+  {
+    "name": "Punchpunchpunch!",
+    "effect": {
+      "id": 1,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 9
+      },
+      {
+        "id": 100
+      },
+      {
+        "id": 101
+      },
+      {
+        "id": 35,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Lust for Battle",
+    "effect": {
+      "id": 1
+    },
+    "units": [
+      {
+        "id": 3
+      },
+      {
+        "id": 131
+      },
+      {
+        "id": 45
+      }
+    ]
+  },
+  {
+    "name": "Punish the Lewd",
+    "effect": {
+      "id": 16
+    },
+    "units": [
+      {
+        "id": 81,
+        "f": 1
+      },
+      {
+        "id": 258
+      }
+    ]
+  },
+  {
+    "name": "Team of Two",
+    "effect": {
+      "id": 2,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 153
+      },
+      {
+        "id": 82
+      },
+      {
+        "id": 124
+      },
+      {
+        "id": 105
+      },
+      {
+        "id": 89,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Double Typhoon",
+    "effect": {
+      "id": 15
+    },
+    "units": [
+      {
+        "id": 76
+      },
+      {
+        "id": 268
+      }
+    ]
+  },
+  {
+    "name": "Trick of the Wind",
+    "effect": {
+      "id": 17
+    },
+    "units": [
+      {
+        "id": 268
+      },
+      {
+        "id": 24
+      }
+    ]
+  },
+  {
+    "name": "IT Crowd",
+    "effect": {
+      "id": 12
+    },
+    "units": [
+      {
+        "id": 261
+      },
+      {
+        "id": 36
+      }
+    ]
+  },
+  {
+    "name": "Aerial Recon",
+    "effect": {
+      "id": 11,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 6
+      },
+      {
+        "id": 97
+      },
+      {
+        "id": 19,
+        "f": 2
+      },
+      {
+        "id": 261,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Under Arrest",
+    "effect": {
+      "id": 18
+    },
+    "units": [
+      {
+        "id": 213
+      },
+      {
+        "id": 80,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Cat Circus",
+    "effect": {
+      "id": 8,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 5,
+        "f": 2
+      },
+      {
+        "id": 131
+      },
+      {
+        "id": 227
+      }
+    ]
+  },
+  {
+    "name": "Checkered Skirt",
+    "effect": {
+      "id": 11
+    },
+    "units": [
+      {
+        "id": 24
+      },
+      {
+        "id": 160,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Double Date",
+    "effect": {
+      "id": 15
+    },
+    "units": [
+      {
+        "id": 153
+      },
+      {
+        "id": 82
+      }
+    ]
+  },
+  {
+    "name": "Lazing About",
+    "effect": {
+      "id": 14
+    },
+    "units": [
+      {
+        "id": 34
+      },
+      {
+        "id": 80
+      }
+    ]
+  },
+  {
+    "name": "Curses!!!",
+    "effect": {
+      "id": 19
+    },
+    "units": [
+      {
+        "id": 129
+      },
+      {
+        "id": 71,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Immodest Modesty",
+    "effect": {
+      "id": 10
+    },
+    "units": [
+      {
+        "id": 24,
+        "f": 2
+      },
+      {
+        "id": 52,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Jibbly Studio",
+    "effect": {
+      "id": 5,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 6,
+        "f": 2
+      },
+      {
+        "id": 9,
+        "f": 1
+      },
+      {
+        "id": 56
+      }
+    ]
+  },
+  {
+    "name": "Pumpkinpants",
+    "effect": {
+      "id": 19
+    },
+    "units": [
+      {
+        "id": 4,
+        "f": 1
+      },
+      {
+        "id": 228,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Paranormal Activity",
+    "effect": {
+      "id": 9,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 39
+      },
+      {
+        "id": 129
+      },
+      {
+        "id": 81
+      }
+    ]
+  },
+  {
+    "name": "Liver Trouble",
+    "effect": {
+      "id": 5
+    },
+    "units": [
+      {
+        "id": 80
+      },
+      {
+        "id": 11,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Age of Dinosaurs",
+    "effect": {
+      "id": 7
+    },
+    "units": [
+      {
+        "id": 8
+      },
+      {
+        "id": 47
+      }
+    ]
+  },
+  {
+    "name": "Toying Around",
+    "effect": {
+      "id": 12
+    },
+    "units": [
+      {
+        "id": 148
+      },
+      {
+        "id": 128
+      },
+      {
+        "id": 82,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Rich and Poor",
+    "effect": {
+      "id": 8
+    },
+    "units": [
+      {
+        "id": 1
+      },
+      {
+        "id": 130
+      }
+    ]
+  },
+  {
+    "name": "Koi and Dragon",
+    "effect": {
+      "id": 6,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 105
+      },
+      {
+        "id": 87
+      }
+    ]
+  },
+  {
+    "name": "Playing Slayer",
+    "effect": {
+      "id": 14
+    },
+    "units": [
+      {
+        "id": 3,
+        "f": 1
+      },
+      {
+        "id": 178
+      }
+    ]
+  },
+  {
+    "name": "As Above, So Below",
+    "effect": {
+      "id": 20
+    },
+    "units": [
+      {
+        "id": 6,
+        "f": 2
+      },
+      {
+        "id": 84
+      }
+    ]
+  },
+  {
+    "name": "Future of War",
+    "effect": {
+      "id": 14
+    },
+    "units": [
+      {
+        "id": 196
+      },
+      {
+        "id": 261,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Bazooka Bros.",
+    "effect": {
+      "id": 5
+    },
+    "units": [
+      {
+        "id": 12,
+        "f": 1
+      },
+      {
+        "id": 269
+      }
+    ]
+  },
+  {
+    "name": "Rivalry",
+    "effect": {
+      "id": 9
+    },
+    "units": [
+      {
+        "id": 269
+      },
+      {
+        "id": 25
+      }
+    ]
+  },
+  {
+    "name": "Heavenly Kings",
+    "effect": {
+      "id": 15
+    },
+    "units": [
+      {
+        "id": 72,
+        "f": 2
+      },
+      {
+        "id": 26,
+        "f": 2
+      },
+      {
+        "id": 96,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Sweep the Area",
+    "effect": {
+      "id": 6
+    },
+    "units": [
+      {
+        "id": 12
+      },
+      {
+        "id": 88
+      }
+    ]
+  },
+  {
+    "name": "Steel Saviors",
+    "effect": {
+      "id": 16
+    },
+    "units": [
+      {
+        "id": 82,
+        "f": 1
+      },
+      {
+        "id": 44
+      }
+    ]
+  },
+  {
+    "name": "Galactic Travel",
+    "effect": {
+      "id": 3
+    },
+    "units": [
+      {
+        "id": 79
+      },
+      {
+        "id": 136,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Struck by Lightning",
+    "effect": {
+      "id": 15
+    },
+    "units": [
+      {
+        "id": 77
+      },
+      {
+        "id": 20,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Neckless Chic",
+    "effect": {
+      "id": 17
+    },
+    "units": [
+      {
+        "id": 9,
+        "f": 2
+      },
+      {
+        "id": 172,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Blue Lagoon",
+    "effect": {
+      "id": 12
+    },
+    "units": [
+      {
+        "id": 135,
+        "f": 1
+      },
+      {
+        "id": 7,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Dog Gods",
+    "effect": {
+      "id": 5
+    },
+    "units": [
+      {
+        "id": 131
+      },
+      {
+        "id": 259
+      }
+    ]
+  },
+  {
+    "name": "Volcanic Fury",
+    "effect": {
+      "id": 4,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 126
+      },
+      {
+        "id": 98,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Cursed Strength",
+    "effect": {
+      "id": 6,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 71,
+        "f": 1
+      },
+      {
+        "id": 58
+      }
+    ]
+  },
+  {
+    "name": "Secret Agency",
+    "effect": {
+      "id": 10
+    },
+    "units": [
+      {
+        "id": 19
+      },
+      {
+        "id": 135
+      }
+    ]
+  },
+  {
+    "name": "Living in Love",
+    "effect": {
+      "id": 5
+    },
+    "units": [
+      {
+        "id": 101
+      },
+      {
+        "id": 260
+      }
+    ]
+  },
+  {
+    "name": "Jungle Women",
+    "effect": {
+      "id": 14
+    },
+    "units": [
+      {
+        "id": 131
+      },
+      {
+        "id": 106
+      }
+    ]
+  },
+  {
+    "name": "Dreams of Flying",
+    "effect": {
+      "id": 17
+    },
+    "units": [
+      {
+        "id": 136
+      },
+      {
+        "id": 19,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Offering to the Gods",
+    "effect": {
+      "id": 7,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 272
+      },
+      {
+        "id": 75,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Blessed Strength",
+    "effect": {
+      "id": 4,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 25,
+        "f": 2
+      },
+      {
+        "id": 85
+      }
+    ]
+  },
+  {
+    "name": "Gang of Killers",
+    "effect": {
+      "id": 12
+    },
+    "units": [
+      {
+        "id": 213,
+        "f": 1
+      },
+      {
+        "id": 269
+      }
+    ]
+  },
+  {
+    "name": "Classic Headwear",
+    "effect": {
+      "id": 4,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 283
+      },
+      {
+        "id": 138
+      }
+    ]
+  },
+  {
+    "name": "Arm Day Everyday",
+    "effect": {
+      "id": 2,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 9
+      },
+      {
+        "id": 11
+      },
+      {
+        "id": 10,
+        "f": 2
+      },
+      {
+        "id": 171,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Like a Record, Baby",
+    "effect": {
+      "id": 5,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 125,
+        "f": 1
+      },
+      {
+        "id": 268,
+        "f": 1
+      },
+      {
+        "id": 89
+      }
+    ]
+  },
+  {
+    "name": "Blessed Business",
+    "effect": {
+      "id": 10,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 273
+      },
+      {
+        "id": 261
+      }
+    ]
+  },
+  {
+    "name": "My Very Best Friend",
+    "effect": {
+      "id": 23,
+      "boost": 4
+    },
+    "units": [
+      {
+        "id": 300
+      },
+      {
+        "id": 301
+      }
+    ]
+  },
+  {
+    "name": "Hot, Fresh 'n' Fast",
+    "effect": {
+      "id": 12,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 304
+      },
+      {
+        "id": 284
+      }
+    ]
+  },
+  {
+    "name": "Commuter Life",
+    "effect": {
+      "id": 10
+    },
+    "units": [
+      {
+        "id": 71
+      },
+      {
+        "id": 285
+      }
+    ]
+  },
+  {
+    "name": "Take Me Out",
+    "effect": {
+      "id": 2
+    },
+    "units": [
+      {
+        "id": 202,
+        "f": 1
+      },
+      {
+        "id": 288
+      },
+      {
+        "id": 39,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Green Thumb",
+    "effect": {
+      "id": 8
+    },
+    "units": [
+      {
+        "id": 309
+      },
+      {
+        "id": 128
+      }
+    ]
+  },
+  {
+    "name": "Purple Heart",
+    "effect": {
+      "id": 20
+    },
+    "units": [
+      {
+        "id": 305
+      },
+      {
+        "id": 80,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Marine Tours",
+    "effect": {
+      "id": 15
+    },
+    "units": [
+      {
+        "id": 306,
+        "f": 1
+      },
+      {
+        "id": 7
+      },
+      {
+        "id": 312
+      }
+    ]
+  },
+  {
+    "name": "Pedal Powered",
+    "effect": {
+      "id": 17
+    },
+    "units": [
+      {
+        "id": 307
+      },
+      {
+        "id": 18
+      }
+    ]
+  },
+  {
+    "name": "Nationals",
+    "effect": {
+      "id": 18
+    },
+    "units": [
+      {
+        "id": 202,
+        "f": 1
+      },
+      {
+        "id": 308
+      }
+    ]
+  },
+  {
+    "name": "Trainspotting",
+    "effect": {
+      "id": 4
+    },
+    "units": [
+      {
+        "id": 285
+      },
+      {
+        "id": 150,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Brunch Rush",
+    "effect": {
+      "id": 6
+    },
+    "units": [
+      {
+        "id": 274,
+        "f": 1
+      },
+      {
+        "id": 154
+      }
+    ]
+  },
+  {
+    "name": "Black & White",
+    "effect": {
+      "id": 10
+    },
+    "units": [
+      {
+        "id": 320
+      },
+      {
+        "id": 1
+      }
+    ]
+  },
+  {
+    "name": "Royal Submariner",
+    "effect": {
+      "id": 9
+    },
+    "units": [
+      {
+        "id": 317
+      },
+      {
+        "id": 110,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Cutting Edge",
+    "effect": {
+      "id": 3
+    },
+    "units": [
+      {
+        "id": 287
+      },
+      {
+        "id": 261,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Contest of Champs",
+    "effect": {
+      "id": 1
+    },
+    "units": [
+      {
+        "id": 326
+      },
+      {
+        "id": 22
+      },
+      {
+        "id": 11
+      },
+      {
+        "id": 101,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Put On Ice",
+    "effect": {
+      "id": 3
+    },
+    "units": [
+      {
+        "id": 153
+      },
+      {
+        "id": 325
+      }
+    ]
+  },
+  {
+    "name": "Greatswords",
+    "effect": {
+      "id": 5,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 324
+      },
+      {
+        "id": 126
+      }
+    ]
+  },
+  {
+    "name": "You Will Find Happiness",
+    "effect": {
+      "id": 24,
+      "boost": 4
+    },
+    "units": [
+      {
+        "id": 403
+      },
+      {
+        "id": 406
+      }
+    ]
+  },
+  {
+    "name": "Miracle Performance",
+    "effect": {
+      "id": 22
+    },
+    "units": [
+      {
+        "id": 17
+      },
+      {
+        "id": 419
+      }
+    ]
+  },
+  {
+    "name": "Roasted Marshmallow",
+    "effect": {
+      "id": 12
+    },
+    "units": [
+      {
+        "id": 360
+      },
+      {
+        "id": 177
+      }
+    ]
+  },
+  {
+    "name": "Meowin' in the Rain",
+    "effect": {
+      "id": 18
+    },
+    "units": [
+      {
+        "id": 361
+      },
+      {
+        "id": 344
+      }
+    ]
+  },
+  {
+    "name": "Chance of Tornado",
+    "effect": {
+      "id": 16
+    },
+    "units": [
+      {
+        "id": 362
+      },
+      {
+        "id": 268
+      }
+    ]
+  },
+  {
+    "name": "High Voltage",
+    "effect": {
+      "id": 3
+    },
+    "units": [
+      {
+        "id": 402
+      },
+      {
+        "id": 261
+      }
+    ]
+  },
+  {
+    "name": "Two As One",
+    "effect": {
+      "id": 6,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 352
+      },
+      {
+        "id": 124
+      }
+    ]
+  },
+  {
+    "name": "Boiled Egg",
+    "effect": {
+      "id": 19
+    },
+    "units": [
+      {
+        "id": 418
+      },
+      {
+        "id": 330
+      }
+    ]
+  },
+  {
+    "name": "Cheating Heart?",
+    "effect": {
+      "id": 11,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 22,
+        "f": 1
+      },
+      {
+        "id": 432
+      }
+    ]
+  },
+  {
+    "name": "Part-Time Coworkers",
+    "effect": {
+      "id": 2
+    },
+    "units": [
+      {
+        "id": 398,
+        "f": 1
+      },
+      {
+        "id": 274,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Imperial Court",
+    "effect": {
+      "id": 14
+    },
+    "units": [
+      {
+        "id": 339
+      },
+      {
+        "id": 82
+      }
+    ]
+  },
+  {
+    "name": "Soft and Flexible",
+    "effect": {
+      "id": 7,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 437
+      },
+      {
+        "id": 177,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Power in Numbers",
+    "effect": {
+      "id": 20
+    },
+    "units": [
+      {
+        "id": 428
+      },
+      {
+        "id": 64
+      }
+    ]
+  },
+  {
+    "name": "Scantily Clad",
+    "effect": {
+      "id": 15,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 337,
+        "f": 1
+      },
+      {
+        "id": 24
+      },
+      {
+        "id": 16
+      }
+    ]
+  },
+  {
+    "name": "Cosplay Fans",
+    "effect": {
+      "id": 21,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 358,
+        "f": 1
+      },
+      {
+        "id": 71,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Post-Apocalypse",
+    "effect": {
+      "id": 1
+    },
+    "units": [
+      {
+        "id": 323,
+        "f": 1
+      },
+      {
+        "id": 18,
+        "f": 1
+      },
+      {
+        "id": 15,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Kimono Champs",
+    "effect": {
+      "id": 11,
+      "boost": 3
+    },
+    "units": [
+      {
+        "id": 335
+      },
+      {
+        "id": 129
+      },
+      {
+        "id": 283
+      }
+    ]
+  },
+  {
+    "name": "Growth Spurt",
+    "effect": {
+      "id": 10,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 359
+      },
+      {
+        "id": 22
+      }
+    ]
+  },
+  {
+    "name": "Dragons Old and Young",
+    "effect": {
+      "id": 14
+    },
+    "units": [
+      {
+        "id": 397
+      },
+      {
+        "id": 313,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Wheels of Fate",
+    "effect": {
+      "id": 6,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 440
+      },
+      {
+        "id": 18
+      },
+      {
+        "id": 15,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Independence Day",
+    "effect": {
+      "id": 1
+    },
+    "units": [
+      {
+        "id": 356,
+        "f": 1
+      },
+      {
+        "id": 6,
+        "f": 1
+      },
+      {
+        "id": 248,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Fresh Catch",
+    "effect": {
+      "id": 16,
+      "boost": 3
+    },
+    "units": [
+      {
+        "id": 336
+      },
+      {
+        "id": 7
+      },
+      {
+        "id": 312
+      },
+      {
+        "id": 75,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Shields of all Sizes",
+    "effect": {
+      "id": 12
+    },
+    "units": [
+      {
+        "id": 506
+      },
+      {
+        "id": 211
+      }
+    ]
+  },
+  {
+    "name": "Co-op Mode",
+    "effect": {
+      "id": 1
+    },
+    "units": [
+      {
+        "id": 503
+      },
+      {
+        "id": 75
+      },
+      {
+        "id": 105
+      }
+    ]
+  },
+  {
+    "name": "Bad Guys",
+    "effect": {
+      "id": 11,
+      "boost": 3
+    },
+    "units": [
+      {
+        "id": 520
+      },
+      {
+        "id": 173
+      },
+      {
+        "id": 320
+      }
+    ]
+  },
+  {
+    "name": "Cat Ears",
+    "effect": {
+      "id": 18,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 497
+      },
+      {
+        "id": 269
+      },
+      {
+        "id": 17
+      }
+    ]
+  },
+  {
+    "name": "Spinning Out",
+    "effect": {
+      "id": 8
+    },
+    "units": [
+      {
+        "id": 559
+      }
+    ]
+  },
+  {
+    "name": "Offshore Accounts",
+    "effect": {
+      "id": 8,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 239,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Ninjutsu Cute",
+    "effect": {
+      "id": 22
+    },
+    "units": [
+      {
+        "id": 398,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Clear Skies",
+    "effect": {
+      "id": 14
+    },
+    "units": [
+      {
+        "id": 288,
+        "f": 2
+      },
+      {
+        "id": 377,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Drinking Age",
+    "effect": {
+      "id": 3
+    },
+    "units": [
+      {
+        "id": 529,
+        "f": 1
+      },
+      {
+        "id": 453,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Witch Trial",
+    "effect": {
+      "id": 18
+    },
+    "units": [
+      {
+        "id": 56
+      },
+      {
+        "id": 13
+      }
+    ]
+  },
+  {
+    "name": "Breakfast in Undies",
+    "effect": {
+      "id": 18
+    },
+    "units": [
+      {
+        "id": 154
+      },
+      {
+        "id": 16
+      }
+    ]
+  },
+  {
+    "name": "Street Bazaar",
+    "effect": {
+      "id": 17
+    },
+    "units": [
+      {
+        "id": 147
+      },
+      {
+        "id": 304
+      }
+    ]
+  },
+  {
+    "name": "Working Vacation",
+    "effect": {
+      "id": 15
+    },
+    "units": [
+      {
+        "id": 41
+      },
+      {
+        "id": 15,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Dragon Driller",
+    "effect": {
+      "id": 20
+    },
+    "units": [
+      {
+        "id": 444,
+        "f": 1
+      },
+      {
+        "id": 313,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Mythic Driver",
+    "effect": {
+      "id": 17
+    },
+    "units": [
+      {
+        "id": 445,
+        "f": 1
+      },
+      {
+        "id": 314,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Brave Cutter",
+    "effect": {
+      "id": 1
+    },
+    "units": [
+      {
+        "id": 446,
+        "f": 1
+      },
+      {
+        "id": 212,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Whale Digger",
+    "effect": {
+      "id": 22
+    },
+    "units": [
+      {
+        "id": 447,
+        "f": 1
+      },
+      {
+        "id": 312,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Sexy Sawer",
+    "effect": {
+      "id": 16
+    },
+    "units": [
+      {
+        "id": 448,
+        "f": 1
+      },
+      {
+        "id": 246,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Mini-Saurus",
+    "effect": {
+      "id": 11
+    },
+    "units": [
+      {
+        "id": 210,
+        "f": 1
+      },
+      {
+        "id": 47,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Little Warriors",
+    "effect": {
+      "id": 2
+    },
+    "units": [
+      {
+        "id": 211,
+        "f": 1
+      },
+      {
+        "id": 150,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Micro Fighters",
+    "effect": {
+      "id": 14
+    },
+    "units": [
+      {
+        "id": 212,
+        "f": 1
+      },
+      {
+        "id": 48,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Minicyclone",
+    "effect": {
+      "id": 17
+    },
+    "units": [
+      {
+        "id": 246,
+        "f": 1
+      },
+      {
+        "id": 39,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Big Game Hunter",
+    "effect": {
+      "id": 3
+    },
+    "units": [
+      {
+        "id": 247,
+        "f": 1
+      },
+      {
+        "id": 50,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Mystery Club",
+    "effect": {
+      "id": 19
+    },
+    "units": [
+      {
+        "id": 248,
+        "f": 1
+      },
+      {
+        "id": 309,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Don't Mess With Me!",
+    "effect": {
+      "id": 9,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 625
+      }
+    ]
+  },
+  {
+    "name": "Dance a Little, Eat a Little",
+    "effect": {
+      "id": 18
+    },
+    "units": [
+      {
+        "id": 312,
+        "f": 1
+      },
+      {
+        "id": 496,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Tiny Ancient Hunt",
+    "effect": {
+      "id": 1
+    },
+    "units": [
+      {
+        "id": 313,
+        "f": 1
+      },
+      {
+        "id": 38,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Étoile minimum",
+    "effect": {
+      "id": 2
+    },
+    "units": [
+      {
+        "id": 314,
+        "f": 1
+      },
+      {
+        "id": 42,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Sacrifice",
+    "effect": {
+      "id": 2
+    },
+    "units": [
+      {
+        "id": 618,
+        "f": 1
+      },
+      {
+        "id": 13,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Warriors of Justice",
+    "effect": {
+      "id": 6,
+      "boost": 3
+    },
+    "units": [
+      {
+        "id": 526,
+        "f": 1
+      },
+      {
+        "id": 79,
+        "f": 2
+      },
+      {
+        "id": 3,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "One-Way Ticket to Hell",
+    "effect": {
+      "id": 14
+    },
+    "units": [
+      {
+        "id": 535,
+        "f": 1
+      },
+      {
+        "id": 14,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Going Stones",
+    "effect": {
+      "id": 2
+    },
+    "units": [
+      {
+        "id": 570,
+        "f": 1
+      },
+      {
+        "id": 325,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Cat Transport",
+    "effect": {
+      "id": 9,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 595
+      },
+      {
+        "id": 659,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Dream Box",
+    "effect": {
+      "id": 15
+    },
+    "units": [
+      {
+        "id": 608
+      },
+      {
+        "id": 15,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Land-Air Assault",
+    "effect": {
+      "id": 1,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 633,
+        "f": 2
+      },
+      {
+        "id": 97,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Forbidden Compound",
+    "effect": {
+      "id": 6
+    },
+    "units": [
+      {
+        "id": 620,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Berserkers",
+    "effect": {
+      "id": 12,
+      "boost": 3
+    },
+    "units": [
+      {
+        "id": 619,
+        "f": 2
+      },
+      {
+        "id": 324,
+        "f": 2
+      },
+      {
+        "id": 100,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Truant Angel",
+    "effect": {
+      "id": 14
+    },
+    "units": [
+      {
+        "id": 643,
+        "f": 2
+      },
+      {
+        "id": 670,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Dark End to the Holiday",
+    "effect": {
+      "id": 16,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 632,
+        "f": 2
+      },
+      {
+        "id": 443,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Elohim, Essaim",
+    "effect": {
+      "id": 18,
+      "boost": 3
+    },
+    "units": [
+      {
+        "id": 618,
+        "f": 2
+      },
+      {
+        "id": 94,
+        "f": 2
+      },
+      {
+        "id": 9,
+        "f": 2
+      },
+      {
+        "id": 248,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Wicked Flames",
+    "effect": {
+      "id": 2,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 621,
+        "f": 2
+      },
+      {
+        "id": 664,
+        "f": 2
+      },
+      {
+        "id": 320,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Bustin' Phantoms",
+    "effect": {
+      "id": 11
+    },
+    "units": [
+      {
+        "id": 634,
+        "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Violated Chivalry",
+    "effect": {
+      "id": 15
+    },
+    "units": [
+      {
+        "id": 635,
+        "f": 2
+      }
     ]
   }
 ]

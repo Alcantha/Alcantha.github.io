@@ -1,3799 +1,2071 @@
 [
   {
-    "id":1,
-    "r":1,
-    "names":["Cat","Macho Cat","Mohawk Cat"]
-  },
-  {
-    "id":2,
-    "r":1,
-    "names":["Tank Cat","Wall Cat","Eraser Cat"]
-  },
-  {
-    "id":3,
-    "r":1,
-    "names":["Axe Cat","Brave Cat","Dark Cat"]
-  },
-  {
-    "id":4,
-    "r":1,
-    "names":["Gross Cat","Sexy Legs Cat","Macho Leg Cat"]
-  },
-  {
-    "id":5,
-    "r":1,
-    "names":["Cow Cat","Giraffe Cat","Lion Cat"]
-  },
-  {
-    "id":6,
-    "r":1,
-    "names":["Bird Cat","UFO Cat","The Flying Cat"]
-  },
-  {
-    "id":7,
-    "r":1,
-    "names":["Fish Cat","Whale Cat","Island Cat"]
-  },
-  {
-    "id":8,
-    "r":1,
-    "names":["Lizard Cat","Dragon Cat","King Dragon Cat"]
-  },
-  {
-    "id":9,
-    "r":1,
-    "names":["Titan Cat","Mythical Titan Cat","Jamiera Cat"]
-  },
-  {
-    "id":10,
-    "r":2,
-    "names":["Actress Cat","Mother Cat","Beefcake Cat"]
-  },
-  {
-    "id":11,
-    "r":2,
-    "names":["Kung Fu Cat","Drunken Master Cat","Dancer Cat"]
-  },
-  {
-    "id":12,
-    "r":2,
-    "names":["Mr.","Super Mr.","Hyper Mr."]
-  },
-  {
-    "id":13,
-    "r":2,
-    "names":["Bondage Cat","Bondage CatNEO","Ultimate Bondage Cat"]
-  },
-  {
-    "id":14,
-    "r":2,
-    "names":["Dom Cat","Executioner","Dark Lazer"]
-  },
-  {
-    "id":15,
-    "r":2,
-    "names":["Cats in a Box","Cat Gang","Heavy Assault C.A.T"]
-  },
-  {
-    "id":16,
-    "r":2,
-    "names":["Panties Cat","Leaf Cat","Lollycat"]
-  },
-  {
-    "id":17,
-    "r":2,
-    "names":["Moneko","Miss MONEKO","Superstar MONEKO"]
-  },
-  {
-    "id":18,
-    "r":2,
-    "names":["Tricycle Cat","Biker Cat","Unicycle Cat"]
-  },
-  {
-    "id":19,
-    "r":2,
-    "names":["Ninja Cat","Ninja Frog Cat","Flying Ninja Cat"]
-  },
-  {
-    "id":20,
-    "r":2,
-    "names":["Zombie Cat","Devil Cat","Skelecat"]
-  },
-  {
-    "id":21,
-    "r":2,
-    "names":["Samurai Cat","Knight Cat","Pastry Cat"]
-  },
-  {
-    "id":22,
-    "r":2,
-    "names":["Sumo Cat","Madame Sumo","Riceball Cat"]
-  },
-  {
-    "id":23,
-    "r":2,
-    "names":["Boogie Cat","Samba Cat","Gato Amigo"]
-  },
-  {
-    "id":24,
-    "r":2,
-    "names":["Skirt Cat","Tights Cat","Loincloth Cat"]
-  },
-  {
-    "id":25,
-    "r":2,
-    "names":["Valkyrie Cat","True Valkyrie Cat","Holy Valkyrie Cat"]
-  },
-  {
-    "id":26,
-    "r":2,
-    "names":["Bahamut Cat","Crazed Bahamut Cat","Awakened Bahamut Cat"]
-  },
-  {
-    "id":27,
-    "r":2,
-    "ignore":1,
-    "names":["Kerihime","Full Color Kerihime","Wedding Kerihime"]
-  },
-  {
-    "id":28,
-    "r":2,
-    "ignore":1,
-    "names":["Cat Princess","Cat Princess Beauty"]
-  },
-  {
-    "id":29,
-    "r":2,
-    "ignore":2,
-    "names":["Capsule Cat","Cramped Cats"]
-  },
-  {
-    "id":30,
-    "r":2,
-    "ignore":1,
-    "names":["Masked Cat","Luchador Cat"]
-  },
-  {
-    "id":31,
-    "r":4,
-    "names":["Bodhisattva Cat","Avalokitesvara Cat","Tathagata Cat"]
-  },
-  {
-    "id":32,
-    "r":4,
-    "names":["Delinquent Cat","Angry Delinquent Cat","Ultra Delinquent Cat"]
-  },
-  {
-    "id":33,
-    "r":4,
-    "names":["Hip Hop Cat","Dancing Flasher Cat","Can Can Cat"]
-  },
-  {
-    "id":34,
-    "r":4,
-    "names":["Kotatsu Cat","Sadako Cat","Octopus Cat"]
-  },
-  {
-    "id":35,
-    "r":5,
-    "names":["Nekoluga","Unknown Cat","Ultralan Pasalan"]
-  },
-  {
-    "id":36,
-    "r":4,
-    "names":["Nerd Cat","Hacker Cat","Cyberpunk Cat"]
-  },
-  {
-    "id":37,
-    "r":4,
-    "names":["Swimmer Cat","Butterfly Cat","Fishman Cat"]
-  },
-  {
-    "id":38,
-    "r":3,
-    "names":["Pogo Cat","Masai Cat","Jiangshi Cat"]
-  },
-  {
-    "id":39,
-    "r":3,
-    "names":["Wheel Cat","Solar Cat","Chill Cat"]
-  },
-  {
-    "id":40,
-    "r":4,
-    "names":["Apple Cat","Face Cat","iCat"]
-  },
-  {
-    "id":41,
-    "r":4,
-    "ignore":2,
-    "names":["Bath Cat","Sexy Bath Cat","Luxury Bath Cat"]
-  },
-  {
-    "id":42,
-    "r":3,
-    "names":["Salon Cat","Paris Cat","Cyborg Cat"]
-  },
-  {
-    "id":43,
-    "r":5,
-    "names":["Ice Cat","Ice Queen Cat","Ice Crystal Cat"]
-  },
-  {
-    "id":44,
-    "r":5,
-    "names":["Cat Machine","Cat Machine Mk 2","Cat Machine Mk 3"]
-  },
-  {
-    "id":45,
-    "r":5,
-    "names":["Lesser Demon Cat","Greater Demon Cat","Balrog Cat"]
-  },
-  {
-    "id":46,
-    "r":2,
-    "ignore":1,
-    "names":["Maiko Cat","Geisha Cat"]
-  },
-  {
-    "id":47,
-    "r":3,
-    "names":["Jurassic Cat","Jurassic Cat Sitter","Catasaurus"]
-  },
-  {
-    "id":48,
-    "r":3,
-    "ignore":2,
-    "names":["Viking Cat","Thor Cat","Maximum the Fighter"]
-  },
-  {
-    "id":49,
-    "r":3,
-    "ignore":2,
-    "names":["Pirate Cat","Captain Cat","Dread Pirate Catley"]
-  },
-  {
-    "id":50,
-    "r":3,
-    "names":["Thief Cat","Phantom Thief Cat","Goemon Cat"]
-  },
-  {
-    "id":51,
-    "r":3,
-    "ignore":2,
-    "names":["Bishop Cat","Monk Cat","Sanzo Cat"]
-  },
-  {
-    "id":52,
-    "r":3,
-    "names":["Fortune Teller Cat","Fisherman Cat","Doctor Cat"]
-  },
-  {
-    "id":53,
-    "r":3,
-    "names":["Shaman Cat","Necromancer Cat","Necro-Dancer Cat"]
-  },
-  {
-    "id":54,
-    "r":5,
-    "ignore":1,
-    "names":["Evangelist Cat","Filibuster Cat"]
-  },
-  {
-    "id":55,
-    "r":2,
-    "ignore":1,
-    "names":["Type 10","Cat Transportation Type 10"]
-  },
-  {
-    "id":56,
-    "r":3,
-    "names":["Witch Cat","Socreress Cat","Enchantress Cat"]
-  },
-  {
-    "id":57,
-    "r":3,
-    "names":["Archer Cat","Cupid Cat","Cataur"]
-  },
-  {
-    "id":58,
-    "r":5,
-    "names":["Marauder Cat","Berserker Cat","Paladin Cat"]
-  },
-  {
-    "id":59,
-    "r":3,
-    "ignore":2,
-    "names":["Swordsman Cat","Sword Master Cat","Elemental Duelist Cat"]
-  },
-  {
-    "id":60,
-    "r":5,
-    "names":["Baby Cat","Baby Cats","Cats in the Cradle"]
-  },
-  {
-    "id":61,
-    "r":3,
-    "names":["Bronze Cat","Michelangelo Cat","Quizmaster Cat"]
-  },
-  {
-    "id":62,
-    "r":4,
-    "names":["Sushi Cat","Fried Shrimp Cat","Roe Cat"]
-  },
-  {
-    "id":63,
-    "r":2,
-    "ignore":1,
-    "names":["Capsule Cat (B)","Vendor Cat"]
-  },
-  {
-    "id":64,
-    "r":3,
-    "names":["Sports Day Cat","Kidnapper Cats","Rampage Cats"]
-  },
-  {
-    "id":65,
-    "r":3,
-    "ignore":1,
-    "names":["Swordsman","Swordsman Johnny"]
-  },
-  {
-    "id":66,
-    "r":3,
-    "ignore":1,
-    "names":["Cow Princess","Giraffe Princess"]
-  },
-  {
-    "id":67,
-    "r":5,
-    "ignore":1,
-    "names":["KHM48","Dark KHM48","KHM46"]
-  },
-  {
-    "id":68,
-    "r":3,
-    "ignore":1,
-    "names":["Chibigau","Chibigaugau"]
-  },
-  {
-    "id":69,
-    "r":4,
-    "ignore":1,
-    "names":["Enforcer","Enforcer 999","Judgement"]
-  },
-  {
-    "id":70,
-    "r":4,
-    "ignore":1,
-    "names":["Sleeping Beauty","Sleeping Beauty II","Sleeping Beauty III"]
-  },
-  {
-    "id":71,
-    "r":3,
-    "names":["Salaryman Cat","Grudge Cat","Ritual Cat"]
-  },
-  {
-    "id":72,
-    "r":5,
-    "names":["Sanada Yukimura","Wargod Yukimura","Immortal Yukimura"]
-  },
-  {
-    "id":73,
-    "r":5,
-    "names":["Maeda Keiji","Wargod Keiji","Immortal Keiji"]
-  },
-  {
-    "id":74,
-    "r":5,
-    "names":["Oda Nobunaga","Wargod Nobunaga","Immortal Nobunaga"]
-  },
-  {
-    "id":75,
-    "r":3,
-    "names":["Reindeer Fish Cat","Sashimi Cat","Xmas Pudding Cat"]
-  },
-  {
-    "id":76,
-    "r":5,
-    "names":["Windy","Windy, type α","Divine Windy"]
-  },
-  {
-    "id":77,
-    "r":5,
-    "names":["Thundia","Thundia, type β","Divine Thundia"]
-  },
-  {
-    "id":78,
-    "r":3,
-    "ignore":1,
-    "names":["Droid Cat","Droid Cat Mk2","SpringDroid"]
-  },
-  {
-    "id":79,
-    "r":3,
-    "names":["Space Cat","Major Space Cat","Space Marine Cat"]
-  },
-  {
-    "id":80,
-    "r":3,
-    "names":["Adult Cat","Sick Cat","Prisoner Cat"]
-  },
-  {
-    "id":81,
-    "r":3,
-    "names":["Evil Cat","Gentleman Cat","Gentleman Bros."]
-  },
-  {
-    "id":82,
-    "r":3,
-    "names":["Doll Cats","Cat-o-tron","Nyalladin"]
-  },
-  {
-    "id":83,
-    "r":2,
-    "ignore":1,
-    "names":["Blue Shinobi","Orange Shinobi"]
-  },
-  {
-    "id":84,
-    "r":5,
-    "names":["Sodom","Earth King Sodom","God-Emperor Sodom"]
-  },
-  {
-    "id":85,
-    "r":5,
-    "names":["Megidora","Holy Dragon Megidora","God-Emperor Megidora"]
-  },
-  {
-    "id":86,
-    "r":5,
-    "names":["Vars","Dragon King Vars","God-Emperor Vars"]
-  },
-  {
-    "id":87,
-    "r":5,
-    "names":["Kamukura","God Dragon Kamukura","God-Emperor Kamukura"]
-  },
-  {
-    "id":88,
-    "r":5,
-    "names":["Raiden","Dragonslayer Raiden","God-Emperor Raiden"]
-  },
-  {
-    "id":89,
-    "r":3,
-    "names":["Rope Jump Cat","Pair Rope Jump Cat","Noodle Cats"]
-  },
-  {
-    "id":90,
-    "r":5,
-    "ignore":1,
-    "names":["Nimue","Neutralization Type Nimue"]
-  },
-  {
-    "id":91,
-    "r":5,
-    "ignore":1,
-    "names":["Monkey King","SSS Monkey King"]
-  },
-  {
-    "id":92,
-    "r":4,
-    "names":["Crazed Cat","Crazed Macho Cat","Manic Mohawk Cat"]
-  },
-  {
-    "id":93,
-    "r":4,
-    "names":["Crazed Tank Cat","Crazed Wall Cat","Manic Eraser Cat"]
-  },
-  {
-    "id":94,
-    "r":4,
-    "names":["Crazed Axe Cat","Crazed Brave Cat","Manic Dark Cat"]
-  },
-  {
-    "id":95,
-    "r":4,
-    "names":["Crazed Gross Cat","Crazed Sexy Legs Cat","Manic Macho Legs"]
-  },
-  {
-    "id":96,
-    "r":4,
-    "names":["Crazed Cow Cat","Crazed Giraffe Cat","Manic Lion Cat"]
-  },
-  {
-    "id":97,
-    "r":4,
-    "names":["Crazed Bird Cat","Crazed UFO Cat","Manic Flying Cat"]
-  },
-  {
-    "id":98,
-    "r":4,
-    "names":["Crazed Fish Cat","Crazed Whale Cat","Manic Island Cat"]
-  },
-  {
-    "id":99,
-    "r":4,
-    "names":["Crazed Lizard Cat","Crazed Dragon Cat","Manic King Dragon"]
-  },
-  {
-    "id":100,
-    "r":4,
-    "names":["Crazed Titan Cat","Crazed Mythical Titan","Manic Jamiera Cat"]
-  },
-  {
-    "id":101,
-    "r":3,
-    "names":["Maiden Cat","Sportsgirl Cat","Wrestling Cat"]
-  },
-  {
-    "id":102,
-    "r":2,
-    "ignore":1,
-    "names":["Clone Elle","Clone Elle CC"]
-  },
-  {
-    "id":103,
-    "r":2,
-    "ignore":1,
-    "names":["Red Marron","Red Marron CC"]
-  },
-  {
-    "id":104,
-    "r":2,
-    "ignore":1,
-    "names":["Singer Cat","Mega Cat","Mega Cat EX"]
-  },
-  {
-    "id":105,
-    "r":3,
-    "names":["Koi Cat","Gross Koi Cat","Kiss and Koi"]
-  },
-  {
-    "id":106,
-    "r":5,
-    "names":["Kuu","Kuu, type γ","Divine Kuu"]
-  },
-  {
-    "id":107,
-    "r":5,
-    "names":["Kai","Kai, type μ","Divine Kai"]
-  },
-  {
-    "id":108,
-    "r":5,
-    "names":["Coppermine","Coppermine, type κ","Divine Coppermine"]
-  },
-  {
-    "id":109,
-    "r":2,
-    "ignore":2,
-    "names":["Cat Bros","Secret Base"]
-  },
-  {
-    "id":110,
-    "r":3,
-    "names":["Madam Bride","Madam King","Madam the Savannah"]
-  },
-  {
-    "id":111,
-    "r":3,
-    "ignore":1,
-    "names":["Seresu","Seresu CC"]
-  },
-  {
-    "id":112,
-    "r":3,
-    "ignore":1,
-    "names":["Nono","Nono CC"]
-  },
-  {
-    "id":113,
-    "r":3,
-    "ignore":1,
-    "names":["Oruga","Oruga CC"]
-  },
-  {
-    "id":114,
-    "r":3,
-    "ignore":1,
-    "names":["Norun","Norun CC"]
-  },
-  {
-    "id":115,
-    "r":3,
-    "ignore":1,
-    "names":["Yoichi","Yoichi CC"]
-  },
-  {
-    "id":116,
-    "r":3,
-    "ignore":1,
-    "names":["Seramu","Seramu CC"]
-  },
-  {
-    "id":117,
-    "r":3,
-    "ignore":1,
-    "names":["Fuu","Fuu CC"]
-  },
-  {
-    "id":118,
-    "r":4,
-    "ignore":1,
-    "names":["Aura","Aura CC"]
-  },
-  {
-    "id":119,
-    "r":4,
-    "ignore":1,
-    "names":["Rei","Rei CC"]
-  },
-  {
-    "id":120,
-    "r":5,
-    "ignore":1,
-    "names":["Wyburn","Nyaiban"]
-  },
-  {
-    "id":121,
-    "r":2,
-    "ignore":1,
-    "names":["Magical Healer","Magical Healer CC","Nyanko Magical Healer CC"]
-  },
-  {
-    "id":122,
-    "r":2,
-    "ignore":1,
-    "names":["Merc","Merc CC","Nyanko Merc CC"]
-  },
-  {
-    "id":123,
-    "r":3,
-    "names":["Vacation Queen","Office Lady Cat","Call Center Cat"]
-  },
-  {
-    "id":124,
-    "r":2,
-    "names":["Bean Cats","Brah Cats"]
-  },
-  {
-    "id":125,
-    "r":5,
-    "names":["Date Masamune","Wargod Masamune","Immortal Masamune"]
-  },
-  {
-    "id":126,
-    "r":5,
-    "names":["Takeda Shingen","Wargod Shingen","Immortal Shingen"]
-  },
-  {
-    "id":127,
-    "r":3,
-    "names":["Clockwork Cat","Puppetmaster Cat","Puppetmaster & Charley"]
-  },
-  {
-    "id":128,
-    "r":2,
-    "names":["Flower Cat","Cooldown Cat","Bombercat"]
-  },
-  {
-    "id":129,
-    "r":3,
-    "names":["Vengeful Cat","Groucho Cat","Kite Cat"]
-  },
-  {
-    "id":130,
-    "r":4,
-    "names":["Gold Cat","Gold Macho Cat","Glittering Macho Cat"]
-  },
-  {
-    "id":131,
-    "r":2,
-    "names":["Ururun Wolf","Ururun Cat","Awakened Ururun"]
-  },
-  {
-    "id":132,
-    "r":4,
-    "names":["Neneko","Miss NENEKO"]
-  },
-  {
-    "id":133,
-    "r":3,
-    "names":["Kung Fu Cat X","Drunken Master Cat X","Iron Claw X"]
-  },
-  {
-    "id":134,
-    "r":2,
-    "ignore":1,
-    "names":["Hikakin","Bikyakin","Mukyakin"]
-  },
-  {
-    "id":135,
-    "r":5,
-    "names":["Urashima Taro","Guardian Gamereon","King Gamereon"]
-  },
-  {
-    "id":136,
-    "r":5,
-    "names":["The Grateful Crane","Super Galaxy Cosmo","Ultima Galaxy Cosmo"]
-  },
-  {
-    "id":137,
-    "r":5,
-    "names":["Momotaro","The Peach Angels","The Peach Devils"]
-  },
-  {
-    "id":138,
-    "r":5,
-    "names":["Kasa Jizo","Jizo's Moving Castle","Jizo's Mega-Castle"]
-  },
-  {
-    "id":139,
-    "r":5,
-    "names":["Princess Kaguya","The Death Moon","The Chaos Moon"]
-  },
-  {
-    "id":140,
-    "r":2,
-    "ignore":1,
-    "names":["Nekondo","Nekondo HG","Nekondo SP"]
-  },
-  {
-    "id":141,
-    "r":2,
-    "ignore":2,
-    "names":["Squish Ball Cat","Muscleman Cat"]
-  },
-  {
-    "id":142,
-    "r":2,
-    "ignore":1,
-    "names":["God","Secret God"]
-  },
-  {
-    "id":143,
-    "r":2,
-    "ignore":1,
-    "names":["Tutorial","Behind Tutorial"]
-  },
-  {
-    "id":144,
-    "r":5,
-    "names":["Nurse Cat","Heartful Nurse Cat","Joyful Nurse Cat"]
-  },
-  {
-    "id":145,
-    "r":4,
-    "ignore":2,
-    "names":["Cat Base Mini","Cat Base Jr.","Cat Base Ultra"]
-  },
-  {
-    "id":146,
-    "r":3,
-    "names":["Cat Gunslinger","Cat Eastwood","Rodeo Cat"]
-  },
-  {
-    "id":147,
-    "r":3,
-    "names":["Stilts Cat","Totem Cat","Acrobat Cats"]
-  },
-  {
-    "id":148,
-    "r":3,
-    "names":["Tin Cat","Plane Cat","Robocat"]
-  },
-  {
-    "id":149,
-    "r":3,
-    "names":["Rocker Cat","Artist Cat","Ramen Cat"]
-  },
-  {
-    "id":150,
-    "r":3,
-    "names":["Mer-Cat","Commando Cat","Cameraman Cat"]
-  },
-  {
-    "id":151,
-    "r":4,
-    "names":["Juliet Cat","Princess Juliet Cat","Juliet the Maiko"]
-  },
-  {
-    "id":152,
-    "r":4,
-    "ignore":2,
-    "names":["Weightlifter Cat","Ring Girl Cat","Pizza Cat"]
-  },
-  {
-    "id":153,
-    "r":4,
-    "names":["Figure Skating Cats","Drama Cats","Slapstick Cats"]
-  },
-  {
-    "id":154,
-    "r":4,
-    "names":["Cat Toaster","Cat Projector","Catophone"]
-  },
-  {
-    "id":155,
-    "r":3,
-    "names":["Hoop Cat","Showoff Cat","Hoopmaster Cat"]
-  },
-  {
-    "id":156,
-    "r":5,
-    "ignore":1,
-    "names":["Chicken Cat","Rooster Cat"]
-  },
-  {
-    "id":157,
-    "r":3,
-    "ignore":1,
-    "names":["Drury Swordsman","Drury Witch"]
-  },
-  {
-    "id":158,
-    "r":2,
-    "ignore":1,
-    "names":["Nubobo","Gorubo"]
-  },
-  {
-    "id":159,
-    "r":5,
-    "names":["Uesugi Kenshin","Wargod Kenshin","Immortal Kenshin"]
-  },
-  {
-    "id":160,
-    "r":5,
-    "names":["Kalisa","Kalisa, type χ","Divine Kalisa"]
-  },
-  {
-    "id":161,
-    "r":4,
-    "ignore":1,
-    "names":["Burning Phoenix","Reincarnated Spirit Burning Phoenix","Gekirinchii"]
-  },
-  {
-    "id":162,
-    "r":5,
-    "ignore":1,
-    "names":["Crazed Kerihime","Crazed Kerihime CC","Manic Kerihime"]
-  },
-  {
-    "id":163,
-    "r":2,
-    "ignore":1,
-    "names":["Ayanokōji Shō","Shōyan & Nyanko"]
-  },
-  {
-    "id":164,
-    "r":2,
-    "ignore":1,
-    "names":["Saotome Hikaru","Hikaru & Nyanko"]
-  },
-  {
-    "id":165,
-    "r":2,
-    "ignore":1,
-    "names":["Saionji Hitomi","Tommy & Cat"]
-  },
-  {
-    "id":166,
-    "r":2,
-    "ignore":1,
-    "names":["Hoshi Guranmanie","Ranma & Nyanko"]
-  },
-  {
-    "id":167,
-    "r":2,
-    "ignore":1,
-    "names":["Shiratori Shōchikubai","Matsu & Nyanko"]
-  },
-  {
-    "id":168,
-    "r":3,
-    "ignore":1,
-    "names":["Yankee Cat","Sukeban Cat"]
-  },
-  {
-    "id":169,
-    "r":5,
-    "names":["Asiluga","Asilan Pasalan","Assassinlan Pasalan"]
-  },
-  {
-    "id":170,
-    "r":5,
-    "names":["Kubiluga","Kubilan Pasalan","E. Kubilan Pasalan"]
-  },
-  {
-    "id":171,
-    "r":5,
-    "names":["Tecoluga","Tesalan Pasalan","Lufalan Pasalan"]
-  },
-  {
-    "id":172,
-    "r":5,
-    "names":["Balaluga","Balalan Pasalan","Piccolan Pasalan"]
-  },
-  {
-    "id":173,
-    "r":2,
-    "names":["Li'l Nyandam","Dark Emperor Catdam","Schoolbus Nyandam"]
-  },
-  {
-    "id":174,
-    "r":4,
-    "ignore":2,
-    "names":["Baby Mola","Young Man Mola"]
-  },
-  {
-    "id":175,
-    "r":5,
-    "ignore":2,
-    "names":["Mola King","Living Legend"]
-  },
-  {
-    "id":176,
-    "r":2,
-    "ignore":2,
-    "names":["Meowla Meowla","Catorpedo"]
-  },
-  {
-    "id":177,
-    "r":3,
-    "names":["Marshmallow Cat","Creepmallow"]
-  },
-  {
-    "id":178,
-    "r":5,
-    "names":["Dioramos","Archdragon Dioramos","God-Emperor Dioramos"]
-  },
-  {
-    "id":179,
-    "r":2,
-    "ignore":1,
-    "names":["Mob Cat","Yakuza Vampire"]
-  },
-  {
-    "id":180,
-    "r":3,
-    "ignore":1,
-    "names":["Takuya and Yuki","Takuya, Yuki and Cat"]
-  },
-  {
-    "id":181,
-    "r":5,
-    "ignore":1,
-    "names":["Mysterious Girl Yuki","Mysterious Girl Yuki and Cat","Nekomimi Yuki"]
-  },
-  {
-    "id":182,
-    "r":2,
-    "ignore":1,
-    "names":["Snow Cat","Beauty Snow Cat"]
-  },
-  {
-    "id":183,
-    "r":2,
-    "ignore":1,
-    "names":["Cuckoo Crew 12","Cuckoo Crew 12+1"]
-  },
-  {
-    "id":184,
-    "r":3,
-    "ignore":2,
-    "names":["Cat Kart R","Cat Kart G","Cat Kart P"]
-  },
-  {
-    "id":185,
-    "r":2,
-    "ignore":2,
-    "names":["Mr.Ninja","Mint"]
-  },
-  {
-    "id":186,
-    "r":5,
-    "ignore":1,
-    "names":["Hearscht","Hearscht CC","Hearscht the Revolutionist CC"]
-  },
-  {
-    "id":187,
-    "r":5,
-    "ignore":1,
-    "names":["Cornelia","Cornelia CC"]
-  },
-  {
-    "id":188,
-    "r":5,
-    "ignore":1,
-    "names":["Juvens","Juvens CC","Holiday Knight Juvens CC"]
-  },
-  {
-    "id":189,
-    "r":5,
-    "ignore":1,
-    "names":["Mystica","Mystica CC"]
-  },
-  {
-    "id":190,
-    "r":4,
-    "ignore":1,
-    "names":["Alois","Alois CC"]
-  },
-  {
-    "id":191,
-    "r":4,
-    "ignore":1,
-    "names":["Citrouille","Citrouille CC"]
-  },
-  {
-    "id":192,
-    "r":2,
-    "ignore":1,
-    "names":["Titi","Titi CC","Titi Cat CC"]
-  },
-  {
-    "id":193,
-    "r":2,
-    "ignore":1,
-    "names":["Yamaoka Minori","MISS Yamaoka Minori"]
-  },
-  {
-    "id":194,
-    "r":2,
-    "ignore":1,
-    "names":["Nakamura Kanae","MISS Nakamura Kanae"]
-  },
-  {
-    "id":195,
-    "r":5,
-    "names":["Akira","Shadow Akira","Inferno Akira"]
-  },
-  {
-    "id":196,
-    "r":5,
-    "names":["Mekako Saionji","Dr. Mekako","Mission Control Mekako"]
-  },
-  {
-    "id":197,
-    "r":5,
-    "names":["Catman","Dark Catman","Ultimate Catman"]
-  },
-  {
-    "id":198,
-    "r":3,
-    "names":["Psychocat","Neo Psychocat","Corrupted Psychocat"]
-  },
-  {
-    "id":199,
-    "r":3,
-    "ignore":2,
-    "names":["Onmyoji Cat","Magica Cat","Thaumaturge Cat"]
-  },
-  {
-    "id":200,
-    "r":4,
-    "names":["Surfer Cat","Castaway Cat","Seafarer Cat"]
-  },
-  {
-    "id":201,
-    "r":4,
-    "ignore":2,
-    "names":["Metal Cat","Metal Macho"]
-  },
-  {
-    "id":202,
-    "r":3,
-    "names":["Drumcorps Cat","Banner Cat","Mochi Cat"]
-  },
-  {
-    "id":203,
-    "r":2,
-    "ignore":1,
-    "names":["Baozi Cat","Big Baozi"]
-  },
-  {
-    "id":204,
-    "r":5,
-    "names":["Kachi-Kachi","Fire Squad Kachiyama","Kachiyama Assault Brigade"]
-  },
-  {
-    "id":205,
-    "r":2,
-    "ignore":1,
-    "names":["Airou","Airou & Melaleu"]
-  },
-  {
-    "id":206,
-    "r":2,
-    "ignore":1,
-    "names":["Sheria - Kirin","Sheria - KirinX"]
-  },
-  {
-    "id":207,
-    "r":2,
-    "ignore":1,
-    "names":["Rathalos","Rathalos & Cat"]
-  },
-  {
-    "id":208,
-    "r":2,
-    "ignore":1,
-    "names":["Rathian","Rathian & Cat"]
-  },
-  {
-    "id":209,
-    "r":2,
-    "ignore":1,
-    "names":["Kirin Neko","Kirin Neko Kirin"]
-  },
-  {
-    "id":210,
-    "r":2,
-    "names":["Li'l Cat","Li'l Macho Cat","Li'l Mohawk Cat"]
-  },
-  {
-    "id":211,
-    "r":2,
-    "names":["Li'l Tank Cat","Li'l Wall Cat","Li'l Eraser Cat"]
-  },
-  {
-    "id":212,
-    "r":2,
-    "names":["Li'l Axe Cat","Li'l Brave Cat","Li'l Dark Cat"]
-  },
-  {
-    "id":213,
-    "r":5,
-    "names":["The White Rabbit","The Black Cat","The Grey Fox"]
-  },
-  {
-    "id":214,
-    "r":2,
-    "ignore":2,
-    "names":["Catburger","Cat Royale","Value Meal Cat"]
-  },
-  {
-    "id":215,
-    "r":3,
-    "ignore":2,
-    "names":["HYAKUTARO","HYAKUTARO CC"]
-  },
-  {
-    "id":216,
-    "r":3,
-    "ignore":2,
-    "names":["MARCO","MARCO CC"]
-  },
-  {
-    "id":217,
-    "r":3,
-    "ignore":2,
-    "names":["TARMA","TARMA CC"]
-  },
-  {
-    "id":218,
-    "r":3,
-    "ignore":2,
-    "names":["ERI","ERI CC"]
-  },
-  {
-    "id":219,
-    "r":3,
-    "ignore":2,
-    "names":["FIO","FIO CC"]
-  },
-  {
-    "id":220,
-    "r":4,
-    "ignore":2,
-    "names":["SV-001","SV-001 CC"]
-  },
-  {
-    "id":221,
-    "r":4,
-    "ignore":2,
-    "names":["ALLEN O'NEIL","ALLEN O'NEIL CC"]
-  },
-  {
-    "id":222,
-    "r":3,
-    "ignore":2,
-    "names":["MARS PEOPLE","MARS PEOPLE CC"]
-  },
-  {
-    "id":223,
-    "r":5,
-    "ignore":2,
-    "names":["HUGE HERMIT","HUGE HERMIT CC"]
-  },
-  {
-    "id":224,
-    "r":5,
-    "ignore":2,
-    "names":["JUPITER KING","JUPITER KING CC"]
-  },
-  {
-    "id":225,
-    "r":5,
-    "ignore":2,
-    "names":["DONALD MORDEN","DONALD MORDEN CC"]
-  },
-  {
-    "id":226,
-    "r":5,
-    "ignore":2,
-    "names":["HI-DO","HI-DO CC"]
-  },
-  {
-    "id":227,
-    "r":5,
-    "names":["Warlock and Pierre","Dark Merchant Babil","Mad Doctor Klay"]
-  },
-  {
-    "id":228,
-    "r":3,
-    "names":["Pumpcat","Cat O'Lantern","Harbinger Cat"]
-  },
-  {
-    "id":229,
-    "r":4,
-    "ignore":2,
-    "names":["Gloomy Neneko","Witchy Neneko"]
-  },
-  {
-    "id":230,
-    "r":5,
-    "ignore":2,
-    "names":["Hallowindy","Hallowindy α"]
-  },
-  {
-    "id":231,
-    "r":5,
-    "ignore":2,
-    "names":["Spooky Thundia","Spooky Thundia β"]
-  },
-  {
-    "id":232,
-    "r":2,
-    "ignore":1,
-    "names":["Oden","OdenCC"]
-  },
-  {
-    "id":233,
-    "r":3,
-    "ignore":1,
-    "names":["Hikari no Kamito Vahakiri","Hikari no Kamito Vahakiri CC"]
-  },
-  {
-    "id":234,
-    "r":3,
-    "ignore":1,
-    "names":["Kamito Buryunhirude","Kamito Buryunhirude CC"]
-  },
-  {
-    "id":235,
-    "r":3,
-    "ignore":1,
-    "names":["Kamito Suruzu","Kamito Suruzu CC"]
-  },
-  {
-    "id":236,
-    "r":4,
-    "ignore":1,
-    "names":["Hojo no Megami Fureiya","Hojo no Megami Fureiya CC"]
-  },
-  {
-    "id":237,
-    "r":5,
-    "ignore":1,
-    "names":["Gunshin Odin","Gunshin Odin CC"]
-  },
-  {
-    "id":238,
-    "r":4,
-    "names":["Freshman Cat Jobs","Prof. Cat Jobs","Headmaster Cat Jobs"]
-  },
-  {
-    "id":239,
-    "r":4,
-    "names":["Rich Cat III","Rich Cat Sr.","Richest Cat"]
-  },
-  {
-    "id":240,
-    "r":4,
-    "names":["Sniper the Recruit","Sniper the Heavy","Sniper the Deadeye"]
-  },
-  {
-    "id":241,
-    "r":5,
-    "names":["Togeluga","Togelan Pasalan","Shishilan Pasalan"]
-  },
-  {
-    "id":242,
-    "r":5,
-    "ignore":2,
-    "names":["Frosty Kai","Frosty Kai, Type μ"]
-  },
-  {
-    "id":243,
-    "r":5,
-    "ignore":2,
-    "names":["Santa Kuu","Santa Kuu, Type γ"]
-  },
-  {
-    "id":244,
-    "r":5,
-    "ignore":2,
-    "names":["Holy Coppermine","Holy Coppermine, Type κ"]
-  },
-  {
-    "id":245,
-    "r":3,
-    "names":["A Gift of Cats","Cat's Gift"]
-  },
-  {
-    "id":246,
-    "r":2,
-    "names":["Li'l Gross Cat","Li'l Sexy Legs Cat","Li'l Macho Legs Cat"]
-  },
-  {
-    "id":247,
-    "r":2,
-    "names":["Li'l Cow Cat","Li'l Giraffe Cat","Li'l Lion Cat"]
-  },
-  {
-    "id":248,
-    "r":2,
-    "names":["Li'l Bird Cat","Li'l UFO Cat","Li'l Flying Cat"]
-  },
-  {
-    "id":249,
-    "r":2,
-    "ignore":1,
-    "names":["Undead Cat","Bake-Nyanko"]
-  },
-  {
-    "id":250,
-    "r":3,
-    "ignore":1,
-    "names":["C&G Swordsman","Sailor Swordsman","Swordsman of Myuu"]
-  },
-  {
-    "id":251,
-    "r":3,
-    "ignore":1,
-    "names":["Horsemen Cavalry","Cavalry Soldiers of Forest","Black Cavalry Soldiers of The Thunderclap"]
-  },
-  {
-    "id":252,
-    "r":3,
-    "ignore":1,
-    "names":["Ashura","Warrior Ashura","Sengoku Ashura"]
-  },
-  {
-    "id":253,
-    "r":3,
-    "ignore":1,
-    "names":["Battle Balloon","Pirate Battle Balloon","Ufo Battle balloon"]
-  },
-  {
-    "id":254,
-    "r":3,
-    "ignore":1,
-    "names":["Dragon Rider","Horn Dragon Rider","Flame Dragon Rider"]
-  },
-  {
-    "id":255,
-    "r":3,
-    "ignore":1,
-    "names":["Pretty Cat","Lovely Pretty Cat","Cyber Pretty Cat"]
-  },
-  {
-    "id":256,
-    "r":3,
-    "ignore":1,
-    "names":["Cyclops","Cyclops of Steel","Cyclops of Time-Space"]
-  },
-  {
-    "id":257,
-    "r":2,
-    "ignore":1,
-    "names":["Golem","Rabbit Golem","Volcano Golem"]
-  },
-  {
-    "id":258,
-    "r":5,
-    "names":["Thunder God Zeus","The Majestic Zeus","Almighty Zeus"]
-  },
-  {
-    "id":259,
-    "r":5,
-    "names":["Anubis the Protector","Anubis the Unblemished","Almighty Anubis"]
-  },
-  {
-    "id":260,
-    "r":5,
-    "names":["Radiant Aphrodite","Megaphrodite","Almighty Aphrodite"]
-  },
-  {
-    "id":261,
-    "r":4,
-    "names":["Catway","Drone Cat","Time Traveller Cat"]
-  },
-  {
-    "id":262,
-    "r":5,
-    "names":["Hayabusa","Oni Hayabusa","Akuma Hayabusa"]
-  },
-  {
-    "id":263,
-    "r":2,
-    "ignore":1,
-    "names":["Nyamusu","Neko Nyamusu"]
-  },
-  {
-    "id":264,
-    "r":2,
-    "ignore":1,
-    "names":["Pochi","Tank Pochi"]
-  },
-  {
-    "id":265,
-    "r":2,
-    "ignore":1,
-    "names":["Kuromi","Kuromi and Cats"]
-  },
-  {
-    "id":266,
-    "r":2,
-    "ignore":1,
-    "names":["Setsuko","Setsuko Love Mackerel"]
-  },
-  {
-    "id":267,
-    "r":2,
-    "ignore":1,
-    "names":["Nebaaru-kun","Nebaaru-kun and Cat"]
-  },
-  {
-    "id":268,
-    "r":4,
-    "names":["Catornado","Hurricat","Catyphoon"]
-  },
-  {
-    "id":269,
-    "r":2,
-    "names":["Red Riding Mina","Crimson Mina","Awakened Mina"]
-  },
-  {
-    "id":270,
-    "r":5,
-    "names":["Baby Gao","Mighty Lord Gao"]
-  },
-  {
-    "id":271,
-    "r":5,
-    "ignore":1,
-    "names":["Crazed Yuki","Crazed Yuki Cat","Crazed Nekomimi Yuki"]
-  },
-  {
-    "id":272,
-    "r":5,
-    "names":["Shining Amaterasu","Glorious Amaterasu","Almighty Amaterasu"]
-  },
-  {
-    "id":273,
-    "r":5,
-    "names":["Splendid Ganesha","Exalted Ganesha","Almighty Ganesha"]
-  },
-  {
-    "id":274,
-    "r":4,
-    "names":["Cheerleader Cat","Waitress Cat","Soba Cat"]
-  },
-  {
-    "id":275,
-    "r":5,
-    "ignore":2,
-    "names":["Tropical Kalisa","Tropical Kalisa X"]
-  },
-  {
-    "id":276,
-    "r":5,
-    "ignore":2,
-    "names":["Midsummer Rabbit","Midsummer Cat"]
-  },
-  {
-    "id":277,
-    "r":4,
-    "ignore":2,
-    "names":["Sunny Neneko","Seaside Neneko"]
-  },
-  {
-    "id":278,
-    "r":3,
-    "ignore":2,
-    "names":["Funghi","Funghi 'n' Cat"]
-  },
-  {
-    "id":279,
-    "r":2,
-    "ignore":2,
-    "names":["Tanky","Tanky 'n' Cat"]
-  },
-  {
-    "id":280,
-    "r":2,
-    "ignore":2,
-    "names":["White Cat","Gross White Cat"]
-  },
-  {
-    "id":281,
-    "r":2,
-    "ignore":2,
-    "names":["Fortressy","Castley"]
-  },
-  {
-    "id":282,
-    "r":3,
-    "ignore":1,
-    "names":["Futenyan","Massaging Futenyan"]
-  },
-  {
-    "id":283,
-    "r":3,
-    "names":["Awa-Odori Cat","So-Ran Cat","Gorgeous Groovin' Cat"]
-  },
-  {
-    "id":284,
-    "r":5,
-    "names":["Pai-Pai","Pai-Pai Z","Pai-Pai DX"]
-  },
-  {
-    "id":285,
-    "r":4,
-    "names":["Express Cat","Maglev Cat","Bullet Train Cat"]
-  },
-  {
-    "id":286,
-    "r":2,
-    "ignore":1,
-    "names":["Crazed Baozi Cat","Crazed Big Baozi Cat"]
-  },
-  {
-    "id":287,
-    "r":5,
-    "names":["Strike Unit R.E.I.","Assault Unit R.E.I.","Flight Unit R.E.I."]
-  },
-  {
-    "id":288,
-    "r":4,
-    "names":["Little Leaguer Cat","Major Leaguer Cat","Golfer Cat"]
-  },
-  {
-    "id":289,
-    "r":5,
-    "ignore":2,
-    "names":["Madoka Kaname","Madoka & Cat"]
-  },
-  {
-    "id":290,
-    "r":5,
-    "ignore":2,
-    "names":["Homura Akemi","Homura & Cat"]
-  },
-  {
-    "id":291,
-    "r":5,
-    "ignore":2,
-    "names":["Sayaka Miki","Sayaka & Cat"]
-  },
-  {
-    "id":292,
-    "r":5,
-    "ignore":2,
-    "names":["Mami Tomoe","Mami & Cat"]
-  },
-  {
-    "id":293,
-    "r":5,
-    "ignore":2,
-    "names":["Kyoko Sakura","Kyoko & Cat"]
-  },
-  {
-    "id":294,
-    "r":4,
-    "ignore":2,
-    "names":["Kyubey","Kyubey & Cat"]
-  },
-  {
-    "id":295,
-    "r":3,
-    "ignore":2,
-    "names":["Madoka Cat","Magical Girl Madoka Cat"]
-  },
-  {
-    "id":296,
-    "r":3,
-    "ignore":2,
-    "names":["Homura Cat","Magical Girl Homura Cat"]
-  },
-  {
-    "id":297,
-    "r":3,
-    "ignore":2,
-    "names":["Sayaka Cat","Magical Girl Sayaka Cat"]
-  },
-  {
-    "id":298,
-    "r":3,
-    "ignore":2,
-    "names":["Mami Cat","Magical Girl Mami Cat"]
-  },
-  {
-    "id":299,
-    "r":3,
-    "ignore":2,
-    "names":["Kyoko Cat","Magical Girl Kyouko Cat"]
-  },
-  {
-    "id":300,
-    "r":3,
-    "names":["Li'l Madoka","Li'l Magical Girl Madoka","Li'l Ultimate Madoka"]
-  },
-  {
-    "id":301,
-    "r":2,
-    "names":["Li'l Homura","Li'l Magical Girl Homura","Li'l Devil Homura"]
-  },
-  {
-    "id":302,
-    "r":3,
-    "ignore":2,
-    "names":["Kyubey Cat","Tank Kyubey Cat"]
-  },
-  {
-    "id":303,
-    "r":5,
-    "ignore":2,
-    "names":["Lilith Cat","Succubus Cat"]
-  },
-  {
-    "id":304,
-    "r":3,
-    "names":["Food Stall Cat","Delivery Cat"]
-  },
-  {
-    "id":305,
-    "r":5,
-    "names":["Mighty Kat-A-Pult","CAT-6 Siege Engine","CAT-8 Behemoth"]
-  },
-  {
-    "id":306,
-    "r":5,
-    "names":["Mighty Drednot","B.C.S. Lionheart","B.C.S. Tigerclaw"]
-  },
-  {
-    "id":307,
-    "r":5,
-    "names":["Mighty Bomburr","NEK-0 Sky Fortress","NEK-02 Air Citadel"]
-  },
-  {
-    "id":308,
-    "r":4,
-    "names":["Vaulter Cat","Polevaulter Cat","Housewife Cat"]
-  },
-  {
-    "id":309,
-    "r":3,
-    "names":["Gardener Cat","Lumbercat","Weedwacker Cat"]
-  },
-  {
-    "id":310,
-    "r":2,
-    "ignore":1,
-    "names":["Nekohakase","Neko Hakase and Cat"]
-  },
-  {
-    "id":311,
-    "r":5,
-    "ignore":2,
-    "names":["Yuletide Nurse","Yule Knight Nurse"]
-  },
-  {
-    "id":312,
-    "r":2,
-    "names":["Li'l Fish Cat","Li'l Whale Cat","Li'l Island Cat"]
-  },
-  {
-    "id":313,
-    "r":2,
-    "names":["Li'l Lizard Cat","Li'l Dragon Cat","Li'l King Dragon Cat"]
-  },
-  {
-    "id":314,
-    "r":2,
-    "names":["Li'l Titan Cat","Li'l Mythical Titan","Li'l Jamiera Cat"]
-  },
-  {
-    "id":315,
-    "r":4,
-    "ignore":2,
-    "names":["Years-End Neneko","New Year Neneko"]
-  },
-  {
-    "id":316,
-    "r":3,
-    "ignore":2,
-    "names":["PIKOTARO","NEKOTARO"]
-  },
-  {
-    "id":317,
-    "r":5,
-    "names":["Wrathful Poseidon","Valiant Poseidon","Almighty Poseidon"]
-  },
-  {
-    "id":318,
-    "r":2,
-    "ignore":2,
-    "names":["CPAC","PPAP"]
-  },
-  {
-    "id":319,
-    "r":5,
-    "ignore":2,
-    "names":["Miko Mitama","Mitama the Oracle"]
-  },
-  {
-    "id":320,
-    "r":3,
-    "names":["Killer Cat","True Killer Cat","Radical Cat"]
-  },
-  {
-    "id":321,
-    "r":3,
-    "ignore":1,
-    "names":["Hiroshi Mihara","123 ~ Hara Idols Cat"]
-  },
-  {
-    "id":322,
-    "r":2,
-    "ignore":1,
-    "names":["Nazousagi","Miya Ōdō Rabbit"]
-  },
-  {
-    "id":323,
-    "r":5,
-    "names":["Sarukani","Rock Revengers","The One-Hit Wonders"]
-  },
-  {
-    "id":324,
-    "r":2,
-    "names":["Miyamoku Musashi","Heroic Musashi","Awakened Musashi"]
-  },
-  {
-    "id":325,
-    "r":3,
-    "names":["Curling Cat","Zamboney Cat","Green Shell Cat"]
-  },
-  {
-    "id":326,
-    "r":3,
-    "names":["Welterweight Cat","Heavyweight Cat","Ectoweight Cat"]
-  },
-  {
-    "id":327,
-    "r":5,
-    "ignore":2,
-    "names":["Mobius","Miraculous Mobius"]
-  },
-  {
-    "id":328,
-    "r":4,
-    "ignore":2,
-    "names":["Belial","Reckless Belial"]
-  },
-  {
-    "id":329,
-    "r":2,
-    "ignore":2,
-    "names":["Happy 100","Heartful Happy 100"]
-  },
-  {
-    "id":330,
-    "r":3,
-    "names":["Eggy Cat","Easter Cat"]
-  },
-  {
-    "id":331,
-    "r":5,
-    "ignore":2,
-    "names":["Springtime Kenshin","Full-Bloom Kenshin"]
-  },
-  {
-    "id":332,
-    "r":5,
-    "ignore":2,
-    "names":["Bunny & Canard","Disciple Psychoduck"]
-  },
-  {
-    "id":333,
-    "r":4,
-    "ignore":2,
-    "names":["Easter Neneko","Hoppity Neneko"]
-  },
-  {
-    "id":334,
-    "r":5,
-    "ignore":2,
-    "names":["Shadow Gao","Diabolic Gao"]
-  },
-  {
-    "id":335,
-    "r":5,
-    "names":["Trickster Himeyuri","Himeyuri Ninetails","Fox Queen Himeyuri"]
-  },
-  {
-    "id":336,
-    "r":5,
-    "names":["Sea Maiden Ruri","Sea Mistress Ruri","Sea-Queen Ruri"]
-  },
-  {
-    "id":337,
-    "r":5,
-    "names":["Queen Reika","Pharoah Reika","Eternal Reika"]
-  },
-  {
-    "id":338,
-    "r":5,
-    "ignore":1,
-    "names":["Princess Ship","Princess ShipCC","Premium Ship CC"]
-  },
-  {
-    "id":339,
-    "r":5,
-    "names":["Imagawa Yoshimoto","Wargod Yoshimoto","Immortal Yoshimoto"]
-  },
-  {
-    "id":340,
-    "r":2,
-    "ignore":1,
-    "names":["Iron Wall Shield"]
-  },
-  {
-    "id":341,
-    "r":3,
-    "ignore":1,
-    "names":["Red-haired Snow Cat","Red-haired Beauty Snow Cat"]
-  },
-  {
-    "id":342,
-    "r":5,
-    "ignore":1,
-    "names":["Lost World Yuki","Lost World Yuki & Cat","Lost World Nekomimi Yuki"]
-  },
-  {
-    "id":343,
-    "r":2,
-    "ignore":1,
-    "names":["Maneki-Neko","Longlife Meneki-Neko"]
-  },
-  {
-    "id":344,
-    "r":3,
-    "names":["Slug Jockey Cat","Slugcat"]
-  },
-  {
-    "id":345,
-    "r":4,
-    "ignore":1,
-    "names":["Orutosu","Orutosu CC","Colourful Orotosu CC"]
-  },
-  {
-    "id":346,
-    "r":5,
-    "ignore":1,
-    "names":["Michelia","Michelia CC","Napping Michelia"]
-  },
-  {
-    "id":347,
-    "r":5,
-    "ignore":1,
-    "names":["Todomeki","Todomeki CC"]
-  },
-  {
-    "id":348,
-    "r":2,
-    "ignore":1,
-    "names":["Gudetama Cat","Gude Omelet Cat","Gudebene Cat"]
-  },
-  {
-    "id":349,
-    "r":3,
-    "ignore":1,
-    "names":["Gudetama Plate","Gudetama Bacon Plate"]
-  },
-  {
-    "id":350,
-    "r":4,
-    "ignore":1,
-    "names":["Gudegude Pudding","Gudegude à la mode"]
-  },
-  {
-    "id":351,
-    "r":5,
-    "ignore":1,
-    "names":["Nisetama Army","Nisetama Cat Army"]
-  },
-  {
-    "id":352,
-    "r":5,
-    "names":["Twinstars","Twinstars, type Ф","Ultima Twinstars, type Ф"]
-  },
-  {
-    "id":353,
-    "r":2,
-    "ignore":2,
-    "names":["Hermit Cat","Grandmaster Cat"]
-  },
-  {
-    "id":354,
-    "r":2,
-    "ignore":1,
-    "names":["Chocolate Nut Cat","Chocolate Nut & Cat","Chocolate Tank Cat"]
-  },
-  {
-    "id":355,
-    "r":5,
-    "ignore":2,
-    "names":["Seashore Kai","Seashore Kai, type µ"]
-  },
-  {
-    "id":356,
-    "r":5,
-    "names":["Mighty Rekon Korps","Orbital Platform Armageddon","Orbital Annihilator Ragnarok"]
-  },
-  {
-    "id":357,
-    "r":2,
-    "ignore":1,
-    "names":["Nora","Awakened Nora"]
-  },
-  {
-    "id":358,
-    "r":5,
-    "names":["Wolfchild Deale","Wolf Princess Deale","Jester Queen Deale"]
-  },
-  {
-    "id":359,
-    "r":5,
-    "names":["Graveflower Verbena","Verbena the Bride","Opulent Verbena"]
-  },
-  {
-    "id":360,
-    "r":5,
-    "names":["Bora","Bazibon","Bazibastra"]
-  },
-  {
-    "id":361,
-    "r":5,
-    "names":["Mizli","Marinmizu","Mizuririn"]
-  },
-  {
-    "id":362,
-    "r":5,
-    "names":["Aer","Erphuan","Aervanta"]
-  },
-  {
-    "id":363,
-    "r":5,
-    "ignore":2,
-    "names":["Saber","Saber CC","Saber Alter CC"]
-  },
-  {
-    "id":364,
-    "r":5,
-    "ignore":2,
-    "names":["Rin Tohsaka","Rin Tohsaka CC"]
-  },
-  {
-    "id":365,
-    "r":5,
-    "ignore":2,
-    "names":["Illyasviel","Illyasviel CC"]
-  },
-  {
-    "id":366,
-    "r":5,
-    "ignore":2,
-    "names":["Archer","Archer CC"]
-  },
-  {
-    "id":367,
-    "r":5,
-    "ignore":2,
-    "names":["Lancer","Lancer CC"]
-  },
-  {
-    "id":368,
-    "r":5,
-    "ignore":2,
-    "names":["Rider","Rider CC"]
-  },
-  {
-    "id":369,
-    "r":5,
-    "ignore":2,
-    "names":["Gilgamesh","Gilgamesh CC"]
-  },
-  {
-    "id":370,
-    "r":2,
-    "ignore":2,
-    "names":["Saber the Cat","Heroic Spirit Saber Cat","Saber Alter Cat"]
-  },
-  {
-    "id":371,
-    "r":3,
-    "ignore":2,
-    "names":["Sakura the Cat","Apron Sakura Cat","Dreaming Sakura Cat"]
-  },
-  {
-    "id":372,
-    "r":3,
-    "ignore":2,
-    "names":["Rin the Cat","Mage Rin Cat"]
-  },
-  {
-    "id":373,
-    "r":3,
-    "ignore":2,
-    "names":["Illya the Cat","Snow Faerie Illya"]
-  },
-  {
-    "id":374,
-    "r":3,
-    "ignore":2,
-    "names":["Li'l Shirou","Li'l Shirou CC"]
-  },
-  {
-    "id":375,
-    "r":2,
-    "ignore":2,
-    "names":["Li'l Sakura","Li'l Sakura CC"]
-  },
-  {
-    "id":376,
-    "r":2,
-    "ignore":2,
-    "names":["Coin Cat","Macho Coin Cat"]
-  },
-  {
-    "id":377,
-    "r":3,
-    "names":["Rover Cat","Rover Cat Mk II","Catellite"]
-  },
-  {
-    "id":378,
-    "r":4,
-    "ignore":2,
-    "names":["Fencer Cat","Kendo Cat","The Kitty of Liberty"]
-  },
-  {
-    "id":379,
-    "r":5,
-    "ignore":2,
-    "names":["Dark Mitama","Gothic Mitama"]
-  },
-  {
-    "id":380,
-    "r":3,
-    "ignore":2,
-    "names":["Volley Cat","Ballet Cat","Curry Cat"]
-  },
-  {
-    "id":381,
-    "r":5,
-    "ignore":2,
-    "names":["D'artanyan","Meow-sketeer"]
-  },
-  {
-    "id":382,
-    "r":2,
-    "ignore":2,
-    "names":["Farmer Cat","Harvest Cat"]
-  },
-  {
-    "id":383,
-    "r":3,
-    "ignore":2,
-    "names":["Glass Cat","Macho Glass Cat","Macho Crystal Cat"]
-  },
-  {
-    "id":384,
-    "r":2,
-    "ignore":2,
-    "names":["Masked Yulala","Mystic Yulala"]
-  },
-  {
-    "id":385,
-    "r":2,
-    "ignore":2,
-    "names":["Satori Hikami & Cat","Satori Hikami & Cat CC"]
-  },
-  {
-    "id":386,
-    "r":3,
-    "ignore":2,
-    "names":["Akio Yabe","Akio Yabe CC","Akio & Gunder CC"]
-  },
-  {
-    "id":387,
-    "r":3,
-    "ignore":2,
-    "names":["Sairi Nijitani","Sairi Nijitani CC"]
-  },
-  {
-    "id":388,
-    "r":3,
-    "ignore":2,
-    "names":["Misaki Konno","Misaki Konno CC"]
-  },
-  {
-    "id":389,
-    "r":3,
-    "ignore":2,
-    "names":["Ren Katagiri","Ren Katagiri CC"]
-  },
-  {
-    "id":390,
-    "r":3,
-    "ignore":2,
-    "names":["Karin Nekozuka","Karin Nekozuka CC"]
-  },
-  {
-    "id":391,
-    "r":4,
-    "ignore":2,
-    "names":["Aoi Hayakawa","Aoi Hayakawa CC","Baseball Mask α"]
-  },
-  {
-    "id":392,
-    "r":4,
-    "ignore":2,
-    "names":["Mizuki Tachibana","Mizuki Tachibana CC","Baseball Mask β "]
-  },
-  {
-    "id":393,
-    "r":4,
-    "ignore":2,
-    "names":["Hijiri Rokudo","Hijiri Rokudo CC","Baseball Mask γ "]
-  },
-  {
-    "id":394,
-    "r":5,
-    "ignore":2,
-    "names":["Saki Nijima","Saki Nijima CC","Samba Saki CC"]
-  },
-  {
-    "id":395,
-    "r":5,
-    "ignore":2,
-    "names":["Subaru Hoshi","Subaru Hoshi CC","Dark Subaru CC"]
-  },
-  {
-    "id":396,
-    "r":5,
-    "ignore":2,
-    "names":["Miyabi Oyama","Miyabi Oyama CC","Baseball Mask δ"]
-  },
-  {
-    "id":397,
-    "r":5,
-    "names":["Ganglion","Ganglion the Ancient","Ganglion the Unleashed"]
-  },
-  {
-    "id":398,
-    "r":5,
-    "names":["Sakura Sonic","Afterschool Sakura","Sacred Blade Sakura"]
-  },
-  {
-    "id":399,
-    "r":2,
-    "ignore":1,
-    "names":["Honeyto-kun","Honeyto-Kun & Cat"]
-  },
-  {
-    "id":400,
-    "r":3,
-    "ignore":2,
-    "names":["Mentori","Mentori CC"]
-  },
-  {
-    "id":401,
-    "r":2,
-    "ignore":2,
-    "names":["Imoto","Imoto CC"]
-  },
-  {
-    "id":402,
-    "r":5,
-    "names":["Voli","Volta","Gigavolta"]
-  },
-  {
-    "id":403,
-    "r":3,
-    "names":["Shinji & Cat","Plug Suit Shinji","Plug Suit Shinji Black"]
-  },
-  {
-    "id":404,
-    "r":2,
-    "ignore":2,
-    "names":["Gendo & Fuyutsuki Cats","Moon Gendo & Fuyutsuki Cats"]
-  },
-  {
-    "id":405,
-    "r":3,
-    "ignore":2,
-    "names":["Giraffe Unit-01","Giraffe Unit-02"]
-  },
-  {
-    "id":406,
-    "r":2,
-    "names":["Kaworu & Cat","Plug Suit Kaworu","Moon Kaworu"]
-  },
-  {
-    "id":407,
-    "r":3,
-    "ignore":2,
-    "names":["Rei Cat","Ayanami Cat (TBC)"]
-  },
-  {
-    "id":408,
-    "r":3,
-    "ignore":2,
-    "names":["Asuka Cat","Apron Asuka"]
-  },
-  {
-    "id":409,
-    "r":3,
-    "ignore":2,
-    "names":["Mari Cat","Special Ops Mari"]
-  },
-  {
-    "id":410,
-    "r":4,
-    "ignore":2,
-    "names":["Rei Ayanami","Plug Suit Rei"]
-  },
-  {
-    "id":411,
-    "r":4,
-    "ignore":2,
-    "names":["Asuka Langley","Plug Suit Asuka","Eyepatch Li'l Asuka"]
-  },
-  {
-    "id":412,
-    "r":4,
-    "ignore":2,
-    "names":["Mari Illustrious","Plug Suit Mari"]
-  },
-  {
-    "id":413,
-    "r":5,
-    "ignore":2,
-    "names":["Eva Unit-00","Eva Unit-00 & Cat"]
-  },
-  {
-    "id":414,
-    "r":5,
-    "ignore":2,
-    "names":["Eva Unit-01","Eva Unit-01 & Cat"]
-  },
-  {
-    "id":415,
-    "r":5,
-    "ignore":2,
-    "names":["Eva Unit-02","Eva Unit-02 & Cat","Unit-02, Code 777"]
-  },
-  {
-    "id":416,
-    "r":5,
-    "ignore":2,
-    "names":["Shinji Cat","Toji & Kensuke Cats"]
-  },
-  {
-    "id":417,
-    "r":5,
-    "ignore":2,
-    "names":["Moon Operators","NERV Moon"]
-  },
-  {
-    "id":418,
-    "r":5,
-    "names":["Mighty Thermae D-Lux","Subterra Guardians","Subterra Sentinels"]
-  },
-  {
-    "id":419,
-    "r":2,
-    "names":["Crazed Moneko","Corrupted Moneko"]
-  },
-  {
-    "id":420,
-    "r":3,
-    "ignore":2,
-    "names":["Pokota","Pokota CC"]
-  },
-  {
-    "id":421,
-    "r":3,
-    "ignore":2,
-    "names":["Ovis","Ovis CC"]
-  },
-  {
-    "id":422,
-    "r":3,
-    "ignore":2,
-    "names":["Coco","Coco CC"]
-  },
-  {
-    "id":423,
-    "r":3,
-    "ignore":1,
-    "names":["Moe Uzumasa & Cat","Moe Uzumasa & Cat CC"]
-  },
-  {
-    "id":424,
-    "r":3,
-    "ignore":1,
-    "names":["Saki Matsuga & Cat","Saki Matsuga & Cat CC"]
-  },
-  {
-    "id":425,
-    "r":3,
-    "ignore":1,
-    "names":["Misa Ono & Cat","Misa Ono & Cat CC"]
-  },
-  {
-    "id":426,
-    "r":2,
-    "ignore":1,
-    "names":["Rei Uzumasa & Cat","Rei Uzumasa & Cat CC"]
-  },
-  {
-    "id":427,
-    "r":2,
-    "ignore":2,
-    "names":["Mecha-Bun","Mecha-Bun Mk II","Ultimate Mecha-Bun"]
-  },
-  {
-    "id":428,
-    "r":5,
-    "names":["Cat Clan Heroes","Cat Guild Heroes","Cat Quest Heroes"]
-  },
-  {
-    "id":429,
-    "r":3,
-    "ignore":1,
-    "names":["Soumanyan","Sumaato Soumanyan"]
-  },
-  {
-    "id":430,
-    "r":4,
-    "ignore":1,
-    "names":["Otanekogiiku","Giikunekohakkaa"]
-  },
-  {
-    "id":431,
-    "r":5,
-    "ignore":1,
-    "names":["Gudenekomashin","Gudenekomashin - Tamago"]
-  },
-  {
-    "id":432,
-    "r":5,
-    "names":["Detective Vigler","Inspector Gabriel","Section Chief Gravicci"]
-  },
-  {
-    "id":433,
-    "r":3,
-    "ignore":2,
-    "names":["Betakkuma","Black Betakkuma"]
-  },
-  {
-    "id":434,
-    "r":2,
-    "ignore":2,
-    "names":["Nekokkuma","Killer Nekokkuma"]
-  },
-  {
-    "id":435,
-    "r":2,
-    "ignore":1,
-    "names":["Shiro Nyanko Kenshi","Kuro Nyanko Kenshi"]
-  },
-  {
-    "id":436,
-    "r":5,
-    "ignore":2,
-    "names":["Li'l Valkyrie","Wind Dancer Valkyrie"]
-  },
-  {
-    "id":437,
-    "r":5,
-    "names":["Nobiluga","Nobilan Pasalan","Mystican Pasalan"]
-  },
-  {
-    "id":438,
-    "r":2,
-    "ignore":2,
-    "names":["Cat God the Great","Cat God the Awesome"]
-  },
-  {
-    "id":439,
-    "r":5,
-    "ignore":2,
-    "names":["Waverider Kuu","Waverider Kuu γ"]
-  },
-  {
-    "id":440,
-    "r":5,
-    "names":["Empress Chronos","Chronos the Infinite","Almighty Chronos"]
-  },
-  {
-    "id":441,
-    "r":5,
-    "ignore":2,
-    "names":["Bebe","Nagisa & Cat"]
-  },
-  {
-    "id":442,
-    "r":5,
-    "ignore":2,
-    "names":["D'arktanyan","Valiant D'arktanyan"]
-  },
-  {
-    "id":443,
-    "r":3,
-    "names":["Lone Cat and Kitten","Vendor Cat and Kitten","Tourist Cat"]
-  },
-  {
-    "id":444,
-    "r":4,
-    "names":["Driller Cat","Power Driller Cat","Neo Driller Cat"]
-  },
-  {
-    "id":445,
-    "r":4,
-    "names":["Piledriver Cat","Power Piledriver Cat","Neo Piledriver Cat"]
-  },
-  {
-    "id":446,
-    "r":4,
-    "names":["Cutter Cat","Power Cutter Cat","Neo Cutter Cat"]
-  },
-  {
-    "id":447,
-    "r":4,
-    "names":["Backhoe Cat","Power Backhoe Cat","Neo Backhoe Cat"]
-  },
-  {
-    "id":448,
-    "r":4,
-    "names":["Miter Saw Cat","Power Saw Cat","Neo Saw Cat"]
-  },
-  {
-    "id":449,
-    "r":6,
-    "ignore":2,
-    "names":["Musashi Miyamoto","Wargod Miyamoto"]
-  },
-  {
-    "id":450,
-    "r":6,
-    "ignore":2,
-    "names":["Headmistress Jeanne","Headmistress Jeanne ψ"]
-  },
-  {
-    "id":451,
-    "r":6,
-    "ignore":2,
-    "names":["High Lord Babel","Babel the Darkflame"]
-  },
-  {
-    "id":452,
-    "r":6,
-    "ignore":2,
-    "names":["Ushiwakamaru","Colossal Benkei"]
-  },
-  {
-    "id":453,
-    "r":3,
-    "names":["Primordial Cat","Modern Cat","Future Cat"]
-  },
-  {
-    "id":454,
-    "r":2,
-    "ignore":1,
-    "names":["Kitarou","GeGeGe no Kitarō"]
-  },
-  {
-    "id":455,
-    "r":2,
-    "ignore":1,
-    "names":["Eyeball Father","Bathing Father"]
-  },
-  {
-    "id":456,
-    "r":6,
-    "ignore":2,
-    "names":["Wonder MOMOCO","Cutie MOMOCO"]
-  },
-  {
-    "id":457,
-    "r":5,
-    "ignore":2,
-    "names":["Sakura Matou","Sakura Matou CC"]
-  },
-  {
-    "id":458,
-    "r":2,
-    "ignore":2,
-    "names":["Shirou the Cat","Novice Mage Shirou cat"]
-  },
-  {
-    "id":459,
-    "r":3,
-    "ignore":2,
-    "names":["Archer the Cat","Heroic Spirit Archer Cat"]
-  },
-  {
-    "id":460,
-    "r":3,
-    "ignore":2,
-    "names":["Rider the Cat","Heroic Spirit Rider Cat"]
-  },
-  {
-    "id":461,
-    "r":4,
-    "ignore":2,
-    "names":["Kotomine & Gilgamesh Cats","Gilgamesh & Kotomine Cats"]
-  },
-  {
-    "id":462,
-    "r":6,
-    "ignore":2,
-    "names":["Legeluga","Legelan Pasalan"]
-  },
-  {
-    "id":463,
-    "r":2,
-    "ignore":2,
-    "names":["Filibuster Cat X","Filibuster Cat Y"]
-  },
-  {
-    "id":464,
-    "r":6,
-    "ignore":2,
-    "names":["Mighty Kristul Muu","Doom Engine Pandora"]
-  },
-  {
-    "id":465,
-    "r":2,
-    "ignore":2,
-    "names":["Dogumaru","Doguemon"]
-  },
-  {
-    "id":466,
-    "r":3,
-    "ignore":1,
-    "names":["Maji Cat & Cat Tour Group","Maji Cat & Cat Tour Taiwan"]
-  },
-  {
-    "id":467,
-    "r":6,
-    "ignore":1,
-    "names":["Black Zeus","Yami Shinko Black Zeus"]
-  },
-  {
-    "id":468,
-    "r":5,
-    "ignore":1,
-    "names":["Super Zeus","Almighty God Super Zeus"]
-  },
-  {
-    "id":469,
-    "r":5,
-    "ignore":1,
-    "names":["Saint Pheonix","Holy Saint Pheonix","Head Rokoko"]
-  },
-  {
-    "id":470,
-    "r":5,
-    "ignore":1,
-    "names":["Super Devil","False God Super Devil"]
-  },
-  {
-    "id":471,
-    "r":5,
-    "ignore":1,
-    "names":["Satan Maria","Wonder Maria"]
-  },
-  {
-    "id":472,
-    "r":5,
-    "ignore":1,
-    "names":["Herchrist","Perfect Herchrist"]
-  },
-  {
-    "id":473,
-    "r":4,
-    "ignore":1,
-    "names":["Nero Mashin","Magical Nero"]
-  },
-  {
-    "id":474,
-    "r":3,
-    "ignore":1,
-    "names":["Yamato Ouji","Holy Emperor Yamato","Yamato Devil"]
-  },
-  {
-    "id":475,
-    "r":2,
-    "ignore":1,
-    "names":["Crucifix Angel","Cross Angel","Strike Angel"]
-  },
-  {
-    "id":476,
-    "r":2,
-    "ignore":1,
-    "names":["Wakagamiko Cat","Holy Emperor Cat"]
-  },
-  {
-    "id":477,
-    "r":2,
-    "ignore":1,
-    "names":["Devil Cat","Evil God Cat"]
-  },
-  {
-    "id":478,
-    "r":2,
-    "ignore":1,
-    "names":["Assistant Cat","Old Guard Cat"]
-  },
-  {
-    "id":479,
-    "r":6,
-    "ignore":2,
-    "names":["Lumina","Luminalia"]
-  },
-  {
-    "id":480,
-    "r":2,
-    "ignore":1,
-    "names":["Gummy Cat","Lucky Cat"]
-  },
-  {
-    "id":481,
-    "r":3,
-    "ignore":1,
-    "names":["Neko-Musume","Cat Neko-Musume"]
-  },
-  {
-    "id":482,
-    "r":6,
-    "ignore":2,
-    "names":["Doktor Heaven","Professor Abyss"]
-  },
-  {
-    "id":483,
-    "r":5,
-    "ignore":1,
-    "names":["Souma the Boy Who Desires Happiness","Souma the Boy Who Desires Happiness, and Cat"]
-  },
-  {
-    "id":484,
-    "r":3,
-    "ignore":1,
-    "names":["Kano and Souma","Kano and Souma and Cat"]
-  },
-  {
-    "id":485,
-    "r":5,
-    "ignore":2,
-    "names":["Li'l Valyrie Dark","Dark Rider Valkyrie"]
-  },
-  {
-    "id":486,
-    "r":5,
-    "ignore":1,
-    "names":["Karetto","Karetto CC"]
-  },
-  {
-    "id":487,
-    "r":4,
-    "ignore":1,
-    "names":["Hina","Swordsman Hina"]
-  },
-  {
-    "id":488,
-    "r":5,
-    "ignore":2,
-    "names":["Eva Unit-08","Eva Unit-08 & Cat"]
-  },
-  {
-    "id":489,
-    "r":5,
-    "ignore":2,
-    "names":["AAA Wunder","NNN Wunder"]
-  },
-  {
-    "id":490,
-    "r":4,
-    "ignore":2,
-    "names":["Misato Katsuragi","Captain Misato"]
-  },
-  {
-    "id":491,
-    "r":4,
-    "ignore":2,
-    "names":["Ritsuko Akagi","First Officer Ritsuko"]
-  },
-  {
-    "id":492,
-    "r":4,
-    "ignore":2,
-    "names":["Rei Ayanami (???)","Awakened Ayanami"]
-  },
-  {
-    "id":493,
-    "r":3,
-    "ignore":1,
-    "names":["HAPPI","HAPPI & Maji Cat","HAPPI & Maji Cat & Cat"]
-  },
-  {
-    "id":494,
-    "r":6,
-    "ignore":2,
-    "names":["Gaia the Creator","Gaia the Supreme"]
-  },
-  {
-    "id":495,
-    "r":5,
-    "ignore":2,
-    "names":["Seabreeze Coppermine","Seabreeze Coppermine κ"]
-  },
-  {
-    "id":496,
-    "r":3,
-    "ignore":2,
-    "names":["Matador Cat","Flamenco Cat","Bellydance Cat"]
-  },
-  {
-    "id":497,
-    "r":5,
-    "names":["Narita Kaihime","Wargod Kaihime","Immortal Kaihime"]
-  },
-  {
-    "id":498,
-    "r":2,
-    "ignore":2,
-    "names":["Shakurel Cat","Macho Shakurel Cat"]
-  },
-  {
-    "id":499,
-    "r":2,
-    "ignore":2,
-    "names":["Shakurel Lion","Shakurel Lion CC & Cat"]
-  },
-  {
-    "id":500,
-    "r":2,
-    "ignore":2,
-    "names":["Shakurel Tiger","Shakurel Tiger CC & Cat"]
-  },
-  {
-    "id":501,
-    "r":2,
-    "ignore":2,
-    "names":["Shakurel Panda","Shakurel Panda CC & Cat"]
-  },
-  {
-    "id":502,
-    "r":3,
-    "ignore":1,
-    "names":["Cat Bros","Baka Cat Bros"]
-  },
-  {
-    "id":503,
-    "r":5,
-    "names":["Myrcia","Myrcia, type ξ","Divine Myrcia"]
-  },
-  {
-    "id":504,
-    "r":3,
-    "ignore":1,
-    "names":["2D Cat","3D Cat"]
-  },
-  {
-    "id":505,
-    "r":2,
-    "ignore":1,
-    "names":["Fatherly Cat (Shopkeeper)","Fatherly Cat (Active Service)"]
-  },
-  {
-    "id":506,
-    "r":5,
-    "names":["Relentless Gladios","Gladios the Annihilator","God-Emperor Gladios"]
-  },
-  {
-    "id":507,
-    "r":5,
-    "ignore":1,
-    "names":["Eyewaltz","Eyewaltz CC"]
-  },
-  {
-    "id":508,
-    "r":3,
-    "ignore":2,
-    "names":["Mightycat","Supercat"]
-  },
-  {
-    "id":509,
-    "r":3,
-    "ignore":2,
-    "names":["Ryu Cat","Ryu Cat CC"]
-  },
-  {
-    "id":510,
-    "r":2,
-    "ignore":2,
-    "names":["Chun-Li Cat","Chun-Li Cat CC"]
-  },
-  {
-    "id":511,
-    "r":6,
-    "ignore":2,
-    "names":["Akuma","Akuma CC"]
-  },
-  {
-    "id":512,
-    "r":5,
-    "ignore":2,
-    "names":["Ryu","Ryu CC", "Kage"]
-  },
-  {
-    "id":513,
-    "r":5,
-    "ignore":2,
-    "names":["Chun-Li","Chun-Li CC"]
-  },
-  {
-    "id":514,
-    "r":5,
-    "ignore":2,
-    "names":["Guile","Guile CC"]
-  },
-  {
-    "id":515,
-    "r":5,
-    "ignore":2,
-    "names":["Zangief","Zangief CC"]
-  },
-  {
-    "id":516,
-    "r":5,
-    "ignore":2,
-    "names":["Blanka","Blanka CC"]
-  },
-  {
-    "id":517,
-    "r":5,
-    "ignore":2,
-    "names":["Dhalsim","Dhalsim CC"]
-  },
-  {
-    "id":518,
-    "r":5,
-    "ignore":2,
-    "names":["Ken","Ken CC"]
-  },
-  {
-    "id":519,
-    "r":3,
-    "ignore":2,
-    "names":["Akuma Giraffe","Akuma Lion"]
-  },
-  {
-    "id":520,
-    "r":5,
-    "names":["Lasvoss","Ultimate Lasvoss","Lasvoss Reborn"]
-  },
-  {
-    "id":521,
-    "r":4,
-    "ignore":2,
-    "names":["Good-Luck Ebisu","Bad-Luck Ebisu"]
-  },
-  {
-    "id":522,
-    "r":3,
-    "ignore":2,
-    "names":["Medusa Cat","Twintail Medusa Cat"]
-  },
-  {
-    "id":523,
-    "r":4,
-    "ignore":2,
-    "names":["Nymph Cat","Medalist Cat"]
-  },
-  {
-    "id":524,
-    "r":3,
-    "ignore":2,
-    "names":["Wushu Cat","Sifu Cat"]
-  },
-  {
-    "id":525,
-    "r":3,
-    "ignore":1,
-    "names":["Sorakara","Sorakara & Cat"]
-  },
-  {
-    "id":526,
-    "r":5,
-    "names":["Kintaro","Kinrangers RoboForce","Kinrangers GigaForce"]
-  },
-  {
-    "id":527,
-    "r":5,
-    "ignore":2,
-    "names":["Snow Angel Twinstars","Snow Angel Twinstars, type Ф"]
-  },
-  {
-    "id":528,
-    "r":3,
-    "ignore":2,
-    "names":["Slime Cat","Jellycat"]
-  },
-  {
-    "id":529,
-    "r":3,
-    "names":["Cossack Cat","Vodka Cat"]
-  },
-  {
-    "id":530,
-    "r":5,
-    "ignore":2,
-    "names":["Kasli the Scourge","Ritual Saint Kasli"]
-  },
-  {
-    "id":531,
-    "r":5,
-    "ignore":1,
-    "names":["Erume","Erume CC"]
-  },
-  {
-    "id":532,
-    "r":3,
-    "ignore":2,
-    "names":["Teacher BearCat","Assassin BearCat","Cadaver BearCat"]
-  },
-  {
-    "id":533,
-    "r":2,
-    "ignore":2,
-    "names":["Urs & Fenrir","Urs & Minka"]
-  },
-  {
-    "id":534,
-    "r":5,
-    "ignore":2,
-    "names":["Sharpshooter Saki","Nighthunter Saki"]
-  },
-  {
-    "id":535,
-    "r":5,
-    "names":["Hades the Punisher","Hades the Deathdealer","Almighty Hades"]
-  },
-  {
-    "id":536,
-    "r":5,
-    "ignore":2,
-    "names":["Hatsune Miku","Hatsune Miku CC"]
-  },
-  {
-    "id":537,
-    "r":5,
-    "ignore":2,
-    "names":["Sakura Miku","Sakura Miku CC"]
-  },
-  {
-    "id":538,
-    "r":5,
-    "ignore":2,
-    "names":["Kagamine Rin & Len","Kagamine Rin & Len CC"]
-  },
-  {
-    "id":539,
-    "r":3,
-    "ignore":2,
-    "names":["Miku Cat","Miku Cat CC"]
-  },
-  {
-    "id":540,
-    "r":3,
-    "ignore":2,
-    "names":["Rugby Cat","Quarterback Cat"]
-  },
-  {
-    "id":541,
-    "r":3,
-    "ignore":1,
-    "names":["U.F.O. Cat","U.F.O. Yakisoba Cat"]
-  },
-  {
-    "id":542,
-    "r":2,
-    "ignore":1,
-    "names":["Yakisoba Cat","Splendid!Thick!Big!Cat"]
-  },
-  {
-    "id":543,
-    "r":2,
-    "ignore":1,
-    "names":["Cat Boy","Cat Student"]
-  },
-  {
-    "id":544,
-    "r":5,
-    "ignore":2,
-    "names":["Kasli the Bane","Kasli, Daughter of Chaos"]
-  },
-  {
-    "id":545,
-    "r":6,
-    "ignore":2,
-    "names":["Kyosaka Nanaho","True Kyosaka Nanaho"]
-  },
-  {
-    "id":546,
-    "r":3,
-    "ignore":2,
-    "names":["Phantom Cat","Miasma Cat"]
-  },
-  {
-    "id":547,
-    "r":5,
-    "ignore":2,
-    "names":["Papaluga","Papalan Pasalan"]
-  },
-  {
-    "id":548,
-    "r":5,
-    "ignore":2,
-    "names":["Night Oracle Rei","Heavenly Herald Rei"]
-  },
-  {
-    "id":549,
-    "r":5,
-    "ignore":2,
-    "names":["The 4th Angel","4th Angel Cat"]
-  },
-  {
-    "id":550,
-    "r":5,
-    "ignore":2,
-    "names":["The 6th Angel","6th Angel Cat"]
-  },
-  {
-    "id":551,
-    "r":5,
-    "ignore":2,
-    "names":["The 10th Angel","10th Angel Cat"]
-  },
-  {
-    "id":552,
-    "r":5,
-    "ignore":2,
-    "names":["The 9th Angel","9th Angel Cat"]
-  },
-  {
-    "id":553,
-    "r":3,
-    "ignore":2,
-    "names":["Kaworu Cat","Moon Kaworu Cat"]
-  },
-  {
-    "id":554,
-    "r":3,
-    "ignore":2,
-    "names":["Bakery Cat","Boomerang Cat"]
-  },
-  {
-    "id":555,
-    "r":2,
-    "ignore":2,
-    "names":["Master Uril","Mystic Uril"]
-  },
-  {
-    "id":556,
-    "r":5,
-    "ignore":2,
-    "names":["Shaman Khan","All-Loving Shaman Khan"]
-  },
-  {
-    "id":557,
-    "r":4,
-    "ignore":2,
-    "names":["Holy Knight Alibaba","Holy King Alibaba","Ghost Alibaba"]
-  },
-  {
-    "id":558,
-    "r":2,
-    "ignore":2,
-    "names":["Heavenly Jack","Heavenly Lord Jack"]
-  },
-  {
-    "id":559,
-    "r":2,
-    "names":["Gacha Cat","Lucky Gacha Cat"]
-  },
-  {
-    "id":560,
-    "r":5,
-    "ignore":2,
-    "names":["Hell Warden Emma","Hell Sentinel Emma"]
-  },
-  {
-    "id":561,
-    "r":5,
-    "ignore":2,
-    "names":["Megurine Luka","Megurine Luka CC"]
-  },
-  {
-    "id":562,
-    "r":4,
-    "ignore":2,
-    "names":["MEIKO & Cat","MEIKO & Cat CC"]
-  },
-  {
-    "id":563,
-    "r":3,
-    "ignore":2,
-    "names":["Luka Cat","Luka Cat CC"]
-  },
-  {
-    "id":564,
-    "r":5,
-    "ignore":2,
-    "names":["Squirtgun Saki","Aquabuster Saki"]
-  },
-  {
-    "id":565,
-    "r":5,
-    "ignore":2,
-    "names":["Summerluga","Bikinilan Pasalan"]
-  },
-  {
-    "id":566,
-    "r":4,
-    "ignore":2,
-    "names":["Suntan Cat","Macho Suntan Cat"]
-  },
-  {
-    "id":567,
-    "r":4,
-    "ignore":2,
-    "names":["Lifeguard Cats"," Sweet Bro Cats"]
-  },
-  {
-    "id":568,
-    "r":2,
-    "ignore":1,
-    "names":["Li'l Clops Cat Egg","Li'l Clops Cat"]
-  },
-  {
-    "id":569,
-    "r":2,
-    "ignore":2,
-    "names":["Idi:N","Idi:N2"]
-  },
-  {
-    "id":570,
-    "r":5,
-    "names":["Gravi","Gravolo","Gravolodon"]
-  },
-  {
-    "id":571,
-    "r":5,
-    "ignore":2,
-    "names":["Skull Rider Vars","Nightmare King Vars"]
-  },
-  {
-    "id":572,
-    "r":5,
-    "ignore":2,
-    "names":["E. Honda","E. Honda CC"]
-  },
-  {
-    "id":573,
-    "r":5,
-    "ignore":2,
-    "names":["Balrog","Balrog CC"]
-  },
-  {
-    "id":574,
-    "r":5,
-    "ignore":2,
-    "names":["Vega","Vega CC"]
-  },
-  {
-    "id":575,
-    "r":5,
-    "ignore":2,
-    "names":["Sagat","Sagat CC"]
-  },
-  {
-    "id":576,
-    "r":5,
-    "ignore":2,
-    "names":["M. Bison","M. Bison CC"]
-  },
-  {
-    "id":577,
-    "r":4,
-    "ignore":2,
-    "names":["C. Honda","C. Honda CC"]
-  },
-  {
-    "id":578,
-    "r":3,
-    "ignore":2,
-    "names":["Balrog Cat","Balrog Cat CC"]
-  },
-  {
-    "id":579,
-    "r":3,
-    "ignore":2,
-    "names":["Vega Cat","Vega Cat CC"]
-  },
-  {
-    "id":580,
-    "r":3,
-    "ignore":2,
-    "names":["Sagat Cat","Sagat Cat CC"]
-  },
-  {
-    "id":581,
-    "r":3,
-    "ignore":2,
-    "names":["M. Bison Cat","M. Bison Cat CC"]
-  },
-  {
-    "id":582,
-    "r":3,
-    "ignore":2,
-    "names":["Stone Cat","Boulder Cat"]
-  },
-  {
-    "id":583,
-    "r":5,
-    "ignore":2,
-    "names":["Hatsune Miku: MM2020 Osaka","Hatsune Miku CC: MM 2020 Osaka"]
-  },
-  {
-    "id":584,
-    "r":5,
-    "ignore":2,
-    "names":["Hatsune Miku: MM2020 Tokyo","Hatsune Miku Magical Mirai 2020 Tokyo CC"]
-  },
-  {
-    "id":585,
-    "r":5,
-    "ignore":2,
-    "names":["Keiji Claus","Maeda Christmas"]
-  },
-  {
-    "id":586,
-    "r":5,
-    "ignore":2,
-    "names":["Baby Garu","Mighty Aegis Garu"]
-  },
-  {
-    "id":587,
-    "r":6,
-    "ignore":2,
-    "names":["Emperor Cat","Tyrant Cat"]
-  },
-  {
-    "id":588,
-    "r":5,
-    "ignore":2,
-    "names":["Sweet Aphrodite","Chocoladite"]
-  },
-  {
-    "id":589,
-    "r":5,
-    "ignore":2,
-    "names":["First-Love Myrcia","First-Love Myrcia ξ"]
-  },
-  {
-    "id":590,
-    "r":4,
-    "ignore":2,
-    "names":["Valentine's Neneko","Sweetheart Neneko"]
-  },
-  {
-    "id":591,
-    "r":5,
-    "ignore":2,
-    "names":["Snow Miku 2021","Snow Miku CC 2021"]
-  },
-  {
-    "id":592,
-    "r":4,
-    "ignore":2,
-    "names":["Kaito & Cat","Kaito & Cat CC"]
-  },
-  {
-    "id":593,
-    "r":3,
-    "ignore":2,
-    "names":["Neko Rin","Neko Rin CC"]
-  },
-  {
-    "id":594,
-    "r":3,
-    "ignore":2,
-    "names":["Neko Len","Neko Len CC"]
-  },
-  {
-    "id":595,
-    "r":5,
-    "names":["Mighty Aether Ltd.","Atlantis Logistix","Ultra Atlantis Logistix"]
-  },
-  {
-    "id":596,
-    "r":5,
-    "ignore":2,
-    "names":["Blooming Kamukura","Everbloom Kamukura"]
-  },
-  {
-    "id":597,
-    "r":5,
-    "ignore":2,
-    "names":["Ranma Saotome (M)","Ranma Saotome (F)"]
-  },
-  {
-    "id":598,
-    "r":5,
-    "ignore":2,
-    "names":["Akane Tendo","Akane Tendo (Gi)"]
-  },
-  {
-    "id":599,
-    "r":5,
-    "ignore":2,
-    "names":["Hibiki Ryoga (Pig)","Hibiki Ryoga"]
-  },
-  {
-    "id":600,
-    "r":5,
-    "ignore":2,
-    "names":["Shampoo (Cat)","Shampoo"]
-  },
-  {
-    "id":601,
-    "r":5,
-    "ignore":2,
-    "names":["Mousse (Duck)","Mousse"]
-  },
-  {
-    "id":602,
-    "r":4,
-    "ignore":2,
-    "names":["Happosai","Happosai (Lewd)"]
-  },
-  {
-    "id":603,
-    "r":4,
-    "ignore":2,
-    "names":["Ukyo Kuonji (GR)","Ukyo Kuonji"]
-  },
-  {
-    "id":604,
-    "r":4,
-    "ignore":2,
-    "names":["Tatewaki Kuno (Gi)","Tatewaki Kuno"]
-  },
-  {
-    "id":605,
-    "r":3,
-    "ignore":2,
-    "names":["Ranma Cat (M)","Ranma Cat (F)"]
-  },
-  {
-    "id":606,
-    "r":3,
-    "ignore":2,
-    "names":["Akane Cat","Akane Cat (Gi)"]
-  },
-  {
-    "id":607,
-    "r":2,
-    "ignore":2,
-    "names":["Panda Cat","Gemma Cat"]
-  },
-  {
-    "id":608,
-    "r":5,
-    "names":["Adventurer Kanna","Swashbuckler Kanna","Adventure Girl Kanna"]
-  },
-  {
-    "id":609,
-    "r":2,
-    "ignore":1,
-    "names":["Wafer Cat","Wafer Cat BIG"]
-  },
-  {
-    "id":610,
-    "r":5,
-    "ignore":2,
-    "names":["Dark Aegis Garu","Dark Beastlord Garu"]
-  },
-  {
-    "id":611,
-    "r":2,
-    "ignore":2,
-    "names":["Gold Brick Cat","King Ingot Cat","King Nekokhamen"]
-  },
-  {
-    "id":612,
-    "r":3,
-    "ignore":2,
-    "names":["Godzilla Cat","Shin Godzilla Cat"]
-  },
-  {
-    "id":613,
-    "r":6,
-    "ignore":2,
-    "names":["Princess Cat","Empress Cat "]
-  },
-  {
-    "id":614,
-    "r":2,
-    "ignore":2,
-    "names":["Elder Mask Doron","Cat Mask Doron"]
-  },
-  {
-    "id":615,
-    "r":5,
-    "ignore":2,
-    "names":["Kaguya of the Coast","The Southern Sun "]
-  },
-  {
-    "id":616,
-    "r":2,
-    "ignore":2,
-    "names":["Kabuto Cat","Golden Kabuto Cat"]
-  },
-  {
-    "id":617,
-    "r":2,
-    "ignore":2,
-    "names":["Kuwagata Cat","King Kuwagata Cat"]
-  },
-  {
-    "id":618,
-    "r":5,
-    "ignore":2,
-    "names":["Summoner Satoru","Dark Summoner Satoru"]
-  },
-  {
-    "id":619,
-    "r":5,
-    "names":["Shiro Amakusa","Wargod Amakusa","Immortal Amakusa"]
-  },
-  {
-    "id":620,
-    "r":5,
-    "names":["Lilin","Lilin π","Divine Lilin π"]
-  },
-  {
-    "id":621,
-    "r":5,
-    "ignore":2,
-    "names":["Hevijak the Wicked","Wicked King Hevijak"]
-  },
-  {
-    "id":622,
-    "r":3,
-    "ignore":2,
-    "names":["Aku Researcher","Evil Aku Researcher"]
-  },
-  {
-    "id":623,
-    "r":2,
-    "ignore":2,
-    "names":["Jagando Jr.","Lord of Ruin Jagando Jr."]
-  },
-  {
-    "id":624,
-    "r":3,
-    "ignore":2,
-    "names":["Pied Piper Cat","Komuso Cat"]
-  },
-  {
-    "id":625,
-    "r":5,
-    "names":["Kunio-kun","Dodgeball Kunio-kun"]
-  },
-  {
-    "id":626,
-    "r":5,
-    "ignore":2,
-    "names":["Furiluga","Furilan Pasalan"]
-  },
-  {
-    "id":627,
-    "r":2,
-    "ignore":1,
-    "names":["Cat Giraffe Modoki","Suruma Cat Giraffe Modoki"]
-  },
-  {
-    "id":628,
-    "r":2,
-    "ignore":1,
-    "names":["Catnip Tricky","Tenma Catnip Tricky"]
-  },
-  {
-    "id":629,
-    "r":2,
-    "ignore":1,
-    "names":["Catnip Dragon","Famous Catnip Dragon "]
-  },
-  {
-    "id":630,
-    "r":4,
-    "ignore":2,
-    "names":["Brainwashed Cat","Brainwashed Macho Cat"]
-  },
-  {
-    "id":631,
-    "r":3,
-    "ignore":2,
-    "names":["Calligraphy Cat","Tea Master Cat"]
-  },
-  {
-    "id":632,
-    "r":5,
-    "names":["Yamii","Yaminoir","Yaminora"]
-  },
-  {
-    "id":633,
-    "r":5,
-    "names":["Mighty Deth-Troy-R","Siege Walker Diabolosa","Obliterator Diabolosa"]
-  },
-  {
-    "id":634,
-    "r":5,
-    "ignore":2,
-    "names":["Shitakiri Sparrow","Shitakiri Sparrow"]
-  },
-  {
-    "id":635,
-    "r":5,
-    "ignore":2,
-    "names":["White Knight Cyclops","Black Knight Kyklops"]
-  },
-  {
-    "id":636,
-    "r":2,
-    "ignore":1,
-    "names":["1 Million Dollar Cat","100 Million Dollar Cat"]
-  },
-  {
-    "id":637,
-    "r":4,
-    "ignore":2,
-    "names":["Brainwashed Tank Cat","Brainwashed Wall Cat"]
-  },
-  {
-    "id":638,
-    "r":2,
-    "ignore":1,
-    "names":["Xiaoqiong & Cat","Xiaoqiong & Cat CC"]
-  },
-  {
-    "id":639,
-    "r":3,
-    "ignore":1,
-    "names":["Nana & Cat","Nana & Cat CC"]
-  },
-  {
-    "id":640,
-    "r":3,
-    "ignore":1,
-    "names":["Emilia & Cat","Emilia & Cat CC"]
-  },
-  {
-    "id":641,
-    "r":2,
-    "ignore":1,
-    "names":["Ann & Cat","Ann & Cat CC"]
-  },
-  {
-    "id":642,
-    "r":5,
-    "ignore":2,
-    "names":["Iz the Dancer","Iz the Alluring Dancer"]
-  },
-  {
-    "id":643,
-    "r":5,
-    "names":["Lucifer the Fallen","Grand Lucifer","Almighty Lucifer"]
-  },
-  {
-    "id":644,
-    "r":1,
-    "ignore":2,
-    "names":["Superfeline","Superfeline II","True Superfeline"]
-  },
-  {
-    "id":645,
-    "r":5,
-    "ignore":2,
-    "names":["Sweet Love Mekako","Bittersweet Mekako"]
-  },
-  {
-    "id":646,
-    "r":4,
-    "ignore":2,
-    "names":["Brainwashed Axe Cat","Brainwashed Brave Cat"]
-  },
-  {
-    "id":647,
-    "r":2,
-    "ignore":2,
-    "names":["Firecracker Cat","Firecracker Macho Cat"]
-  },
-  {
-    "id":648,
-    "r":5,
-    "ignore":2,
-    "names":["Huntress Terun","Huntress Terun ζ"]
-  },
-  {
-    "id":649,
-    "r":5,
-    "ignore":2,
-    "names":["Lovestruck Lesser Demon","Lovestruck Greater Demon"]
-  },
-  {
-    "id":650,
-    "r":5,
-    "ignore":2,
-    "names":["Hattori Hanzo","Wargod Hanzo"]
-  },
-  {
-    "id":651,
-    "r":2,
-    "ignore":2,
-    "names":["Secret Crush Cat","Girlfriend Cat"]
-  },
-  {
-    "id":652,
-    "r":2,
-    "ignore":2,
-    "names":["Tomboy Lion Cat","Iron-Masked Lion Cat"]
-  },
-  {
-    "id":653,
-    "r":2,
-    "ignore":2,
-    "names":["Chalkboard Eraser Cat","Chalkboard Punk Cat"]
-  },
-  {
-    "id":654,
-    "r":2,
-    "ignore":2,
-    "names":["Elder Beast Naala","Storm Beast Naala","Awakened Naala"]
-  },
-  {
-    "id":655,
-    "r":4,
-    "ignore":2,
-    "names":["Brainwashed Gross Cat","Brainwashed Sexy Legs Cat"]
-  },
-  {
-    "id":656,
-    "r":5,
-    "ignore":2,
-    "names":["Bliza","Blizana"]
-  },
-  {
-    "id":657,
-    "r":2,
-    "ignore":2,
-    "names":["Ancient Egg N001","Mystic Egg N001","Haniwa Cat"]
-  },
-  {
-    "id":658,
-    "r":5,
-    "ignore":2,
-    "names":["Iz the Dancer of Grief","Iz the Lady of Mourning"]
-  },
-  {
-    "id":659,
-    "r":3,
-    "names":["Ancient Egg: N101","Cinnabar Egg: N101","Courier Cat"]
-  },
-  {
-    "id":660,
-    "r":3,
-    "ignore":2,
-    "names":["Ancient Egg: N102","Teal Egg: N102","Catarzan"]
-  },
-  {
-    "id":661,
-    "r":5,
-    "ignore":2,
-    "names":["Sea Serpent Daliasan","Sea King Daliasan"]
-  },
-  {
-    "id":662,
-    "r":5,
-    "ignore":2,
-    "names":["Chronos the Bride","Wedding Chronos"]
-  },
-  {
-    "id":663,
-    "r":4,
-    "ignore":2,
-    "names":["Brainwashed Cow Cat","Brainwashed Giraffe Cat",""]
-  },
-  {
-    "id":664,
-    "r":3,
-    "ignore":2,
-    "names":["Ancient Egg: N103","Black Egg: N103","Gas Mask Cat"]
-  },
-  {
-    "id":665,
-    "r":3,
-    "ignore":2,
-    "names":["Ancient Egg: N104","Green Egg: N104","Surgeon Cat"]
-  },
-  {
-    "id":666,
-    "r":2,
-    "ignore":2,
-    "names":["Ancient Egg: N201","Dark Egg: N201","Exorcist Cat"]
-  },
-  {
-    "id":667,
-    "r":5,
-    "ignore":2,
-    "names":["Night Beach Lilin","Night Beach Lilinπ"]
-  },
-  {
-    "id":668,
-    "r":4,
-    "ignore":2,
-    "names":["Brainwashed Bird Cat","Brainwashed UFO Cat"]
-  },
-  {
-    "id":669,
-    "r":5,
-    "ignore":2,
-    "names":["Cat Tengu","Grand Yokai Tengu"]
-  },
-  {
-    "id":670,
-    "r":2,
-    "names":["Ancient Egg: N003","Evil Egg: N003","Cat Cactus"]
+    "id": 1,
+    "names": [
+      "Cat",
+      "Macho Cat",
+      "Mohawk Cat"
+    ],
+    "r": 1
+  },
+  {
+    "id": 2,
+    "names": [
+      "Tank Cat",
+      "Wall Cat",
+      "Eraser Cat"
+    ],
+    "r": 1
+  },
+  {
+    "id": 3,
+    "names": [
+      "Axe Cat",
+      "Brave Cat",
+      "Dark Cat"
+    ],
+    "r": 1
+  },
+  {
+    "id": 4,
+    "names": [
+      "Gross Cat",
+      "Sexy Legs Cat",
+      "Macho Leg Cat"
+    ],
+    "r": 1
+  },
+  {
+    "id": 5,
+    "names": [
+      "Cow Cat",
+      "Giraffe Cat",
+      "Lion Cat"
+    ],
+    "r": 1
+  },
+  {
+    "id": 6,
+    "names": [
+      "Bird Cat",
+      "UFO Cat",
+      "The Flying Cat"
+    ],
+    "r": 1
+  },
+  {
+    "id": 7,
+    "names": [
+      "Fish Cat",
+      "Whale Cat",
+      "Island Cat"
+    ],
+    "r": 1
+  },
+  {
+    "id": 8,
+    "names": [
+      "Lizard Cat",
+      "Dragon Cat",
+      "King Dragon Cat"
+    ],
+    "r": 1
+  },
+  {
+    "id": 9,
+    "names": [
+      "Titan Cat",
+      "Mythical Titan Cat",
+      "Jamiera Cat"
+    ],
+    "r": 1
+  },
+  {
+    "id": 10,
+    "names": [
+      "Actress Cat",
+      "Mother Cat",
+      "Beefcake Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 11,
+    "names": [
+      "Kung Fu Cat",
+      "Drunken Master Cat",
+      "Dancer Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 12,
+    "names": [
+      "Mr.",
+      "Super Mr.",
+      "Hyper Mr."
+    ],
+    "r": 2
+  },
+  {
+    "id": 13,
+    "names": [
+      "Bondage Cat",
+      "Bondage CatNEO",
+      "Ultimate Bondage Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 14,
+    "names": [
+      "Dom Cat",
+      "Executioner",
+      "Dark Lazer"
+    ],
+    "r": 2
+  },
+  {
+    "id": 15,
+    "names": [
+      "Cats in a Box",
+      "Cat Gang",
+      "Heavy Assault C.A.T"
+    ],
+    "r": 2
+  },
+  {
+    "id": 16,
+    "names": [
+      "Panties Cat",
+      "Leaf Cat",
+      "Lollycat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 17,
+    "names": [
+      "Moneko",
+      "Miss MONEKO",
+      "Superstar MONEKO"
+    ],
+    "r": 2
+  },
+  {
+    "id": 18,
+    "names": [
+      "Tricycle Cat",
+      "Biker Cat",
+      "Unicycle Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 19,
+    "names": [
+      "Ninja Cat",
+      "Ninja Frog Cat",
+      "Flying Ninja Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 20,
+    "names": [
+      "Zombie Cat",
+      "Devil Cat",
+      "Skelecat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 21,
+    "names": [
+      "Samurai Cat",
+      "Knight Cat",
+      "Pastry Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 22,
+    "names": [
+      "Sumo Cat",
+      "Madame Sumo",
+      "Riceball Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 23,
+    "names": [
+      "Boogie Cat",
+      "Samba Cat",
+      "Gato Amigo"
+    ],
+    "r": 2
+  },
+  {
+    "id": 24,
+    "names": [
+      "Skirt Cat",
+      "Tights Cat",
+      "Loincloth Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 25,
+    "names": [
+      "Valkyrie Cat",
+      "True Valkyrie Cat",
+      "Holy Valkyrie Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 26,
+    "names": [
+      "Bahamut Cat",
+      "Crazed Bahamut Cat",
+      "Awakened Bahamut Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 31,
+    "names": [
+      "Bodhisattva Cat",
+      "Avalokitesvara Cat",
+      "Tathagata Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 32,
+    "names": [
+      "Delinquent Cat",
+      "Angry Delinquent Cat",
+      "Ultra Delinquent Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 33,
+    "names": [
+      "Hip Hop Cat",
+      "Dancing Flasher Cat",
+      "Can Can Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 34,
+    "names": [
+      "Kotatsu Cat",
+      "Sadako Cat",
+      "Octopus Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 35,
+    "names": [
+      "Nekoluga",
+      "Unknown Cat",
+      "Ultralan Pasalan"
+    ],
+    "r": 5
+  },
+  {
+    "id": 36,
+    "names": [
+      "Nerd Cat",
+      "Hacker Cat",
+      "Cyberpunk Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 37,
+    "names": [
+      "Swimmer Cat",
+      "Butterfly Cat",
+      "Fishman Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 38,
+    "names": [
+      "Pogo Cat",
+      "Masai Cat",
+      "Jiangshi Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 39,
+    "names": [
+      "Wheel Cat",
+      "Solar Cat",
+      "Chill Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 40,
+    "names": [
+      "Apple Cat",
+      "Face Cat",
+      "iCat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 41,
+    "names": [
+      "Bath Cat",
+      "Sexy Bath Cat",
+      "Luxury Bath Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 42,
+    "names": [
+      "Salon Cat",
+      "Paris Cat",
+      "Cyborg Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 43,
+    "names": [
+      "Ice Cat",
+      "Ice Queen Cat",
+      "Ice Crystal Cat"
+    ],
+    "r": 5
+  },
+  {
+    "id": 44,
+    "names": [
+      "Cat Machine",
+      "Cat Machine Mk 2",
+      "Cat Machine Mk 3"
+    ],
+    "r": 5
+  },
+  {
+    "id": 45,
+    "names": [
+      "Lesser Demon Cat",
+      "Greater Demon Cat",
+      "Greater Balrog Cat"
+    ],
+    "r": 5
+  },
+  {
+    "id": 47,
+    "names": [
+      "Jurassic Cat",
+      "Jurassic Cat Sitter",
+      "Catasaurus"
+    ],
+    "r": 3
+  },
+  {
+    "id": 48,
+    "names": [
+      "Viking Cat",
+      "Thor Cat",
+      "Maximum the Fighter"
+    ],
+    "r": 3
+  },
+  {
+    "id": 50,
+    "names": [
+      "Thief Cat",
+      "Phantom Thief Cat",
+      "Goemon Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 52,
+    "names": [
+      "Fortune Teller Cat",
+      "Fisherman Cat",
+      "Doctor Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 53,
+    "names": [
+      "Shaman Cat",
+      "Necromancer Cat",
+      "Necro-Dancer Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 56,
+    "names": [
+      "Witch Cat",
+      "Socreress Cat",
+      "Enchantress Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 57,
+    "names": [
+      "Archer Cat",
+      "Cupid Cat",
+      "Cataur"
+    ],
+    "r": 3
+  },
+  {
+    "id": 58,
+    "names": [
+      "Marauder Cat",
+      "Berserker Cat",
+      "Paladin Cat"
+    ],
+    "r": 5
+  },
+  {
+    "id": 60,
+    "names": [
+      "Baby Cat",
+      "Baby Cats",
+      "Cats in the Cradle"
+    ],
+    "r": 5
+  },
+  {
+    "id": 61,
+    "names": [
+      "Bronze Cat",
+      "Michelangelo Cat",
+      "Quizmaster Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 62,
+    "names": [
+      "Sushi Cat",
+      "Fried Shrimp Cat",
+      "Roe Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 64,
+    "names": [
+      "Sports Day Cat",
+      "Kidnapper Cats",
+      "Rampage Cats"
+    ],
+    "r": 3
+  },
+  {
+    "id": 71,
+    "names": [
+      "Salaryman Cat",
+      "Grudge Cat",
+      "Ritual Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 72,
+    "names": [
+      "Sanada Yukimura",
+      "Wargod Yukimura",
+      "Immortal Yukimura"
+    ],
+    "r": 5
+  },
+  {
+    "id": 73,
+    "names": [
+      "Maeda Keiji",
+      "Wargod Keiji",
+      "Immortal Keiji"
+    ],
+    "r": 5
+  },
+  {
+    "id": 74,
+    "names": [
+      "Oda Nobunaga",
+      "Wargod Nobunaga",
+      "Immortal Nobunaga"
+    ],
+    "r": 5
+  },
+  {
+    "id": 75,
+    "names": [
+      "Reindeer Fish Cat",
+      "Sashimi Cat",
+      "Xmas Pudding Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 76,
+    "names": [
+      "Windy",
+      "Windy, type α",
+      "Divine Windy"
+    ],
+    "r": 5
+  },
+  {
+    "id": 77,
+    "names": [
+      "Thundia",
+      "Thundia, type β",
+      "Divine Thundia"
+    ],
+    "r": 5
+  },
+  {
+    "id": 79,
+    "names": [
+      "Space Cat",
+      "Major Space Cat",
+      "Space Marine Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 80,
+    "names": [
+      "Adult Cat",
+      "Sick Cat",
+      "Prisoner Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 81,
+    "names": [
+      "Evil Cat",
+      "Gentleman Cat",
+      "Gentleman Bros."
+    ],
+    "r": 3
+  },
+  {
+    "id": 82,
+    "names": [
+      "Doll Cats",
+      "Cat-o-tron",
+      "Nyalladin"
+    ],
+    "r": 3
+  },
+  {
+    "id": 84,
+    "names": [
+      "Sodom",
+      "Earth King Sodom",
+      "God-Emperor Sodom"
+    ],
+    "r": 5
+  },
+  {
+    "id": 85,
+    "names": [
+      "Megidora",
+      "Holy Dragon Megidora",
+      "God-Emperor Megidora"
+    ],
+    "r": 5
+  },
+  {
+    "id": 86,
+    "names": [
+      "Vars",
+      "Dragon King Vars",
+      "God-Emperor Vars"
+    ],
+    "r": 5
+  },
+  {
+    "id": 87,
+    "names": [
+      "Kamukura",
+      "God Dragon Kamukura",
+      "God-Emperor Kamukura"
+    ],
+    "r": 5
+  },
+  {
+    "id": 88,
+    "names": [
+      "Raiden",
+      "Dragonslayer Raiden",
+      "God-Emperor Raiden"
+    ],
+    "r": 5
+  },
+  {
+    "id": 89,
+    "names": [
+      "Rope Jump Cat",
+      "Pair Rope Jump Cat",
+      "Noodle Cats"
+    ],
+    "r": 3
+  },
+  {
+    "id": 92,
+    "names": [
+      "Crazed Cat",
+      "Crazed Macho Cat",
+      "Manic Mohawk Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 93,
+    "names": [
+      "Crazed Tank Cat",
+      "Crazed Wall Cat",
+      "Manic Eraser Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 94,
+    "names": [
+      "Crazed Axe Cat",
+      "Crazed Brave Cat",
+      "Manic Dark Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 95,
+    "names": [
+      "Crazed Gross Cat",
+      "Crazed Sexy Legs Cat",
+      "Manic Macho Legs"
+    ],
+    "r": 4
+  },
+  {
+    "id": 96,
+    "names": [
+      "Crazed Cow Cat",
+      "Crazed Giraffe Cat",
+      "Manic Lion Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 97,
+    "names": [
+      "Crazed Bird Cat",
+      "Crazed UFO Cat",
+      "Manic Flying Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 98,
+    "names": [
+      "Crazed Fish Cat",
+      "Crazed Whale Cat",
+      "Manic Island Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 99,
+    "names": [
+      "Crazed Lizard Cat",
+      "Crazed Dragon Cat",
+      "Manic King Dragon"
+    ],
+    "r": 4
+  },
+  {
+    "id": 100,
+    "names": [
+      "Crazed Titan Cat",
+      "Crazed Mythical Titan",
+      "Manic Jamiera Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 101,
+    "names": [
+      "Maiden Cat",
+      "Sportsgirl Cat",
+      "Wrestling Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 105,
+    "names": [
+      "Koi Cat",
+      "Gross Koi Cat",
+      "Kiss and Koi"
+    ],
+    "r": 3
+  },
+  {
+    "id": 106,
+    "names": [
+      "Kuu",
+      "Kuu, type γ",
+      "Divine Kuu"
+    ],
+    "r": 5
+  },
+  {
+    "id": 107,
+    "names": [
+      "Kai",
+      "Kai, type μ",
+      "Divine Kai"
+    ],
+    "r": 5
+  },
+  {
+    "id": 108,
+    "names": [
+      "Coppermine",
+      "Coppermine, type κ",
+      "Divine Coppermine"
+    ],
+    "r": 5
+  },
+  {
+    "id": 110,
+    "names": [
+      "Madam Bride",
+      "Madam King",
+      "Madam the Savannah"
+    ],
+    "r": 3
+  },
+  {
+    "id": 123,
+    "names": [
+      "Vacation Queen",
+      "Office Lady Cat",
+      "Call Center Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 124,
+    "names": [
+      "Bean Cats",
+      "Brah Cats",
+      "Val Val Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 125,
+    "names": [
+      "Date Masamune",
+      "Wargod Masamune",
+      "Immortal Masamune"
+    ],
+    "r": 5
+  },
+  {
+    "id": 126,
+    "names": [
+      "Takeda Shingen",
+      "Wargod Shingen",
+      "Immortal Shingen"
+    ],
+    "r": 5
+  },
+  {
+    "id": 127,
+    "names": [
+      "Clockwork Cat",
+      "Puppetmaster Cat",
+      "Puppetmaster & Charley"
+    ],
+    "r": 3
+  },
+  {
+    "id": 128,
+    "names": [
+      "Flower Cat",
+      "Cooldown Cat",
+      "Bombercat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 129,
+    "names": [
+      "Vengeful Cat",
+      "Groucho Cat",
+      "Kite Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 130,
+    "names": [
+      "Gold Cat",
+      "Gold Macho Cat",
+      "Glittering Macho Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 131,
+    "names": [
+      "Ururun Wolf",
+      "Ururun Cat",
+      "Awakened Ururun"
+    ],
+    "r": 2
+  },
+  {
+    "id": 132,
+    "names": [
+      "Neneko",
+      "Miss NENEKO"
+    ],
+    "r": 4
+  },
+  {
+    "id": 133,
+    "names": [
+      "Kung Fu Cat X",
+      "Drunken Master Cat X",
+      "Iron Claw X"
+    ],
+    "r": 3
+  },
+  {
+    "id": 135,
+    "names": [
+      "Urashima Taro",
+      "Guardian Gamereon",
+      "King Gamereon"
+    ],
+    "r": 5
+  },
+  {
+    "id": 136,
+    "names": [
+      "The Grateful Crane",
+      "Super Galaxy Cosmo",
+      "Ultima Galaxy Cosmo"
+    ],
+    "r": 5
+  },
+  {
+    "id": 137,
+    "names": [
+      "Momotaro",
+      "The Peach Angels",
+      "The Peach Devils"
+    ],
+    "r": 5
+  },
+  {
+    "id": 138,
+    "names": [
+      "Kasa Jizo",
+      "Jizo's Moving Castle",
+      "Jizo's Mega-Castle"
+    ],
+    "r": 5
+  },
+  {
+    "id": 139,
+    "names": [
+      "Princess Kaguya",
+      "The Death Moon",
+      "The Chaos Moon"
+    ],
+    "r": 5
+  },
+  {
+    "id": 144,
+    "names": [
+      "Nurse Cat",
+      "Heartful Nurse Cat",
+      "Joyful Nurse Cat"
+    ],
+    "r": 5
+  },
+  {
+    "id": 146,
+    "names": [
+      "Cat Gunslinger",
+      "Cat Eastwood",
+      "Rodeo Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 147,
+    "names": [
+      "Stilts Cat",
+      "Totem Cat",
+      "Acrobat Cats"
+    ],
+    "r": 3
+  },
+  {
+    "id": 148,
+    "names": [
+      "Tin Cat",
+      "Plane Cat",
+      "Robocat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 149,
+    "names": [
+      "Rocker Cat",
+      "Artist Cat",
+      "Ramen Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 150,
+    "names": [
+      "Mer-Cat",
+      "Commando Cat",
+      "Cameraman Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 151,
+    "names": [
+      "Juliet Cat",
+      "Princess Juliet Cat",
+      "Juliet the Maiko"
+    ],
+    "r": 4
+  },
+  {
+    "id": 153,
+    "names": [
+      "Figure Skating Cats",
+      "Drama Cats",
+      "Slapstick Cats"
+    ],
+    "r": 4
+  },
+  {
+    "id": 154,
+    "names": [
+      "Cat Toaster",
+      "Cat Projector",
+      "Catophone"
+    ],
+    "r": 4
+  },
+  {
+    "id": 155,
+    "names": [
+      "Hoop Cat",
+      "Showoff Cat",
+      "Hoopmaster Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 159,
+    "names": [
+      "Uesugi Kenshin",
+      "Wargod Kenshin",
+      "Immortal Kenshin"
+    ],
+    "r": 5
+  },
+  {
+    "id": 160,
+    "names": [
+      "Kalisa",
+      "Kalisa, type χ",
+      "Divine Kalisa"
+    ],
+    "r": 5
+  },
+  {
+    "id": 169,
+    "names": [
+      "Asiluga",
+      "Asilan Pasalan",
+      "Assassinlan Pasalan"
+    ],
+    "r": 5
+  },
+  {
+    "id": 170,
+    "names": [
+      "Kubiluga",
+      "Kubilan Pasalan",
+      "E. Kubilan Pasalan"
+    ],
+    "r": 5
+  },
+  {
+    "id": 171,
+    "names": [
+      "Tecoluga",
+      "Tesalan Pasalan",
+      "Lufalan Pasalan"
+    ],
+    "r": 5
+  },
+  {
+    "id": 172,
+    "names": [
+      "Balaluga",
+      "Balalan Pasalan",
+      "Piccolan Pasalan"
+    ],
+    "r": 5
+  },
+  {
+    "id": 173,
+    "names": [
+      "Li'l Nyandam",
+      "Dark Emperor Catdam",
+      "Schoolbus Nyandam"
+    ],
+    "r": 2
+  },
+  {
+    "id": 177,
+    "names": [
+      "Marshmallow Cat",
+      "Creepmallow"
+    ],
+    "r": 3
+  },
+  {
+    "id": 178,
+    "names": [
+      "Dioramos",
+      "Archdragon Dioramos",
+      "God-Emperor Dioramos"
+    ],
+    "r": 5
+  },
+  {
+    "id": 195,
+    "names": [
+      "Akira",
+      "Shadow Akira",
+      "Inferno Akira"
+    ],
+    "r": 5
+  },
+  {
+    "id": 196,
+    "names": [
+      "Mekako Saionji",
+      "Dr. Mekako",
+      "Mission Control Mekako"
+    ],
+    "r": 5
+  },
+  {
+    "id": 197,
+    "names": [
+      "Catman",
+      "Dark Catman",
+      "Ultimate Catman"
+    ],
+    "r": 5
+  },
+  {
+    "id": 198,
+    "names": [
+      "Psychocat",
+      "Neo Psychocat",
+      "Corrupted Psychocat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 200,
+    "names": [
+      "Surfer Cat",
+      "Castaway Cat",
+      "Seafarer Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 202,
+    "names": [
+      "Drumcorps Cat",
+      "Banner Cat",
+      "Mochi Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 204,
+    "names": [
+      "Kachi-Kachi",
+      "Fire Squad Kachiyama",
+      "Kachiyama Assault Brigade"
+    ],
+    "r": 5
+  },
+  {
+    "id": 210,
+    "names": [
+      "Li'l Cat",
+      "Li'l Macho Cat",
+      "Li'l Mohawk Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 211,
+    "names": [
+      "Li'l Tank Cat",
+      "Li'l Wall Cat",
+      "Li'l Eraser Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 212,
+    "names": [
+      "Li'l Axe Cat",
+      "Li'l Brave Cat",
+      "Li'l Dark Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 213,
+    "names": [
+      "The White Rabbit",
+      "The Black Cat",
+      "The Grey Fox"
+    ],
+    "r": 5
+  },
+  {
+    "id": 227,
+    "names": [
+      "Warlock and Pierre",
+      "Dark Merchant Babil",
+      "Mad Doctor Klay"
+    ],
+    "r": 5
+  },
+  {
+    "id": 228,
+    "names": [
+      "Pumpcat",
+      "Cat O'Lantern",
+      "Harbinger Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 238,
+    "names": [
+      "Freshman Cat Jobs",
+      "Prof. Cat Jobs",
+      "Headmaster Cat Jobs"
+    ],
+    "r": 4
+  },
+  {
+    "id": 239,
+    "names": [
+      "Rich Cat III",
+      "Rich Cat Sr.",
+      "Richest Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 240,
+    "names": [
+      "Sniper the Recruit",
+      "Sniper the Heavy",
+      "Sniper the Deadeye"
+    ],
+    "r": 4
+  },
+  {
+    "id": 241,
+    "names": [
+      "Togeluga",
+      "Togelan Pasalan",
+      "Shishilan Pasalan"
+    ],
+    "r": 5
+  },
+  {
+    "id": 245,
+    "names": [
+      "A Gift of Cats",
+      "Cat's Gift"
+    ],
+    "r": 3
+  },
+  {
+    "id": 246,
+    "names": [
+      "Li'l Gross Cat",
+      "Li'l Sexy Legs Cat",
+      "Li'l Macho Legs Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 247,
+    "names": [
+      "Li'l Cow Cat",
+      "Li'l Giraffe Cat",
+      "Li'l Lion Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 248,
+    "names": [
+      "Li'l Bird Cat",
+      "Li'l UFO Cat",
+      "Li'l Flying Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 258,
+    "names": [
+      "Thunder God Zeus",
+      "The Majestic Zeus",
+      "Almighty Zeus"
+    ],
+    "r": 5
+  },
+  {
+    "id": 259,
+    "names": [
+      "Anubis the Protector",
+      "Anubis the Unblemished",
+      "Almighty Anubis"
+    ],
+    "r": 5
+  },
+  {
+    "id": 260,
+    "names": [
+      "Radiant Aphrodite",
+      "Megaphrodite",
+      "Almighty Aphrodite"
+    ],
+    "r": 5
+  },
+  {
+    "id": 261,
+    "names": [
+      "Catway",
+      "Drone Cat",
+      "Time Traveller Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 262,
+    "names": [
+      "Hayabusa",
+      "Oni Hayabusa",
+      "Akuma Hayabusa"
+    ],
+    "r": 5
+  },
+  {
+    "id": 268,
+    "names": [
+      "Catornado",
+      "Hurricat",
+      "Catyphoon"
+    ],
+    "r": 4
+  },
+  {
+    "id": 269,
+    "names": [
+      "Red Riding Mina",
+      "Crimson Mina",
+      "Awakened Mina"
+    ],
+    "r": 2
+  },
+  {
+    "id": 270,
+    "names": [
+      "Baby Gao",
+      "Mighty Lord Gao"
+    ],
+    "r": 5
+  },
+  {
+    "id": 272,
+    "names": [
+      "Shining Amaterasu",
+      "Glorious Amaterasu",
+      "Almighty Amaterasu"
+    ],
+    "r": 5
+  },
+  {
+    "id": 273,
+    "names": [
+      "Splendid Ganesha",
+      "Exalted Ganesha",
+      "Almighty Ganesha"
+    ],
+    "r": 5
+  },
+  {
+    "id": 274,
+    "names": [
+      "Cheerleader Cat",
+      "Waitress Cat",
+      "Soba Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 283,
+    "names": [
+      "Awa-Odori Cat",
+      "So-Ran Cat",
+      "Gorgeous Groovin' Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 284,
+    "names": [
+      "Pai-Pai",
+      "Pai-Pai Z",
+      "Pai-Pai DX"
+    ],
+    "r": 5
+  },
+  {
+    "id": 285,
+    "names": [
+      "Express Cat",
+      "Maglev Cat",
+      "Bullet Train Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 287,
+    "names": [
+      "Strike Unit R.E.I.",
+      "Assault Unit R.E.I.",
+      "Flight Unit R.E.I."
+    ],
+    "r": 5
+  },
+  {
+    "id": 288,
+    "names": [
+      "Little Leaguer Cat",
+      "Major Leaguer Cat",
+      "Golfer Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 300,
+    "names": [
+      "Li'l Madoka",
+      "Li'l Magical Girl Madoka",
+      "Li'l Ultimate Madoka"
+    ],
+    "r": 3
+  },
+  {
+    "id": 301,
+    "names": [
+      "Li'l Homura",
+      "Li'l Magical Girl Homura",
+      "Li'l Devil Homura"
+    ],
+    "r": 2
+  },
+  {
+    "id": 304,
+    "names": [
+      "Food Stall Cat",
+      "Delivery Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 305,
+    "names": [
+      "Mighty Kat-A-Pult",
+      "CAT-6 Siege Engine",
+      "CAT-8 Behemoth"
+    ],
+    "r": 5
+  },
+  {
+    "id": 306,
+    "names": [
+      "Mighty Drednot",
+      "B.C.S. Lionheart",
+      "B.C.S. Tigerclaw"
+    ],
+    "r": 5
+  },
+  {
+    "id": 307,
+    "names": [
+      "Mighty Bomburr",
+      "NEK-0 Sky Fortress",
+      "NEK-02 Air Citadel"
+    ],
+    "r": 5
+  },
+  {
+    "id": 308,
+    "names": [
+      "Vaulter Cat",
+      "Polevaulter Cat",
+      "Housewife Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 309,
+    "names": [
+      "Gardener Cat",
+      "Lumbercat",
+      "Weedwacker Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 312,
+    "names": [
+      "Li'l Fish Cat",
+      "Li'l Whale Cat",
+      "Li'l Island Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 313,
+    "names": [
+      "Li'l Lizard Cat",
+      "Li'l Dragon Cat",
+      "Li'l King Dragon Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 314,
+    "names": [
+      "Li'l Titan Cat",
+      "Li'l Mythical Titan",
+      "Li'l Jamiera Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 317,
+    "names": [
+      "Wrathful Poseidon",
+      "Valiant Poseidon",
+      "Almighty Poseidon"
+    ],
+    "r": 5
+  },
+  {
+    "id": 320,
+    "names": [
+      "Killer Cat",
+      "True Killer Cat",
+      "Radical Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 323,
+    "names": [
+      "Sarukani",
+      "Rock Revengers",
+      "The One-Hit Wonders"
+    ],
+    "r": 5
+  },
+  {
+    "id": 324,
+    "names": [
+      "Miyamoku Musashi",
+      "Heroic Musashi",
+      "Awakened Musashi"
+    ],
+    "r": 2
+  },
+  {
+    "id": 325,
+    "names": [
+      "Curling Cat",
+      "Zamboney Cat",
+      "Green Shell Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 326,
+    "names": [
+      "Welterweight Cat",
+      "Heavyweight Cat",
+      "Ectoweight Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 330,
+    "names": [
+      "Eggy Cat",
+      "Easter Cat",
+      "Easter Egg Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 335,
+    "names": [
+      "Trickster Himeyuri",
+      "Himeyuri Ninetails",
+      "Fox Queen Himeyuri"
+    ],
+    "r": 5
+  },
+  {
+    "id": 336,
+    "names": [
+      "Sea Maiden Ruri",
+      "Sea Mistress Ruri",
+      "Sea-Queen Ruri"
+    ],
+    "r": 5
+  },
+  {
+    "id": 337,
+    "names": [
+      "Queen Reika",
+      "Pharoah Reika",
+      "Eternal Reika"
+    ],
+    "r": 5
+  },
+  {
+    "id": 339,
+    "names": [
+      "Imagawa Yoshimoto",
+      "Wargod Yoshimoto",
+      "Immortal Yoshimoto"
+    ],
+    "r": 5
+  },
+  {
+    "id": 344,
+    "names": [
+      "Slug Jockey Cat",
+      "Slugcat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 352,
+    "names": [
+      "Twinstars",
+      "Twinstars, type Ф",
+      "Divine Twinstars"
+    ],
+    "r": 5
+  },
+  {
+    "id": 356,
+    "names": [
+      "Mighty Rekon Korps",
+      "Orbital Platform Armageddon",
+      "Orbital Annihilator Ragnarok"
+    ],
+    "r": 5
+  },
+  {
+    "id": 358,
+    "names": [
+      "Wolfchild Deale",
+      "Wolf Princess Deale",
+      "Jester Queen Deale"
+    ],
+    "r": 5
+  },
+  {
+    "id": 359,
+    "names": [
+      "Graveflower Verbena",
+      "Verbena the Bride",
+      "Opulent Verbena"
+    ],
+    "r": 5
+  },
+  {
+    "id": 360,
+    "names": [
+      "Bora",
+      "Bazibon",
+      "Bazibastra"
+    ],
+    "r": 5
+  },
+  {
+    "id": 361,
+    "names": [
+      "Mizli",
+      "Marinmizu",
+      "Mizuririn"
+    ],
+    "r": 5
+  },
+  {
+    "id": 362,
+    "names": [
+      "Aer",
+      "Erphuan",
+      "Aervanta"
+    ],
+    "r": 5
+  },
+  {
+    "id": 377,
+    "names": [
+      "Rover Cat",
+      "Rover Cat Mk II",
+      "Catellite"
+    ],
+    "r": 3
+  },
+  {
+    "id": 397,
+    "names": [
+      "Ganglion",
+      "Ganglion the Ancient",
+      "Ganglion the Unleashed"
+    ],
+    "r": 5
+  },
+  {
+    "id": 398,
+    "names": [
+      "Sakura Sonic",
+      "Afterschool Sakura",
+      "Sacred Blade Sakura"
+    ],
+    "r": 5
+  },
+  {
+    "id": 402,
+    "names": [
+      "Voli",
+      "Volta",
+      "Gigavolta"
+    ],
+    "r": 5
+  },
+  {
+    "id": 403,
+    "names": [
+      "Shinji & Cat",
+      "Plug Suit Shinji",
+      "Plug Suit Shinji Black"
+    ],
+    "r": 3
+  },
+  {
+    "id": 406,
+    "names": [
+      "Kaworu & Cat",
+      "Plug Suit Kaworu",
+      "Moon Kaworu"
+    ],
+    "r": 2
+  },
+  {
+    "id": 418,
+    "names": [
+      "Mighty Thermae D-Lux",
+      "Subterra Guardians",
+      "Subterra Sentinels"
+    ],
+    "r": 5
+  },
+  {
+    "id": 419,
+    "names": [
+      "Crazed Moneko",
+      "Corrupted Moneko"
+    ],
+    "r": 2
+  },
+  {
+    "id": 428,
+    "names": [
+      "Cat Clan Heroes",
+      "Cat Guild Heroes",
+      "Cat Quest Heroes"
+    ],
+    "r": 5
+  },
+  {
+    "id": 432,
+    "names": [
+      "Detective Vigler",
+      "Inspector Gabriel",
+      "Section Chief Gravicci"
+    ],
+    "r": 5
+  },
+  {
+    "id": 437,
+    "names": [
+      "Nobiluga",
+      "Nobilan Pasalan",
+      "Mystican Pasalan"
+    ],
+    "r": 5
+  },
+  {
+    "id": 440,
+    "names": [
+      "Empress Chronos",
+      "Chronos the Infinite",
+      "Almighty Chronos"
+    ],
+    "r": 5
+  },
+  {
+    "id": 443,
+    "names": [
+      "Lone Cat and Kitten",
+      "Vendor Cat and Kitten",
+      "Tourist Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 444,
+    "names": [
+      "Driller Cat",
+      "Power Driller Cat",
+      "Neo Driller Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 445,
+    "names": [
+      "Piledriver Cat",
+      "Power Piledriver Cat",
+      "Neo Piledriver Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 446,
+    "names": [
+      "Cutter Cat",
+      "Power Cutter Cat",
+      "Neo Cutter Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 447,
+    "names": [
+      "Backhoe Cat",
+      "Power Backhoe Cat",
+      "Neo Backhoe Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 448,
+    "names": [
+      "Miter Saw Cat",
+      "Power Saw Cat",
+      "Neo Saw Cat"
+    ],
+    "r": 4
+  },
+  {
+    "id": 453,
+    "names": [
+      "Primordial Cat",
+      "Modern Cat",
+      "Future Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 496,
+    "names": [
+      "Matador Cat",
+      "Flamenco Cat",
+      "Bellydance Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 497,
+    "names": [
+      "Narita Kaihime",
+      "Wargod Kaihime",
+      "Immortal Kaihime"
+    ],
+    "r": 5
+  },
+  {
+    "id": 503,
+    "names": [
+      "Myrcia",
+      "Myrcia, type ξ",
+      "Divine Myrcia"
+    ],
+    "r": 5
+  },
+  {
+    "id": 506,
+    "names": [
+      "Relentless Gladios",
+      "Gladios the Annihilator",
+      "God-Emperor Gladios"
+    ],
+    "r": 5
+  },
+  {
+    "id": 520,
+    "names": [
+      "Lasvoss",
+      "Ultimate Lasvoss",
+      "Lasvoss Reborn"
+    ],
+    "r": 5
+  },
+  {
+    "id": 526,
+    "names": [
+      "Kintaro",
+      "Kinrangers RoboForce",
+      "Kinrangers GigaForce"
+    ],
+    "r": 5
+  },
+  {
+    "id": 529,
+    "names": [
+      "Cossack Cat",
+      "Vodka Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 535,
+    "names": [
+      "Hades the Punisher",
+      "Hades the Deathdealer",
+      "Almighty Hades"
+    ],
+    "r": 5
+  },
+  {
+    "id": 559,
+    "names": [
+      "Gacha Cat",
+      "Lucky Gacha Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 570,
+    "names": [
+      "Gravi",
+      "Gravolo",
+      "Gravolodon"
+    ],
+    "r": 5
+  },
+  {
+    "id": 595,
+    "names": [
+      "Mighty Aether Ltd.",
+      "Atlantis Logistix",
+      "Ultra Atlantis Logistix"
+    ],
+    "r": 5
+  },
+  {
+    "id": 608,
+    "names": [
+      "Adventurer Kanna",
+      "Swashbuckler Kanna",
+      "Fabled Adventure Kanna"
+    ],
+    "r": 5
+  },
+  {
+    "id": 618,
+    "names": [
+      "Summoner Satoru",
+      "Dark Summoner Satoru",
+      "Devil Hunter Satoru"
+    ],
+    "r": 5
+  },
+  {
+    "id": 619,
+    "names": [
+      "Shiro Amakusa",
+      "Wargod Amakusa",
+      "Immortal Amakusa"
+    ],
+    "r": 5
+  },
+  {
+    "id": 620,
+    "names": [
+      "Lilin",
+      "Lilin π",
+      "Divine Lilin π"
+    ],
+    "r": 5
+  },
+  {
+    "id": 621,
+    "names": [
+      "Hevijak the Wicked",
+      "Wicked King Hevijak",
+      "God-Emperor Hevijak"
+    ],
+    "r": 5
+  },
+  {
+    "id": 625,
+    "names": [
+      "Kunio-kun",
+      "Dodgeball Kunio-kun"
+    ],
+    "r": 5
+  },
+  {
+    "id": 632,
+    "names": [
+      "Yamii",
+      "Yaminoir",
+      "Yaminora"
+    ],
+    "r": 5
+  },
+  {
+    "id": 633,
+    "names": [
+      "Mighty Deth-Troy-R",
+      "Siege Walker Diabolosa",
+      "Obliterator Diabolosa"
+    ],
+    "r": 5
+  },
+  {
+    "id": 634,
+    "names": [
+      "Shitakiri Sparrow",
+      "Chunchun Haunters",
+      "Grand Chunchun Haunters"
+    ],
+    "r": 5
+  },
+  {
+    "id": 635,
+    "names": [
+      "White Knight Cyclops",
+      "Black Knight Kyklops",
+      "Demon Knight Kyklops"
+    ],
+    "r": 5
+  },
+  {
+    "id": 643,
+    "names": [
+      "Lucifer the Fallen",
+      "Grand Lucifer",
+      "Almighty Lucifer"
+    ],
+    "r": 5
+  },
+  {
+    "id": 659,
+    "names": [
+      "Ancient Egg: N101",
+      "Cinnabar Egg: N101",
+      "Courier Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 664,
+    "names": [
+      "Ancient Egg: N103",
+      "Black Egg: N103",
+      "Gas Mask Cat"
+    ],
+    "r": 3
+  },
+  {
+    "id": 670,
+    "names": [
+      "Ancient Egg: N003",
+      "Evil Egg: N003",
+      "Cat Cactus"
+    ],
+    "r": 2
   }
 ]
