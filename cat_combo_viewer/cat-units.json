@@ -1989,10 +1989,28 @@
     "r": 5
   },
   {
+    "id": 622,
+    "names": [
+      "Aku Researcher",
+      "Evil Aku Researcher",
+      "Cat Researcher"
+    ],
+    "r": 3
+  },
+  {
     "id": 625,
     "names": [
       "Kunio-kun",
       "Dodgeball Kunio-kun"
+    ],
+    "r": 5
+  },
+  {
+    "id": 626,
+    "names": [
+      "Furiluga",
+      "Furilan Pasalan",
+      "Ragelan Pasalan"
     ],
     "r": 5
   },

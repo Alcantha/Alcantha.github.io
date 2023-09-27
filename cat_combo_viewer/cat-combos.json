@@ -3589,5 +3589,22 @@
         "f": 2
       }
     ]
+  },
+  {
+    "name": "Anger Management",
+    "effect": {
+      "id": 9,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 626,
+        "f": 2
+      },
+      {
+        "id": 622,
+        "f": 2
+      }
+    ]
   }
 ]
