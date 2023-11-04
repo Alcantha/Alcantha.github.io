@@ -1606,6 +1606,14 @@
     "r": 5
   },
   {
+    "id": 343,
+    "names": [
+      "Maneki Cat",
+      "Neo Meneki Cat"
+    ],
+    "r": 2
+  },
+  {
     "id": 344,
     "names": [
       "Slug Jockey Cat",
@@ -2085,5 +2093,13 @@
       "Cat Cactus"
     ],
     "r": 2
+  },
+  {
+    "id": 722,
+    "names": [
+      "High School Kingpin Riki",
+      "Dodgeball Riki"
+    ],
+    "r": 5
   }
 ]

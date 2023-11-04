@@ -2555,6 +2555,17 @@
     ]
   },
   {
+    "name": "Thanks for All",
+    "effect": {
+      "id": 12
+    },
+    "units": [
+      {
+        "id": 343
+      }
+    ]
+  },
+  {
     "name": "You Will Find Happiness",
     "effect": {
       "id": 24,
@@ -3604,6 +3615,17 @@
       {
         "id": 622,
         "f": 2
+      }
+    ]
+  },
+  {
+    "name": "Bring it On!",
+    "effect": {
+      "id": 2
+    },
+    "units": [
+      {
+        "id": 722
       }
     ]
   }
