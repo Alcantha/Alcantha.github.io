@@ -11,12 +11,14 @@ const FORM_NONE = '';
 const FORM_NORMAL = '0';
 const FORM_EVOLVED = '1';
 const FORM_TRUE_FORM = '2';
+const FORM_ULTRA_FORM = '3';
 const DEFAULT_FORM = FORM_NORMAL;
 
 const LIST_FORM = [
   FORM_NORMAL,
   FORM_EVOLVED,
   FORM_TRUE_FORM,
+  FORM_ULTRA_FORM,
 ];
 
 // Rarity
@@ -51,6 +53,7 @@ export {
   FORM_NORMAL,
   FORM_EVOLVED,
   FORM_TRUE_FORM,
+  FORM_ULTRA_FORM,
   DEFAULT_FORM,
   LIST_FORM,
 

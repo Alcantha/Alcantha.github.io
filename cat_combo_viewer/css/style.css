@@ -579,6 +579,10 @@ body {
   background-image: url("../images/true_form_1-100.png");
 }
 
+.icon[data-form="3"][data-start-id="1"] .image-icon {
+  background-image: url("../images/ultra_form_1-100.png");
+}
+
 .icon[data-form="0"][data-start-id="101"] .image-icon {
   background-image: url("../images/normal_101-200.png");
 }
@@ -589,6 +593,10 @@ body {
 
 .icon[data-form="2"][data-start-id="101"] .image-icon {
   background-image: url("../images/true_form_101-200.png");
+}
+
+.icon[data-form="3"][data-start-id="101"] .image-icon {
+  background-image: url("../images/ultra_form_101-200.png");
 }
 
 .icon[data-form="0"][data-start-id="201"] .image-icon {

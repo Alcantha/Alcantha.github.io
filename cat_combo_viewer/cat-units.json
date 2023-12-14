@@ -508,7 +508,8 @@
     "names": [
       "Oda Nobunaga",
       "Wargod Nobunaga",
-      "Immortal Nobunaga"
+      "Immortal Nobunaga",
+      "Phantasmal Nobunaga"
     ],
     "r": 5
   },
@@ -526,7 +527,8 @@
     "names": [
       "Windy",
       "Windy, type α",
-      "Divine Windy"
+      "Divine Windy",
+      "Ultimate Windy"
     ],
     "r": 5
   },
@@ -1073,7 +1075,8 @@
     "names": [
       "Dioramos",
       "Archdragon Dioramos",
-      "God-Emperor Dioramos"
+      "God-Emperor Dioramos",
+      "Ascendant Dioramos "
     ],
     "r": 5
   },
@@ -1932,6 +1935,15 @@
       "Lucky Gacha Cat"
     ],
     "r": 2
+  },
+  {
+    "id": 560,
+    "names": [
+      "Hell Warden Emma",
+      "Hell Sentinel Emma",
+      "Hell Commissioner Emma"
+    ],
+    "r": 5
   },
   {
     "id": 570,
