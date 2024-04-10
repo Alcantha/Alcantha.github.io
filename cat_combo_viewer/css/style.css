@@ -623,6 +623,10 @@ body {
   background-image: url("../images/true_form_301-400.png");
 }
 
+.icon[data-form="3"][data-start-id="301"] .image-icon {
+  background-image: url("../images/ultra_form_301-400.png");
+}
+
 .icon[data-form="0"][data-start-id="401"] .image-icon {
   background-image: url("../images/normal_401-500.png");
 }

@@ -3649,5 +3649,64 @@
         "f": 2
       }
     ]
+  },
+  {
+    "name": "Hunting Club",
+    "effect": {
+      "id": 18
+    },
+    "units": [
+      {
+        "id": 648
+      },
+      {
+        "id": 131
+      }
+    ]
+  },
+  {
+    "name": "Like the Wind",
+    "effect": {
+      "id": 19,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 650,
+        "f": 1
+      },
+      {
+        "id": 19,
+        "f": 2
+      },
+      {
+        "id": 546,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Catcademy Anthem",
+    "effect": {
+      "id": 11,
+      "boost": 3
+    },
+    "units": [
+      {
+        "id": 651
+      },
+      {
+        "id": 652
+      },
+      {
+        "id": 653
+      },
+      {
+        "id": 697
+      },
+      {
+        "id": 736
+      }
+    ]
   }
 ]

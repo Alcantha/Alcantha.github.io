@@ -1442,7 +1442,8 @@
     "names": [
       "Mighty Kat-A-Pult",
       "CAT-6 Siege Engine",
-      "CAT-8 Behemoth"
+      "CAT-8 Behemoth",
+      "CAT-10 Gigapult"
     ],
     "r": 5
   },
@@ -1683,7 +1684,8 @@
     "names": [
       "Aer",
       "Erphuan",
-      "Aervanta"
+      "Aervanta",
+      "Aervantex"
     ],
     "r": 5
   },
@@ -1929,6 +1931,14 @@
     "r": 5
   },
   {
+    "id": 546,
+    "names": [
+      "Phantom Cat",
+      "Miasma Cat"
+    ],
+    "r": 3
+  },
+  {
     "id": 559,
     "names": [
       "Gacha Cat",
@@ -2080,6 +2090,46 @@
     "r": 5
   },
   {
+    "id": 648,
+    "names": [
+      "Huntress Terun",
+      "Huntress Terun ζ"
+    ],
+    "r": 5
+  },
+  {
+    "id": 650,
+    "names": [
+      "Hattori Hanzo",
+      "Wargod Hanzo"
+    ],
+    "r": 5
+  },
+  {
+    "id": 651,
+    "names": [
+      "Secret Crush Cat",
+      "Girlfriend Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 652,
+    "names": [
+      "Tomboy Lion Cat",
+      "Iron-Masked Lion Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 653,
+    "names": [
+      "Chalkboard Eraser Cat",
+      "Chalkboard Punk Cat"
+    ],
+    "r": 2
+  },
+  {
     "id": 659,
     "names": [
       "Ancient Egg: N101",
@@ -2107,11 +2157,27 @@
     "r": 2
   },
   {
+    "id": 697,
+    "names": [
+      "Class Rep Cat",
+      "Stealth Class Rep Cat"
+    ],
+    "r": 2
+  },
+  {
     "id": 722,
     "names": [
       "High School Kingpin Riki",
       "Dodgeball Riki"
     ],
     "r": 5
+  },
+  {
+    "id": 736,
+    "names": [
+      "Principal Cat",
+      "Midlife Crisis Cat"
+    ],
+    "r": 2
   }
 ]
