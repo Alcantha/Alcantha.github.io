@@ -1699,6 +1699,15 @@
     "r": 3
   },
   {
+    "id": 383,
+    "names": [
+      "Glass Cat",
+      "Macho Glass Cat",
+      "Macho Crystal Cat"
+    ],
+    "r": 3
+  },
+  {
     "id": 397,
     "names": [
       "Ganglion",
@@ -2128,6 +2137,14 @@
       "Chalkboard Punk Cat"
     ],
     "r": 2
+  },
+  {
+    "id": 656,
+    "names": [
+      "Bliza",
+      "Blizana"
+    ],
+    "r": 5
   },
   {
     "id": 659,

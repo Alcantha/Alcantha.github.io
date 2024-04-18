@@ -3708,5 +3708,22 @@
         "id": 736
       }
     ]
+  },
+  {
+    "name": "Full Transparency",
+    "effect": {
+      "id": 12,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 656,
+        "f": 1
+      },
+      {
+        "id": 383,
+        "f": 2
+      }
+    ]
   }
 ]
