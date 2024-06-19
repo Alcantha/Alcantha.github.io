@@ -3725,5 +3725,20 @@
         "f": 2
       }
     ]
+  },
+  {
+    "name": "Dragon Aquarium",
+    "effect": {
+      "id": 3,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 661
+      },
+      {
+        "id": 312
+      }
+    ]
   }
 ]
