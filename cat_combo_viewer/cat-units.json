@@ -445,7 +445,8 @@
     "names": [
       "Baby Cat",
       "Baby Cats",
-      "Cats in the Cradle"
+      "Cats in the Cradle",
+      "Cats in the Stroller"
     ],
     "r": 5
   },
@@ -905,7 +906,8 @@
     "names": [
       "Princess Kaguya",
       "The Death Moon",
-      "The Chaos Moon"
+      "The Chaos Moon",
+      "Ultra Kaguya"
     ],
     "r": 5
   },
@@ -1175,7 +1177,8 @@
     "names": [
       "The White Rabbit",
       "The Black Cat",
-      "The Grey Fox"
+      "The Grey Fox",
+      "The Spectral Cat"
     ],
     "r": 5
   },
@@ -1926,7 +1929,8 @@
     "id": 529,
     "names": [
       "Cossack Cat",
-      "Vodka Cat"
+      "Vodka Cat",
+      "Royal Guard Cat"
     ],
     "r": 3
   },
@@ -2102,7 +2106,8 @@
     "id": 648,
     "names": [
       "Huntress Terun",
-      "Huntress Terun ζ"
+      "Huntress Terun ζ",
+      "Divine Huntress Terun ζ"
     ],
     "r": 5
   },
@@ -2156,6 +2161,23 @@
     "r": 3
   },
   {
+    "id": 660,
+    "names": [
+      "Ancient Egg: N102",
+      "Teal Egg: N102",
+      "Catarzan"
+    ],
+    "r": 3
+  },
+  {
+    "id": 661,
+    "names": [
+      "Sea Serpent Daliasan",
+      "Sea King Daliasan"
+    ],
+    "r": 5
+  },
+  {
     "id": 664,
     "names": [
       "Ancient Egg: N103",
@@ -2163,6 +2185,14 @@
       "Gas Mask Cat"
     ],
     "r": 3
+  },
+  {
+    "id": 669,
+    "names": [
+      "Cat Tengu",
+      "Grand Yokai Tengu"
+    ],
+    "r": 5
   },
   {
     "id": 670,
