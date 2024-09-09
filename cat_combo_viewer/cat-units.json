@@ -1724,7 +1724,8 @@
     "names": [
       "Sakura Sonic",
       "Afterschool Sakura",
-      "Sacred Blade Sakura"
+      "Sacred Blade Sakura",
+      "Sacred Blade Sakura Z"
     ],
     "r": 5
   },
@@ -2147,7 +2148,8 @@
     "id": 656,
     "names": [
       "Bliza",
-      "Blizana"
+      "Blizana",
+      "Blizarena"
     ],
     "r": 5
   },
@@ -2202,6 +2204,15 @@
       "Cat Cactus"
     ],
     "r": 2
+  },
+  {
+    "id": 675,
+    "names": [
+      "Mighty Carrowsell",
+      "Extraterrestrial Envanz",
+      "Extradimensional Envanz"
+    ],
+    "r": 5
   },
   {
     "id": 697,

@@ -3761,5 +3761,38 @@
         "f": 2
       }
     ]
+  },
+  {
+    "name": "Zero-Gravity Tour",
+    "effect": {
+      "id": 6,
+      "boost": 3
+    },
+    "units": [
+      {
+        "id": 675,
+        "f": 1
+      },
+      {
+        "id": 248,
+        "f": 1
+      },
+      {
+        "id": 261,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "#TopSecret",
+    "effect": {
+      "id": 22
+    },
+    "units": [
+      {
+        "id": 398,
+        "f": 3
+      }
+    ]
   }
 ]
