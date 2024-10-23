@@ -1006,7 +1006,8 @@
     "names": [
       "Uesugi Kenshin",
       "Wargod Kenshin",
-      "Immortal Kenshin"
+      "Immortal Kenshin",
+      "Hellrider Kenshin"
     ],
     "r": 5
   },
@@ -1436,7 +1437,8 @@
     "id": 304,
     "names": [
       "Food Stall Cat",
-      "Delivery Cat"
+      "Delivery Cat",
+      "Cafeteria Cat"
     ],
     "r": 3
   },
@@ -1936,6 +1938,15 @@
     "r": 3
   },
   {
+    "id": 532,
+    "names": [
+      "Teacher BearCat",
+      "Assassin BearCat",
+      "Cadaver BearCat"
+    ],
+    "r": 3
+  },
+  {
     "id": 535,
     "names": [
       "Hades the Punisher",
@@ -2116,7 +2127,8 @@
     "id": 650,
     "names": [
       "Hattori Hanzo",
-      "Wargod Hanzo"
+      "Wargod Hanzo",
+      "Immortal Hanzo"
     ],
     "r": 5
   },
@@ -2211,6 +2223,14 @@
       "Mighty Carrowsell",
       "Extraterrestrial Envanz",
       "Extradimensional Envanz"
+    ],
+    "r": 5
+  },
+  {
+    "id": 683,
+    "names": [
+      "Spectral Goth Vega",
+      "Illusory Guardian Vega"
     ],
     "r": 5
   },
