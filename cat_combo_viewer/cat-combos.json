@@ -3819,5 +3819,23 @@
         "f": 1
       }
     ]
+  },
+  {
+    "name": "David Beats Goliath",
+    "effect": {
+      "id": 15,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 693
+      },
+      {
+        "id": 210
+      },
+      {
+        "id": 314
+      }
+    ]
   }
 ]

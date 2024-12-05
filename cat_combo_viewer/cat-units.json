@@ -1457,7 +1457,8 @@
     "names": [
       "Mighty Drednot",
       "B.C.S. Lionheart",
-      "B.C.S. Tigerclaw"
+      "B.C.S. Tigerclaw",
+      "B.C.S. Beartooth"
     ],
     "r": 5
   },
@@ -2204,7 +2205,8 @@
     "id": 669,
     "names": [
       "Cat Tengu",
-      "Grand Yokai Tengu"
+      "Grand Yokai Tengu",
+      "Immortal Master Tengu"
     ],
     "r": 5
   },
@@ -2231,6 +2233,14 @@
     "names": [
       "Spectral Goth Vega",
       "Illusory Guardian Vega"
+    ],
+    "r": 5
+  },
+  {
+    "id": 693,
+    "names": [
+      "Issun Boshi",
+      "Oni Landshaker Kozuchimaru"
     ],
     "r": 5
   },
