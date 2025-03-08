@@ -879,7 +879,8 @@
     "names": [
       "The Grateful Crane",
       "Super Galaxy Cosmo",
-      "Ultima Galaxy Cosmo"
+      "Ultima Galaxy Cosmo",
+      "Supernova Cosmo"
     ],
     "r": 5
   },
@@ -1960,7 +1961,8 @@
     "id": 546,
     "names": [
       "Phantom Cat",
-      "Miasma Cat"
+      "Miasma Cat",
+      "Bubble Cat"
     ],
     "r": 3
   },
@@ -2240,7 +2242,8 @@
     "id": 693,
     "names": [
       "Issun Boshi",
-      "Oni Landshaker Kozuchimaru"
+      "Oni Landshaker Kozuchimaru",
+      "Oni Battlepod Kozuchimaru"
     ],
     "r": 5
   },
@@ -2261,6 +2264,14 @@
     "r": 5
   },
   {
+    "id": 713,
+    "names": [
+      "Kaoluga",
+      "Kaoluga Pasalan"
+    ],
+    "r": 5
+  },
+  {
     "id": 722,
     "names": [
       "High School Kingpin Riki",
@@ -2273,6 +2284,14 @@
     "names": [
       "Principal Cat",
       "Midlife Crisis Cat"
+    ],
+    "r": 2
+  },
+  {
+    "id": 785,
+    "names": [
+      "Choco Capsule",
+      "ChocoSurp Cat F"
     ],
     "r": 2
   }

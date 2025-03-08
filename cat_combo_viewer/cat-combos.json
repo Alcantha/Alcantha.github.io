@@ -3852,5 +3852,34 @@
         "f": 2
       }
     ]
+  },
+  {
+    "name": "Sigh of Relief",
+    "effect": {
+      "id": 11,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 713,
+        "f": 1
+      },
+      {
+        "id": 99,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Pop!",
+    "effect": {
+      "id": 10,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 785
+      }
+    ]
   }
 ]
