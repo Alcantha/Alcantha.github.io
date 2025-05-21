@@ -1791,7 +1791,8 @@
     "names": [
       "Detective Vigler",
       "Inspector Gabriel",
-      "Section Chief Gravicci"
+      "Section Chief Gravicci",
+      "Arcane Commissioner Gravicci"
     ],
     "r": 5
   },
@@ -2234,7 +2235,8 @@
     "id": 683,
     "names": [
       "Spectral Goth Vega",
-      "Illusory Guardian Vega"
+      "Illusory Guardian Vega",
+      "Lady of Deception Vega"
     ],
     "r": 5
   },
@@ -2272,6 +2274,14 @@
     "r": 5
   },
   {
+    "id": 716,
+    "names": [
+      "Mighty Sphinx Korps",
+      "Attack Battalion Convoys"
+    ],
+    "r": 5
+  },
+  {
     "id": 722,
     "names": [
       "High School Kingpin Riki",
@@ -2284,14 +2294,6 @@
     "names": [
       "Principal Cat",
       "Midlife Crisis Cat"
-    ],
-    "r": 2
-  },
-  {
-    "id": 785,
-    "names": [
-      "Choco Capsule",
-      "ChocoSurp Cat F"
     ],
     "r": 2
   }
