@@ -538,7 +538,8 @@
     "names": [
       "Thundia",
       "Thundia, type β",
-      "Divine Thundia"
+      "Divine Thundia",
+      "Ultimate Thundia"
     ],
     "r": 5
   },
@@ -2232,6 +2233,15 @@
     "r": 5
   },
   {
+    "id": 676,
+    "names": [
+      "Ancient Egg: N105",
+      "Teal Egg: N105",
+      "Racquet Cat"
+    ],
+    "r": 3
+  },
+  {
     "id": 683,
     "names": [
       "Spectral Goth Vega",
@@ -2278,6 +2288,14 @@
     "names": [
       "Mighty Sphinx Korps",
       "Attack Battalion Convoys"
+    ],
+    "r": 5
+  },
+  {
+    "id": 720,
+    "names": [
+      "Tekachi",
+      "Tetsukachi"
     ],
     "r": 5
   },
