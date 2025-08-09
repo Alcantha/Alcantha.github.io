@@ -1469,7 +1469,8 @@
     "names": [
       "Mighty Bomburr",
       "NEK-0 Sky Fortress",
-      "NEK-02 Air Citadel"
+      "NEK-02 Air Citadel",
+      "NEK-03 Cloud Emperor"
     ],
     "r": 5
   },
@@ -2271,7 +2272,8 @@
     "id": 699,
     "names": [
       "Thunder Jack",
-      "Bloody Jack"
+      "Bloody Jack",
+      "Lightning Jack"
     ],
     "r": 5
   },
@@ -2304,6 +2306,15 @@
     "names": [
       "High School Kingpin Riki",
       "Dodgeball Riki"
+    ],
+    "r": 5
+  },
+  {
+    "id": 724,
+    "names": [
+      "Lightmother Aset",
+      "Nefer Aset",
+      "Almighty Aset"
     ],
     "r": 5
   },
