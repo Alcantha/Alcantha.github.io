@@ -3920,5 +3920,17 @@
         "f": 2
       }
     ]
+  },
+  {
+    "name": "Insatiable Hunger",
+    "effect": {
+      "id": 19
+    },
+    "units": [
+      {
+        "id": 726,
+        "f": 1
+      }
+    ]
   }
 ]

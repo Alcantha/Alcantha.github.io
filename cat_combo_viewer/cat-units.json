@@ -2289,7 +2289,8 @@
     "id": 716,
     "names": [
       "Mighty Sphinx Korps",
-      "Attack Battalion Convoys"
+      "Attack Battalion Convoys",
+      "Hyper Battalion Convoys"
     ],
     "r": 5
   },
@@ -2315,6 +2316,14 @@
       "Lightmother Aset",
       "Nefer Aset",
       "Almighty Aset"
+    ],
+    "r": 5
+  },
+  {
+    "id": 726,
+    "names": [
+      "Ninja Girl Tomoe",
+      "Gourmand Ninja Girl Tomoe"
     ],
     "r": 5
   },
