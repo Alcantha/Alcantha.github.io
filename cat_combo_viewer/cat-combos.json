@@ -2583,7 +2583,8 @@
   {
     "name": "Miracle Performance",
     "effect": {
-      "id": 22
+      "id": 22,
+      "boost": 2
     },
     "units": [
       {
