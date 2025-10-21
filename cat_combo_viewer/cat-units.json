@@ -1684,7 +1684,8 @@
     "names": [
       "Mizli",
       "Marinmizu",
-      "Mizuririn"
+      "Mizuririn",
+      "Mizunade"
     ],
     "r": 5
   },
@@ -2324,6 +2325,14 @@
     "names": [
       "Ninja Girl Tomoe",
       "Gourmand Ninja Girl Tomoe"
+    ],
+    "r": 5
+  },
+  {
+    "id": 734,
+    "names": [
+      "Pegasa",
+      "Pegasa ν"
     ],
     "r": 5
   },

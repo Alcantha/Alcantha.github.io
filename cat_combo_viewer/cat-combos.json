@@ -3933,5 +3933,21 @@
         "f": 1
       }
     ]
+  },
+  {
+    "name": "Cosmic Warriors",
+    "effect": {
+      "id": 8,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 734
+      },
+      {
+        "id": 79,
+        "f": 1
+      }
+    ]
   }
 ]
