@@ -1,0 +1,412 @@
+/* Reset */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+pre,
+ul {
+    margin: 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+button, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Button */
+
+.btn {
+    display: block;
+    align-content: center;
+    text-align: center;
+    background-color: #eee;
+    font-size: .6em;
+    user-select: none;
+}
+
+.btn:hover:not(:disabled) {
+    background-color: #ddd;
+}
+
+.btn:active:not(:disabled) {
+    background-color: #bbb;
+}
+
+input:checked + .btn {
+    background-color: #ccc;
+}
+
+.input-a,
+.btn-a {
+    padding-left: 4px;
+    width: 100%;
+    height: 100%;
+    line-height: 1.5em;
+}
+
+.input-c {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.btn-a {
+    padding: 4px 10px;
+}
+
+/* Toggle button */
+
+.toggle-button__text {
+    color: grey;
+}
+
+.toggle-button-on {
+    color: black;
+    font-weight: bold;
+}
+
+/* Container */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container__top {
+    flex: 0 1 auto;
+}
+
+.container__middle {
+    flex: 1 0 auto;
+    display: flex;
+}
+
+/* Header: title, load/save, help */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 40px;
+    background-color: #60d060;
+}
+
+.header__buttons {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.header__buttons.header__buttons--right {
+    left: unset;
+    right: 0;
+}
+
+.header__btn {
+    margin: 4px 4px 4px 0;
+    width: 32px;
+    height: 32px;
+    font-size: 10px;
+}
+
+.header__btn:first-child {
+    margin: 4px;
+}
+
+.header__btn.header__btn--syntax {
+    width: 40px;
+}
+
+.left-side-bar,
+.right-side-bar {
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    width: 200px;
+    background-color: #a0f0a0;
+}
+
+.script,
+.script-errors,
+.parameters {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Left side: script and errors */
+
+.script {
+    flex: 1 0 75%;
+}
+
+.script-errors {
+    flex: 1 0 25%;
+}
+
+.script__header,
+.script-errors__header,
+.parameters__header {
+    flex: 0 1 auto;
+    display: flex;
+}
+
+.script__title,
+.script-errors__title,
+.parameters__title {
+    flex: 1 0 auto;
+    align-content: center;
+    padding-left: 10px;
+    height: 1.5em;
+    font-weight: bold;
+}
+
+.script__content,
+.script-errors__content,
+.parameters__content {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 0;
+    margin: 4px;
+}
+
+.script__text,
+.script-errors__text {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 10px;
+}
+
+/* Right side: parameters */
+
+.parameter-field {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.parameter-field__name,
+.parameter-field__value,
+.parameter-field__action {
+    flex: 1 0 50%;
+    display: flex;
+    align-items: center;
+    min-height: 1.4em;
+    font-size: 0.7em;
+}
+
+.parameter-title {
+    align-content: center;
+    padding-left: 8px;
+    height: 1.4em;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.parameter-field__label {
+    margin-left: 8px;
+}
+
+/* Center: canvas and control */
+
+.main-container {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Count */
+
+.main-container__status {
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.main-top-content {
+    flex: 1 1 0;
+    display: flex;
+    padding: 10px;
+}
+
+.main-top-content.main-top-content--count {
+    justify-content: left;
+}
+
+.main-top-content.main-top-content--cycle {
+    justify-content: center;
+    align-items: center;
+}
+
+.status-count {
+    font-size: 12px;
+}
+
+.status-label {
+    font-weight: bold;
+}
+
+/* Canvas */
+
+.main-container__canvas {
+    flex: 1 0 auto;
+    display: flex;
+    overflow: auto;
+    max-width: calc(100vw - 400px);
+    max-height: calc(100vh - 130px);
+}
+
+.canvas-image {
+    margin: auto;
+    border: 1px solid lightgray;
+}
+
+/* Control */
+
+.main-container__control {
+    flex: 0 1 auto;
+}
+
+.control-content {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container__control .button-block {
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+/* Button controls */
+
+.button-block .btn,
+.button-block input {
+    width: 100%;
+    height: 100%;
+}
+
+.button-block .btn {
+    width: 60px;
+    height: 40px;
+}
+
+.button-block .btn {
+}
+
+.button-block .btn.btn--icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: unset;
+    min-width: 60px;
+    height: 40px;
+}
+
+.btn .sep22 {
+    margin: 0 2px;
+}
+
+.btn:disabled .sep22 {
+    filter: invert(0.7);
+}
+
+
+.btn .btn__n-step-count {
+    color: black;
+    font-size: 24px;
+}
+
+.btn:disabled .btn__n-step-count {
+    filter: invert(0.7);
+}
+
+.button-block input {
+    width: 60px;
+    height: 40px;
+}
+
+.button-block .button-block__short {
+    width: 40px;
+}
+
+/* Modal window */
+
+.modal-window {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-window.hidden {
+    display: none;
+}
+
+.modal-container {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+/* Modal */
+
+.modal-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal-content__page {
+    flex: 1 0 100%;
+}
+
+@media (min-width: 992px) {
+    .modal-content__page {
+        flex: 0 1 50%;
+    }
+}
+
+.modal-section {
+    margin: 6px 8px;
+    font-size: 12px;
+}
+
+.modal-section__sub {
+    margin-top: 8px;
+}
+
+/* Code */
+
+.syntax-code {
+    padding: 8px;
+    background-color: #eee;
+}
+
+.syntax-code .noc {
+    color: orange;
+}
