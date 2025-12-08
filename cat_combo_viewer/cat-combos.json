@@ -3949,5 +3949,20 @@
         "f": 1
       }
     ]
+  },
+  {
+    "name": "By Gun and Sword",
+    "effect": {
+      "id": 17,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 755
+      },
+      {
+        "id": 12
+      }
+    ]
   }
 ]

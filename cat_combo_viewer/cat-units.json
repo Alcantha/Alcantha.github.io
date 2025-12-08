@@ -899,7 +899,8 @@
     "names": [
       "Kasa Jizo",
       "Jizo's Moving Castle",
-      "Jizo's Mega-Castle"
+      "Jizo's Mega-Castle",
+      "Ultra Kasa Jizo"
     ],
     "r": 5
   },
@@ -1559,7 +1560,7 @@
     "id": 325,
     "names": [
       "Curling Cat",
-      "Zamboney Cat",
+      "Cleanerbot Cat",
       "Green Shell Cat"
     ],
     "r": 3
@@ -2282,7 +2283,7 @@
     "id": 713,
     "names": [
       "Kaoluga",
-      "Kaoluga Pasalan"
+      "Kaolan Pasalan"
     ],
     "r": 5
   },
@@ -2343,5 +2344,13 @@
       "Midlife Crisis Cat"
     ],
     "r": 2
+  },
+  {
+    "id": 755,
+    "names": [
+      "Akechi Mitsuhide",
+      "Wargod Mitsuhide"
+    ],
+    "r": 5
   }
 ]
