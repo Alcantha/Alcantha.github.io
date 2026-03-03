@@ -2283,7 +2283,8 @@
     "id": 713,
     "names": [
       "Kaoluga",
-      "Kaolan Pasalan"
+      "Kaolan Pasalan",
+      "Kaolan Tatalan"
     ],
     "r": 5
   },
@@ -2350,6 +2351,14 @@
     "names": [
       "Akechi Mitsuhide",
       "Wargod Mitsuhide"
+    ],
+    "r": 5
+  },
+  {
+    "id": 761,
+    "names": [
+      "Gunduros",
+      "Ballistic Dragon Gunduros"
     ],
     "r": 5
   }
