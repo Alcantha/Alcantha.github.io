@@ -528,8 +528,8 @@
     "names": [
       "Windy",
       "Windy, type α",
-      "Divine Windy",
-      "Ultimate Windy"
+      "Divine Windy α",
+      "Ultimate Windy α"
     ],
     "r": 5
   },
@@ -538,8 +538,8 @@
     "names": [
       "Thundia",
       "Thundia, type β",
-      "Divine Thundia",
-      "Ultimate Thundia"
+      "Divine Thundia β",
+      "Ultimate Thundia β"
     ],
     "r": 5
   },
@@ -737,7 +737,7 @@
     "names": [
       "Kuu",
       "Kuu, type γ",
-      "Divine Kuu"
+      "Divine Kuu γ"
     ],
     "r": 5
   },
@@ -746,7 +746,7 @@
     "names": [
       "Kai",
       "Kai, type μ",
-      "Divine Kai"
+      "Divine Kai μ"
     ],
     "r": 5
   },
@@ -755,7 +755,7 @@
     "names": [
       "Coppermine",
       "Coppermine, type κ",
-      "Divine Coppermine"
+      "Divine Coppermine κ"
     ],
     "r": 5
   },
@@ -1640,7 +1640,7 @@
     "names": [
       "Twinstars",
       "Twinstars, type Ф",
-      "Divine Twinstars"
+      "Divine Twinstars Φ"
     ],
     "r": 5
   },
@@ -1786,7 +1786,8 @@
     "names": [
       "Cat Clan Heroes",
       "Cat Guild Heroes",
-      "Cat Quest Heroes"
+      "Cat Quest Heroes",
+      "Heavenly Cat Heroes"
     ],
     "r": 5
   },
@@ -1904,7 +1905,7 @@
     "names": [
       "Myrcia",
       "Myrcia, type ξ",
-      "Divine Myrcia"
+      "Divine Myrcia ξ"
     ],
     "r": 5
   },
@@ -2037,7 +2038,7 @@
     "id": 620,
     "names": [
       "Lilin",
-      "Lilin π",
+      "Lilin, type π",
       "Divine Lilin π"
     ],
     "r": 5
@@ -2126,8 +2127,8 @@
     "id": 648,
     "names": [
       "Huntress Terun",
-      "Huntress Terun ζ",
-      "Divine Huntress Terun ζ"
+      "Terun, type ζ",
+      "Divine Terun ζ"
     ],
     "r": 5
   },
@@ -2271,6 +2272,15 @@
     "r": 2
   },
   {
+    "id": 698,
+    "names": [
+      "Ancient Egg: N107",
+      "Violet Egg: N107",
+      "Cat Chief"
+    ],
+    "r": 3
+  },
+  {
     "id": 699,
     "names": [
       "Thunder Jack",
@@ -2301,7 +2311,8 @@
     "id": 720,
     "names": [
       "Tekachi",
-      "Tetsukachi"
+      "Tetsukachi",
+      "Adamankachi"
     ],
     "r": 5
   },
@@ -2334,7 +2345,7 @@
     "id": 734,
     "names": [
       "Pegasa",
-      "Pegasa ν"
+      "Pegasa, type ν"
     ],
     "r": 5
   },
@@ -2359,6 +2370,14 @@
     "names": [
       "Gunduros",
       "Ballistic Dragon Gunduros"
+    ],
+    "r": 5
+  },
+  {
+    "id": 770,
+    "names": [
+      "Hanasaka Cat",
+      "Ravenous Cherry"
     ],
     "r": 5
   }
