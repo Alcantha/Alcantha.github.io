@@ -4,7 +4,7 @@
 // - unit <CatUnit>     object | null
 // - f <string>         '' | '0' | '1' | '2'
 
-const CatCombo = function ({ id, name, units, effect, boost }) {
+const CatCombo = function ({ id, name, units, effect, boost, only }) {
 
 let active = true;
 
@@ -19,7 +19,7 @@ this.getName = function () {
 };
 
 this.getActiveEffectName = function () {
-  return `${name} (${boost.getName()})`;
+  return boost !== null ? `${name} (${boost.getName()})` : name;
 };
 
 // Units
@@ -136,13 +136,21 @@ this.getEffect = function () {
 
 this.getDescEffect = function () {
   const effectName = effect.getName();
-  const boostName = boost.getName();
+  const boostName = boost !== null ? boost.getName() : null;
 
-  return `${effectName} UP (${boostName})`;
+  const arrDesc = [effectName];
+  if (boostName) {
+    arrDesc[0] += ` (${boostName})`;
+  }
+  if (only) {
+    arrDesc.push(`${only} only`);
+  }
+
+  return arrDesc;
 };
 
 this.getEffectValue = function () {
-  return effect.getBoosts()[boost.getId() - 1];
+  return boost !== null ? effect.getBoosts()[boost.getId() - 1] : 0;
 };
 
 // Boost
@@ -159,6 +167,12 @@ this.isActive = function () {
 
 this.setActive = function (b) {
   active = b;
+};
+
+// Only
+
+this.getOnly = function () {
+  return only;
 };
 
 }; // CatCombo

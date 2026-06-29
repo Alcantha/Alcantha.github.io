@@ -675,6 +675,14 @@ body {
   background-image: url("../images/true_form_701-800.png");
 }
 
+.icon[data-form="0"][data-start-id="801"] .image-icon {
+  background-image: url("../images/normal_801-900.png");
+}
+
+.icon[data-form="1"][data-start-id="801"] .image-icon {
+  background-image: url("../images/evolved_801-900.png");
+}
+
 /* ----  Cat Combo  ---- */
 
 .icon[data-id="-1"] .image-icon {

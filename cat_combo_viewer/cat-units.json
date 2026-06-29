@@ -1896,7 +1896,8 @@
     "names": [
       "Narita Kaihime",
       "Wargod Kaihime",
-      "Immortal Kaihime"
+      "Immortal Kaihime",
+      "Cleansing Flame Kaihime"
     ],
     "r": 5
   },
@@ -2380,5 +2381,45 @@
       "Ravenous Cherry"
     ],
     "r": 5
+  },
+  {
+    "id": 832,
+    "names": [
+      "Scarf Cat",
+      "Red Nyanko Ranger"
+    ],
+    "r": 2
+  },
+  {
+    "id": 833,
+    "names": [
+      "Fedora Cat",
+      "Blue Nyanko Ranger"
+    ],
+    "r": 2
+  },
+  {
+    "id": 834,
+    "names": [
+      "Helmet Cat",
+      "Yellow Nyanko Ranger"
+    ],
+    "r": 2
+  },
+  {
+    "id": 835,
+    "names": [
+      "Goggles Cat",
+      "Green Nyanko Ranger"
+    ],
+    "r": 2
+  },
+  {
+    "id": 836,
+    "names": [
+      "Ribbon Cat",
+      "Pink Nyanko Ranger"
+    ],
+    "r": 2
   }
 ]

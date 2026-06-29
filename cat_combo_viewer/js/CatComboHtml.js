@@ -100,7 +100,11 @@ this.setDescName = function (descName) {
 };
 
 this.setDescEffect = function (descEffect) {
-  descEffectElement.textContent = descEffect;
+  descEffect.forEach(desc => {
+    const descDiv = document.createElement('div');
+    descDiv.textContent = desc;
+    descEffectElement.appendChild(descDiv);
+  });
 };
 
 }; // CatComboHtml

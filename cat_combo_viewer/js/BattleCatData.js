@@ -34,8 +34,8 @@ const createCatCombo = function (data, id, bcData) {
 
   const effect = bcData.getEffect(data.effect.id);
   const boost = bcData.getBoost(data.effect.boost);
-
-  return new CatCombo({ id, name, units, effect, boost });
+  const only = data.only;
+  return new CatCombo({ id, name, units, effect, boost, only });
 };
 
 // BattleCatData
@@ -128,6 +128,8 @@ this.loadAll = function () {
         case 22: // Critical
         case 23: // Witch Killer
         case 24: // Eva Angel Killer
+        case 25: // Kaijin Killer
+        case 26: // Wave immune
           // Effect
           listCatComboType.effects.push(cc);
           break;
@@ -147,6 +149,7 @@ this.loadAll = function () {
         case 11: // Research
         case 12: // Accounting
         case 13: // Study
+        case 27: // Deploy cost
           listCatComboType.others.push(cc);
           break;
         }
@@ -221,7 +224,7 @@ this.getEffect = function (id) {
 
 // Boost
 this.getBoost = function (id) {
-  return listBoost[id || bc.DEFAULT_BOOST];
+  return id !== null ? listBoost[id || bc.DEFAULT_BOOST] : null;
 }
 
 // Cat Combo

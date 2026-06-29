@@ -74,7 +74,14 @@ this.render = function () {
 
   if (show) {
     // Title
-    nameElement.textContent = activeEffect.getTitle();
+    nameElement.innerHTML = '';
+    const titlesDiv = document.createElement('div');
+    activeEffect.getTitle().forEach(title => {
+      const titleDiv = document.createElement('div');
+      titleDiv.textContent = title;
+      titlesDiv.appendChild(titleDiv);
+    });
+    nameElement.appendChild(titlesDiv);
 
     // Cat Combos
     listCatCombo.forEach(catComboHtml => catComboHtml.render());

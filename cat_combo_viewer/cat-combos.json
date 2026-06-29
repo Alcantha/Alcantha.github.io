@@ -3966,6 +3966,71 @@
     ]
   },
   {
+    "name": "Red Strike",
+    "effect": {
+      "id": 25,
+      "boost": null
+    },
+    "units": [
+      {
+        "id": 832
+      }
+    ],
+    "only": "Nyanko Rangers"
+  },
+  {
+    "name": "Blue Strike",
+    "effect": {
+      "id": 11,
+      "boost": 4
+    },
+    "units": [
+      {
+        "id": 833
+      }
+    ],
+    "only": "Nyanko Rangers"
+  },
+  {
+    "name": "Yellow Strike",
+    "effect": {
+      "id": 26,
+      "boost": null
+    },
+    "units": [
+      {
+        "id": 834
+      }
+    ],
+    "only": "Nyanko Rangers"
+  },
+  {
+    "name": "Green Strike",
+    "effect": {
+      "id": 27,
+      "boost": 4
+    },
+    "units": [
+      {
+        "id": 835
+      }
+    ],
+    "only": "Nyanko Rangers"
+  },
+  {
+    "name": "Pink Strike",
+    "effect": {
+      "id": 3,
+      "boost": 4
+    },
+    "units": [
+      {
+        "id": 836
+      }
+    ],
+    "only": "Nyanko Rangers"
+  },
+  {
     "name": "Royal Barrage",
     "effect": {
       "id": 1,
