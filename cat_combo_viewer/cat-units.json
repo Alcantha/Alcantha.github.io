@@ -1769,7 +1769,8 @@
     "names": [
       "Mighty Thermae D-Lux",
       "Subterra Guardians",
-      "Subterra Sentinels"
+      "Subterra Sentinels",
+      "Subterra Saviors"
     ],
     "r": 5
   },
@@ -2338,7 +2339,8 @@
     "id": 726,
     "names": [
       "Ninja Girl Tomoe",
-      "Gourmand Ninja Girl Tomoe"
+      "Gourmand Ninja Girl Tomoe",
+      "Sugar Rush Shinobi Tomoe"
     ],
     "r": 5
   },
@@ -2379,6 +2381,14 @@
     "names": [
       "Hanasaka Cat",
       "Ravenous Cherry"
+    ],
+    "r": 5
+  },
+  {
+    "id": 775,
+    "names": [
+      "Mech Patrol Axel",
+      "Steel Sergeant Axel"
     ],
     "r": 5
   },

@@ -4070,5 +4070,21 @@
         "f": 2
       }
     ]
+  },
+  {
+    "name": "Traffic Safety Week",
+    "effect": {
+      "id": 18,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 775
+      },
+      {
+        "id": 18,
+        "f": 1
+      }
+    ]
   }
 ]

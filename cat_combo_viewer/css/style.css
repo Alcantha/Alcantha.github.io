@@ -611,6 +611,10 @@ body {
   background-image: url("../images/true_form_201-300.png");
 }
 
+.icon[data-form="3"][data-start-id="201"] .image-icon {
+  background-image: url("../images/ultra_form_201-300.png");
+}
+
 .icon[data-form="0"][data-start-id="301"] .image-icon {
   background-image: url("../images/normal_301-400.png");
 }
@@ -639,6 +643,10 @@ body {
   background-image: url("../images/true_form_401-500.png");
 }
 
+.icon[data-form="3"][data-start-id="401"] .image-icon {
+  background-image: url("../images/ultra_form_401-500.png");
+}
+
 .icon[data-form="0"][data-start-id="501"] .image-icon {
   background-image: url("../images/normal_501-600.png");
 }
@@ -649,6 +657,10 @@ body {
 
 .icon[data-form="2"][data-start-id="501"] .image-icon {
   background-image: url("../images/true_form_501-600.png");
+}
+
+.icon[data-form="3"][data-start-id="501"] .image-icon {
+  background-image: url("../images/ultra_form_501-600.png");
 }
 
 .icon[data-form="0"][data-start-id="601"] .image-icon {
@@ -663,6 +675,10 @@ body {
   background-image: url("../images/true_form_601-700.png");
 }
 
+.icon[data-form="3"][data-start-id="601"] .image-icon {
+  background-image: url("../images/ultra_form_601-700.png");
+}
+
 .icon[data-form="0"][data-start-id="701"] .image-icon {
   background-image: url("../images/normal_701-800.png");
 }
@@ -675,12 +691,24 @@ body {
   background-image: url("../images/true_form_701-800.png");
 }
 
+.icon[data-form="3"][data-start-id="701"] .image-icon {
+  background-image: url("../images/ultra_form_701-800.png");
+}
+
 .icon[data-form="0"][data-start-id="801"] .image-icon {
   background-image: url("../images/normal_801-900.png");
 }
 
 .icon[data-form="1"][data-start-id="801"] .image-icon {
   background-image: url("../images/evolved_801-900.png");
+}
+
+.icon[data-form="2"][data-start-id="801"] .image-icon {
+  background-image: url("../images/true_form_801-900.png");
+}
+
+.icon[data-form="3"][data-start-id="801"] .image-icon {
+  background-image: url("../images/ultra_form_801-900.png");
 }
 
 /* ----  Cat Combo  ---- */
