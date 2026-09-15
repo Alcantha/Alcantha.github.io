@@ -4086,5 +4086,44 @@
         "f": 1
       }
     ]
+  },
+  {
+    "name": "Well Done!",
+    "effect": {
+      "id": 3
+    },
+    "units": [
+      {
+        "id": 875
+      }
+    ]
+  },
+  {
+    "name": "Go and Get It!",
+    "effect": {
+      "id": 8
+    },
+    "units": [
+      {
+        "id": 875,
+        "f": 1
+      }
+    ]
+  },
+  {
+    "name": "Reserve Element",
+    "effect": {
+      "id": 6,
+      "boost": 2
+    },
+    "units": [
+      {
+        "id": 782,
+        "f": 1
+      },
+      {
+        "id": 690
+      }
+    ]
   }
 ]
