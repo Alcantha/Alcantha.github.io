@@ -4072,6 +4072,21 @@
     ]
   },
   {
+    "name": "Wilderness Wail",
+    "effect": {
+      "id": 15
+    },
+    "units": [
+      {
+        "id": 764
+      },
+      {
+        "id": 660,
+        "f": 2
+      }
+    ]
+  },
+  {
     "name": "Traffic Safety Week",
     "effect": {
       "id": 18,
@@ -4123,6 +4138,21 @@
       },
       {
         "id": 690
+      }
+    ]
+  },
+  {
+    "name": "Physical Exorcism",
+    "effect": {
+      "id": 19
+    },
+    "units": [
+      {
+        "id": 800
+      },
+      {
+        "id": 666,
+        "f": 2
       }
     ]
   }

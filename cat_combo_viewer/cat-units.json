@@ -2213,6 +2213,15 @@
     "r": 3
   },
   {
+    "id": 666,
+    "names": [
+      "Ancient Egg: N201",
+      "Dark Egg: N201",
+      "Exorcist Cat"
+    ],
+    "r": 2
+  },
+  {
     "id": 669,
     "names": [
       "Cat Tengu",
@@ -2387,6 +2396,14 @@
     "r": 5
   },
   {
+    "id": 764,
+    "names": [
+      "Dynasaurus Cat",
+      "Mecha Dynasaurus Cat"
+    ],
+    "r": 5
+  },
+  {
     "id": 770,
     "names": [
       "Hanasaka Cat",
@@ -2407,6 +2424,14 @@
     "names": [
       "Mamoluga",
       "Mamolan Pasalan"
+    ],
+    "r": 5
+  },
+  {
+    "id": 800,
+    "names": [
+      "Mighty Morta-Loncha",
+      "Grandiose Gunhauzer"
     ],
     "r": 5
   },
